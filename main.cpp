@@ -6,13 +6,12 @@
 #include <vector>
 #include <thread>
 #include <sstream>
-
-
 //#include <string>
+
 using namespace sf;
 using namespace std;
 
-//d
+
 USHORT colorNum = 1 + rand() % 9; // цвет
 USHORT colorNum2 = 1 + rand() % 9; // цвет
 USHORT colorNumTemp = 1 + rand() % 9;
