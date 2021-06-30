@@ -23,7 +23,7 @@ void fill_tetramino2();
 void draw_3buttons(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& splst2, Sprite& splst3, Sprite& sprst1, Sprite& sprst2, Sprite& sprst3, Sprite& spmst1, Sprite& spmst2, Sprite& spmst3);
 void draw_3buttons2(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& splst2, Sprite& splst3, Sprite& sprst1, Sprite& sprst2, Sprite& sprst3, Sprite& spmst1, Sprite& spmst2, Sprite& spmst3);
 void draw_3buttons3(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& splst2, Sprite& splst3, Sprite& sprst1, Sprite& sprst2, Sprite& sprst3, Sprite& spmst1, Sprite& spmst2, Sprite& spmst3);
-void create_window_for_loading_screen();
+void create_window_for_loading_screen(Sprite * scr, Sprite *Load);
 //Animation/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Clock animation_1_line;
 Clock animation_2_lines;
@@ -301,12 +301,19 @@ void checkFullLineFn2(USHORT field[H][W]);
 
 bool nOfSameStructsFn(Point* struct1, Point* struct2); // для подсчета на равенство структур a и e
 
+bool for_loading_scr = true;
+Clock* loading_clock = new Clock();
 
 int main()
 //int WINAPI WinMain(HINSTANCE hThisInstance, HINSTANCE hPrevInstance, LPSTR lpszArgument, int nCmdShow)
 {
-
-	//thread* thr1 = new thread(create_window_for_loading_screen);
+	Texture *loading_screen_tex = LoadTextureFromResource(IDB_PNG690, "PNG");
+	Sprite *sprite_loading_screen = new Sprite(*loading_screen_tex);
+	Texture *LOADING = LoadTextureFromResource(IDB_PNG691, "PNG");
+	Sprite* sprite_LOADING = new Sprite(*LOADING);
+	thread* thr1 = new thread(create_window_for_loading_screen, sprite_loading_screen, sprite_LOADING);
+	//thr1->detach();
+	
 	//cout << 4 % 4 << endl;
 	bool startGame{ false };
 	bool checkAus{ false };
@@ -383,106 +390,106 @@ int main()
 		* An_1_inRow_2Rows_1, * An_1_inRow_2Rows_2,
 		* An_1_inRow_3Rows_1, * An_1_inRow_3Rows_2,
 		* An_1_inRow_4Rows_1, * An_1_inRow_4Rows_2, * An_1_inRow_4Rows_3, * An_1_inRow_4Rows_4,
-		* An_1_inRow_5Rows_1, * An_1_inRow_5Rows_2, * An_1_inRow_5Rows_3, * An_1_inRow_5Rows_4,
-		* An_1_inRow_6Rows_1, * An_1_inRow_6Rows_2, * An_1_inRow_6Rows_3, * An_1_inRow_6Rows_4,
-		* An_1_inRow_7Rows_1, * An_1_inRow_7Rows_2, * An_1_inRow_7Rows_3, * An_1_inRow_7Rows_4, * An_1_inRow_7Rows_5, * An_1_inRow_7Rows_6,
-		* An_1_inRow_8Rows_1, * An_1_inRow_8Rows_2, * An_1_inRow_8Rows_3, * An_1_inRow_8Rows_4, * An_1_inRow_8Rows_5, * An_1_inRow_8Rows_6,
-		* An_1_inRow_9Rows_1, * An_1_inRow_9Rows_2, * An_1_inRow_9Rows_3, * An_1_inRow_9Rows_4, * An_1_inRow_9Rows_5, * An_1_inRow_9Rows_6,
-		* An_1_inRow_10Rows_1, * An_1_inRow_10Rows_2, * An_1_inRow_10Rows_3, * An_1_inRow_10Rows_4, * An_1_inRow_10Rows_5, * An_1_inRow_10Rows_6, * An_1_inRow_10Rows_7,
-		* An_1_inRow_10Rows_8,
-		* An_1_inRow_11Rows_1, * An_1_inRow_11Rows_2, * An_1_inRow_11Rows_3, * An_1_inRow_11Rows_4, * An_1_inRow_11Rows_5, * An_1_inRow_11Rows_6, * An_1_inRow_11Rows_7,
-		* An_1_inRow_11Rows_8,
-		* An_1_inRow_12Rows_1, * An_1_inRow_12Rows_2, * An_1_inRow_12Rows_3, * An_1_inRow_12Rows_4, * An_1_inRow_12Rows_5, * An_1_inRow_12Rows_6, * An_1_inRow_12Rows_7,
-		* An_1_inRow_12Rows_8,
-		* An_1_inRow_13Rows_1, * An_1_inRow_13Rows_2, * An_1_inRow_13Rows_3, * An_1_inRow_13Rows_4, * An_1_inRow_13Rows_5, * An_1_inRow_13Rows_6, * An_1_inRow_13Rows_7,
-		* An_1_inRow_13Rows_8, * An_1_inRow_13Rows_9, * An_1_inRow_13Rows_10,
-		* An_1_inRow_14Rows_1, * An_1_inRow_14Rows_2, * An_1_inRow_14Rows_3, * An_1_inRow_14Rows_4, * An_1_inRow_14Rows_5, * An_1_inRow_14Rows_6, * An_1_inRow_14Rows_7,
-		* An_1_inRow_14Rows_8, * An_1_inRow_14Rows_9, * An_1_inRow_14Rows_10,
-		* An_1_inRow_15Rows_1, * An_1_inRow_15Rows_2, * An_1_inRow_15Rows_3, * An_1_inRow_15Rows_4, * An_1_inRow_15Rows_5, * An_1_inRow_15Rows_6, * An_1_inRow_15Rows_7,
-		* An_1_inRow_15Rows_8, * An_1_inRow_15Rows_9, * An_1_inRow_15Rows_10,
-		* An_1_inRow_16Rows_1, * An_1_inRow_16Rows_2, * An_1_inRow_16Rows_3, * An_1_inRow_16Rows_4, * An_1_inRow_16Rows_5, * An_1_inRow_16Rows_6, * An_1_inRow_16Rows_7,
-		* An_1_inRow_16Rows_8, * An_1_inRow_16Rows_9, * An_1_inRow_16Rows_10, * An_1_inRow_16Rows_11, * An_1_inRow_16Rows_12,
-		* An_1_inRow_17Rows_1, * An_1_inRow_17Rows_2, * An_1_inRow_17Rows_3, * An_1_inRow_17Rows_4, * An_1_inRow_17Rows_5, * An_1_inRow_17Rows_6, * An_1_inRow_17Rows_7,
-		* An_1_inRow_17Rows_8, * An_1_inRow_17Rows_9, * An_1_inRow_17Rows_10, * An_1_inRow_17Rows_11, * An_1_inRow_17Rows_12,
-	*An_2_inRow_1Row_1, * An_2_inRow_1Row_2,
-		* An_2_inRow_2Rows_1, * An_2_inRow_2Rows_2,
-		* An_2_inRow_3Rows_1, * An_2_inRow_3Rows_2,
-		* An_2_inRow_4Rows_1, * An_2_inRow_4Rows_2, * An_2_inRow_4Rows_3, * An_2_inRow_4Rows_4,
-		* An_2_inRow_5Rows_1, * An_2_inRow_5Rows_2, * An_2_inRow_5Rows_3, * An_2_inRow_5Rows_4,
-		* An_2_inRow_6Rows_1, * An_2_inRow_6Rows_2, * An_2_inRow_6Rows_3, * An_2_inRow_6Rows_4,
-		* An_2_inRow_7Rows_1, * An_2_inRow_7Rows_2, * An_2_inRow_7Rows_3, * An_2_inRow_7Rows_4, * An_2_inRow_7Rows_5, * An_2_inRow_7Rows_6,
-		* An_2_inRow_8Rows_1, * An_2_inRow_8Rows_2, * An_2_inRow_8Rows_3, * An_2_inRow_8Rows_4, * An_2_inRow_8Rows_5, * An_2_inRow_8Rows_6,
-		* An_2_inRow_9Rows_1, * An_2_inRow_9Rows_2, * An_2_inRow_9Rows_3, * An_2_inRow_9Rows_4, * An_2_inRow_9Rows_5, * An_2_inRow_9Rows_6,
-		* An_2_inRow_10Rows_1, * An_2_inRow_10Rows_2, * An_2_inRow_10Rows_3, * An_2_inRow_10Rows_4, * An_2_inRow_10Rows_5, * An_2_inRow_10Rows_6, * An_2_inRow_10Rows_7,
-		* An_2_inRow_10Rows_8,
-		* An_2_inRow_11Rows_1, * An_2_inRow_11Rows_2, * An_2_inRow_11Rows_3, * An_2_inRow_11Rows_4, * An_2_inRow_11Rows_5, * An_2_inRow_11Rows_6, * An_2_inRow_11Rows_7,
-		* An_2_inRow_11Rows_8,
-		* An_2_inRow_12Rows_1, * An_2_inRow_12Rows_2, * An_2_inRow_12Rows_3, * An_2_inRow_12Rows_4, * An_2_inRow_12Rows_5, * An_2_inRow_12Rows_6, * An_2_inRow_12Rows_7,
-		* An_2_inRow_12Rows_8,
-		* An_2_inRow_13Rows_1, * An_2_inRow_13Rows_2, * An_2_inRow_13Rows_3, * An_2_inRow_13Rows_4, * An_2_inRow_13Rows_5, * An_2_inRow_13Rows_6, * An_2_inRow_13Rows_7,
-		* An_2_inRow_13Rows_8, * An_2_inRow_13Rows_9, * An_2_inRow_13Rows_10,
-		* An_2_inRow_14Rows_1, * An_2_inRow_14Rows_2, * An_2_inRow_14Rows_3, * An_2_inRow_14Rows_4, * An_2_inRow_14Rows_5, * An_2_inRow_14Rows_6, * An_2_inRow_14Rows_7,
-		* An_2_inRow_14Rows_8, * An_2_inRow_14Rows_9, * An_2_inRow_14Rows_10,
-		* An_2_inRow_15Rows_1, * An_2_inRow_15Rows_2, * An_2_inRow_15Rows_3, * An_2_inRow_15Rows_4, * An_2_inRow_15Rows_5, * An_2_inRow_15Rows_6, * An_2_inRow_15Rows_7,
-		* An_2_inRow_15Rows_8, * An_2_inRow_15Rows_9, * An_2_inRow_15Rows_10,
-		* An_2_inRow_16Rows_1, * An_2_inRow_16Rows_2, * An_2_inRow_16Rows_3, * An_2_inRow_16Rows_4, * An_2_inRow_16Rows_5, * An_2_inRow_16Rows_6, * An_2_inRow_16Rows_7,
-		* An_2_inRow_16Rows_8, * An_2_inRow_16Rows_9, * An_2_inRow_16Rows_10, * An_2_inRow_16Rows_11, * An_2_inRow_16Rows_12,
-		* An_2_inRow_17Rows_1, * An_2_inRow_17Rows_2, * An_2_inRow_17Rows_3, * An_2_inRow_17Rows_4, * An_2_inRow_17Rows_5, * An_2_inRow_17Rows_6, * An_2_inRow_17Rows_7,
-		* An_2_inRow_17Rows_8, * An_2_inRow_17Rows_9, * An_2_inRow_17Rows_10, * An_2_inRow_17Rows_11, * An_2_inRow_17Rows_12,
-		*An_3_inRow_1Row_1, * An_3_inRow_1Row_2,
-		*An_3_inRow_2Rows_1, * An_3_inRow_2Rows_2,
-		* An_3_inRow_3Rows_1, * An_3_inRow_3Rows_2,
-		* An_3_inRow_4Rows_1, * An_3_inRow_4Rows_2, * An_3_inRow_4Rows_3, * An_3_inRow_4Rows_4,
-		* An_3_inRow_5Rows_1, * An_3_inRow_5Rows_2, * An_3_inRow_5Rows_3, * An_3_inRow_5Rows_4,
-		* An_3_inRow_6Rows_1, * An_3_inRow_6Rows_2, * An_3_inRow_6Rows_3, * An_3_inRow_6Rows_4,
-		* An_3_inRow_7Rows_1, * An_3_inRow_7Rows_2, * An_3_inRow_7Rows_3, * An_3_inRow_7Rows_4, * An_3_inRow_7Rows_5, * An_3_inRow_7Rows_6,
-		* An_3_inRow_8Rows_1, * An_3_inRow_8Rows_2, * An_3_inRow_8Rows_3, * An_3_inRow_8Rows_4, * An_3_inRow_8Rows_5, * An_3_inRow_8Rows_6,
-		* An_3_inRow_9Rows_1, * An_3_inRow_9Rows_2, * An_3_inRow_9Rows_3, * An_3_inRow_9Rows_4, * An_3_inRow_9Rows_5, * An_3_inRow_9Rows_6,
-		* An_3_inRow_10Rows_1, * An_3_inRow_10Rows_2, * An_3_inRow_10Rows_3, * An_3_inRow_10Rows_4, * An_3_inRow_10Rows_5, * An_3_inRow_10Rows_6, * An_3_inRow_10Rows_7,
-		* An_3_inRow_10Rows_8,
-		* An_3_inRow_11Rows_1, * An_3_inRow_11Rows_2, * An_3_inRow_11Rows_3, * An_3_inRow_11Rows_4, * An_3_inRow_11Rows_5, * An_3_inRow_11Rows_6, * An_3_inRow_11Rows_7,
-		* An_3_inRow_11Rows_8,
-		* An_3_inRow_12Rows_1, * An_3_inRow_12Rows_2, * An_3_inRow_12Rows_3, * An_3_inRow_12Rows_4, * An_3_inRow_12Rows_5, * An_3_inRow_12Rows_6, * An_3_inRow_12Rows_7,
-		* An_3_inRow_12Rows_8,
-		* An_3_inRow_13Rows_1, * An_3_inRow_13Rows_2, * An_3_inRow_13Rows_3, * An_3_inRow_13Rows_4, * An_3_inRow_13Rows_5, * An_3_inRow_13Rows_6, * An_3_inRow_13Rows_7,
-		* An_3_inRow_13Rows_8, * An_3_inRow_13Rows_9, * An_3_inRow_13Rows_10,
-		* An_3_inRow_14Rows_1, * An_3_inRow_14Rows_2, * An_3_inRow_14Rows_3, * An_3_inRow_14Rows_4, * An_3_inRow_14Rows_5, * An_3_inRow_14Rows_6, * An_3_inRow_14Rows_7,
-		* An_3_inRow_14Rows_8, * An_3_inRow_14Rows_9, * An_3_inRow_14Rows_10,
-		* An_3_inRow_15Rows_1, * An_3_inRow_15Rows_2, * An_3_inRow_15Rows_3, * An_3_inRow_15Rows_4, * An_3_inRow_15Rows_5, * An_3_inRow_15Rows_6, * An_3_inRow_15Rows_7,
-		* An_3_inRow_15Rows_8, * An_3_inRow_15Rows_9, * An_3_inRow_15Rows_10,
-		* An_3_inRow_16Rows_1, * An_3_inRow_16Rows_2, * An_3_inRow_16Rows_3, * An_3_inRow_16Rows_4, * An_3_inRow_16Rows_5, * An_3_inRow_16Rows_6, * An_3_inRow_16Rows_7,
-		* An_3_inRow_16Rows_8, * An_3_inRow_16Rows_9, * An_3_inRow_16Rows_10, * An_3_inRow_16Rows_11, * An_3_inRow_16Rows_12,
-		* An_3_inRow_17Rows_1, * An_3_inRow_17Rows_2, * An_3_inRow_17Rows_3, * An_3_inRow_17Rows_4, * An_3_inRow_17Rows_5, * An_3_inRow_17Rows_6, * An_3_inRow_17Rows_7,
-		* An_3_inRow_17Rows_8, * An_3_inRow_17Rows_9, * An_3_inRow_17Rows_10, * An_3_inRow_17Rows_11, * An_3_inRow_17Rows_12,
-		* An_3_inRow_18Rows_1, * An_3_inRow_18Rows_2, * An_3_inRow_18Rows_3, * An_3_inRow_18Rows_4, * An_3_inRow_18Rows_5, * An_3_inRow_18Rows_6, * An_3_inRow_18Rows_7,
-		* An_3_inRow_18Rows_8, * An_3_inRow_18Rows_9, * An_3_inRow_18Rows_10, * An_3_inRow_18Rows_11, * An_3_inRow_18Rows_12,
-		* An_4_inRow_1Row_1, * An_4_inRow_1Row_2,
-		* An_4_inRow_2Rows_1, * An_4_inRow_2Rows_2,
-		* An_4_inRow_3Rows_1, * An_4_inRow_3Rows_2,
-		* An_4_inRow_4Rows_1, * An_4_inRow_4Rows_2, * An_4_inRow_4Rows_3, * An_4_inRow_4Rows_4,
-		* An_4_inRow_5Rows_1, * An_4_inRow_5Rows_2, * An_4_inRow_5Rows_3, * An_4_inRow_5Rows_4,
-		* An_4_inRow_6Rows_1, * An_4_inRow_6Rows_2, * An_4_inRow_6Rows_3, * An_4_inRow_6Rows_4,
-		* An_4_inRow_7Rows_1, * An_4_inRow_7Rows_2, * An_4_inRow_7Rows_3, * An_4_inRow_7Rows_4, * An_4_inRow_7Rows_5, * An_4_inRow_7Rows_6,
-		* An_4_inRow_8Rows_1, * An_4_inRow_8Rows_2, * An_4_inRow_8Rows_3, * An_4_inRow_8Rows_4, * An_4_inRow_8Rows_5, * An_4_inRow_8Rows_6,
-		* An_4_inRow_9Rows_1, * An_4_inRow_9Rows_2, * An_4_inRow_9Rows_3, * An_4_inRow_9Rows_4, * An_4_inRow_9Rows_5, * An_4_inRow_9Rows_6,
-		* An_4_inRow_10Rows_1, * An_4_inRow_10Rows_2, * An_4_inRow_10Rows_3, * An_4_inRow_10Rows_4, * An_4_inRow_10Rows_5, * An_4_inRow_10Rows_6, * An_4_inRow_10Rows_7,
-		* An_4_inRow_10Rows_8,
-		* An_4_inRow_11Rows_1, * An_4_inRow_11Rows_2, * An_4_inRow_11Rows_3, * An_4_inRow_11Rows_4, * An_4_inRow_11Rows_5, * An_4_inRow_11Rows_6, * An_4_inRow_11Rows_7,
-		* An_4_inRow_11Rows_8,
-		* An_4_inRow_12Rows_1, * An_4_inRow_12Rows_2, * An_4_inRow_12Rows_3, * An_4_inRow_12Rows_4, * An_4_inRow_12Rows_5, * An_4_inRow_12Rows_6, * An_4_inRow_12Rows_7,
-		* An_4_inRow_12Rows_8,
-		* An_4_inRow_13Rows_1, * An_4_inRow_13Rows_2, * An_4_inRow_13Rows_3, * An_4_inRow_13Rows_4, * An_4_inRow_13Rows_5, * An_4_inRow_13Rows_6, * An_4_inRow_13Rows_7,
-		* An_4_inRow_13Rows_8, * An_4_inRow_13Rows_9, * An_4_inRow_13Rows_10,
-		* An_4_inRow_14Rows_1, * An_4_inRow_14Rows_2, * An_4_inRow_14Rows_3, * An_4_inRow_14Rows_4, * An_4_inRow_14Rows_5, * An_4_inRow_14Rows_6, * An_4_inRow_14Rows_7,
-		* An_4_inRow_14Rows_8, * An_4_inRow_14Rows_9, * An_4_inRow_14Rows_10,
-		* An_4_inRow_15Rows_1, * An_4_inRow_15Rows_2, * An_4_inRow_15Rows_3, * An_4_inRow_15Rows_4, * An_4_inRow_15Rows_5, * An_4_inRow_15Rows_6, * An_4_inRow_15Rows_7,
-		* An_4_inRow_15Rows_8, * An_4_inRow_15Rows_9, * An_4_inRow_15Rows_10,
-		* An_4_inRow_16Rows_1, * An_4_inRow_16Rows_2, * An_4_inRow_16Rows_3, * An_4_inRow_16Rows_4, * An_4_inRow_16Rows_5, * An_4_inRow_16Rows_6, * An_4_inRow_16Rows_7,
-		* An_4_inRow_16Rows_8, * An_4_inRow_16Rows_9, * An_4_inRow_16Rows_10, * An_4_inRow_16Rows_11, * An_4_inRow_16Rows_12,
-		* An_4_inRow_17Rows_1, * An_4_inRow_17Rows_2, * An_4_inRow_17Rows_3, * An_4_inRow_17Rows_4, * An_4_inRow_17Rows_5, * An_4_inRow_17Rows_6, * An_4_inRow_17Rows_7,
-		* An_4_inRow_17Rows_8, * An_4_inRow_17Rows_9, * An_4_inRow_17Rows_10, * An_4_inRow_17Rows_11, * An_4_inRow_17Rows_12,
-		* An_4_inRow_18Rows_1, * An_4_inRow_18Rows_2, * An_4_inRow_18Rows_3, * An_4_inRow_18Rows_4, * An_4_inRow_18Rows_5, * An_4_inRow_18Rows_6, * An_4_inRow_18Rows_7,
-		* An_4_inRow_18Rows_8, * An_4_inRow_18Rows_9, * An_4_inRow_18Rows_10, * An_4_inRow_18Rows_11, * An_4_inRow_18Rows_12;
+* An_1_inRow_5Rows_1, * An_1_inRow_5Rows_2, * An_1_inRow_5Rows_3, * An_1_inRow_5Rows_4,
+* An_1_inRow_6Rows_1, * An_1_inRow_6Rows_2, * An_1_inRow_6Rows_3, * An_1_inRow_6Rows_4,
+* An_1_inRow_7Rows_1, * An_1_inRow_7Rows_2, * An_1_inRow_7Rows_3, * An_1_inRow_7Rows_4, * An_1_inRow_7Rows_5, * An_1_inRow_7Rows_6,
+* An_1_inRow_8Rows_1, * An_1_inRow_8Rows_2, * An_1_inRow_8Rows_3, * An_1_inRow_8Rows_4, * An_1_inRow_8Rows_5, * An_1_inRow_8Rows_6,
+* An_1_inRow_9Rows_1, * An_1_inRow_9Rows_2, * An_1_inRow_9Rows_3, * An_1_inRow_9Rows_4, * An_1_inRow_9Rows_5, * An_1_inRow_9Rows_6,
+* An_1_inRow_10Rows_1, * An_1_inRow_10Rows_2, * An_1_inRow_10Rows_3, * An_1_inRow_10Rows_4, * An_1_inRow_10Rows_5, * An_1_inRow_10Rows_6, * An_1_inRow_10Rows_7,
+* An_1_inRow_10Rows_8,
+* An_1_inRow_11Rows_1, * An_1_inRow_11Rows_2, * An_1_inRow_11Rows_3, * An_1_inRow_11Rows_4, * An_1_inRow_11Rows_5, * An_1_inRow_11Rows_6, * An_1_inRow_11Rows_7,
+* An_1_inRow_11Rows_8,
+* An_1_inRow_12Rows_1, * An_1_inRow_12Rows_2, * An_1_inRow_12Rows_3, * An_1_inRow_12Rows_4, * An_1_inRow_12Rows_5, * An_1_inRow_12Rows_6, * An_1_inRow_12Rows_7,
+* An_1_inRow_12Rows_8,
+* An_1_inRow_13Rows_1, * An_1_inRow_13Rows_2, * An_1_inRow_13Rows_3, * An_1_inRow_13Rows_4, * An_1_inRow_13Rows_5, * An_1_inRow_13Rows_6, * An_1_inRow_13Rows_7,
+* An_1_inRow_13Rows_8, * An_1_inRow_13Rows_9, * An_1_inRow_13Rows_10,
+* An_1_inRow_14Rows_1, * An_1_inRow_14Rows_2, * An_1_inRow_14Rows_3, * An_1_inRow_14Rows_4, * An_1_inRow_14Rows_5, * An_1_inRow_14Rows_6, * An_1_inRow_14Rows_7,
+* An_1_inRow_14Rows_8, * An_1_inRow_14Rows_9, * An_1_inRow_14Rows_10,
+* An_1_inRow_15Rows_1, * An_1_inRow_15Rows_2, * An_1_inRow_15Rows_3, * An_1_inRow_15Rows_4, * An_1_inRow_15Rows_5, * An_1_inRow_15Rows_6, * An_1_inRow_15Rows_7,
+* An_1_inRow_15Rows_8, * An_1_inRow_15Rows_9, * An_1_inRow_15Rows_10,
+* An_1_inRow_16Rows_1, * An_1_inRow_16Rows_2, * An_1_inRow_16Rows_3, * An_1_inRow_16Rows_4, * An_1_inRow_16Rows_5, * An_1_inRow_16Rows_6, * An_1_inRow_16Rows_7,
+* An_1_inRow_16Rows_8, * An_1_inRow_16Rows_9, * An_1_inRow_16Rows_10, * An_1_inRow_16Rows_11, * An_1_inRow_16Rows_12,
+* An_1_inRow_17Rows_1, * An_1_inRow_17Rows_2, * An_1_inRow_17Rows_3, * An_1_inRow_17Rows_4, * An_1_inRow_17Rows_5, * An_1_inRow_17Rows_6, * An_1_inRow_17Rows_7,
+* An_1_inRow_17Rows_8, * An_1_inRow_17Rows_9, * An_1_inRow_17Rows_10, * An_1_inRow_17Rows_11, * An_1_inRow_17Rows_12,
+* An_2_inRow_1Row_1, * An_2_inRow_1Row_2,
+* An_2_inRow_2Rows_1, * An_2_inRow_2Rows_2,
+* An_2_inRow_3Rows_1, * An_2_inRow_3Rows_2,
+* An_2_inRow_4Rows_1, * An_2_inRow_4Rows_2, * An_2_inRow_4Rows_3, * An_2_inRow_4Rows_4,
+* An_2_inRow_5Rows_1, * An_2_inRow_5Rows_2, * An_2_inRow_5Rows_3, * An_2_inRow_5Rows_4,
+* An_2_inRow_6Rows_1, * An_2_inRow_6Rows_2, * An_2_inRow_6Rows_3, * An_2_inRow_6Rows_4,
+* An_2_inRow_7Rows_1, * An_2_inRow_7Rows_2, * An_2_inRow_7Rows_3, * An_2_inRow_7Rows_4, * An_2_inRow_7Rows_5, * An_2_inRow_7Rows_6,
+* An_2_inRow_8Rows_1, * An_2_inRow_8Rows_2, * An_2_inRow_8Rows_3, * An_2_inRow_8Rows_4, * An_2_inRow_8Rows_5, * An_2_inRow_8Rows_6,
+* An_2_inRow_9Rows_1, * An_2_inRow_9Rows_2, * An_2_inRow_9Rows_3, * An_2_inRow_9Rows_4, * An_2_inRow_9Rows_5, * An_2_inRow_9Rows_6,
+* An_2_inRow_10Rows_1, * An_2_inRow_10Rows_2, * An_2_inRow_10Rows_3, * An_2_inRow_10Rows_4, * An_2_inRow_10Rows_5, * An_2_inRow_10Rows_6, * An_2_inRow_10Rows_7,
+* An_2_inRow_10Rows_8,
+* An_2_inRow_11Rows_1, * An_2_inRow_11Rows_2, * An_2_inRow_11Rows_3, * An_2_inRow_11Rows_4, * An_2_inRow_11Rows_5, * An_2_inRow_11Rows_6, * An_2_inRow_11Rows_7,
+* An_2_inRow_11Rows_8,
+* An_2_inRow_12Rows_1, * An_2_inRow_12Rows_2, * An_2_inRow_12Rows_3, * An_2_inRow_12Rows_4, * An_2_inRow_12Rows_5, * An_2_inRow_12Rows_6, * An_2_inRow_12Rows_7,
+* An_2_inRow_12Rows_8,
+* An_2_inRow_13Rows_1, * An_2_inRow_13Rows_2, * An_2_inRow_13Rows_3, * An_2_inRow_13Rows_4, * An_2_inRow_13Rows_5, * An_2_inRow_13Rows_6, * An_2_inRow_13Rows_7,
+* An_2_inRow_13Rows_8, * An_2_inRow_13Rows_9, * An_2_inRow_13Rows_10,
+* An_2_inRow_14Rows_1, * An_2_inRow_14Rows_2, * An_2_inRow_14Rows_3, * An_2_inRow_14Rows_4, * An_2_inRow_14Rows_5, * An_2_inRow_14Rows_6, * An_2_inRow_14Rows_7,
+* An_2_inRow_14Rows_8, * An_2_inRow_14Rows_9, * An_2_inRow_14Rows_10,
+* An_2_inRow_15Rows_1, * An_2_inRow_15Rows_2, * An_2_inRow_15Rows_3, * An_2_inRow_15Rows_4, * An_2_inRow_15Rows_5, * An_2_inRow_15Rows_6, * An_2_inRow_15Rows_7,
+* An_2_inRow_15Rows_8, * An_2_inRow_15Rows_9, * An_2_inRow_15Rows_10,
+* An_2_inRow_16Rows_1, * An_2_inRow_16Rows_2, * An_2_inRow_16Rows_3, * An_2_inRow_16Rows_4, * An_2_inRow_16Rows_5, * An_2_inRow_16Rows_6, * An_2_inRow_16Rows_7,
+* An_2_inRow_16Rows_8, * An_2_inRow_16Rows_9, * An_2_inRow_16Rows_10, * An_2_inRow_16Rows_11, * An_2_inRow_16Rows_12,
+* An_2_inRow_17Rows_1, * An_2_inRow_17Rows_2, * An_2_inRow_17Rows_3, * An_2_inRow_17Rows_4, * An_2_inRow_17Rows_5, * An_2_inRow_17Rows_6, * An_2_inRow_17Rows_7,
+* An_2_inRow_17Rows_8, * An_2_inRow_17Rows_9, * An_2_inRow_17Rows_10, * An_2_inRow_17Rows_11, * An_2_inRow_17Rows_12,
+* An_3_inRow_1Row_1, * An_3_inRow_1Row_2,
+* An_3_inRow_2Rows_1, * An_3_inRow_2Rows_2,
+* An_3_inRow_3Rows_1, * An_3_inRow_3Rows_2,
+* An_3_inRow_4Rows_1, * An_3_inRow_4Rows_2, * An_3_inRow_4Rows_3, * An_3_inRow_4Rows_4,
+* An_3_inRow_5Rows_1, * An_3_inRow_5Rows_2, * An_3_inRow_5Rows_3, * An_3_inRow_5Rows_4,
+* An_3_inRow_6Rows_1, * An_3_inRow_6Rows_2, * An_3_inRow_6Rows_3, * An_3_inRow_6Rows_4,
+* An_3_inRow_7Rows_1, * An_3_inRow_7Rows_2, * An_3_inRow_7Rows_3, * An_3_inRow_7Rows_4, * An_3_inRow_7Rows_5, * An_3_inRow_7Rows_6,
+* An_3_inRow_8Rows_1, * An_3_inRow_8Rows_2, * An_3_inRow_8Rows_3, * An_3_inRow_8Rows_4, * An_3_inRow_8Rows_5, * An_3_inRow_8Rows_6,
+* An_3_inRow_9Rows_1, * An_3_inRow_9Rows_2, * An_3_inRow_9Rows_3, * An_3_inRow_9Rows_4, * An_3_inRow_9Rows_5, * An_3_inRow_9Rows_6,
+* An_3_inRow_10Rows_1, * An_3_inRow_10Rows_2, * An_3_inRow_10Rows_3, * An_3_inRow_10Rows_4, * An_3_inRow_10Rows_5, * An_3_inRow_10Rows_6, * An_3_inRow_10Rows_7,
+* An_3_inRow_10Rows_8,
+* An_3_inRow_11Rows_1, * An_3_inRow_11Rows_2, * An_3_inRow_11Rows_3, * An_3_inRow_11Rows_4, * An_3_inRow_11Rows_5, * An_3_inRow_11Rows_6, * An_3_inRow_11Rows_7,
+* An_3_inRow_11Rows_8,
+* An_3_inRow_12Rows_1, * An_3_inRow_12Rows_2, * An_3_inRow_12Rows_3, * An_3_inRow_12Rows_4, * An_3_inRow_12Rows_5, * An_3_inRow_12Rows_6, * An_3_inRow_12Rows_7,
+* An_3_inRow_12Rows_8,
+* An_3_inRow_13Rows_1, * An_3_inRow_13Rows_2, * An_3_inRow_13Rows_3, * An_3_inRow_13Rows_4, * An_3_inRow_13Rows_5, * An_3_inRow_13Rows_6, * An_3_inRow_13Rows_7,
+* An_3_inRow_13Rows_8, * An_3_inRow_13Rows_9, * An_3_inRow_13Rows_10,
+* An_3_inRow_14Rows_1, * An_3_inRow_14Rows_2, * An_3_inRow_14Rows_3, * An_3_inRow_14Rows_4, * An_3_inRow_14Rows_5, * An_3_inRow_14Rows_6, * An_3_inRow_14Rows_7,
+* An_3_inRow_14Rows_8, * An_3_inRow_14Rows_9, * An_3_inRow_14Rows_10,
+* An_3_inRow_15Rows_1, * An_3_inRow_15Rows_2, * An_3_inRow_15Rows_3, * An_3_inRow_15Rows_4, * An_3_inRow_15Rows_5, * An_3_inRow_15Rows_6, * An_3_inRow_15Rows_7,
+* An_3_inRow_15Rows_8, * An_3_inRow_15Rows_9, * An_3_inRow_15Rows_10,
+* An_3_inRow_16Rows_1, * An_3_inRow_16Rows_2, * An_3_inRow_16Rows_3, * An_3_inRow_16Rows_4, * An_3_inRow_16Rows_5, * An_3_inRow_16Rows_6, * An_3_inRow_16Rows_7,
+* An_3_inRow_16Rows_8, * An_3_inRow_16Rows_9, * An_3_inRow_16Rows_10, * An_3_inRow_16Rows_11, * An_3_inRow_16Rows_12,
+* An_3_inRow_17Rows_1, * An_3_inRow_17Rows_2, * An_3_inRow_17Rows_3, * An_3_inRow_17Rows_4, * An_3_inRow_17Rows_5, * An_3_inRow_17Rows_6, * An_3_inRow_17Rows_7,
+* An_3_inRow_17Rows_8, * An_3_inRow_17Rows_9, * An_3_inRow_17Rows_10, * An_3_inRow_17Rows_11, * An_3_inRow_17Rows_12,
+* An_3_inRow_18Rows_1, * An_3_inRow_18Rows_2, * An_3_inRow_18Rows_3, * An_3_inRow_18Rows_4, * An_3_inRow_18Rows_5, * An_3_inRow_18Rows_6, * An_3_inRow_18Rows_7,
+* An_3_inRow_18Rows_8, * An_3_inRow_18Rows_9, * An_3_inRow_18Rows_10, * An_3_inRow_18Rows_11, * An_3_inRow_18Rows_12,
+* An_4_inRow_1Row_1, * An_4_inRow_1Row_2,
+* An_4_inRow_2Rows_1, * An_4_inRow_2Rows_2,
+* An_4_inRow_3Rows_1, * An_4_inRow_3Rows_2,
+* An_4_inRow_4Rows_1, * An_4_inRow_4Rows_2, * An_4_inRow_4Rows_3, * An_4_inRow_4Rows_4,
+* An_4_inRow_5Rows_1, * An_4_inRow_5Rows_2, * An_4_inRow_5Rows_3, * An_4_inRow_5Rows_4,
+* An_4_inRow_6Rows_1, * An_4_inRow_6Rows_2, * An_4_inRow_6Rows_3, * An_4_inRow_6Rows_4,
+* An_4_inRow_7Rows_1, * An_4_inRow_7Rows_2, * An_4_inRow_7Rows_3, * An_4_inRow_7Rows_4, * An_4_inRow_7Rows_5, * An_4_inRow_7Rows_6,
+* An_4_inRow_8Rows_1, * An_4_inRow_8Rows_2, * An_4_inRow_8Rows_3, * An_4_inRow_8Rows_4, * An_4_inRow_8Rows_5, * An_4_inRow_8Rows_6,
+* An_4_inRow_9Rows_1, * An_4_inRow_9Rows_2, * An_4_inRow_9Rows_3, * An_4_inRow_9Rows_4, * An_4_inRow_9Rows_5, * An_4_inRow_9Rows_6,
+* An_4_inRow_10Rows_1, * An_4_inRow_10Rows_2, * An_4_inRow_10Rows_3, * An_4_inRow_10Rows_4, * An_4_inRow_10Rows_5, * An_4_inRow_10Rows_6, * An_4_inRow_10Rows_7,
+* An_4_inRow_10Rows_8,
+* An_4_inRow_11Rows_1, * An_4_inRow_11Rows_2, * An_4_inRow_11Rows_3, * An_4_inRow_11Rows_4, * An_4_inRow_11Rows_5, * An_4_inRow_11Rows_6, * An_4_inRow_11Rows_7,
+* An_4_inRow_11Rows_8,
+* An_4_inRow_12Rows_1, * An_4_inRow_12Rows_2, * An_4_inRow_12Rows_3, * An_4_inRow_12Rows_4, * An_4_inRow_12Rows_5, * An_4_inRow_12Rows_6, * An_4_inRow_12Rows_7,
+* An_4_inRow_12Rows_8,
+* An_4_inRow_13Rows_1, * An_4_inRow_13Rows_2, * An_4_inRow_13Rows_3, * An_4_inRow_13Rows_4, * An_4_inRow_13Rows_5, * An_4_inRow_13Rows_6, * An_4_inRow_13Rows_7,
+* An_4_inRow_13Rows_8, * An_4_inRow_13Rows_9, * An_4_inRow_13Rows_10,
+* An_4_inRow_14Rows_1, * An_4_inRow_14Rows_2, * An_4_inRow_14Rows_3, * An_4_inRow_14Rows_4, * An_4_inRow_14Rows_5, * An_4_inRow_14Rows_6, * An_4_inRow_14Rows_7,
+* An_4_inRow_14Rows_8, * An_4_inRow_14Rows_9, * An_4_inRow_14Rows_10,
+* An_4_inRow_15Rows_1, * An_4_inRow_15Rows_2, * An_4_inRow_15Rows_3, * An_4_inRow_15Rows_4, * An_4_inRow_15Rows_5, * An_4_inRow_15Rows_6, * An_4_inRow_15Rows_7,
+* An_4_inRow_15Rows_8, * An_4_inRow_15Rows_9, * An_4_inRow_15Rows_10,
+* An_4_inRow_16Rows_1, * An_4_inRow_16Rows_2, * An_4_inRow_16Rows_3, * An_4_inRow_16Rows_4, * An_4_inRow_16Rows_5, * An_4_inRow_16Rows_6, * An_4_inRow_16Rows_7,
+* An_4_inRow_16Rows_8, * An_4_inRow_16Rows_9, * An_4_inRow_16Rows_10, * An_4_inRow_16Rows_11, * An_4_inRow_16Rows_12,
+* An_4_inRow_17Rows_1, * An_4_inRow_17Rows_2, * An_4_inRow_17Rows_3, * An_4_inRow_17Rows_4, * An_4_inRow_17Rows_5, * An_4_inRow_17Rows_6, * An_4_inRow_17Rows_7,
+* An_4_inRow_17Rows_8, * An_4_inRow_17Rows_9, * An_4_inRow_17Rows_10, * An_4_inRow_17Rows_11, * An_4_inRow_17Rows_12,
+* An_4_inRow_18Rows_1, * An_4_inRow_18Rows_2, * An_4_inRow_18Rows_3, * An_4_inRow_18Rows_4, * An_4_inRow_18Rows_5, * An_4_inRow_18Rows_6, * An_4_inRow_18Rows_7,
+* An_4_inRow_18Rows_8, * An_4_inRow_18Rows_9, * An_4_inRow_18Rows_10, * An_4_inRow_18Rows_11, * An_4_inRow_18Rows_12;
 		
 
 	
@@ -1200,6 +1207,7 @@ int main()
 	An_4_inRow_18Rows_11 = LoadTextureFromResource(IDB_PNG688, "PNG");
 	An_4_inRow_18Rows_12 = LoadTextureFromResource(IDB_PNG689, "PNG");
 
+	//loading_screen_tex = LoadTextureFromResource(IDB_PNG690, "PNG");
 	
 	Image *img_table, *tetramino /*,*img_myCursor*/;
 	img_table = LoadImageFromResource(IDB_PNG5, "PNG");
@@ -1540,6 +1548,8 @@ int main()
 * spriteAn_4_inRow_18Rows_9 = new Sprite(*An_4_inRow_18Rows_9), * spriteAn_4_inRow_18Rows_10 = new Sprite(*An_4_inRow_18Rows_10),
 * spriteAn_4_inRow_18Rows_11 = new Sprite(*An_4_inRow_18Rows_11), * spriteAn_4_inRow_18Rows_12 = new Sprite(*An_4_inRow_18Rows_12);
 
+//* sprite_loading_screen = new Sprite(*loading_screen_tex);
+
 	//sprite->setColor(Color(255, 255, 255, 255));//непрозрачность
 	sprite->scale(0.5, 0.5);
 	sprite_myCursor->scale(0.7, 0.7);
@@ -1692,12 +1702,15 @@ int main()
 	float timer = 0, delay = 0.6f, delay_2 = 0.08f;
 	//USHORT step = 1;
 
+	for_loading_scr = false;
 	
-	//thr1->detach();
 	// Объект, который является главным окном приложения
 	RenderWindow window(VideoMode(1920, 1080), "brick", /*Style::Close | Style::Titlebar |*/ Style::Fullscreen);
+	//window.setActive(true);
 	Image* icon = LoadImageFromResource(IDB_PNG1, "PNG");
 	window.setIcon(38, 38, icon->getPixelsPtr());
+	
+	
 
 
 	//Курсор
@@ -4110,7 +4123,8 @@ int main()
 		delay = 0.6f;
 
 		//----ОТРИСОВКА----//
-		window.clear(Color::White);
+		//window.clear(Color::White);
+		window.clear();
 		window.draw(*sprite_background);
 		window.draw(*sprite_left_frame);
 		window.draw(*sprite_right_frame);
@@ -5993,10 +6007,44 @@ void draw_3buttons3(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& s
 	else win.draw(spmst1);
 }
 
-void create_window_for_loading_screen()
+void create_window_for_loading_screen(Sprite* scr, Sprite *Load)
 {
-	RenderWindow* loading_screen = new RenderWindow(VideoMode(500, 500), "Tetris", Style::Close | Style::Titlebar | Style::Fullscreen);
+	RenderWindow* loading_screen = new RenderWindow(VideoMode(1920, 1080), "Tetris", Style::Close | Style::Titlebar | Style::Fullscreen);
+	loading_screen->setActive(true);
+	loading_screen->setMouseCursorVisible(false);
+	loading_screen->setFramerateLimit(60);
+	Load->setScale(0.7, 0.7);
+	Load->setPosition(600, 350);
+	Event ev;
 
+	loading_clock->restart();
+	while (loading_screen->isOpen())
+	{
+		while (loading_screen->pollEvent(ev))
+		{
+			// Пользователь нажал на «крестик» и хочет закрыть окно?
+			switch (ev.type)
+			{
+			case Event::Closed:
+				// Тогда закрываем его
+				loading_screen->close();
+				break;
+			}
+		}
+		//loading_screen->clear(Color::White);
+		USHORT lclock = loading_clock->getElapsedTime().asMilliseconds();
+		//cout << lclock << endl;
+		loading_screen->clear();
+		loading_screen->draw(*scr);
+		if (lclock > 0 && lclock < 1000)loading_screen->draw(*Load);
+		if (lclock >= 1800) loading_clock->restart();
+		loading_screen->display();
+		if (!for_loading_scr)loading_screen->close();
+		
+	}
+	//loading_screen->setActive(false);
+	delete loading_clock;
+	loading_clock = nullptr;
 }
 
 void animation_1_lineFn(RenderWindow& win, USHORT index, Sprite* spriteAn_1line_1, Sprite* spriteAn_1line_2, Sprite* spriteAn_1line_3, Sprite* spriteAn_1line_4, Sprite* spriteAn_1line_5,
