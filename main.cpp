@@ -6,11 +6,12 @@
 #include <vector>
 #include <thread>
 #include <sstream>
-#include <string>
-#include < iomanip >
+//#include <string>
+//#include < iomanip >
 using namespace sf;
 using namespace std;
 
+//#define  LOGGER(v)  std::cout << #v << " = " << (v) << "\n";
 
 USHORT colorNum = 1 + rand() % 9; // цвет
 USHORT colorNum2 = 1 + rand() % 9; // цвет
@@ -23,8 +24,13 @@ void fill_tetramino2();
 void draw_3buttons(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& splst2, Sprite& splst3, Sprite& sprst1, Sprite& sprst2, Sprite& sprst3, Sprite& spmst1, Sprite& spmst2, Sprite& spmst3, Vector2f fsc);
 void draw_3buttons2(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& splst2, Sprite& splst3, Sprite& sprst1, Sprite& sprst2, Sprite& sprst3, Sprite& spmst1, Sprite& spmst2, Sprite& spmst3, Vector2f fsc);
 void draw_3buttons3(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& splst2, Sprite& splst3, Sprite& sprst1, Sprite& sprst2, Sprite& sprst3, Sprite& spmst1, Sprite& spmst2, Sprite& spmst3, Vector2f fsc);
+
 void create_window_for_loading_screen(Sprite * scr, Sprite *Load);
 Vector2f factorOfScaleFn(RenderWindow& win);
+//Vector2i winPos;
+//Vector2u winSizePrev;
+bool enableResize = false;
+
 //Animation/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Clock animation_1_line;
 Clock animation_2_lines;
@@ -366,10 +372,10 @@ int main()
 	Texture *sqtex = new Texture, *tex_table = new Texture, *tex_table2 = new Texture;
 	Texture* tex_background, * button_start_st1, * button_start_st2, * button_start_st3, * button_newgame_st1, * button_newgame_st2, * button_newgame_st3,
 		* button_options_st1, * button_options_st2, * button_options_st3, * button_left_st1, * button_left_st2, * button_left_st3, * button_right_st1, * button_right_st2, * button_right_st3,
-		* button_middle_restore_st1, * button_middle_restore_st2, * button_middle_restore_st3, * button_pause_st1, * button_pause_st2, * button_pause_st3, * button_pause_st4,
-		* button_soundOff_st1, * button_soundOff_st2, * button_soundOff_st3, * left_frame, * right_frame, * right_frame_bottom, * ays_frame, * ays_question, * ays_yes1st, * ays_yes2st, * ays_no1st, * ays_no2st,
-		* button_resume_st1, * button_resume_st2, * button_resume_st3, * button_musicOff_st1, * button_musicOff_st2, * button_musicOff_st3, * button_musicOn_st1, * button_musicOn_st2, * button_musicOn_st3, * button_musicOn_st4,
-		* button_soundOn_st1, * button_soundOn_st2, * button_soundOn_st3, * button_soundOn_st4, * I_red, * S_red, * Z_red, * T_red, * L_red, * J_red, * O_red, * I_blue, * S_blue, * Z_blue, * T_blue, * L_blue,
+		* button_middle_restore_st1, * button_middle_restore_st2, * button_middle_restore_st3, * button_pause_st1, /** button_pause_st2,*/ * button_pause_st3, * button_pause_st4,
+		/** button_soundOff_st1, * button_soundOff_st2, * button_soundOff_st3,*/ * left_frame, * right_frame, * right_frame_bottom, * ays_frame, * ays_question, * ays_yes1st, * ays_yes2st, * ays_no1st, * ays_no2st,
+		/** button_resume_st1, * button_resume_st2, * button_resume_st3, * button_musicOff_st1, * button_musicOff_st2, * button_musicOff_st3,*/ * button_musicOn_st1, /** button_musicOn_st2,*/ * button_musicOn_st3, * button_musicOn_st4,
+		* button_soundOn_st1, /** button_soundOn_st2,*/ * button_soundOn_st3, * button_soundOn_st4, * I_red, * S_red, * Z_red, * T_red, * L_red, * J_red, * O_red, * I_blue, * S_blue, * Z_blue, * T_blue, * L_blue,
 		* J_blue, * O_blue, * I_black, * S_black, * Z_black, * T_black, * L_black, * J_black, * O_black, * I_brown, * S_brown, * Z_brown, * T_brown, * L_brown, * J_brown, * O_brown,
 		* I_orange, * S_orange, * Z_orange, * T_orange, * L_orange, * J_orange, * O_orange, * I_green, * S_green, * Z_green, * T_green, * L_green, * J_green, * O_green,
 		* I_purple, * S_purple, * Z_purple, * T_purple, * L_purple, * J_purple, * O_purple, * I_pink, * S_pink, * Z_pink, * T_pink, * L_pink, * J_pink, * O_pink,
@@ -493,7 +499,7 @@ int main()
 * An_4_inRow_18Rows_8, * An_4_inRow_18Rows_9, * An_4_inRow_18Rows_10, * An_4_inRow_18Rows_11, * An_4_inRow_18Rows_12;
 		
 
-	
+
 	//загрузка текстур из ресурсов
 	myCursor = LoadTextureFromResource(IDB_PNG120, "PNG");
 	myCursor->setSmooth(true);
@@ -522,31 +528,31 @@ int main()
 	button_middle_restore_st3 = LoadTextureFromResource(IDB_PNG25, "PNG");
 
 	button_pause_st1 = LoadTextureFromResource(IDB_PNG26, "PNG");
-	button_pause_st2 = LoadTextureFromResource(IDB_PNG27, "PNG");
+	//button_pause_st2 = LoadTextureFromResource(IDB_PNG27, "PNG");
 	button_pause_st3 = LoadTextureFromResource(IDB_PNG28, "PNG");
 	button_pause_st4 = LoadTextureFromResource(IDB_PNG53, "PNG");
 
-	button_resume_st1 = LoadTextureFromResource(IDB_PNG41, "PNG");
-	button_resume_st2 = LoadTextureFromResource(IDB_PNG42, "PNG");
-	button_resume_st3 = LoadTextureFromResource(IDB_PNG43, "PNG");
+	//button_resume_st1 = LoadTextureFromResource(IDB_PNG41, "PNG");
+	//button_resume_st2 = LoadTextureFromResource(IDB_PNG42, "PNG");
+	//button_resume_st3 = LoadTextureFromResource(IDB_PNG43, "PNG");
 
-	button_soundOff_st1 = LoadTextureFromResource(IDB_PNG29, "PNG");
-	button_soundOff_st2 = LoadTextureFromResource(IDB_PNG30, "PNG");
-	button_soundOff_st3 = LoadTextureFromResource(IDB_PNG31, "PNG");
+	//button_soundOff_st1 = LoadTextureFromResource(IDB_PNG29, "PNG");
+	//button_soundOff_st2 = LoadTextureFromResource(IDB_PNG30, "PNG");
+	//button_soundOff_st3 = LoadTextureFromResource(IDB_PNG31, "PNG");
 
 	button_soundOn_st1 = LoadTextureFromResource(IDB_PNG44, "PNG");
-	button_soundOn_st2 = LoadTextureFromResource(IDB_PNG45, "PNG");
+	//button_soundOn_st2 = LoadTextureFromResource(IDB_PNG45, "PNG");
 	button_soundOn_st3 = LoadTextureFromResource(IDB_PNG46, "PNG");
 	button_soundOn_st4 = LoadTextureFromResource(IDB_PNG54, "PNG");
 
 	button_musicOn_st1 = LoadTextureFromResource(IDB_PNG47, "PNG");
-	button_musicOn_st2 = LoadTextureFromResource(IDB_PNG48, "PNG");
+	//button_musicOn_st2 = LoadTextureFromResource(IDB_PNG48, "PNG");
 	button_musicOn_st3 = LoadTextureFromResource(IDB_PNG49, "PNG");
 	button_musicOn_st4 = LoadTextureFromResource(IDB_PNG55, "PNG");
 
-	button_musicOff_st1 = LoadTextureFromResource(IDB_PNG50, "PNG");
-	button_musicOff_st2 = LoadTextureFromResource(IDB_PNG51, "PNG");
-	button_musicOff_st3 = LoadTextureFromResource(IDB_PNG52, "PNG");
+	//button_musicOff_st1 = LoadTextureFromResource(IDB_PNG50, "PNG");
+	//button_musicOff_st2 = LoadTextureFromResource(IDB_PNG51, "PNG");
+	//button_musicOff_st3 = LoadTextureFromResource(IDB_PNG52, "PNG");
 
 	tex_background = LoadTextureFromResource(IDB_PNG4, "PNG");
 	left_frame = LoadTextureFromResource(IDB_PNG32, "PNG");
@@ -724,7 +730,7 @@ int main()
 	An_4lines_20 = LoadTextureFromResource(IDB_PNG206, "PNG");
 	An_4lines_21 = LoadTextureFromResource(IDB_PNG207, "PNG");
 	An_4lines_22 = LoadTextureFromResource(IDB_PNG208, "PNG");
-
+	
 	An_3_inRow_16Rows_1 = LoadTextureFromResource(IDB_PNG210, "PNG");
 	An_3_inRow_16Rows_2 = LoadTextureFromResource(IDB_PNG211, "PNG");
 	An_3_inRow_16Rows_3 = LoadTextureFromResource(IDB_PNG212, "PNG");
@@ -1080,7 +1086,7 @@ int main()
 	An_3_inRow_18Rows_10 = LoadTextureFromResource(IDB_PNG561, "PNG");
 	An_3_inRow_18Rows_11 = LoadTextureFromResource(IDB_PNG562, "PNG");
 	An_3_inRow_18Rows_12 = LoadTextureFromResource(IDB_PNG563, "PNG");
-
+	
 	An_4_inRow_1Row_1 = LoadTextureFromResource(IDB_PNG564, "PNG");
 	An_4_inRow_1Row_2 = LoadTextureFromResource(IDB_PNG565, "PNG");
 	An_4_inRow_2Rows_1 = LoadTextureFromResource(IDB_PNG566, "PNG");
@@ -1207,16 +1213,18 @@ int main()
 	An_4_inRow_18Rows_10 = LoadTextureFromResource(IDB_PNG687, "PNG");
 	An_4_inRow_18Rows_11 = LoadTextureFromResource(IDB_PNG688, "PNG");
 	An_4_inRow_18Rows_12 = LoadTextureFromResource(IDB_PNG689, "PNG");
-
+	
 	//loading_screen_tex = LoadTextureFromResource(IDB_PNG690, "PNG");
 	
 	Image *img_table, *tetramino /*,*img_myCursor*/;
 	img_table = LoadImageFromResource(IDB_PNG5, "PNG");
+
 	tex_table->loadFromImage(*img_table);
 	tex_table2 = LoadTextureFromResource(IDB_PNG692, "PNG");
 	//img_myCursor = LoadImageFromResource(IDB_PNG120, "PNG");
 
 	tetramino = LoadImageFromResource(IDB_PNG7, "PNG");
+
 	/*tetramino->createMaskFromColor(Color(253, 253, 253));
 	tetramino->createMaskFromColor(Color(254, 254, 254));
 	tetramino->createMaskFromColor(Color(255, 255, 255));
@@ -1226,7 +1234,7 @@ int main()
 	
 	sqtex->loadFromImage(*tetramino);//новые тетрамино
 	sqtex->setSmooth(true);
-
+	
 	//Создание спрайтов
 	Sprite* sprite = new Sprite(*sqtex), * sprite_background = new Sprite(*tex_background), * sprite_table = new Sprite(*tex_table), * sprite_table2 = new Sprite(*tex_table2),
 		* sprite_button_start_st1 = new Sprite(*button_start_st1), * sprite_button_start_st2 = new Sprite(*button_start_st2), * sprite_button_start_st3 = new Sprite(*button_start_st3),
@@ -1235,18 +1243,18 @@ int main()
 		* sprite_button_left_st1 = new Sprite(*button_left_st1), * sprite_button_left_st2 = new Sprite(*button_left_st2), * sprite_button_left_st3 = new Sprite(*button_left_st3),
 		* sprite_button_right_st1 = new Sprite(*button_right_st1), * sprite_button_right_st2 = new Sprite(*button_right_st2), * sprite_button_right_st3 = new Sprite(*button_right_st3),
 		* sprite_button_middle_restore_st1 = new Sprite(*button_middle_restore_st1), * sprite_button_middle_restore_st2 = new Sprite(*button_middle_restore_st2), * sprite_button_middle_restore_st3 = new Sprite(*button_middle_restore_st3),
-		* sprite_button_pause_st1 = new Sprite(*button_pause_st1), * sprite_button_pause_st2 = new Sprite(*button_pause_st2), * sprite_button_pause_st3 = new Sprite(*button_pause_st3),
+		* sprite_button_pause_st1 = new Sprite(*button_pause_st1), /** sprite_button_pause_st2 = new Sprite(*button_pause_st2),*/ * sprite_button_pause_st3 = new Sprite(*button_pause_st3),
 		* sprite_button_pause_st4 = new Sprite(*button_pause_st4),
-		* sprite_button_soundOff_st1 = new Sprite(*button_soundOff_st1), * sprite_button_soundOff_st2 = new Sprite(*button_soundOff_st2), * sprite_button_soundOff_st3 = new Sprite(*button_soundOff_st3),
+		/** sprite_button_soundOff_st1 = new Sprite(*button_soundOff_st1), * sprite_button_soundOff_st2 = new Sprite(*button_soundOff_st2), * sprite_button_soundOff_st3 = new Sprite(*button_soundOff_st3),*/
 		* sprite_left_frame = new Sprite(*left_frame), * sprite_right_frame = new Sprite(*right_frame),
 		* sprite_right_frame_bottom = new Sprite(*right_frame_bottom), * sprite_ays_frame = new Sprite(*ays_frame), * sprite_ays_question = new Sprite(*ays_question), * sprite_ays_yes1st = new Sprite(*ays_yes1st),
 		* sprite_ays_yes2st = new Sprite(*ays_yes2st), * sprite_ays_no1st = new Sprite(*ays_no1st), * sprite_ays_no2st = new Sprite(*ays_no2st),
-		* sprite_button_resume_st1 = new Sprite(*button_resume_st1), * sprite_button_resume_st2 = new Sprite(*button_resume_st2), * sprite_button_resume_st3 = new Sprite(*button_resume_st3),
-		* sprite_button_soundOn_st1 = new Sprite(*button_soundOn_st1), * sprite_button_soundOn_st2 = new Sprite(*button_soundOn_st2), * sprite_button_soundOn_st3 = new Sprite(*button_soundOn_st3),
+		/** sprite_button_resume_st1 = new Sprite(*button_resume_st1), * sprite_button_resume_st2 = new Sprite(*button_resume_st2), * sprite_button_resume_st3 = new Sprite(*button_resume_st3),*/
+		* sprite_button_soundOn_st1 = new Sprite(*button_soundOn_st1), /** sprite_button_soundOn_st2 = new Sprite(*button_soundOn_st2),*/ * sprite_button_soundOn_st3 = new Sprite(*button_soundOn_st3),
 		* sprite_button_soundOn_st4 = new Sprite(*button_soundOn_st4),
-		* sprite_button_musicOn_st1 = new Sprite(*button_musicOn_st1), * sprite_button_musicOn_st2 = new Sprite(*button_musicOn_st2), * sprite_button_musicOn_st3 = new Sprite(*button_musicOn_st3),
+		* sprite_button_musicOn_st1 = new Sprite(*button_musicOn_st1),/* * sprite_button_musicOn_st2 = new Sprite(*button_musicOn_st2),*/ * sprite_button_musicOn_st3 = new Sprite(*button_musicOn_st3),
 		* sprite_button_musicOn_st4 = new Sprite(*button_musicOn_st4),
-		* sprite_button_musicOff_st1 = new Sprite(*button_musicOff_st1), * sprite_button_musicOff_st2 = new Sprite(*button_musicOff_st2), * sprite_button_musicOff_st3 = new Sprite(*button_musicOff_st3),
+		/** sprite_button_musicOff_st1 = new Sprite(*button_musicOff_st1), * sprite_button_musicOff_st2 = new Sprite(*button_musicOff_st2), * sprite_button_musicOff_st3 = new Sprite(*button_musicOff_st3),*/
 
 		* sprite_I_red = new Sprite(*I_red), * sprite_S_red = new Sprite(*S_red), * sprite_Z_red = new Sprite(*Z_red), * sprite_L_red = new Sprite(*L_red), * sprite_J_red = new Sprite(*J_red),
 		* sprite_T_red = new Sprite(*T_red), * sprite_O_red = new Sprite(*O_red),
@@ -1553,7 +1561,7 @@ int main()
 //* sprite_loading_screen = new Sprite(*loading_screen_tex);
 
 	//sprite->setColor(Color(255, 255, 255, 255));//непрозрачность
-	
+
 	//Text
 	Font *font = LoadFontFromResource(IDR_JPEG2, "JPEG");
 	USHORT fontSize{ 37 };
@@ -1694,209 +1702,215 @@ int main()
 	// Объект, который является главным окном приложения
 	// 
 	ContextSettings* context = new ContextSettings(0, 0, 2);//antialliasing
+	for_loading_scr = false;
+	
 	//RenderWindow window(VideoMode(1920, 1080), "brick", /*Style::Close | Style::Titlebar |*/ Style::Fullscreen);
 	RenderWindow window(VideoMode().getFullscreenModes()[0], "Tetris", Style::None, *context);
-	//RenderWindow window(VideoMode(1600, 900), "Tetris", Style::None, *context);
+	//RenderWindow window(VideoMode().getDesktopMode(), "Tetris", Style::None, *context);
+	//RenderWindow window(VideoMode(800, 600), "Tetris", Style::Titlebar, *context);
 
 	//View * vi = new View();
 	//vi->setCenter(1920 / 2, 1080 / 2);
 	//vi->setSize(3840, 2160);
 	//window.setView(*vi);
-	for_loading_scr = false;
+	
 	SetForegroundWindow(window.getSystemHandle());//чтобы сделать окно активным
+	//window.requestFocus();
+
 	Image* icon = LoadImageFromResource(IDB_PNG1, "PNG");
 	window.setIcon(38, 38, icon->getPixelsPtr());
 
 	//МАСШТАБИРОВАНИЕ
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+	scalemark:
 	Vector2f fscale = factorOfScaleFn(window);
-	sprite_background->scale(fscale);
-	sprite_table->scale(fscale);
-	sprite_table2->scale(fscale);
+	sprite_background->setScale(fscale);
+	sprite_table->setScale(fscale);
+	sprite_table2->setScale(fscale);
 	
+	
+	sprite->setScale(fscale);
+	sprite_myCursor->setScale(fscale);
 	sprite->scale(0.5, 0.5);//стандартное масштабирование
 	sprite_myCursor->scale(0.7, 0.7);//стандартное масштабирование
-	sprite->scale(fscale);
-	sprite_myCursor->scale(fscale);
+
+	sprite_button_start_st1->setScale(fscale);
+	sprite_button_start_st2->setScale(fscale);
+	sprite_button_start_st3->setScale(fscale);
+
+	sprite_button_newgame_st1->setScale(fscale);
+	sprite_button_newgame_st2->setScale(fscale);
+	sprite_button_newgame_st3->setScale(fscale);
+
+	sprite_left_frame->setScale(fscale);
+	sprite_right_frame->setScale(fscale);
+	sprite_right_frame_bottom->setScale(fscale);
+
+	sprite_button_left_st1->setScale(fscale);
+	sprite_button_left_st2->setScale(fscale);
+	sprite_button_left_st3->setScale(fscale);
+
+	sprite_button_middle_restore_st1->setScale(fscale);
+	sprite_button_middle_restore_st2->setScale(fscale);
+	sprite_button_middle_restore_st3->setScale(fscale);
+
+	sprite_button_right_st1->setScale(fscale);
+	sprite_button_right_st2->setScale(fscale);
+	sprite_button_right_st3->setScale(fscale);
+
+	sprite_button_options_st1->setScale(fscale);
+	sprite_button_options_st2->setScale(fscale);
+	sprite_button_options_st3->setScale(fscale);
+
+	sprite_button_pause_st1->setScale(fscale);
+	//sprite_button_pause_st2->setScale(fscale);
+	sprite_button_pause_st3->setScale(fscale);
+	sprite_button_pause_st4->setScale(fscale);
+
+	//sprite_button_musicOff_st1->setScale(fscale);
+	//sprite_button_musicOff_st2->setScale(fscale);
+	//sprite_button_musicOff_st3->setScale(fscale);
 	
-	sprite_button_start_st1->scale(fscale);
-	sprite_button_start_st2->scale(fscale);
-	sprite_button_start_st3->scale(fscale);
+	//sprite_button_soundOff_st1->setScale(fscale);
+	//sprite_button_soundOff_st2->setScale(fscale);
+	//sprite_button_soundOff_st3->setScale(fscale);
 
-	sprite_button_newgame_st1->scale(fscale);
-	sprite_button_newgame_st2->scale(fscale);
-	sprite_button_newgame_st3->scale(fscale);
+	sprite_button_soundOn_st1->setScale(fscale);
+	//sprite_button_soundOn_st2->setScale(fscale);
+	sprite_button_soundOn_st3->setScale(fscale);
+	sprite_button_soundOn_st4->setScale(fscale);
 
-	sprite_left_frame->scale(fscale);
-	sprite_right_frame->scale(fscale);
-	sprite_right_frame_bottom->scale(fscale);
+	sprite_button_musicOn_st1->setScale(fscale);
+	//sprite_button_musicOn_st2->setScale(fscale);
+	sprite_button_musicOn_st3->setScale(fscale);
+	sprite_button_musicOn_st4->setScale(fscale);
 
-	sprite_button_left_st1->scale(fscale);
-	sprite_button_left_st2->scale(fscale);
-	sprite_button_left_st3->scale(fscale);
+	sprite_ays_frame->setScale(fscale);
+	sprite_ays_yes1st->setScale(fscale);
+	sprite_ays_yes2st->setScale(fscale);
+	sprite_ays_no1st->setScale(fscale);
+	sprite_ays_no2st->setScale(fscale);
+	sprite_ays_question->setScale(fscale);
 
-	sprite_button_middle_restore_st1->scale(fscale);
-	sprite_button_middle_restore_st2->scale(fscale);
-	sprite_button_middle_restore_st3->scale(fscale);
+	sprite_I_black->setScale(fscale);
+	sprite_I_blue->setScale(fscale);
+	sprite_I_brown->setScale(fscale);
+	sprite_I_green->setScale(fscale);
+	sprite_I_orange->setScale(fscale);
+	sprite_I_pink->setScale(fscale);
+	sprite_I_purple->setScale(fscale);
+	sprite_I_red->setScale(fscale);
+	sprite_I_yellow->setScale(fscale);
 
-	sprite_button_right_st1->scale(fscale);
-	sprite_button_right_st2->scale(fscale);
-	sprite_button_right_st3->scale(fscale);
+	sprite_J_black->setScale(fscale);
+	sprite_J_blue->setScale(fscale);
+	sprite_J_brown->setScale(fscale);
+	sprite_J_green->setScale(fscale);
+	sprite_J_orange->setScale(fscale);
+	sprite_J_pink->setScale(fscale);
+	sprite_J_purple->setScale(fscale);
+	sprite_J_red->setScale(fscale);
+	sprite_J_yellow->setScale(fscale);
 
-	sprite_button_options_st1->scale(fscale);
-	sprite_button_options_st2->scale(fscale);
-	sprite_button_options_st3->scale(fscale);
+	sprite_L_black->setScale(fscale);
+	sprite_L_blue->setScale(fscale);
+	sprite_L_brown->setScale(fscale);
+	sprite_L_green->setScale(fscale);
+	sprite_L_orange->setScale(fscale);
+	sprite_L_pink->setScale(fscale);
+	sprite_L_purple->setScale(fscale);
+	sprite_L_red->setScale(fscale);
+	sprite_L_yellow->setScale(fscale);
 
-	sprite_button_pause_st1->scale(fscale);
-	sprite_button_pause_st2->scale(fscale);
-	sprite_button_pause_st3->scale(fscale);
-	sprite_button_pause_st4->scale(fscale);
+	sprite_O_black->setScale(fscale);
+	sprite_O_blue->setScale(fscale);
+	sprite_O_brown->setScale(fscale);
+	sprite_O_green->setScale(fscale);
+	sprite_O_orange->setScale(fscale);
+	sprite_O_pink->setScale(fscale);
+	sprite_O_purple->setScale(fscale);
+	sprite_O_red->setScale(fscale);
+	sprite_O_yellow->setScale(fscale);
 
-	sprite_button_musicOff_st1->scale(fscale);
-	sprite_button_musicOff_st2->scale(fscale);
-	sprite_button_musicOff_st3->scale(fscale);
-	
-	sprite_button_soundOff_st1->scale(fscale);
-	sprite_button_soundOff_st2->scale(fscale);
-	sprite_button_soundOff_st3->scale(fscale);
+	sprite_S_black->setScale(fscale);
+	sprite_S_blue->setScale(fscale);
+	sprite_S_brown->setScale(fscale);
+	sprite_S_green->setScale(fscale);
+	sprite_S_orange->setScale(fscale);
+	sprite_S_pink->setScale(fscale);
+	sprite_S_purple->setScale(fscale);
+	sprite_S_red->setScale(fscale);
+	sprite_S_yellow->setScale(fscale);
 
-	sprite_button_soundOn_st1->scale(fscale);
-	sprite_button_soundOn_st2->scale(fscale);
-	sprite_button_soundOn_st3->scale(fscale);
-	sprite_button_soundOn_st4->scale(fscale);
+	sprite_T_black->setScale(fscale);
+	sprite_T_blue->setScale(fscale);
+	sprite_T_brown->setScale(fscale);
+	sprite_T_green->setScale(fscale);
+	sprite_T_orange->setScale(fscale);
+	sprite_T_pink->setScale(fscale);
+	sprite_T_purple->setScale(fscale);
+	sprite_T_red->setScale(fscale);
+	sprite_T_yellow->setScale(fscale);
 
-	sprite_button_musicOn_st1->scale(fscale);
-	sprite_button_musicOn_st2->scale(fscale);
-	sprite_button_musicOn_st3->scale(fscale);
-	sprite_button_musicOn_st4->scale(fscale);
-
-	sprite_ays_frame->scale(fscale);
-	sprite_ays_yes1st->scale(fscale);
-	sprite_ays_yes2st->scale(fscale);
-	sprite_ays_no1st->scale(fscale);
-	sprite_ays_no2st->scale(fscale);
-	sprite_ays_question->scale(fscale);
-
-	sprite_I_black->scale(fscale);
-	sprite_I_blue->scale(fscale);
-	sprite_I_brown->scale(fscale);
-	sprite_I_green->scale(fscale);
-	sprite_I_orange->scale(fscale);
-	sprite_I_pink->scale(fscale);
-	sprite_I_purple->scale(fscale);
-	sprite_I_red->scale(fscale);
-	sprite_I_yellow->scale(fscale);
-
-	sprite_J_black->scale(fscale);
-	sprite_J_blue->scale(fscale);
-	sprite_J_brown->scale(fscale);
-	sprite_J_green->scale(fscale);
-	sprite_J_orange->scale(fscale);
-	sprite_J_pink->scale(fscale);
-	sprite_J_purple->scale(fscale);
-	sprite_J_red->scale(fscale);
-	sprite_J_yellow->scale(fscale);
-
-	sprite_L_black->scale(fscale);
-	sprite_L_blue->scale(fscale);
-	sprite_L_brown->scale(fscale);
-	sprite_L_green->scale(fscale);
-	sprite_L_orange->scale(fscale);
-	sprite_L_pink->scale(fscale);
-	sprite_L_purple->scale(fscale);
-	sprite_L_red->scale(fscale);
-	sprite_L_yellow->scale(fscale);
-
-	sprite_O_black->scale(fscale);
-	sprite_O_blue->scale(fscale);
-	sprite_O_brown->scale(fscale);
-	sprite_O_green->scale(fscale);
-	sprite_O_orange->scale(fscale);
-	sprite_O_pink->scale(fscale);
-	sprite_O_purple->scale(fscale);
-	sprite_O_red->scale(fscale);
-	sprite_O_yellow->scale(fscale);
-
-	sprite_S_black->scale(fscale);
-	sprite_S_blue->scale(fscale);
-	sprite_S_brown->scale(fscale);
-	sprite_S_green->scale(fscale);
-	sprite_S_orange->scale(fscale);
-	sprite_S_pink->scale(fscale);
-	sprite_S_purple->scale(fscale);
-	sprite_S_red->scale(fscale);
-	sprite_S_yellow->scale(fscale);
-
-	sprite_T_black->scale(fscale);
-	sprite_T_blue->scale(fscale);
-	sprite_T_brown->scale(fscale);
-	sprite_T_green->scale(fscale);
-	sprite_T_orange->scale(fscale);
-	sprite_T_pink->scale(fscale);
-	sprite_T_purple->scale(fscale);
-	sprite_T_red->scale(fscale);
-	sprite_T_yellow->scale(fscale);
-
-	sprite_Z_black->scale(fscale);
-	sprite_Z_blue->scale(fscale);
-	sprite_Z_brown->scale(fscale);
-	sprite_Z_green->scale(fscale);
-	sprite_Z_orange->scale(fscale);
-	sprite_Z_pink->scale(fscale);
-	sprite_Z_purple->scale(fscale);
-	sprite_Z_red->scale(fscale);
-	sprite_Z_yellow->scale(fscale);
+	sprite_Z_black->setScale(fscale);
+	sprite_Z_blue->setScale(fscale);
+	sprite_Z_brown->setScale(fscale);
+	sprite_Z_green->setScale(fscale);
+	sprite_Z_orange->setScale(fscale);
+	sprite_Z_pink->setScale(fscale);
+	sprite_Z_purple->setScale(fscale);
+	sprite_Z_red->setScale(fscale);
+	sprite_Z_yellow->setScale(fscale);
 
 	lefttext->setPosition(155.61f * fscale.x, 350.44f * fscale.y); 
-	lefttext->setLineSpacing(2.f * fscale.y);
-	lefttext->scale(fscale);
+	lefttext->setLineSpacing(2.f);
+	lefttext->setScale(fscale);
 
 	shOfLefttext->setPosition(158.61f * fscale.x, 353.44f * fscale.y);//+3px
-	shOfLefttext->setLineSpacing(2.f * fscale.y);
-	shOfLefttext->scale(fscale);
+	shOfLefttext->setLineSpacing(2.f);
+	shOfLefttext->setScale(fscale);
 
 	score->setPosition((((408.8f / 2) - score->getLocalBounds().width) + 360.01f) * fscale.x, 350.44f * fscale.y);
-	score->scale(fscale);
+	score->setScale(fscale);
 
 	shOfScore->setPosition((((408.8f / 2) - score->getLocalBounds().width) + 363.01f) * fscale.x, 353.44f * fscale.y);//+3px
-	shOfScore->scale(fscale);
+	shOfScore->setScale(fscale);
 
 	best_score->setPosition((((408.8f / 2) - best_score->getLocalBounds().width) + 360.01f) * fscale.x, (86 + 350.44f) * fscale.y);
-	best_score->scale(fscale);
+	best_score->setScale(fscale);
 
 	shOfBest_score->setPosition((((408.8f / 2) - best_score->getLocalBounds().width) + 363.01f) * fscale.x, (86 + 353.44f) * fscale.y);//+3px
-	shOfBest_score->scale(fscale);
+	shOfBest_score->setScale(fscale);
 
 	level->setPosition((((408.8f / 2) - level->getLocalBounds().width) + 360.01f) * fscale.x, (172 + 350.44f) * fscale.y);
-	level->scale(fscale);
+	level->setScale(fscale);
 
 	shOfLevel->setPosition((((408.8f / 2) - level->getLocalBounds().width) + 363.01f) * fscale.x, (172 + 353.44f) * fscale.y);//+3px
-	shOfLevel->scale(fscale);
+	shOfLevel->setScale(fscale);
 
 	lines->setPosition((((408.8f / 2) - lines->getLocalBounds().width) + 360.01f) * fscale.x, (258 + 350.44f) * fscale.y);
-	lines->scale(fscale);
+	lines->setScale(fscale);
 
 	shOfLines->setPosition((((408.8f / 2) - lines->getLocalBounds().width) + 363.01f) * fscale.x, (258 + 353.44f) * fscale.y);//+3px
-	shOfLines->scale(fscale);
+	shOfLines->setScale(fscale);
 
 	speed->setPosition((((408.8f / 2) - speed->getLocalBounds().width) + 360.01f) * fscale.x, (344 + 350.44f) * fscale.y);
-	speed->scale(fscale);
+	speed->setScale(fscale);
 
 	shOfSpeed->setPosition((((408.8f / 2) - speed->getLocalBounds().width) + 363.01f) * fscale.x, (344 + 353.44f) * fscale.y);//+3px
-	shOfSpeed->scale(fscale);
+	shOfSpeed->setScale(fscale);
 
 	player->setPosition(1353 * fscale.x, (338 + 3) * fscale.y);
-	player->scale(fscale);
+	player->setScale(fscale);
 
 	shOfPlayer->setPosition(1356 * fscale.x, (341 + 3) * fscale.y);//+3px
-	shOfPlayer->scale(fscale);
+	shOfPlayer->setScale(fscale);
 
 	name->setPosition((1761 - name->getLocalBounds().width) * fscale.x, 338 * fscale.y);
-	name->scale(fscale);
+	name->setScale(fscale);
 
 	shOfName->setPosition((1761 - name->getLocalBounds().width + 3) * fscale.x, 341 * fscale.y); 
-	shOfName->scale(fscale);
+	shOfName->setScale(fscale);
 
 	if (namestr.size() > 12)
 	{
@@ -1913,595 +1927,595 @@ int main()
 	}
 
 	time2->setPosition(1353 * fscale.x, 535 * fscale.y);
-	time2->scale(fscale);
+	time2->setScale(fscale);
 
 	shOfTime->setPosition(1356 * fscale.x, 538 * fscale.y);//+3px
-	shOfTime->scale(fscale);
+	shOfTime->setScale(fscale);
 
 	clockTime->setPosition((1761 - clockTime->getLocalBounds().width) * fscale.x, 535 * fscale.y);
-	clockTime->scale(fscale);
+	clockTime->setScale(fscale);
 
 	shOfClockTime->setPosition((1761 - clockTime->getLocalBounds().width + 3) * fscale.x, 538 * fscale.y);
-	shOfClockTime->scale(fscale);
+	shOfClockTime->setScale(fscale);
 
-	spriteAn_1line_1->scale(fscale);
-	spriteAn_1line_2->scale(fscale);
-	spriteAn_1line_3->scale(fscale);
-	spriteAn_1line_4->scale(fscale);
-	spriteAn_1line_5->scale(fscale);
-	spriteAn_1line_6->scale(fscale);
-	spriteAn_1line_7->scale(fscale);
-	spriteAn_1line_8->scale(fscale);
-	spriteAn_1line_9->scale(fscale);
-	spriteAn_1line_10->scale(fscale);
-	spriteAn_1line_11->scale(fscale);
-	spriteAn_1line_12->scale(fscale);
-	spriteAn_1line_13->scale(fscale);
-	spriteAn_1line_14->scale(fscale);
-	spriteAn_1line_15->scale(fscale);
-	spriteAn_1line_16->scale(fscale);
-	spriteAn_1line_17->scale(fscale);
-	spriteAn_1line_18->scale(fscale);
-	spriteAn_1line_19->scale(fscale);
-	spriteAn_1line_20->scale(fscale);
-	spriteAn_1line_21->scale(fscale);
-	spriteAn_1line_22->scale(fscale);
+	spriteAn_1line_1->setScale(fscale);
+	spriteAn_1line_2->setScale(fscale);
+	spriteAn_1line_3->setScale(fscale);
+	spriteAn_1line_4->setScale(fscale);
+	spriteAn_1line_5->setScale(fscale);
+	spriteAn_1line_6->setScale(fscale);
+	spriteAn_1line_7->setScale(fscale);
+	spriteAn_1line_8->setScale(fscale);
+	spriteAn_1line_9->setScale(fscale);
+	spriteAn_1line_10->setScale(fscale);
+	spriteAn_1line_11->setScale(fscale);
+	spriteAn_1line_12->setScale(fscale);
+	spriteAn_1line_13->setScale(fscale);
+	spriteAn_1line_14->setScale(fscale);
+	spriteAn_1line_15->setScale(fscale);
+	spriteAn_1line_16->setScale(fscale);
+	spriteAn_1line_17->setScale(fscale);
+	spriteAn_1line_18->setScale(fscale);
+	spriteAn_1line_19->setScale(fscale);
+	spriteAn_1line_20->setScale(fscale);
+	spriteAn_1line_21->setScale(fscale);
+	spriteAn_1line_22->setScale(fscale);
 
-	spriteAn_2lines_1->scale(fscale);
-	spriteAn_2lines_2->scale(fscale);
-	spriteAn_2lines_3->scale(fscale);
-	spriteAn_2lines_4->scale(fscale);
-	spriteAn_2lines_5->scale(fscale);
-	spriteAn_2lines_6->scale(fscale);
-	spriteAn_2lines_7->scale(fscale);
-	spriteAn_2lines_8->scale(fscale);
-	spriteAn_2lines_9->scale(fscale);
-	spriteAn_2lines_10->scale(fscale);
-	spriteAn_2lines_11->scale(fscale);
-	spriteAn_2lines_12->scale(fscale);
-	spriteAn_2lines_13->scale(fscale);
-	spriteAn_2lines_14->scale(fscale);
-	spriteAn_2lines_15->scale(fscale);
-	spriteAn_2lines_16->scale(fscale);
-	spriteAn_2lines_17->scale(fscale);
-	spriteAn_2lines_18->scale(fscale);
-	spriteAn_2lines_19->scale(fscale);
-	spriteAn_2lines_20->scale(fscale);
-	spriteAn_2lines_21->scale(fscale);
-	spriteAn_2lines_22->scale(fscale);
+	spriteAn_2lines_1->setScale(fscale);
+	spriteAn_2lines_2->setScale(fscale);
+	spriteAn_2lines_3->setScale(fscale);
+	spriteAn_2lines_4->setScale(fscale);
+	spriteAn_2lines_5->setScale(fscale);
+	spriteAn_2lines_6->setScale(fscale);
+	spriteAn_2lines_7->setScale(fscale);
+	spriteAn_2lines_8->setScale(fscale);
+	spriteAn_2lines_9->setScale(fscale);
+	spriteAn_2lines_10->setScale(fscale);
+	spriteAn_2lines_11->setScale(fscale);
+	spriteAn_2lines_12->setScale(fscale);
+	spriteAn_2lines_13->setScale(fscale);
+	spriteAn_2lines_14->setScale(fscale);
+	spriteAn_2lines_15->setScale(fscale);
+	spriteAn_2lines_16->setScale(fscale);
+	spriteAn_2lines_17->setScale(fscale);
+	spriteAn_2lines_18->setScale(fscale);
+	spriteAn_2lines_19->setScale(fscale);
+	spriteAn_2lines_20->setScale(fscale);
+	spriteAn_2lines_21->setScale(fscale);
+	spriteAn_2lines_22->setScale(fscale);
 
-	spriteAn_3lines_1->scale(fscale);
-	spriteAn_3lines_2->scale(fscale);
-	spriteAn_3lines_3->scale(fscale);
-	spriteAn_3lines_4->scale(fscale);
-	spriteAn_3lines_5->scale(fscale);
-	spriteAn_3lines_6->scale(fscale);
-	spriteAn_3lines_7->scale(fscale);
-	spriteAn_3lines_8->scale(fscale);
-	spriteAn_3lines_9->scale(fscale);
-	spriteAn_3lines_10->scale(fscale);
-	spriteAn_3lines_11->scale(fscale);
-	spriteAn_3lines_12->scale(fscale);
-	spriteAn_3lines_13->scale(fscale);
-	spriteAn_3lines_14->scale(fscale);
-	spriteAn_3lines_15->scale(fscale);
-	spriteAn_3lines_16->scale(fscale);
-	spriteAn_3lines_17->scale(fscale);
-	spriteAn_3lines_18->scale(fscale);
-	spriteAn_3lines_19->scale(fscale);
-	spriteAn_3lines_20->scale(fscale);
-	spriteAn_3lines_21->scale(fscale);
-	spriteAn_3lines_22->scale(fscale);
+	spriteAn_3lines_1->setScale(fscale);
+	spriteAn_3lines_2->setScale(fscale);
+	spriteAn_3lines_3->setScale(fscale);
+	spriteAn_3lines_4->setScale(fscale);
+	spriteAn_3lines_5->setScale(fscale);
+	spriteAn_3lines_6->setScale(fscale);
+	spriteAn_3lines_7->setScale(fscale);
+	spriteAn_3lines_8->setScale(fscale);
+	spriteAn_3lines_9->setScale(fscale);
+	spriteAn_3lines_10->setScale(fscale);
+	spriteAn_3lines_11->setScale(fscale);
+	spriteAn_3lines_12->setScale(fscale);
+	spriteAn_3lines_13->setScale(fscale);
+	spriteAn_3lines_14->setScale(fscale);
+	spriteAn_3lines_15->setScale(fscale);
+	spriteAn_3lines_16->setScale(fscale);
+	spriteAn_3lines_17->setScale(fscale);
+	spriteAn_3lines_18->setScale(fscale);
+	spriteAn_3lines_19->setScale(fscale);
+	spriteAn_3lines_20->setScale(fscale);
+	spriteAn_3lines_21->setScale(fscale);
+	spriteAn_3lines_22->setScale(fscale);
 
-	spriteAn_4lines_1->scale(fscale);
-	spriteAn_4lines_2->scale(fscale);
-	spriteAn_4lines_3->scale(fscale);
-	spriteAn_4lines_4->scale(fscale);
-	spriteAn_4lines_5->scale(fscale);
-	spriteAn_4lines_6->scale(fscale);
-	spriteAn_4lines_7->scale(fscale);
-	spriteAn_4lines_8->scale(fscale);
-	spriteAn_4lines_9->scale(fscale);
-	spriteAn_4lines_10->scale(fscale);
-	spriteAn_4lines_11->scale(fscale);
-	spriteAn_4lines_12->scale(fscale);
-	spriteAn_4lines_13->scale(fscale);
-	spriteAn_4lines_14->scale(fscale);
-	spriteAn_4lines_15->scale(fscale);
-	spriteAn_4lines_16->scale(fscale);
-	spriteAn_4lines_17->scale(fscale);
-	spriteAn_4lines_18->scale(fscale);
-	spriteAn_4lines_19->scale(fscale);
-	spriteAn_4lines_20->scale(fscale);
-	spriteAn_4lines_21->scale(fscale);
-	spriteAn_4lines_22->scale(fscale);
+	spriteAn_4lines_1->setScale(fscale);
+	spriteAn_4lines_2->setScale(fscale);
+	spriteAn_4lines_3->setScale(fscale);
+	spriteAn_4lines_4->setScale(fscale);
+	spriteAn_4lines_5->setScale(fscale);
+	spriteAn_4lines_6->setScale(fscale);
+	spriteAn_4lines_7->setScale(fscale);
+	spriteAn_4lines_8->setScale(fscale);
+	spriteAn_4lines_9->setScale(fscale);
+	spriteAn_4lines_10->setScale(fscale);
+	spriteAn_4lines_11->setScale(fscale);
+	spriteAn_4lines_12->setScale(fscale);
+	spriteAn_4lines_13->setScale(fscale);
+	spriteAn_4lines_14->setScale(fscale);
+	spriteAn_4lines_15->setScale(fscale);
+	spriteAn_4lines_16->setScale(fscale);
+	spriteAn_4lines_17->setScale(fscale);
+	spriteAn_4lines_18->setScale(fscale);
+	spriteAn_4lines_19->setScale(fscale);
+	spriteAn_4lines_20->setScale(fscale);
+	spriteAn_4lines_21->setScale(fscale);
+	spriteAn_4lines_22->setScale(fscale);
 
-	spriteAn_1_inRow_1Row_1->scale(fscale);
-	spriteAn_1_inRow_1Row_2->scale(fscale);
-	spriteAn_1_inRow_2Rows_1->scale(fscale);
-	spriteAn_1_inRow_2Rows_2->scale(fscale);
-	spriteAn_1_inRow_3Rows_1->scale(fscale);
-	spriteAn_1_inRow_3Rows_2->scale(fscale);
-	spriteAn_1_inRow_4Rows_1->scale(fscale);
-	spriteAn_1_inRow_4Rows_2->scale(fscale);
-	spriteAn_1_inRow_4Rows_3->scale(fscale);
-	spriteAn_1_inRow_4Rows_4->scale(fscale);
-	spriteAn_1_inRow_5Rows_1->scale(fscale);
-	spriteAn_1_inRow_5Rows_2->scale(fscale);
-	spriteAn_1_inRow_5Rows_3->scale(fscale);
-	spriteAn_1_inRow_5Rows_4->scale(fscale);
-	spriteAn_1_inRow_6Rows_1->scale(fscale);
-	spriteAn_1_inRow_6Rows_2->scale(fscale);
-	spriteAn_1_inRow_6Rows_3->scale(fscale);
-	spriteAn_1_inRow_6Rows_4->scale(fscale);
-	spriteAn_1_inRow_7Rows_1->scale(fscale);
-	spriteAn_1_inRow_7Rows_2->scale(fscale);
-	spriteAn_1_inRow_7Rows_3->scale(fscale);
-	spriteAn_1_inRow_7Rows_4->scale(fscale);
-	spriteAn_1_inRow_7Rows_5->scale(fscale);
-	spriteAn_1_inRow_7Rows_6->scale(fscale);
-	spriteAn_1_inRow_8Rows_1->scale(fscale);
-	spriteAn_1_inRow_8Rows_2->scale(fscale);
-	spriteAn_1_inRow_8Rows_3->scale(fscale);
-	spriteAn_1_inRow_8Rows_4->scale(fscale);
-	spriteAn_1_inRow_8Rows_5->scale(fscale);
-	spriteAn_1_inRow_8Rows_6->scale(fscale);
-	spriteAn_1_inRow_9Rows_1->scale(fscale);
-	spriteAn_1_inRow_9Rows_2->scale(fscale);
-	spriteAn_1_inRow_9Rows_3->scale(fscale);
-	spriteAn_1_inRow_9Rows_4->scale(fscale);
-	spriteAn_1_inRow_9Rows_5->scale(fscale);
-	spriteAn_1_inRow_9Rows_6->scale(fscale);
-	spriteAn_1_inRow_10Rows_1->scale(fscale);
-	spriteAn_1_inRow_10Rows_2->scale(fscale);
-	spriteAn_1_inRow_10Rows_3->scale(fscale);
-	spriteAn_1_inRow_10Rows_4->scale(fscale);
-	spriteAn_1_inRow_10Rows_5->scale(fscale);
-	spriteAn_1_inRow_10Rows_6->scale(fscale);
-	spriteAn_1_inRow_10Rows_7->scale(fscale);
-	spriteAn_1_inRow_10Rows_8->scale(fscale);
-	spriteAn_1_inRow_11Rows_1->scale(fscale);
-	spriteAn_1_inRow_11Rows_2->scale(fscale);
-	spriteAn_1_inRow_11Rows_3->scale(fscale);
-	spriteAn_1_inRow_11Rows_4->scale(fscale);
-	spriteAn_1_inRow_11Rows_5->scale(fscale);
-	spriteAn_1_inRow_11Rows_6->scale(fscale);
-	spriteAn_1_inRow_11Rows_7->scale(fscale);
-	spriteAn_1_inRow_11Rows_8->scale(fscale);
-	spriteAn_1_inRow_12Rows_1->scale(fscale);
-	spriteAn_1_inRow_12Rows_2->scale(fscale);
-	spriteAn_1_inRow_12Rows_3->scale(fscale);
-	spriteAn_1_inRow_12Rows_4->scale(fscale);
-	spriteAn_1_inRow_12Rows_5->scale(fscale);
-	spriteAn_1_inRow_12Rows_6->scale(fscale);
-	spriteAn_1_inRow_12Rows_7->scale(fscale);
-	spriteAn_1_inRow_12Rows_8->scale(fscale);
-	spriteAn_1_inRow_13Rows_1->scale(fscale);
-	spriteAn_1_inRow_13Rows_2->scale(fscale);
-	spriteAn_1_inRow_13Rows_3->scale(fscale);
-	spriteAn_1_inRow_13Rows_4->scale(fscale);
-	spriteAn_1_inRow_13Rows_5->scale(fscale);
-	spriteAn_1_inRow_13Rows_6->scale(fscale);
-	spriteAn_1_inRow_13Rows_7->scale(fscale);
-	spriteAn_1_inRow_13Rows_8->scale(fscale);
-	spriteAn_1_inRow_13Rows_9->scale(fscale);
-	spriteAn_1_inRow_13Rows_10->scale(fscale);
-	spriteAn_1_inRow_14Rows_1->scale(fscale);
-	spriteAn_1_inRow_14Rows_2->scale(fscale);
-	spriteAn_1_inRow_14Rows_3->scale(fscale);
-	spriteAn_1_inRow_14Rows_4->scale(fscale);
-	spriteAn_1_inRow_14Rows_5->scale(fscale);
-	spriteAn_1_inRow_14Rows_6->scale(fscale);
-	spriteAn_1_inRow_14Rows_7->scale(fscale);
-	spriteAn_1_inRow_14Rows_8->scale(fscale);
-	spriteAn_1_inRow_14Rows_9->scale(fscale);
-	spriteAn_1_inRow_14Rows_10->scale(fscale);
-	spriteAn_1_inRow_15Rows_1->scale(fscale);
-	spriteAn_1_inRow_15Rows_2->scale(fscale);
-	spriteAn_1_inRow_15Rows_3->scale(fscale);
-	spriteAn_1_inRow_15Rows_4->scale(fscale);
-	spriteAn_1_inRow_15Rows_5->scale(fscale);
-	spriteAn_1_inRow_15Rows_6->scale(fscale);
-	spriteAn_1_inRow_15Rows_7->scale(fscale);
-	spriteAn_1_inRow_15Rows_8->scale(fscale);
-	spriteAn_1_inRow_15Rows_9->scale(fscale);
-	spriteAn_1_inRow_15Rows_10->scale(fscale);
-	spriteAn_1_inRow_16Rows_1->scale(fscale);
-	spriteAn_1_inRow_16Rows_2->scale(fscale);
-	spriteAn_1_inRow_16Rows_3->scale(fscale);
-	spriteAn_1_inRow_16Rows_4->scale(fscale);
-	spriteAn_1_inRow_16Rows_5->scale(fscale);
-	spriteAn_1_inRow_16Rows_6->scale(fscale);
-	spriteAn_1_inRow_16Rows_7->scale(fscale);
-	spriteAn_1_inRow_16Rows_8->scale(fscale);
-	spriteAn_1_inRow_16Rows_9->scale(fscale);
-	spriteAn_1_inRow_16Rows_10->scale(fscale);
-	spriteAn_1_inRow_16Rows_11->scale(fscale);
-	spriteAn_1_inRow_16Rows_12->scale(fscale);
-	spriteAn_1_inRow_17Rows_1->scale(fscale);
-	spriteAn_1_inRow_17Rows_2->scale(fscale);
-	spriteAn_1_inRow_17Rows_3->scale(fscale);
-	spriteAn_1_inRow_17Rows_4->scale(fscale);
-	spriteAn_1_inRow_17Rows_5->scale(fscale);
-	spriteAn_1_inRow_17Rows_6->scale(fscale);
-	spriteAn_1_inRow_17Rows_7->scale(fscale);
-	spriteAn_1_inRow_17Rows_8->scale(fscale);
-	spriteAn_1_inRow_17Rows_9->scale(fscale);
-	spriteAn_1_inRow_17Rows_10->scale(fscale);
-	spriteAn_1_inRow_17Rows_11->scale(fscale);
-	spriteAn_1_inRow_17Rows_12->scale(fscale);
-
-
-	spriteAn_2_inRow_1Row_1->scale(fscale);
-	spriteAn_2_inRow_1Row_2->scale(fscale);
-	spriteAn_2_inRow_2Rows_1->scale(fscale);
-	spriteAn_2_inRow_2Rows_2->scale(fscale);
-	spriteAn_2_inRow_3Rows_1->scale(fscale);
-	spriteAn_2_inRow_3Rows_2->scale(fscale);
-	spriteAn_2_inRow_4Rows_1->scale(fscale);
-	spriteAn_2_inRow_4Rows_2->scale(fscale);
-	spriteAn_2_inRow_4Rows_3->scale(fscale);
-	spriteAn_2_inRow_4Rows_4->scale(fscale);
-	spriteAn_2_inRow_5Rows_1->scale(fscale);
-	spriteAn_2_inRow_5Rows_2->scale(fscale);
-	spriteAn_2_inRow_5Rows_3->scale(fscale);
-	spriteAn_2_inRow_5Rows_4->scale(fscale);
-	spriteAn_2_inRow_6Rows_1->scale(fscale);
-	spriteAn_2_inRow_6Rows_2->scale(fscale);
-	spriteAn_2_inRow_6Rows_3->scale(fscale);
-	spriteAn_2_inRow_6Rows_4->scale(fscale);
-	spriteAn_2_inRow_7Rows_1->scale(fscale);
-	spriteAn_2_inRow_7Rows_2->scale(fscale);
-	spriteAn_2_inRow_7Rows_3->scale(fscale);
-	spriteAn_2_inRow_7Rows_4->scale(fscale);
-	spriteAn_2_inRow_7Rows_5->scale(fscale);
-	spriteAn_2_inRow_7Rows_6->scale(fscale);
-	spriteAn_2_inRow_8Rows_1->scale(fscale);
-	spriteAn_2_inRow_8Rows_2->scale(fscale);
-	spriteAn_2_inRow_8Rows_3->scale(fscale);
-	spriteAn_2_inRow_8Rows_4->scale(fscale);
-	spriteAn_2_inRow_8Rows_5->scale(fscale);
-	spriteAn_2_inRow_8Rows_6->scale(fscale);
-	spriteAn_2_inRow_9Rows_1->scale(fscale);
-	spriteAn_2_inRow_9Rows_2->scale(fscale);
-	spriteAn_2_inRow_9Rows_3->scale(fscale);
-	spriteAn_2_inRow_9Rows_4->scale(fscale);
-	spriteAn_2_inRow_9Rows_5->scale(fscale);
-	spriteAn_2_inRow_9Rows_6->scale(fscale);
-	spriteAn_2_inRow_10Rows_1->scale(fscale);
-	spriteAn_2_inRow_10Rows_2->scale(fscale);
-	spriteAn_2_inRow_10Rows_3->scale(fscale);
-	spriteAn_2_inRow_10Rows_4->scale(fscale);
-	spriteAn_2_inRow_10Rows_5->scale(fscale);
-	spriteAn_2_inRow_10Rows_6->scale(fscale);
-	spriteAn_2_inRow_10Rows_7->scale(fscale);
-	spriteAn_2_inRow_10Rows_8->scale(fscale);
-	spriteAn_2_inRow_11Rows_1->scale(fscale);
-	spriteAn_2_inRow_11Rows_2->scale(fscale);
-	spriteAn_2_inRow_11Rows_3->scale(fscale);
-	spriteAn_2_inRow_11Rows_4->scale(fscale);
-	spriteAn_2_inRow_11Rows_5->scale(fscale);
-	spriteAn_2_inRow_11Rows_6->scale(fscale);
-	spriteAn_2_inRow_11Rows_7->scale(fscale);
-	spriteAn_2_inRow_11Rows_8->scale(fscale);
-	spriteAn_2_inRow_12Rows_1->scale(fscale);
-	spriteAn_2_inRow_12Rows_2->scale(fscale);
-	spriteAn_2_inRow_12Rows_3->scale(fscale);
-	spriteAn_2_inRow_12Rows_4->scale(fscale);
-	spriteAn_2_inRow_12Rows_5->scale(fscale);
-	spriteAn_2_inRow_12Rows_6->scale(fscale);
-	spriteAn_2_inRow_12Rows_7->scale(fscale);
-	spriteAn_2_inRow_12Rows_8->scale(fscale);
-	spriteAn_2_inRow_13Rows_1->scale(fscale);
-	spriteAn_2_inRow_13Rows_2->scale(fscale);
-	spriteAn_2_inRow_13Rows_3->scale(fscale);
-	spriteAn_2_inRow_13Rows_4->scale(fscale);
-	spriteAn_2_inRow_13Rows_5->scale(fscale);
-	spriteAn_2_inRow_13Rows_6->scale(fscale);
-	spriteAn_2_inRow_13Rows_7->scale(fscale);
-	spriteAn_2_inRow_13Rows_8->scale(fscale);
-	spriteAn_2_inRow_13Rows_9->scale(fscale);
-	spriteAn_2_inRow_13Rows_10->scale(fscale);
-	spriteAn_2_inRow_14Rows_1->scale(fscale);
-	spriteAn_2_inRow_14Rows_2->scale(fscale);
-	spriteAn_2_inRow_14Rows_3->scale(fscale);
-	spriteAn_2_inRow_14Rows_4->scale(fscale);
-	spriteAn_2_inRow_14Rows_5->scale(fscale);
-	spriteAn_2_inRow_14Rows_6->scale(fscale);
-	spriteAn_2_inRow_14Rows_7->scale(fscale);
-	spriteAn_2_inRow_14Rows_8->scale(fscale);
-	spriteAn_2_inRow_14Rows_9->scale(fscale);
-	spriteAn_2_inRow_14Rows_10->scale(fscale);
-	spriteAn_2_inRow_15Rows_1->scale(fscale);
-	spriteAn_2_inRow_15Rows_2->scale(fscale);
-	spriteAn_2_inRow_15Rows_3->scale(fscale);
-	spriteAn_2_inRow_15Rows_4->scale(fscale);
-	spriteAn_2_inRow_15Rows_5->scale(fscale);
-	spriteAn_2_inRow_15Rows_6->scale(fscale);
-	spriteAn_2_inRow_15Rows_7->scale(fscale);
-	spriteAn_2_inRow_15Rows_8->scale(fscale);
-	spriteAn_2_inRow_15Rows_9->scale(fscale);
-	spriteAn_2_inRow_15Rows_10->scale(fscale);
-	spriteAn_2_inRow_16Rows_1->scale(fscale);
-	spriteAn_2_inRow_16Rows_2->scale(fscale);
-	spriteAn_2_inRow_16Rows_3->scale(fscale);
-	spriteAn_2_inRow_16Rows_4->scale(fscale);
-	spriteAn_2_inRow_16Rows_5->scale(fscale);
-	spriteAn_2_inRow_16Rows_6->scale(fscale);
-	spriteAn_2_inRow_16Rows_7->scale(fscale);
-	spriteAn_2_inRow_16Rows_8->scale(fscale);
-	spriteAn_2_inRow_16Rows_9->scale(fscale);
-	spriteAn_2_inRow_16Rows_10->scale(fscale);
-	spriteAn_2_inRow_16Rows_11->scale(fscale);
-	spriteAn_2_inRow_16Rows_12->scale(fscale);
-	spriteAn_2_inRow_17Rows_1->scale(fscale);
-	spriteAn_2_inRow_17Rows_2->scale(fscale);
-	spriteAn_2_inRow_17Rows_3->scale(fscale);
-	spriteAn_2_inRow_17Rows_4->scale(fscale);
-	spriteAn_2_inRow_17Rows_5->scale(fscale);
-	spriteAn_2_inRow_17Rows_6->scale(fscale);
-	spriteAn_2_inRow_17Rows_7->scale(fscale);
-	spriteAn_2_inRow_17Rows_8->scale(fscale);
-	spriteAn_2_inRow_17Rows_9->scale(fscale);
-	spriteAn_2_inRow_17Rows_10->scale(fscale);
-	spriteAn_2_inRow_17Rows_11->scale(fscale);
-	spriteAn_2_inRow_17Rows_12->scale(fscale);
+	spriteAn_1_inRow_1Row_1->setScale(fscale);
+	spriteAn_1_inRow_1Row_2->setScale(fscale);
+	spriteAn_1_inRow_2Rows_1->setScale(fscale);
+	spriteAn_1_inRow_2Rows_2->setScale(fscale);
+	spriteAn_1_inRow_3Rows_1->setScale(fscale);
+	spriteAn_1_inRow_3Rows_2->setScale(fscale);
+	spriteAn_1_inRow_4Rows_1->setScale(fscale);
+	spriteAn_1_inRow_4Rows_2->setScale(fscale);
+	spriteAn_1_inRow_4Rows_3->setScale(fscale);
+	spriteAn_1_inRow_4Rows_4->setScale(fscale);
+	spriteAn_1_inRow_5Rows_1->setScale(fscale);
+	spriteAn_1_inRow_5Rows_2->setScale(fscale);
+	spriteAn_1_inRow_5Rows_3->setScale(fscale);
+	spriteAn_1_inRow_5Rows_4->setScale(fscale);
+	spriteAn_1_inRow_6Rows_1->setScale(fscale);
+	spriteAn_1_inRow_6Rows_2->setScale(fscale);
+	spriteAn_1_inRow_6Rows_3->setScale(fscale);
+	spriteAn_1_inRow_6Rows_4->setScale(fscale);
+	spriteAn_1_inRow_7Rows_1->setScale(fscale);
+	spriteAn_1_inRow_7Rows_2->setScale(fscale);
+	spriteAn_1_inRow_7Rows_3->setScale(fscale);
+	spriteAn_1_inRow_7Rows_4->setScale(fscale);
+	spriteAn_1_inRow_7Rows_5->setScale(fscale);
+	spriteAn_1_inRow_7Rows_6->setScale(fscale);
+	spriteAn_1_inRow_8Rows_1->setScale(fscale);
+	spriteAn_1_inRow_8Rows_2->setScale(fscale);
+	spriteAn_1_inRow_8Rows_3->setScale(fscale);
+	spriteAn_1_inRow_8Rows_4->setScale(fscale);
+	spriteAn_1_inRow_8Rows_5->setScale(fscale);
+	spriteAn_1_inRow_8Rows_6->setScale(fscale);
+	spriteAn_1_inRow_9Rows_1->setScale(fscale);
+	spriteAn_1_inRow_9Rows_2->setScale(fscale);
+	spriteAn_1_inRow_9Rows_3->setScale(fscale);
+	spriteAn_1_inRow_9Rows_4->setScale(fscale);
+	spriteAn_1_inRow_9Rows_5->setScale(fscale);
+	spriteAn_1_inRow_9Rows_6->setScale(fscale);
+	spriteAn_1_inRow_10Rows_1->setScale(fscale);
+	spriteAn_1_inRow_10Rows_2->setScale(fscale);
+	spriteAn_1_inRow_10Rows_3->setScale(fscale);
+	spriteAn_1_inRow_10Rows_4->setScale(fscale);
+	spriteAn_1_inRow_10Rows_5->setScale(fscale);
+	spriteAn_1_inRow_10Rows_6->setScale(fscale);
+	spriteAn_1_inRow_10Rows_7->setScale(fscale);
+	spriteAn_1_inRow_10Rows_8->setScale(fscale);
+	spriteAn_1_inRow_11Rows_1->setScale(fscale);
+	spriteAn_1_inRow_11Rows_2->setScale(fscale);
+	spriteAn_1_inRow_11Rows_3->setScale(fscale);
+	spriteAn_1_inRow_11Rows_4->setScale(fscale);
+	spriteAn_1_inRow_11Rows_5->setScale(fscale);
+	spriteAn_1_inRow_11Rows_6->setScale(fscale);
+	spriteAn_1_inRow_11Rows_7->setScale(fscale);
+	spriteAn_1_inRow_11Rows_8->setScale(fscale);
+	spriteAn_1_inRow_12Rows_1->setScale(fscale);
+	spriteAn_1_inRow_12Rows_2->setScale(fscale);
+	spriteAn_1_inRow_12Rows_3->setScale(fscale);
+	spriteAn_1_inRow_12Rows_4->setScale(fscale);
+	spriteAn_1_inRow_12Rows_5->setScale(fscale);
+	spriteAn_1_inRow_12Rows_6->setScale(fscale);
+	spriteAn_1_inRow_12Rows_7->setScale(fscale);
+	spriteAn_1_inRow_12Rows_8->setScale(fscale);
+	spriteAn_1_inRow_13Rows_1->setScale(fscale);
+	spriteAn_1_inRow_13Rows_2->setScale(fscale);
+	spriteAn_1_inRow_13Rows_3->setScale(fscale);
+	spriteAn_1_inRow_13Rows_4->setScale(fscale);
+	spriteAn_1_inRow_13Rows_5->setScale(fscale);
+	spriteAn_1_inRow_13Rows_6->setScale(fscale);
+	spriteAn_1_inRow_13Rows_7->setScale(fscale);
+	spriteAn_1_inRow_13Rows_8->setScale(fscale);
+	spriteAn_1_inRow_13Rows_9->setScale(fscale);
+	spriteAn_1_inRow_13Rows_10->setScale(fscale);
+	spriteAn_1_inRow_14Rows_1->setScale(fscale);
+	spriteAn_1_inRow_14Rows_2->setScale(fscale);
+	spriteAn_1_inRow_14Rows_3->setScale(fscale);
+	spriteAn_1_inRow_14Rows_4->setScale(fscale);
+	spriteAn_1_inRow_14Rows_5->setScale(fscale);
+	spriteAn_1_inRow_14Rows_6->setScale(fscale);
+	spriteAn_1_inRow_14Rows_7->setScale(fscale);
+	spriteAn_1_inRow_14Rows_8->setScale(fscale);
+	spriteAn_1_inRow_14Rows_9->setScale(fscale);
+	spriteAn_1_inRow_14Rows_10->setScale(fscale);
+	spriteAn_1_inRow_15Rows_1->setScale(fscale);
+	spriteAn_1_inRow_15Rows_2->setScale(fscale);
+	spriteAn_1_inRow_15Rows_3->setScale(fscale);
+	spriteAn_1_inRow_15Rows_4->setScale(fscale);
+	spriteAn_1_inRow_15Rows_5->setScale(fscale);
+	spriteAn_1_inRow_15Rows_6->setScale(fscale);
+	spriteAn_1_inRow_15Rows_7->setScale(fscale);
+	spriteAn_1_inRow_15Rows_8->setScale(fscale);
+	spriteAn_1_inRow_15Rows_9->setScale(fscale);
+	spriteAn_1_inRow_15Rows_10->setScale(fscale);
+	spriteAn_1_inRow_16Rows_1->setScale(fscale);
+	spriteAn_1_inRow_16Rows_2->setScale(fscale);
+	spriteAn_1_inRow_16Rows_3->setScale(fscale);
+	spriteAn_1_inRow_16Rows_4->setScale(fscale);
+	spriteAn_1_inRow_16Rows_5->setScale(fscale);
+	spriteAn_1_inRow_16Rows_6->setScale(fscale);
+	spriteAn_1_inRow_16Rows_7->setScale(fscale);
+	spriteAn_1_inRow_16Rows_8->setScale(fscale);
+	spriteAn_1_inRow_16Rows_9->setScale(fscale);
+	spriteAn_1_inRow_16Rows_10->setScale(fscale);
+	spriteAn_1_inRow_16Rows_11->setScale(fscale);
+	spriteAn_1_inRow_16Rows_12->setScale(fscale);
+	spriteAn_1_inRow_17Rows_1->setScale(fscale);
+	spriteAn_1_inRow_17Rows_2->setScale(fscale);
+	spriteAn_1_inRow_17Rows_3->setScale(fscale);
+	spriteAn_1_inRow_17Rows_4->setScale(fscale);
+	spriteAn_1_inRow_17Rows_5->setScale(fscale);
+	spriteAn_1_inRow_17Rows_6->setScale(fscale);
+	spriteAn_1_inRow_17Rows_7->setScale(fscale);
+	spriteAn_1_inRow_17Rows_8->setScale(fscale);
+	spriteAn_1_inRow_17Rows_9->setScale(fscale);
+	spriteAn_1_inRow_17Rows_10->setScale(fscale);
+	spriteAn_1_inRow_17Rows_11->setScale(fscale);
+	spriteAn_1_inRow_17Rows_12->setScale(fscale);
 
 
-	spriteAn_3_inRow_1Row_1->scale(fscale);
-	spriteAn_3_inRow_1Row_2->scale(fscale);
-	spriteAn_3_inRow_2Rows_1->scale(fscale);
-	spriteAn_3_inRow_2Rows_2->scale(fscale);
-	spriteAn_3_inRow_3Rows_1->scale(fscale);
-	spriteAn_3_inRow_3Rows_2->scale(fscale);
-	spriteAn_3_inRow_4Rows_1->scale(fscale);
-	spriteAn_3_inRow_4Rows_2->scale(fscale);
-	spriteAn_3_inRow_4Rows_3->scale(fscale);
-	spriteAn_3_inRow_4Rows_4->scale(fscale);
-	spriteAn_3_inRow_5Rows_1->scale(fscale);
-	spriteAn_3_inRow_5Rows_2->scale(fscale);
-	spriteAn_3_inRow_5Rows_3->scale(fscale);
-	spriteAn_3_inRow_5Rows_4->scale(fscale);
-	spriteAn_3_inRow_6Rows_1->scale(fscale);
-	spriteAn_3_inRow_6Rows_2->scale(fscale);
-	spriteAn_3_inRow_6Rows_3->scale(fscale);
-	spriteAn_3_inRow_6Rows_4->scale(fscale);
-	spriteAn_3_inRow_7Rows_1->scale(fscale);
-	spriteAn_3_inRow_7Rows_2->scale(fscale);
-	spriteAn_3_inRow_7Rows_3->scale(fscale);
-	spriteAn_3_inRow_7Rows_4->scale(fscale);
-	spriteAn_3_inRow_7Rows_5->scale(fscale);
-	spriteAn_3_inRow_7Rows_6->scale(fscale);
-	spriteAn_3_inRow_8Rows_1->scale(fscale);
-	spriteAn_3_inRow_8Rows_2->scale(fscale);
-	spriteAn_3_inRow_8Rows_3->scale(fscale);
-	spriteAn_3_inRow_8Rows_4->scale(fscale);
-	spriteAn_3_inRow_8Rows_5->scale(fscale);
-	spriteAn_3_inRow_8Rows_6->scale(fscale);
-	spriteAn_3_inRow_9Rows_1->scale(fscale);
-	spriteAn_3_inRow_9Rows_2->scale(fscale);
-	spriteAn_3_inRow_9Rows_3->scale(fscale);
-	spriteAn_3_inRow_9Rows_4->scale(fscale);
-	spriteAn_3_inRow_9Rows_5->scale(fscale);
-	spriteAn_3_inRow_9Rows_6->scale(fscale);
-	spriteAn_3_inRow_10Rows_1->scale(fscale);
-	spriteAn_3_inRow_10Rows_2->scale(fscale);
-	spriteAn_3_inRow_10Rows_3->scale(fscale);
-	spriteAn_3_inRow_10Rows_4->scale(fscale);
-	spriteAn_3_inRow_10Rows_5->scale(fscale);
-	spriteAn_3_inRow_10Rows_6->scale(fscale);
-	spriteAn_3_inRow_10Rows_7->scale(fscale);
-	spriteAn_3_inRow_10Rows_8->scale(fscale);
-	spriteAn_3_inRow_11Rows_1->scale(fscale);
-	spriteAn_3_inRow_11Rows_2->scale(fscale);
-	spriteAn_3_inRow_11Rows_3->scale(fscale);
-	spriteAn_3_inRow_11Rows_4->scale(fscale);
-	spriteAn_3_inRow_11Rows_5->scale(fscale);
-	spriteAn_3_inRow_11Rows_6->scale(fscale);
-	spriteAn_3_inRow_11Rows_7->scale(fscale);
-	spriteAn_3_inRow_11Rows_8->scale(fscale);
-	spriteAn_3_inRow_12Rows_1->scale(fscale);
-	spriteAn_3_inRow_12Rows_2->scale(fscale);
-	spriteAn_3_inRow_12Rows_3->scale(fscale);
-	spriteAn_3_inRow_12Rows_4->scale(fscale);
-	spriteAn_3_inRow_12Rows_5->scale(fscale);
-	spriteAn_3_inRow_12Rows_6->scale(fscale);
-	spriteAn_3_inRow_12Rows_7->scale(fscale);
-	spriteAn_3_inRow_12Rows_8->scale(fscale);
-	spriteAn_3_inRow_13Rows_1->scale(fscale);
-	spriteAn_3_inRow_13Rows_2->scale(fscale);
-	spriteAn_3_inRow_13Rows_3->scale(fscale);
-	spriteAn_3_inRow_13Rows_4->scale(fscale);
-	spriteAn_3_inRow_13Rows_5->scale(fscale);
-	spriteAn_3_inRow_13Rows_6->scale(fscale);
-	spriteAn_3_inRow_13Rows_7->scale(fscale);
-	spriteAn_3_inRow_13Rows_8->scale(fscale);
-	spriteAn_3_inRow_13Rows_9->scale(fscale);
-	spriteAn_3_inRow_13Rows_10->scale(fscale);
-	spriteAn_3_inRow_14Rows_1->scale(fscale);
-	spriteAn_3_inRow_14Rows_2->scale(fscale);
-	spriteAn_3_inRow_14Rows_3->scale(fscale);
-	spriteAn_3_inRow_14Rows_4->scale(fscale);
-	spriteAn_3_inRow_14Rows_5->scale(fscale);
-	spriteAn_3_inRow_14Rows_6->scale(fscale);
-	spriteAn_3_inRow_14Rows_7->scale(fscale);
-	spriteAn_3_inRow_14Rows_8->scale(fscale);
-	spriteAn_3_inRow_14Rows_9->scale(fscale);
-	spriteAn_3_inRow_14Rows_10->scale(fscale);
-	spriteAn_3_inRow_15Rows_1->scale(fscale);
-	spriteAn_3_inRow_15Rows_2->scale(fscale);
-	spriteAn_3_inRow_15Rows_3->scale(fscale);
-	spriteAn_3_inRow_15Rows_4->scale(fscale);
-	spriteAn_3_inRow_15Rows_5->scale(fscale);
-	spriteAn_3_inRow_15Rows_6->scale(fscale);
-	spriteAn_3_inRow_15Rows_7->scale(fscale);
-	spriteAn_3_inRow_15Rows_8->scale(fscale);
-	spriteAn_3_inRow_15Rows_9->scale(fscale);
-	spriteAn_3_inRow_15Rows_10->scale(fscale);
-	spriteAn_3_inRow_16Rows_1->scale(fscale);
-	spriteAn_3_inRow_16Rows_2->scale(fscale);
-	spriteAn_3_inRow_16Rows_3->scale(fscale);
-	spriteAn_3_inRow_16Rows_4->scale(fscale);
-	spriteAn_3_inRow_16Rows_5->scale(fscale);
-	spriteAn_3_inRow_16Rows_6->scale(fscale);
-	spriteAn_3_inRow_16Rows_7->scale(fscale);
-	spriteAn_3_inRow_16Rows_8->scale(fscale);
-	spriteAn_3_inRow_16Rows_9->scale(fscale);
-	spriteAn_3_inRow_16Rows_10->scale(fscale);
-	spriteAn_3_inRow_16Rows_11->scale(fscale);
-	spriteAn_3_inRow_16Rows_12->scale(fscale);
-	spriteAn_3_inRow_17Rows_1->scale(fscale);
-	spriteAn_3_inRow_17Rows_2->scale(fscale);
-	spriteAn_3_inRow_17Rows_3->scale(fscale);
-	spriteAn_3_inRow_17Rows_4->scale(fscale);
-	spriteAn_3_inRow_17Rows_5->scale(fscale);
-	spriteAn_3_inRow_17Rows_6->scale(fscale);
-	spriteAn_3_inRow_17Rows_7->scale(fscale);
-	spriteAn_3_inRow_17Rows_8->scale(fscale);
-	spriteAn_3_inRow_17Rows_9->scale(fscale);
-	spriteAn_3_inRow_17Rows_10->scale(fscale);
-	spriteAn_3_inRow_17Rows_11->scale(fscale);
-	spriteAn_3_inRow_17Rows_12->scale(fscale);
-	spriteAn_3_inRow_18Rows_1->scale(fscale);
-	spriteAn_3_inRow_18Rows_2->scale(fscale);
-	spriteAn_3_inRow_18Rows_3->scale(fscale);
-	spriteAn_3_inRow_18Rows_4->scale(fscale);
-	spriteAn_3_inRow_18Rows_5->scale(fscale);
-	spriteAn_3_inRow_18Rows_6->scale(fscale);
-	spriteAn_3_inRow_18Rows_7->scale(fscale);
-	spriteAn_3_inRow_18Rows_8->scale(fscale);
-	spriteAn_3_inRow_18Rows_9->scale(fscale);
-	spriteAn_3_inRow_18Rows_10->scale(fscale);
-	spriteAn_3_inRow_18Rows_11->scale(fscale);
-	spriteAn_3_inRow_18Rows_12->scale(fscale);
+	spriteAn_2_inRow_1Row_1->setScale(fscale);
+	spriteAn_2_inRow_1Row_2->setScale(fscale);
+	spriteAn_2_inRow_2Rows_1->setScale(fscale);
+	spriteAn_2_inRow_2Rows_2->setScale(fscale);
+	spriteAn_2_inRow_3Rows_1->setScale(fscale);
+	spriteAn_2_inRow_3Rows_2->setScale(fscale);
+	spriteAn_2_inRow_4Rows_1->setScale(fscale);
+	spriteAn_2_inRow_4Rows_2->setScale(fscale);
+	spriteAn_2_inRow_4Rows_3->setScale(fscale);
+	spriteAn_2_inRow_4Rows_4->setScale(fscale);
+	spriteAn_2_inRow_5Rows_1->setScale(fscale);
+	spriteAn_2_inRow_5Rows_2->setScale(fscale);
+	spriteAn_2_inRow_5Rows_3->setScale(fscale);
+	spriteAn_2_inRow_5Rows_4->setScale(fscale);
+	spriteAn_2_inRow_6Rows_1->setScale(fscale);
+	spriteAn_2_inRow_6Rows_2->setScale(fscale);
+	spriteAn_2_inRow_6Rows_3->setScale(fscale);
+	spriteAn_2_inRow_6Rows_4->setScale(fscale);
+	spriteAn_2_inRow_7Rows_1->setScale(fscale);
+	spriteAn_2_inRow_7Rows_2->setScale(fscale);
+	spriteAn_2_inRow_7Rows_3->setScale(fscale);
+	spriteAn_2_inRow_7Rows_4->setScale(fscale);
+	spriteAn_2_inRow_7Rows_5->setScale(fscale);
+	spriteAn_2_inRow_7Rows_6->setScale(fscale);
+	spriteAn_2_inRow_8Rows_1->setScale(fscale);
+	spriteAn_2_inRow_8Rows_2->setScale(fscale);
+	spriteAn_2_inRow_8Rows_3->setScale(fscale);
+	spriteAn_2_inRow_8Rows_4->setScale(fscale);
+	spriteAn_2_inRow_8Rows_5->setScale(fscale);
+	spriteAn_2_inRow_8Rows_6->setScale(fscale);
+	spriteAn_2_inRow_9Rows_1->setScale(fscale);
+	spriteAn_2_inRow_9Rows_2->setScale(fscale);
+	spriteAn_2_inRow_9Rows_3->setScale(fscale);
+	spriteAn_2_inRow_9Rows_4->setScale(fscale);
+	spriteAn_2_inRow_9Rows_5->setScale(fscale);
+	spriteAn_2_inRow_9Rows_6->setScale(fscale);
+	spriteAn_2_inRow_10Rows_1->setScale(fscale);
+	spriteAn_2_inRow_10Rows_2->setScale(fscale);
+	spriteAn_2_inRow_10Rows_3->setScale(fscale);
+	spriteAn_2_inRow_10Rows_4->setScale(fscale);
+	spriteAn_2_inRow_10Rows_5->setScale(fscale);
+	spriteAn_2_inRow_10Rows_6->setScale(fscale);
+	spriteAn_2_inRow_10Rows_7->setScale(fscale);
+	spriteAn_2_inRow_10Rows_8->setScale(fscale);
+	spriteAn_2_inRow_11Rows_1->setScale(fscale);
+	spriteAn_2_inRow_11Rows_2->setScale(fscale);
+	spriteAn_2_inRow_11Rows_3->setScale(fscale);
+	spriteAn_2_inRow_11Rows_4->setScale(fscale);
+	spriteAn_2_inRow_11Rows_5->setScale(fscale);
+	spriteAn_2_inRow_11Rows_6->setScale(fscale);
+	spriteAn_2_inRow_11Rows_7->setScale(fscale);
+	spriteAn_2_inRow_11Rows_8->setScale(fscale);
+	spriteAn_2_inRow_12Rows_1->setScale(fscale);
+	spriteAn_2_inRow_12Rows_2->setScale(fscale);
+	spriteAn_2_inRow_12Rows_3->setScale(fscale);
+	spriteAn_2_inRow_12Rows_4->setScale(fscale);
+	spriteAn_2_inRow_12Rows_5->setScale(fscale);
+	spriteAn_2_inRow_12Rows_6->setScale(fscale);
+	spriteAn_2_inRow_12Rows_7->setScale(fscale);
+	spriteAn_2_inRow_12Rows_8->setScale(fscale);
+	spriteAn_2_inRow_13Rows_1->setScale(fscale);
+	spriteAn_2_inRow_13Rows_2->setScale(fscale);
+	spriteAn_2_inRow_13Rows_3->setScale(fscale);
+	spriteAn_2_inRow_13Rows_4->setScale(fscale);
+	spriteAn_2_inRow_13Rows_5->setScale(fscale);
+	spriteAn_2_inRow_13Rows_6->setScale(fscale);
+	spriteAn_2_inRow_13Rows_7->setScale(fscale);
+	spriteAn_2_inRow_13Rows_8->setScale(fscale);
+	spriteAn_2_inRow_13Rows_9->setScale(fscale);
+	spriteAn_2_inRow_13Rows_10->setScale(fscale);
+	spriteAn_2_inRow_14Rows_1->setScale(fscale);
+	spriteAn_2_inRow_14Rows_2->setScale(fscale);
+	spriteAn_2_inRow_14Rows_3->setScale(fscale);
+	spriteAn_2_inRow_14Rows_4->setScale(fscale);
+	spriteAn_2_inRow_14Rows_5->setScale(fscale);
+	spriteAn_2_inRow_14Rows_6->setScale(fscale);
+	spriteAn_2_inRow_14Rows_7->setScale(fscale);
+	spriteAn_2_inRow_14Rows_8->setScale(fscale);
+	spriteAn_2_inRow_14Rows_9->setScale(fscale);
+	spriteAn_2_inRow_14Rows_10->setScale(fscale);
+	spriteAn_2_inRow_15Rows_1->setScale(fscale);
+	spriteAn_2_inRow_15Rows_2->setScale(fscale);
+	spriteAn_2_inRow_15Rows_3->setScale(fscale);
+	spriteAn_2_inRow_15Rows_4->setScale(fscale);
+	spriteAn_2_inRow_15Rows_5->setScale(fscale);
+	spriteAn_2_inRow_15Rows_6->setScale(fscale);
+	spriteAn_2_inRow_15Rows_7->setScale(fscale);
+	spriteAn_2_inRow_15Rows_8->setScale(fscale);
+	spriteAn_2_inRow_15Rows_9->setScale(fscale);
+	spriteAn_2_inRow_15Rows_10->setScale(fscale);
+	spriteAn_2_inRow_16Rows_1->setScale(fscale);
+	spriteAn_2_inRow_16Rows_2->setScale(fscale);
+	spriteAn_2_inRow_16Rows_3->setScale(fscale);
+	spriteAn_2_inRow_16Rows_4->setScale(fscale);
+	spriteAn_2_inRow_16Rows_5->setScale(fscale);
+	spriteAn_2_inRow_16Rows_6->setScale(fscale);
+	spriteAn_2_inRow_16Rows_7->setScale(fscale);
+	spriteAn_2_inRow_16Rows_8->setScale(fscale);
+	spriteAn_2_inRow_16Rows_9->setScale(fscale);
+	spriteAn_2_inRow_16Rows_10->setScale(fscale);
+	spriteAn_2_inRow_16Rows_11->setScale(fscale);
+	spriteAn_2_inRow_16Rows_12->setScale(fscale);
+	spriteAn_2_inRow_17Rows_1->setScale(fscale);
+	spriteAn_2_inRow_17Rows_2->setScale(fscale);
+	spriteAn_2_inRow_17Rows_3->setScale(fscale);
+	spriteAn_2_inRow_17Rows_4->setScale(fscale);
+	spriteAn_2_inRow_17Rows_5->setScale(fscale);
+	spriteAn_2_inRow_17Rows_6->setScale(fscale);
+	spriteAn_2_inRow_17Rows_7->setScale(fscale);
+	spriteAn_2_inRow_17Rows_8->setScale(fscale);
+	spriteAn_2_inRow_17Rows_9->setScale(fscale);
+	spriteAn_2_inRow_17Rows_10->setScale(fscale);
+	spriteAn_2_inRow_17Rows_11->setScale(fscale);
+	spriteAn_2_inRow_17Rows_12->setScale(fscale);
 
 
-	spriteAn_4_inRow_1Row_1->scale(fscale);
-	spriteAn_4_inRow_1Row_2->scale(fscale);
-	spriteAn_4_inRow_2Rows_1->scale(fscale);
-	spriteAn_4_inRow_2Rows_2->scale(fscale);
-	spriteAn_4_inRow_3Rows_1->scale(fscale);
-	spriteAn_4_inRow_3Rows_2->scale(fscale);
-	spriteAn_4_inRow_4Rows_1->scale(fscale);
-	spriteAn_4_inRow_4Rows_2->scale(fscale);
-	spriteAn_4_inRow_4Rows_3->scale(fscale);
-	spriteAn_4_inRow_4Rows_4->scale(fscale);
-	spriteAn_4_inRow_5Rows_1->scale(fscale);
-	spriteAn_4_inRow_5Rows_2->scale(fscale);
-	spriteAn_4_inRow_5Rows_3->scale(fscale);
-	spriteAn_4_inRow_5Rows_4->scale(fscale);
-	spriteAn_4_inRow_6Rows_1->scale(fscale);
-	spriteAn_4_inRow_6Rows_2->scale(fscale);
-	spriteAn_4_inRow_6Rows_3->scale(fscale);
-	spriteAn_4_inRow_6Rows_4->scale(fscale);
-	spriteAn_4_inRow_7Rows_1->scale(fscale);
-	spriteAn_4_inRow_7Rows_2->scale(fscale);
-	spriteAn_4_inRow_7Rows_3->scale(fscale);
-	spriteAn_4_inRow_7Rows_4->scale(fscale);
-	spriteAn_4_inRow_7Rows_5->scale(fscale);
-	spriteAn_4_inRow_7Rows_6->scale(fscale);
-	spriteAn_4_inRow_8Rows_1->scale(fscale);
-	spriteAn_4_inRow_8Rows_2->scale(fscale);
-	spriteAn_4_inRow_8Rows_3->scale(fscale);
-	spriteAn_4_inRow_8Rows_4->scale(fscale);
-	spriteAn_4_inRow_8Rows_5->scale(fscale);
-	spriteAn_4_inRow_8Rows_6->scale(fscale);
-	spriteAn_4_inRow_9Rows_1->scale(fscale);
-	spriteAn_4_inRow_9Rows_2->scale(fscale);
-	spriteAn_4_inRow_9Rows_3->scale(fscale);
-	spriteAn_4_inRow_9Rows_4->scale(fscale);
-	spriteAn_4_inRow_9Rows_5->scale(fscale);
-	spriteAn_4_inRow_9Rows_6->scale(fscale);
-	spriteAn_4_inRow_10Rows_1->scale(fscale);
-	spriteAn_4_inRow_10Rows_2->scale(fscale);
-	spriteAn_4_inRow_10Rows_3->scale(fscale);
-	spriteAn_4_inRow_10Rows_4->scale(fscale);
-	spriteAn_4_inRow_10Rows_5->scale(fscale);
-	spriteAn_4_inRow_10Rows_6->scale(fscale);
-	spriteAn_4_inRow_10Rows_7->scale(fscale);
-	spriteAn_4_inRow_10Rows_8->scale(fscale);
-	spriteAn_4_inRow_11Rows_1->scale(fscale);
-	spriteAn_4_inRow_11Rows_2->scale(fscale);
-	spriteAn_4_inRow_11Rows_3->scale(fscale);
-	spriteAn_4_inRow_11Rows_4->scale(fscale);
-	spriteAn_4_inRow_11Rows_5->scale(fscale);
-	spriteAn_4_inRow_11Rows_6->scale(fscale);
-	spriteAn_4_inRow_11Rows_7->scale(fscale);
-	spriteAn_4_inRow_11Rows_8->scale(fscale);
-	spriteAn_4_inRow_12Rows_1->scale(fscale);
-	spriteAn_4_inRow_12Rows_2->scale(fscale);
-	spriteAn_4_inRow_12Rows_3->scale(fscale);
-	spriteAn_4_inRow_12Rows_4->scale(fscale);
-	spriteAn_4_inRow_12Rows_5->scale(fscale);
-	spriteAn_4_inRow_12Rows_6->scale(fscale);
-	spriteAn_4_inRow_12Rows_7->scale(fscale);
-	spriteAn_4_inRow_12Rows_8->scale(fscale);
-	spriteAn_4_inRow_13Rows_1->scale(fscale);
-	spriteAn_4_inRow_13Rows_2->scale(fscale);
-	spriteAn_4_inRow_13Rows_3->scale(fscale);
-	spriteAn_4_inRow_13Rows_4->scale(fscale);
-	spriteAn_4_inRow_13Rows_5->scale(fscale);
-	spriteAn_4_inRow_13Rows_6->scale(fscale);
-	spriteAn_4_inRow_13Rows_7->scale(fscale);
-	spriteAn_4_inRow_13Rows_8->scale(fscale);
-	spriteAn_4_inRow_13Rows_9->scale(fscale);
-	spriteAn_4_inRow_13Rows_10->scale(fscale);
-	spriteAn_4_inRow_14Rows_1->scale(fscale);
-	spriteAn_4_inRow_14Rows_2->scale(fscale);
-	spriteAn_4_inRow_14Rows_3->scale(fscale);
-	spriteAn_4_inRow_14Rows_4->scale(fscale);
-	spriteAn_4_inRow_14Rows_5->scale(fscale);
-	spriteAn_4_inRow_14Rows_6->scale(fscale);
-	spriteAn_4_inRow_14Rows_7->scale(fscale);
-	spriteAn_4_inRow_14Rows_8->scale(fscale);
-	spriteAn_4_inRow_14Rows_9->scale(fscale);
-	spriteAn_4_inRow_14Rows_10->scale(fscale);
-	spriteAn_4_inRow_15Rows_1->scale(fscale);
-	spriteAn_4_inRow_15Rows_2->scale(fscale);
-	spriteAn_4_inRow_15Rows_3->scale(fscale);
-	spriteAn_4_inRow_15Rows_4->scale(fscale);
-	spriteAn_4_inRow_15Rows_5->scale(fscale);
-	spriteAn_4_inRow_15Rows_6->scale(fscale);
-	spriteAn_4_inRow_15Rows_7->scale(fscale);
-	spriteAn_4_inRow_15Rows_8->scale(fscale);
-	spriteAn_4_inRow_15Rows_9->scale(fscale);
-	spriteAn_4_inRow_15Rows_10->scale(fscale);
-	spriteAn_4_inRow_16Rows_1->scale(fscale);
-	spriteAn_4_inRow_16Rows_2->scale(fscale);
-	spriteAn_4_inRow_16Rows_3->scale(fscale);
-	spriteAn_4_inRow_16Rows_4->scale(fscale);
-	spriteAn_4_inRow_16Rows_5->scale(fscale);
-	spriteAn_4_inRow_16Rows_6->scale(fscale);
-	spriteAn_4_inRow_16Rows_7->scale(fscale);
-	spriteAn_4_inRow_16Rows_8->scale(fscale);
-	spriteAn_4_inRow_16Rows_9->scale(fscale);
-	spriteAn_4_inRow_16Rows_10->scale(fscale);
-	spriteAn_4_inRow_16Rows_11->scale(fscale);
-	spriteAn_4_inRow_16Rows_12->scale(fscale);
-	spriteAn_4_inRow_17Rows_1->scale(fscale);
-	spriteAn_4_inRow_17Rows_2->scale(fscale);
-	spriteAn_4_inRow_17Rows_3->scale(fscale);
-	spriteAn_4_inRow_17Rows_4->scale(fscale);
-	spriteAn_4_inRow_17Rows_5->scale(fscale);
-	spriteAn_4_inRow_17Rows_6->scale(fscale);
-	spriteAn_4_inRow_17Rows_7->scale(fscale);
-	spriteAn_4_inRow_17Rows_8->scale(fscale);
-	spriteAn_4_inRow_17Rows_9->scale(fscale);
-	spriteAn_4_inRow_17Rows_10->scale(fscale);
-	spriteAn_4_inRow_17Rows_11->scale(fscale);
-	spriteAn_4_inRow_17Rows_12->scale(fscale);
-	spriteAn_4_inRow_18Rows_1->scale(fscale);
-	spriteAn_4_inRow_18Rows_2->scale(fscale);
-	spriteAn_4_inRow_18Rows_3->scale(fscale);
-	spriteAn_4_inRow_18Rows_4->scale(fscale);
-	spriteAn_4_inRow_18Rows_5->scale(fscale);
-	spriteAn_4_inRow_18Rows_6->scale(fscale);
-	spriteAn_4_inRow_18Rows_7->scale(fscale);
-	spriteAn_4_inRow_18Rows_8->scale(fscale);
-	spriteAn_4_inRow_18Rows_9->scale(fscale);
-	spriteAn_4_inRow_18Rows_10->scale(fscale);
-	spriteAn_4_inRow_18Rows_11->scale(fscale);
-	spriteAn_4_inRow_18Rows_12->scale(fscale);
+	spriteAn_3_inRow_1Row_1->setScale(fscale);
+	spriteAn_3_inRow_1Row_2->setScale(fscale);
+	spriteAn_3_inRow_2Rows_1->setScale(fscale);
+	spriteAn_3_inRow_2Rows_2->setScale(fscale);
+	spriteAn_3_inRow_3Rows_1->setScale(fscale);
+	spriteAn_3_inRow_3Rows_2->setScale(fscale);
+	spriteAn_3_inRow_4Rows_1->setScale(fscale);
+	spriteAn_3_inRow_4Rows_2->setScale(fscale);
+	spriteAn_3_inRow_4Rows_3->setScale(fscale);
+	spriteAn_3_inRow_4Rows_4->setScale(fscale);
+	spriteAn_3_inRow_5Rows_1->setScale(fscale);
+	spriteAn_3_inRow_5Rows_2->setScale(fscale);
+	spriteAn_3_inRow_5Rows_3->setScale(fscale);
+	spriteAn_3_inRow_5Rows_4->setScale(fscale);
+	spriteAn_3_inRow_6Rows_1->setScale(fscale);
+	spriteAn_3_inRow_6Rows_2->setScale(fscale);
+	spriteAn_3_inRow_6Rows_3->setScale(fscale);
+	spriteAn_3_inRow_6Rows_4->setScale(fscale);
+	spriteAn_3_inRow_7Rows_1->setScale(fscale);
+	spriteAn_3_inRow_7Rows_2->setScale(fscale);
+	spriteAn_3_inRow_7Rows_3->setScale(fscale);
+	spriteAn_3_inRow_7Rows_4->setScale(fscale);
+	spriteAn_3_inRow_7Rows_5->setScale(fscale);
+	spriteAn_3_inRow_7Rows_6->setScale(fscale);
+	spriteAn_3_inRow_8Rows_1->setScale(fscale);
+	spriteAn_3_inRow_8Rows_2->setScale(fscale);
+	spriteAn_3_inRow_8Rows_3->setScale(fscale);
+	spriteAn_3_inRow_8Rows_4->setScale(fscale);
+	spriteAn_3_inRow_8Rows_5->setScale(fscale);
+	spriteAn_3_inRow_8Rows_6->setScale(fscale);
+	spriteAn_3_inRow_9Rows_1->setScale(fscale);
+	spriteAn_3_inRow_9Rows_2->setScale(fscale);
+	spriteAn_3_inRow_9Rows_3->setScale(fscale);
+	spriteAn_3_inRow_9Rows_4->setScale(fscale);
+	spriteAn_3_inRow_9Rows_5->setScale(fscale);
+	spriteAn_3_inRow_9Rows_6->setScale(fscale);
+	spriteAn_3_inRow_10Rows_1->setScale(fscale);
+	spriteAn_3_inRow_10Rows_2->setScale(fscale);
+	spriteAn_3_inRow_10Rows_3->setScale(fscale);
+	spriteAn_3_inRow_10Rows_4->setScale(fscale);
+	spriteAn_3_inRow_10Rows_5->setScale(fscale);
+	spriteAn_3_inRow_10Rows_6->setScale(fscale);
+	spriteAn_3_inRow_10Rows_7->setScale(fscale);
+	spriteAn_3_inRow_10Rows_8->setScale(fscale);
+	spriteAn_3_inRow_11Rows_1->setScale(fscale);
+	spriteAn_3_inRow_11Rows_2->setScale(fscale);
+	spriteAn_3_inRow_11Rows_3->setScale(fscale);
+	spriteAn_3_inRow_11Rows_4->setScale(fscale);
+	spriteAn_3_inRow_11Rows_5->setScale(fscale);
+	spriteAn_3_inRow_11Rows_6->setScale(fscale);
+	spriteAn_3_inRow_11Rows_7->setScale(fscale);
+	spriteAn_3_inRow_11Rows_8->setScale(fscale);
+	spriteAn_3_inRow_12Rows_1->setScale(fscale);
+	spriteAn_3_inRow_12Rows_2->setScale(fscale);
+	spriteAn_3_inRow_12Rows_3->setScale(fscale);
+	spriteAn_3_inRow_12Rows_4->setScale(fscale);
+	spriteAn_3_inRow_12Rows_5->setScale(fscale);
+	spriteAn_3_inRow_12Rows_6->setScale(fscale);
+	spriteAn_3_inRow_12Rows_7->setScale(fscale);
+	spriteAn_3_inRow_12Rows_8->setScale(fscale);
+	spriteAn_3_inRow_13Rows_1->setScale(fscale);
+	spriteAn_3_inRow_13Rows_2->setScale(fscale);
+	spriteAn_3_inRow_13Rows_3->setScale(fscale);
+	spriteAn_3_inRow_13Rows_4->setScale(fscale);
+	spriteAn_3_inRow_13Rows_5->setScale(fscale);
+	spriteAn_3_inRow_13Rows_6->setScale(fscale);
+	spriteAn_3_inRow_13Rows_7->setScale(fscale);
+	spriteAn_3_inRow_13Rows_8->setScale(fscale);
+	spriteAn_3_inRow_13Rows_9->setScale(fscale);
+	spriteAn_3_inRow_13Rows_10->setScale(fscale);
+	spriteAn_3_inRow_14Rows_1->setScale(fscale);
+	spriteAn_3_inRow_14Rows_2->setScale(fscale);
+	spriteAn_3_inRow_14Rows_3->setScale(fscale);
+	spriteAn_3_inRow_14Rows_4->setScale(fscale);
+	spriteAn_3_inRow_14Rows_5->setScale(fscale);
+	spriteAn_3_inRow_14Rows_6->setScale(fscale);
+	spriteAn_3_inRow_14Rows_7->setScale(fscale);
+	spriteAn_3_inRow_14Rows_8->setScale(fscale);
+	spriteAn_3_inRow_14Rows_9->setScale(fscale);
+	spriteAn_3_inRow_14Rows_10->setScale(fscale);
+	spriteAn_3_inRow_15Rows_1->setScale(fscale);
+	spriteAn_3_inRow_15Rows_2->setScale(fscale);
+	spriteAn_3_inRow_15Rows_3->setScale(fscale);
+	spriteAn_3_inRow_15Rows_4->setScale(fscale);
+	spriteAn_3_inRow_15Rows_5->setScale(fscale);
+	spriteAn_3_inRow_15Rows_6->setScale(fscale);
+	spriteAn_3_inRow_15Rows_7->setScale(fscale);
+	spriteAn_3_inRow_15Rows_8->setScale(fscale);
+	spriteAn_3_inRow_15Rows_9->setScale(fscale);
+	spriteAn_3_inRow_15Rows_10->setScale(fscale);
+	spriteAn_3_inRow_16Rows_1->setScale(fscale);
+	spriteAn_3_inRow_16Rows_2->setScale(fscale);
+	spriteAn_3_inRow_16Rows_3->setScale(fscale);
+	spriteAn_3_inRow_16Rows_4->setScale(fscale);
+	spriteAn_3_inRow_16Rows_5->setScale(fscale);
+	spriteAn_3_inRow_16Rows_6->setScale(fscale);
+	spriteAn_3_inRow_16Rows_7->setScale(fscale);
+	spriteAn_3_inRow_16Rows_8->setScale(fscale);
+	spriteAn_3_inRow_16Rows_9->setScale(fscale);
+	spriteAn_3_inRow_16Rows_10->setScale(fscale);
+	spriteAn_3_inRow_16Rows_11->setScale(fscale);
+	spriteAn_3_inRow_16Rows_12->setScale(fscale);
+	spriteAn_3_inRow_17Rows_1->setScale(fscale);
+	spriteAn_3_inRow_17Rows_2->setScale(fscale);
+	spriteAn_3_inRow_17Rows_3->setScale(fscale);
+	spriteAn_3_inRow_17Rows_4->setScale(fscale);
+	spriteAn_3_inRow_17Rows_5->setScale(fscale);
+	spriteAn_3_inRow_17Rows_6->setScale(fscale);
+	spriteAn_3_inRow_17Rows_7->setScale(fscale);
+	spriteAn_3_inRow_17Rows_8->setScale(fscale);
+	spriteAn_3_inRow_17Rows_9->setScale(fscale);
+	spriteAn_3_inRow_17Rows_10->setScale(fscale);
+	spriteAn_3_inRow_17Rows_11->setScale(fscale);
+	spriteAn_3_inRow_17Rows_12->setScale(fscale);
+	spriteAn_3_inRow_18Rows_1->setScale(fscale);
+	spriteAn_3_inRow_18Rows_2->setScale(fscale);
+	spriteAn_3_inRow_18Rows_3->setScale(fscale);
+	spriteAn_3_inRow_18Rows_4->setScale(fscale);
+	spriteAn_3_inRow_18Rows_5->setScale(fscale);
+	spriteAn_3_inRow_18Rows_6->setScale(fscale);
+	spriteAn_3_inRow_18Rows_7->setScale(fscale);
+	spriteAn_3_inRow_18Rows_8->setScale(fscale);
+	spriteAn_3_inRow_18Rows_9->setScale(fscale);
+	spriteAn_3_inRow_18Rows_10->setScale(fscale);
+	spriteAn_3_inRow_18Rows_11->setScale(fscale);
+	spriteAn_3_inRow_18Rows_12->setScale(fscale);
+
+
+	spriteAn_4_inRow_1Row_1->setScale(fscale);
+	spriteAn_4_inRow_1Row_2->setScale(fscale);
+	spriteAn_4_inRow_2Rows_1->setScale(fscale);
+	spriteAn_4_inRow_2Rows_2->setScale(fscale);
+	spriteAn_4_inRow_3Rows_1->setScale(fscale);
+	spriteAn_4_inRow_3Rows_2->setScale(fscale);
+	spriteAn_4_inRow_4Rows_1->setScale(fscale);
+	spriteAn_4_inRow_4Rows_2->setScale(fscale);
+	spriteAn_4_inRow_4Rows_3->setScale(fscale);
+	spriteAn_4_inRow_4Rows_4->setScale(fscale);
+	spriteAn_4_inRow_5Rows_1->setScale(fscale);
+	spriteAn_4_inRow_5Rows_2->setScale(fscale);
+	spriteAn_4_inRow_5Rows_3->setScale(fscale);
+	spriteAn_4_inRow_5Rows_4->setScale(fscale);
+	spriteAn_4_inRow_6Rows_1->setScale(fscale);
+	spriteAn_4_inRow_6Rows_2->setScale(fscale);
+	spriteAn_4_inRow_6Rows_3->setScale(fscale);
+	spriteAn_4_inRow_6Rows_4->setScale(fscale);
+	spriteAn_4_inRow_7Rows_1->setScale(fscale);
+	spriteAn_4_inRow_7Rows_2->setScale(fscale);
+	spriteAn_4_inRow_7Rows_3->setScale(fscale);
+	spriteAn_4_inRow_7Rows_4->setScale(fscale);
+	spriteAn_4_inRow_7Rows_5->setScale(fscale);
+	spriteAn_4_inRow_7Rows_6->setScale(fscale);
+	spriteAn_4_inRow_8Rows_1->setScale(fscale);
+	spriteAn_4_inRow_8Rows_2->setScale(fscale);
+	spriteAn_4_inRow_8Rows_3->setScale(fscale);
+	spriteAn_4_inRow_8Rows_4->setScale(fscale);
+	spriteAn_4_inRow_8Rows_5->setScale(fscale);
+	spriteAn_4_inRow_8Rows_6->setScale(fscale);
+	spriteAn_4_inRow_9Rows_1->setScale(fscale);
+	spriteAn_4_inRow_9Rows_2->setScale(fscale);
+	spriteAn_4_inRow_9Rows_3->setScale(fscale);
+	spriteAn_4_inRow_9Rows_4->setScale(fscale);
+	spriteAn_4_inRow_9Rows_5->setScale(fscale);
+	spriteAn_4_inRow_9Rows_6->setScale(fscale);
+	spriteAn_4_inRow_10Rows_1->setScale(fscale);
+	spriteAn_4_inRow_10Rows_2->setScale(fscale);
+	spriteAn_4_inRow_10Rows_3->setScale(fscale);
+	spriteAn_4_inRow_10Rows_4->setScale(fscale);
+	spriteAn_4_inRow_10Rows_5->setScale(fscale);
+	spriteAn_4_inRow_10Rows_6->setScale(fscale);
+	spriteAn_4_inRow_10Rows_7->setScale(fscale);
+	spriteAn_4_inRow_10Rows_8->setScale(fscale);
+	spriteAn_4_inRow_11Rows_1->setScale(fscale);
+	spriteAn_4_inRow_11Rows_2->setScale(fscale);
+	spriteAn_4_inRow_11Rows_3->setScale(fscale);
+	spriteAn_4_inRow_11Rows_4->setScale(fscale);
+	spriteAn_4_inRow_11Rows_5->setScale(fscale);
+	spriteAn_4_inRow_11Rows_6->setScale(fscale);
+	spriteAn_4_inRow_11Rows_7->setScale(fscale);
+	spriteAn_4_inRow_11Rows_8->setScale(fscale);
+	spriteAn_4_inRow_12Rows_1->setScale(fscale);
+	spriteAn_4_inRow_12Rows_2->setScale(fscale);
+	spriteAn_4_inRow_12Rows_3->setScale(fscale);
+	spriteAn_4_inRow_12Rows_4->setScale(fscale);
+	spriteAn_4_inRow_12Rows_5->setScale(fscale);
+	spriteAn_4_inRow_12Rows_6->setScale(fscale);
+	spriteAn_4_inRow_12Rows_7->setScale(fscale);
+	spriteAn_4_inRow_12Rows_8->setScale(fscale);
+	spriteAn_4_inRow_13Rows_1->setScale(fscale);
+	spriteAn_4_inRow_13Rows_2->setScale(fscale);
+	spriteAn_4_inRow_13Rows_3->setScale(fscale);
+	spriteAn_4_inRow_13Rows_4->setScale(fscale);
+	spriteAn_4_inRow_13Rows_5->setScale(fscale);
+	spriteAn_4_inRow_13Rows_6->setScale(fscale);
+	spriteAn_4_inRow_13Rows_7->setScale(fscale);
+	spriteAn_4_inRow_13Rows_8->setScale(fscale);
+	spriteAn_4_inRow_13Rows_9->setScale(fscale);
+	spriteAn_4_inRow_13Rows_10->setScale(fscale);
+	spriteAn_4_inRow_14Rows_1->setScale(fscale);
+	spriteAn_4_inRow_14Rows_2->setScale(fscale);
+	spriteAn_4_inRow_14Rows_3->setScale(fscale);
+	spriteAn_4_inRow_14Rows_4->setScale(fscale);
+	spriteAn_4_inRow_14Rows_5->setScale(fscale);
+	spriteAn_4_inRow_14Rows_6->setScale(fscale);
+	spriteAn_4_inRow_14Rows_7->setScale(fscale);
+	spriteAn_4_inRow_14Rows_8->setScale(fscale);
+	spriteAn_4_inRow_14Rows_9->setScale(fscale);
+	spriteAn_4_inRow_14Rows_10->setScale(fscale);
+	spriteAn_4_inRow_15Rows_1->setScale(fscale);
+	spriteAn_4_inRow_15Rows_2->setScale(fscale);
+	spriteAn_4_inRow_15Rows_3->setScale(fscale);
+	spriteAn_4_inRow_15Rows_4->setScale(fscale);
+	spriteAn_4_inRow_15Rows_5->setScale(fscale);
+	spriteAn_4_inRow_15Rows_6->setScale(fscale);
+	spriteAn_4_inRow_15Rows_7->setScale(fscale);
+	spriteAn_4_inRow_15Rows_8->setScale(fscale);
+	spriteAn_4_inRow_15Rows_9->setScale(fscale);
+	spriteAn_4_inRow_15Rows_10->setScale(fscale);
+	spriteAn_4_inRow_16Rows_1->setScale(fscale);
+	spriteAn_4_inRow_16Rows_2->setScale(fscale);
+	spriteAn_4_inRow_16Rows_3->setScale(fscale);
+	spriteAn_4_inRow_16Rows_4->setScale(fscale);
+	spriteAn_4_inRow_16Rows_5->setScale(fscale);
+	spriteAn_4_inRow_16Rows_6->setScale(fscale);
+	spriteAn_4_inRow_16Rows_7->setScale(fscale);
+	spriteAn_4_inRow_16Rows_8->setScale(fscale);
+	spriteAn_4_inRow_16Rows_9->setScale(fscale);
+	spriteAn_4_inRow_16Rows_10->setScale(fscale);
+	spriteAn_4_inRow_16Rows_11->setScale(fscale);
+	spriteAn_4_inRow_16Rows_12->setScale(fscale);
+	spriteAn_4_inRow_17Rows_1->setScale(fscale);
+	spriteAn_4_inRow_17Rows_2->setScale(fscale);
+	spriteAn_4_inRow_17Rows_3->setScale(fscale);
+	spriteAn_4_inRow_17Rows_4->setScale(fscale);
+	spriteAn_4_inRow_17Rows_5->setScale(fscale);
+	spriteAn_4_inRow_17Rows_6->setScale(fscale);
+	spriteAn_4_inRow_17Rows_7->setScale(fscale);
+	spriteAn_4_inRow_17Rows_8->setScale(fscale);
+	spriteAn_4_inRow_17Rows_9->setScale(fscale);
+	spriteAn_4_inRow_17Rows_10->setScale(fscale);
+	spriteAn_4_inRow_17Rows_11->setScale(fscale);
+	spriteAn_4_inRow_17Rows_12->setScale(fscale);
+	spriteAn_4_inRow_18Rows_1->setScale(fscale);
+	spriteAn_4_inRow_18Rows_2->setScale(fscale);
+	spriteAn_4_inRow_18Rows_3->setScale(fscale);
+	spriteAn_4_inRow_18Rows_4->setScale(fscale);
+	spriteAn_4_inRow_18Rows_5->setScale(fscale);
+	spriteAn_4_inRow_18Rows_6->setScale(fscale);
+	spriteAn_4_inRow_18Rows_7->setScale(fscale);
+	spriteAn_4_inRow_18Rows_8->setScale(fscale);
+	spriteAn_4_inRow_18Rows_9->setScale(fscale);
+	spriteAn_4_inRow_18Rows_10->setScale(fscale);
+	spriteAn_4_inRow_18Rows_11->setScale(fscale);
+	spriteAn_4_inRow_18Rows_12->setScale(fscale);
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -2517,6 +2531,7 @@ int main()
 	//animation_1_line.restart();
 	while (window.isOpen())
 	{
+		//winPos = window.getPosition();
 		/*cout << "Wide: " << numberOfWide[0] << endl;
 		cout << "Narrow: " << numberOfNarrow[0] << endl << endl << endl;*/
 		/*int time_1_line = animation_1_line.getElapsedTime().asMilliseconds();
@@ -4123,8 +4138,14 @@ int main()
 				break;
 			case Event::Resized:
 				/*cout << "Resized" << endl;
-				cout << window.getSize().x << '\t' << window.getSize().y << endl << endl;
 				cout << event.size.width << '\t' << event.size.height << endl << endl << endl;*/
+				//cout << window.getSize().x << '\t' << window.getSize().y << endl << endl;
+				enableResize = true;
+				//window.create(VideoMode(window.getSize().x, window.getSize().y), "Tetris", Style::Titlebar | Style::Default | Style::Resize, *context);
+				//window.setPosition(winPos);
+				window.setSize(Vector2u(window.getSize().x, window.getSize().y));
+				SetForegroundWindow(window.getSystemHandle());//чтобы сделать окно активным
+				goto scalemark;
 				break;
 			case Event::KeyReleased:
 				check_bottomForSpace = true;
@@ -4138,7 +4159,7 @@ int main()
 				break;
 			case Event::MouseButtonReleased:
 				//pause/resume
-				if (IntRect(216 * fscale.x, 963 * fscale.y, 80, 80).contains(mousePos.x, mousePos.y) && !checkAus)
+				if (IntRect(216 * fscale.x, 963 * fscale.y, 80 * fscale.x, 80 * fscale.y).contains(mousePos.x, mousePos.y) && !checkAus)
 				{
 					if (!pauseBreak && !pause_resume_button)\
 					{
@@ -4154,7 +4175,7 @@ int main()
 					}
 				}
 				//Start/New game
-				else if (IntRect(1584 * fscale.x, 953 * fscale.y, 300, 100).contains(mousePos.x, mousePos.y))
+				else if (IntRect(1584 * fscale.x, 953 * fscale.y, 300 * fscale.x, 100 * fscale.y).contains(mousePos.x, mousePos.y))
 				{
 					if (beginGame && !start_newGame_button)
 					{
@@ -4175,26 +4196,36 @@ int main()
 				}
 
 				//SoundOn/SoundOff
-				else if (IntRect(36 * fscale.x, 963 * fscale.y, 80, 80).contains(mousePos.x, mousePos.y))
+				else if (IntRect(36 * fscale.x, 963 * fscale.y, 80 * fscale.x, 80 * fscale.y).contains(mousePos.x, mousePos.y))
 				{
 					if (!soundOn_sounOff_button) soundOn_sounOff_button = true;
 					else soundOn_sounOff_button = false;
 				}
 
 				//MusicOn/MusicOff
-				else if (IntRect(126 * fscale.x, 963 * fscale.y, 80, 80).contains(mousePos.x, mousePos.y))
+				else if (IntRect(126 * fscale.x, 963 * fscale.y, 80 * fscale.x, 80 * fscale.y).contains(mousePos.x, mousePos.y))
 				{
 					if (!musicOn_musicOff_button) musicOn_musicOff_button = true;
 					else musicOn_musicOff_button = false;
 				}
 				//Left minimize
-				else if (IntRect(1629 * fscale.x, 32 * fscale.y, 85, 62).contains(mousePos.x, mousePos.y)) SendNotifyMessage(window.getSystemHandle(), WM_SYSCOMMAND, SC_MINIMIZE, 0); //МИНИМИЗАЦИЯ ОКНА
+				else if (IntRect(1629 * fscale.x, 32 * fscale.y, 85 * fscale.x, 62 * fscale.y).contains(mousePos.x, mousePos.y)) SendNotifyMessage(window.getSystemHandle(), WM_SYSCOMMAND, SC_MINIMIZE, 0); //МИНИМИЗАЦИЯ ОКНА
 
 				//Right close
-				else if (IntRect(1799 * fscale.x, 32 * fscale.y, 85, 62).contains(mousePos.x, mousePos.y)) window.close();
+				else if (IntRect(1799 * fscale.x, 32 * fscale.y, 85 * fscale.x, 62 * fscale.y).contains(mousePos.x, mousePos.y)) window.close();
 
 				//Middle restore
-				else if (IntRect(1714 * fscale.x, 32 * fscale.y, 85, 62).contains(mousePos.x, mousePos.y)) window.setSize(Vector2u(700, 800));
+				else if (IntRect(1714 * fscale.x, 32 * fscale.y, 85 * fscale.x, 62 * fscale.y).contains(mousePos.x, mousePos.y))
+				{
+					//window.setSize(Vector2u(700, 800));
+					window.create(VideoMode(window.getSize().x/2, window.getSize().y/2), "Tetris", Style::Titlebar | Style:: Resize,*context);
+					window.setIcon(38, 38, icon->getPixelsPtr());
+					//winSizePrev = window.getSize();
+					//SetForegroundWindow(window.getSystemHandle());//чтобы сделать окно активным
+					//winPos = window.getPosition();
+					//cout << winPos.x << "\t" << winPos.y << endl;
+					goto scalemark;
+				}
 				break;
 			case Event::MouseButtonPressed:
 				//if (IntRect(1694, 858, 80, 80).contains(mousePos.x, mousePos.y))
@@ -4985,7 +5016,7 @@ int main()
 		cout << secondsTemp << endl;*/
 		//Отрисовка кнопки Start
 		if (!start_newGame_button)
-			if (IntRect(1584 * fscale.x, 953 * fscale.y, 300, 100).contains(mousePos.x, mousePos.y))
+			if (IntRect(1584 * fscale.x, 953 * fscale.y, 300 * fscale.x, 100 * fscale.y).contains(mousePos.x, mousePos.y))
 			{
 				if (Mouse::isButtonPressed(Mouse::Left))
 					window.draw(*sprite_button_start_st3);
@@ -4995,7 +5026,7 @@ int main()
 
 		//Отрисовка кнопки New game
 		else if (start_newGame_button)
-			if (IntRect(1584 * fscale.x, 953 * fscale.y, 300, 100).contains(mousePos.x, mousePos.y))
+			if (IntRect(1584 * fscale.x, 953 * fscale.y, 300 * fscale.x, 100 * fscale.y).contains(mousePos.x, mousePos.y))
 			{
 				if (Mouse::isButtonPressed(Mouse::Left))
 					window.draw(*sprite_button_newgame_st3);
@@ -5005,7 +5036,7 @@ int main()
 
 		//Отрисовка кнопки Options
 
-		if (IntRect(36 * fscale.x, 32 * fscale.y, 256, 62).contains(mousePos.x, mousePos.y))
+		if (IntRect(36 * fscale.x, 32 * fscale.y, 256 * fscale.x, 62 * fscale.y).contains(mousePos.x, mousePos.y))
 
 		{
 			if (Mouse::isButtonPressed(Mouse::Left))
@@ -5017,13 +5048,13 @@ int main()
 		else window.draw(*sprite_button_options_st1);
 
 		//проверка для трех кнопок
-		if (IntRect(1629 * fscale.x, 32 * fscale.y, 85, 62).contains(mousePos.x, mousePos.y)) isLeftButton = true;
+		if (IntRect(1629 * fscale.x, 32 * fscale.y, 85 * fscale.x, 62 * fscale.y).contains(mousePos.x, mousePos.y)) isLeftButton = true;
 		else isLeftButton = false;
 
-		if (IntRect(1799 * fscale.x, 32 * fscale.y, 85, 62).contains(mousePos.x, mousePos.y)) isRightButton = true;
+		if (IntRect(1799 * fscale.x, 32 * fscale.y, 85 * fscale.x, 62 * fscale.y).contains(mousePos.x, mousePos.y)) isRightButton = true;
 		else isRightButton = false;
 
-		if (IntRect(1714 * fscale.x, 32 * fscale.y, 85, 62).contains(mousePos.x, mousePos.y)) isMiddleButton = true;
+		if (IntRect(1714 * fscale.x, 32 * fscale.y, 85 * fscale.x, 62 * fscale.y).contains(mousePos.x, mousePos.y)) isMiddleButton = true;
 		else isMiddleButton = false;
 
 		//Отрисовка трех кнопок сверху справа
@@ -5038,7 +5069,7 @@ int main()
 		//Отрисовка кнопки pause
 		if (!pause_resume_button)
 		{
-			if (IntRect(216 * fscale.x, 963 * fscale.y, 80, 80).contains(mousePos.x, mousePos.y))
+			if (IntRect(216 * fscale.x, 963 * fscale.y, 80 * fscale.x, 80 * fscale.y).contains(mousePos.x, mousePos.y))
 				if (Mouse::isButtonPressed(Mouse::Left))
 					window.draw(*sprite_button_pause_st3);
 				//else window.draw(*sprite_button_pause_st2);
@@ -5059,7 +5090,7 @@ int main()
 
 		if (pause_resume_button)
 		{
-			if (IntRect(216 * fscale.x, 963 * fscale.y, 80, 80).contains(mousePos.x, mousePos.y))
+			if (IntRect(216 * fscale.x, 963 * fscale.y, 80 * fscale.x, 80 * fscale.y).contains(mousePos.x, mousePos.y))
 				if (Mouse::isButtonPressed(Mouse::Left) && !checkAus)
 					window.draw(*sprite_button_pause_st3);
 				else window.draw(*sprite_button_pause_st4);
@@ -5068,7 +5099,7 @@ int main()
 		
 		//Отрисовка кнопки soundOn
 		if(soundOn_sounOff_button)
-		if (IntRect(36 * fscale.x, 963 * fscale.y, 80, 80).contains(mousePos.x, mousePos.y))
+		if (IntRect(36 * fscale.x, 963 * fscale.y, 80 * fscale.x, 80 * fscale.y).contains(mousePos.x, mousePos.y))
 			if (Mouse::isButtonPressed(Mouse::Left))
 				window.draw(*sprite_button_soundOn_st3);
 			//else window.draw(*sprite_button_soundOn_st2);
@@ -5084,7 +5115,7 @@ int main()
 		else window.draw(*sprite_button_soundOff_st1);*/
 
 		else if (!soundOn_sounOff_button)
-			if (IntRect(36 * fscale.x, 963 * fscale.y, 80, 80).contains(mousePos.x, mousePos.y))
+			if (IntRect(36 * fscale.x, 963 * fscale.y, 80 * fscale.x, 80 * fscale.y).contains(mousePos.x, mousePos.y))
 				if (Mouse::isButtonPressed(Mouse::Left))
 					window.draw(*sprite_button_soundOn_st3);
 				else window.draw(*sprite_button_soundOn_st4);
@@ -5099,7 +5130,7 @@ int main()
 		else window.draw(*sprite_button_musicOff_st1);*/
 
 		if (!musicOn_musicOff_button)
-			if (IntRect(126 * fscale.x, 963 * fscale.y, 80, 80).contains(mousePos.x, mousePos.y))
+			if (IntRect(126 * fscale.x, 963 * fscale.y, 80 * fscale.x, 80 * fscale.y).contains(mousePos.x, mousePos.y))
 				if (Mouse::isButtonPressed(Mouse::Left))
 					window.draw(*sprite_button_musicOn_st3);
 				else window.draw(*sprite_button_musicOn_st4);
@@ -5107,7 +5138,7 @@ int main()
 
 		//Отрисовка кнопки musicOn
 		else if (musicOn_musicOff_button)
-			if (IntRect(126 * fscale.x, 963 * fscale.y, 80, 80).contains(mousePos.x, mousePos.y))
+			if (IntRect(126 * fscale.x, 963 * fscale.y, 80 * fscale.x, 80 * fscale.y).contains(mousePos.x, mousePos.y))
 				if (Mouse::isButtonPressed(Mouse::Left))
 					window.draw(*sprite_button_musicOn_st3);
 				else window.draw(*sprite_button_musicOn_st4);
@@ -5134,17 +5165,20 @@ int main()
 					switch (colorNum)
 					{
 					case 1:
-						sprite_I_red->setOrigin(40 + 38 * 3 + 19, 40 + 19);
+						sprite_I_red->setOrigin((40 + 38 * 3 + 19), (40 + 19));
 						sprite_I_red->setPosition((e[0].x * 38 + 922 - 154 + 40 + 38 * 3 + 19) * fscale.x, (e[0].y * 38 + 219 - 38 - 2 + 40 + 19) * fscale.y);
 						if (turnRight && !pauseBreak && check_rotate2)
 						{
+							
 							sprite_I_red->rotate(90);
+							//sprite_I_red->setScale(fscale);
 							if (rotateBack90)sprite_I_red->rotate(-90);
 							check_rotate2 = false;
 						}
 						if (turnLeft && !pauseBreak && check_rotate2)
 						{
 							sprite_I_red->rotate(270);
+							//sprite_I_red->setScale(fscale);
 							if (rotateForward90)sprite_I_red->rotate(-270);
 							check_rotate2 = false;
 						}
@@ -6153,8 +6187,9 @@ int main()
 				{
 					// Разукрашиваем тетрамино
 					sprite->setTextureRect(IntRect(colorNum * 76, 0, 76, 76));
-					sprite->setScale(0.5, 0.5);
-					sprite->scale(fscale);
+					
+					sprite->setScale(fscale);
+					sprite->scale(0.5, 0.5);
 					// Устанавливаем позицию каждого кусочка тетрамино
 					sprite->setPosition((d[i].x * 38 + 922) * fscale.x, (d[i].y * 38 + 219) * fscale.y);//тут править
 
@@ -6195,8 +6230,9 @@ int main()
 				{
 					// Разукрашиваем тетрамино
 					sprite->setTextureRect(IntRect(colorNum * 76, 0, 76, 76));
-					sprite->setScale(0.5, 0.5);
-					sprite->scale(fscale);
+					
+					sprite->setScale(fscale);
+					sprite->scale(0.5, 0.5);
 					// Устанавливаем позицию каждого кусочка тетрамино
 					sprite->setPosition((a[i].x * 38 + 922) * fscale.x, (a[i].y * 38 + 219) * fscale.y);//тут править
 
@@ -6210,8 +6246,9 @@ int main()
 			{
 				// Разукрашиваем тетрамино
 				sprite->setTextureRect(IntRect(colorNum2 * 76, 0, 76, 76));
-				sprite->setScale(0.5, 0.5);
-				sprite->scale(fscale);
+				
+				sprite->setScale(fscale);
+				sprite->scale(0.5, 0.5);
 				// Устанавливаем позицию каждого кусочка тетрамино
 
 				sprite->setPosition((c[i].x * 38 + 922) * fscale.x, (c[i].y * 38 + 14) * fscale.y);//тут править
@@ -6259,8 +6296,9 @@ int main()
 				{
 					if (field[i][j] == 0) continue;
 					sprite->setTextureRect(IntRect(field[i][j] * 76, 0, 76, 76));
-					sprite->setScale(0.5, 0.5);
-					sprite->scale(fscale);
+					
+					sprite->setScale(fscale);
+					sprite->scale(0.5, 0.5);
 					sprite->setPosition((j * 38 + 770) * fscale.x, (i * 38 + 219) * fscale.y);//тут править
 					window.draw(*sprite);
 				}
@@ -6279,7 +6317,7 @@ int main()
 			window.draw(*sprite_ays_question);
 			
 			//кнопка yes
-			if (IntRect(735 * fscale.x, 547 * fscale.y, 85, 37).contains(mousePos.x, mousePos.y))
+			if (IntRect(735 * fscale.x, 547 * fscale.y, 85 * fscale.x, 37 * fscale.y).contains(mousePos.x, mousePos.y))
 			{
 				if (Mouse::isButtonPressed(Mouse::Left))
 				{
@@ -6316,7 +6354,7 @@ int main()
 			}
 			else window.draw(*sprite_ays_yes1st);
 			//кнопка no
-			if (IntRect(1113 * fscale.x, 547 * fscale.y, 71, 37).contains(mousePos.x, mousePos.y))
+			if (IntRect(1113 * fscale.x, 547 * fscale.y, 71 * fscale.x, 37 * fscale.y).contains(mousePos.x, mousePos.y))
 			{
 				if (Mouse::isButtonPressed(Mouse::Left))
 				{
@@ -6554,7 +6592,9 @@ Image *LoadImageFromResource(const unsigned short& ID, const char* type)
 	Image* image{ new Image };
 
 	if (!image->loadFromMemory(firstByte, rsrcDataSize))
-	throw std::runtime_error("Failed to load image from memory.");
+	{
+		throw std::runtime_error("Failed to load image from memory.");
+	}
 	
 	//return Image();
 	return image;
@@ -6580,9 +6620,13 @@ Texture* LoadTextureFromResource(const unsigned short& ID, const char* type)
 		throw std::runtime_error("Failed to lock resource.");
 
 	Texture *texture = new Texture;
+	//LOGGER(rsrcDataSize)
+	//	LOGGER(firstByte)
+	//	LOGGER(texture != nullptr)
+	//cout<<ID<<endl;
 	if (!texture->loadFromMemory(firstByte, rsrcDataSize))
 		throw std::runtime_error("Failed to load image from memory.");
-
+		//return nullptr;
 	//return Texture();
 	return texture;
 }
@@ -6617,8 +6661,8 @@ void fill_tetramino()
 	 // задаём тип тетрамино
 	beginGame = false;
 	typeOfTetramino1 = rand() % 7;
-	//typeOfTetramino1 = 1;
-	//typeOfTetramino2 = 1;
+	typeOfTetramino1 = 0;
+	typeOfTetramino2 = 0;
 	typeOfTetramino2 = rand() % 7;
 	for (int i = 0; i < 4; i++)
 	{
@@ -6706,7 +6750,7 @@ void draw_3buttons(RenderWindow &win, Vector2i &mpos, Sprite &splst1, Sprite &sp
 
 	//Отрисовка кнопки right Close
 
-	if (IntRect(1799 * fsc.x, 32 * fsc.y, 85, 62).contains(mpos.x, mpos.y))
+	if (IntRect(1799 * fsc.x, 32 * fsc.y, 85 * fsc.x, 62 * fsc.y).contains(mpos.x, mpos.y))
 	{
 		if (Mouse::isButtonPressed(Mouse::Left))
 			win.draw(sprst3);
@@ -6716,7 +6760,7 @@ void draw_3buttons(RenderWindow &win, Vector2i &mpos, Sprite &splst1, Sprite &sp
 
 	//Отрисовка кнопки middle restore
 
-	if (IntRect(1714 * fsc.x, 32 * fsc.y, 85, 62).contains(mpos.x, mpos.y))
+	if (IntRect(1714 * fsc.x, 32 * fsc.y, 85 * fsc.x, 62 * fsc.y).contains(mpos.x, mpos.y))
 	{
 		if (Mouse::isButtonPressed(Mouse::Left))
 			win.draw(spmst3);
@@ -6726,7 +6770,7 @@ void draw_3buttons(RenderWindow &win, Vector2i &mpos, Sprite &splst1, Sprite &sp
 
 	//Отрисовка кнопки left Minimize
 
-	if (IntRect(1629 * fsc.x, 32 * fsc.y, 85, 62).contains(mpos.x, mpos.y))
+	if (IntRect(1629 * fsc.x, 32 * fsc.y, 85 * fsc.x, 62 * fsc.y).contains(mpos.x, mpos.y))
 	{
 		if (Mouse::isButtonPressed(Mouse::Left))
 			win.draw(splst3);
@@ -6739,7 +6783,7 @@ void draw_3buttons2(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& s
 {
 	//Отрисовка кнопки middle restore
 
-	if (IntRect(1714 * fsc.x, 32 * fsc.y, 85, 62).contains(mpos.x, mpos.y))
+	if (IntRect(1714 * fsc.x, 32 * fsc.y, 85 * fsc.x, 62 * fsc.y).contains(mpos.x, mpos.y))
 	{
 		if (Mouse::isButtonPressed(Mouse::Left))
 			win.draw(spmst3);
@@ -6749,7 +6793,7 @@ void draw_3buttons2(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& s
 
 	//Отрисовка кнопки left Minimize
 
-	if (IntRect(1629 * fsc.x, 32 * fsc.y, 85, 62).contains(mpos.x, mpos.y))
+	if (IntRect(1629 * fsc.x, 32 * fsc.y, 85 * fsc.x, 62 * fsc.y).contains(mpos.x, mpos.y))
 	{
 		if (Mouse::isButtonPressed(Mouse::Left))
 			win.draw(splst3);
@@ -6759,7 +6803,7 @@ void draw_3buttons2(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& s
 
 	//Отрисовка кнопки right Close
 
-	if (IntRect(1799 * fsc.x, 32 * fsc.y, 85, 62).contains(mpos.x, mpos.y))
+	if (IntRect(1799 * fsc.x, 32 * fsc.y, 85 * fsc.x, 62 * fsc.y).contains(mpos.x, mpos.y))
 	{
 		if (Mouse::isButtonPressed(Mouse::Left))
 			win.draw(sprst3);
@@ -6772,7 +6816,7 @@ void draw_3buttons3(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& s
 {
 	//Отрисовка кнопки right Close
 
-	if (IntRect(1799 * fsc.x, 32 * fsc.y, 85, 62).contains(mpos.x, mpos.y))
+	if (IntRect(1799 * fsc.x, 32 * fsc.y, 85 * fsc.x, 62 * fsc.y).contains(mpos.x, mpos.y))
 	{
 		if (Mouse::isButtonPressed(Mouse::Left))
 			win.draw(sprst3);
@@ -6782,7 +6826,7 @@ void draw_3buttons3(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& s
 
 	//Отрисовка кнопки left Minimize
 
-	if (IntRect(1629 * fsc.x, 32 * fsc.y, 85, 62).contains(mpos.x, mpos.y))
+	if (IntRect(1629 * fsc.x, 32 * fsc.y, 85 * fsc.x, 62 * fsc.y).contains(mpos.x, mpos.y))
 	{
 		if (Mouse::isButtonPressed(Mouse::Left))
 			win.draw(splst3);
@@ -6792,7 +6836,7 @@ void draw_3buttons3(RenderWindow& win, Vector2i& mpos, Sprite& splst1, Sprite& s
 
 	//Отрисовка кнопки middle restore
 
-	if (IntRect(1714 * fsc.x, 32 * fsc.y, 85, 62).contains(mpos.x, mpos.y))
+	if (IntRect(1714 * fsc.x, 32 * fsc.y, 85 * fsc.x, 62 * fsc.y).contains(mpos.x, mpos.y))
 	{
 		if (Mouse::isButtonPressed(Mouse::Left))
 			win.draw(spmst3);
@@ -6807,15 +6851,16 @@ void create_window_for_loading_screen(Sprite* scr, Sprite *Load)
 	//RenderWindow* loading_screen = new RenderWindow(VideoMode(1920, 1080), "Tetris", Style::Close | Style::Titlebar | Style::Fullscreen);
 	//RenderWindow* loading_screen = new RenderWindow(VideoMode(1920, 1080), "Tetris", Style::None);
 	RenderWindow* loading_screen = new RenderWindow(VideoMode().getDesktopMode(), "Tetris", Style::None, *context);
-
+	//SetForegroundWindow(loading_screen->getSystemHandle());//чтобы сделать окно активным
 	
 	loading_screen->setMouseCursorVisible(false);
 	loading_screen->setFramerateLimit(60);
-	Load->setScale(0.7, 0.7);
-	Load->scale(factorOfScaleFn(*loading_screen));
+	
+	Load->setScale(factorOfScaleFn(*loading_screen));
+	Load->scale(0.7, 0.7);
 	Load->setPosition(600*factorOfScaleFn(*loading_screen).x, 350* factorOfScaleFn(*loading_screen).y);
 
-	scr->scale(factorOfScaleFn(*loading_screen));
+	scr->setScale(factorOfScaleFn(*loading_screen));
 	
 	Event ev;
 
@@ -6851,9 +6896,10 @@ void create_window_for_loading_screen(Sprite* scr, Sprite *Load)
 Vector2f factorOfScaleFn(RenderWindow& win)
 {
 	Vector2f vec;
-	vec.x = static_cast<float>(win.getSize().x) / 1920;
-	vec.y = static_cast<float>(win.getSize().y) / 1080;
-	
+
+		vec.x = static_cast<float>(win.getSize().x) / 1920;
+		vec.y = static_cast<float>(win.getSize().y) / 1080;
+
 	return vec;
 }
 
