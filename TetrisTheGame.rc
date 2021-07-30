@@ -1,0 +1,1481 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG1                PNG                     "Images\\icon_for_tetris.png"
+
+IDB_PNG3                PNG                     "Images\\table.png"
+
+IDB_PNG6                PNG                     "Images\\table2.png"
+
+IDB_PNG2                PNG                     "Images\\тетрамино_новые2.png"
+
+IDB_PNG4                PNG                     "Images\\Фон для игры с главной и верхней рамками.png"
+
+IDB_PNG5                PNG                     "Images\\Сетка.png"
+
+IDB_PNG7                PNG                     "E:\\Potoshop projects\\тетрамино_новые3.png"
+
+IDB_PNG8                PNG                     "E:\\Potoshop projects\\Кнопка Start\\Кнопка состояние_1.png"
+
+IDB_PNG10               PNG                     "E:\\Potoshop projects\\Кнопка Start\\Кнопка состояние нажатия.png"
+
+IDB_PNG11               PNG                     "E:\\Potoshop projects\\Кнопка Start\\Кнопка состояние наведения2.png"
+
+IDB_PNG9                PNG                     "E:\\Potoshop projects\\Кнопка New game\\new_game_state_1.png"
+
+IDB_PNG12               PNG                     "E:\\Potoshop projects\\Кнопка New game\\new_game_state_2.png"
+
+IDB_PNG13               PNG                     "E:\\Potoshop projects\\Кнопка New game\\new_game_state_3.png"
+
+IDB_PNG14               PNG                     "E:\\Potoshop projects\\Кнопка Options\\button_options_st1.png"
+
+IDB_PNG15               PNG                     "E:\\Potoshop projects\\Кнопка Options\\button_options_st2.png"
+
+IDB_PNG16               PNG                     "E:\\Potoshop projects\\Кнопка Options\\button_options_st3.png"
+
+IDB_PNG17               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_left_st1.png"
+
+IDB_PNG18               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_left_st2.png"
+
+IDB_PNG19               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_left_st3.png"
+
+IDB_PNG20               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_right_st1.png"
+
+IDB_PNG21               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_right_st2.png"
+
+IDB_PNG22               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_right_st3.png"
+
+IDB_PNG23               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_middle_restore_st1.png"
+
+IDB_PNG24               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_middle_restore_st2.png"
+
+IDB_PNG25               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_middle_restore_st3.png"
+
+IDB_PNG26               PNG                     "E:\\Potoshop projects\\Кнопка Pause\\button_pause_st1.png"
+
+IDB_PNG27               PNG                     "E:\\Potoshop projects\\Кнопка Pause\\button_pause_st2.png"
+
+IDB_PNG28               PNG                     "E:\\Potoshop projects\\Кнопка Pause\\button_pause_st3.png"
+
+IDB_PNG29               PNG                     "E:\\Potoshop projects\\Кнопка Sound off\\button_soundOff_st1.png"
+
+IDB_PNG30               PNG                     "E:\\Potoshop projects\\Кнопка Sound off\\button_soundOff_st2.png"
+
+IDB_PNG31               PNG                     "E:\\Potoshop projects\\Кнопка Sound off\\button_soundOff_st3.png"
+
+IDB_PNG32               PNG                     "E:\\Potoshop projects\\left_frame.png"
+
+IDB_PNG33               PNG                     "E:\\Potoshop projects\\right_frame.png"
+
+IDB_PNG34               PNG                     "E:\\Potoshop projects\\right_frame_bottom.png"
+
+IDB_PNG35               PNG                     "E:\\Potoshop projects\\Areyousure_frame.png"
+
+IDB_PNG36               PNG                     "E:\\Potoshop projects\\Areyousure_no_1st.png"
+
+IDB_PNG37               PNG                     "E:\\Potoshop projects\\Areyousure_no_2st.png"
+
+IDB_PNG38               PNG                     "E:\\Potoshop projects\\Areyousure_question.png"
+
+IDB_PNG39               PNG                     "E:\\Potoshop projects\\Areyousure_yes_1st.png"
+
+IDB_PNG40               PNG                     "E:\\Potoshop projects\\Areyousure_yes_2st.png"
+
+IDB_PNG41               PNG                     "E:\\Potoshop projects\\Кнопка Resume\\button_resume_st1.png"
+
+IDB_PNG42               PNG                     "E:\\Potoshop projects\\Кнопка Resume\\button_resume_st2.png"
+
+IDB_PNG43               PNG                     "E:\\Potoshop projects\\Кнопка Resume\\button_resume_st3.png"
+
+IDB_PNG44               PNG                     "E:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st1.png"
+
+IDB_PNG45               PNG                     "E:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st2.png"
+
+IDB_PNG46               PNG                     "E:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st3.png"
+
+IDB_PNG47               PNG                     "E:\\Potoshop projects\\Кнопка Music On\\music_on_st1.png"
+
+IDB_PNG48               PNG                     "E:\\Potoshop projects\\Кнопка Music On\\music_on_st2.png"
+
+IDB_PNG49               PNG                     "E:\\Potoshop projects\\Кнопка Music On\\music_on_st3.png"
+
+IDB_PNG50               PNG                     "E:\\Potoshop projects\\Кнопка Music Off\\music_off_st1.png"
+
+IDB_PNG51               PNG                     "E:\\Potoshop projects\\Кнопка Music Off\\music_off_st2.png"
+
+IDB_PNG52               PNG                     "E:\\Potoshop projects\\Кнопка Music Off\\music_off_st3.png"
+
+IDB_PNG53               PNG                     "E:\\Potoshop projects\\Кнопка Pause\\button_pause_st4.png"
+
+IDB_PNG54               PNG                     "E:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st4.png"
+
+IDB_PNG55               PNG                     "E:\\Potoshop projects\\Кнопка Music On\\music_on_st4.png"
+
+IDB_PNG56               PNG                     "E:\\Potoshop projects\\Кнопка Start\\button_start_st2.png"
+
+IDB_PNG57               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_red.png"
+
+IDB_PNG58               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_red.png"
+
+IDB_PNG59               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_red.png"
+
+IDB_PNG60               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_red.png"
+
+IDB_PNG61               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_red.png"
+
+IDB_PNG62               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_red.png"
+
+IDB_PNG63               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_red.png"
+
+IDB_PNG64               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_black.png"
+
+IDB_PNG65               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_blue.png"
+
+IDB_PNG66               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_brown.png"
+
+IDB_PNG67               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_green.png"
+
+IDB_PNG68               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_orange.png"
+
+IDB_PNG69               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_pink.png"
+
+IDB_PNG70               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_purple.png"
+
+IDB_PNG71               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_yellow.png"
+
+IDB_PNG72               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_black.png"
+
+IDB_PNG73               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_blue.png"
+
+IDB_PNG74               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_brown.png"
+
+IDB_PNG75               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_green.png"
+
+IDB_PNG76               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_orange.png"
+
+IDB_PNG77               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_pink.png"
+
+IDB_PNG78               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_purple.png"
+
+IDB_PNG79               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_yellow.png"
+
+IDB_PNG80               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_black.png"
+
+IDB_PNG81               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_blue.png"
+
+IDB_PNG82               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_brown.png"
+
+IDB_PNG83               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_green.png"
+
+IDB_PNG84               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_orange.png"
+
+IDB_PNG85               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_pink.png"
+
+IDB_PNG86               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_purple.png"
+
+IDB_PNG87               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_yellow.png"
+
+IDB_PNG88               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_black.png"
+
+IDB_PNG89               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_blue.png"
+
+IDB_PNG90               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_brown.png"
+
+IDB_PNG91               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_green.png"
+
+IDB_PNG92               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_orange.png"
+
+IDB_PNG93               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_pink.png"
+
+IDB_PNG94               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_purple.png"
+
+IDB_PNG95               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_yellow.png"
+
+IDB_PNG96               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_black.png"
+
+IDB_PNG97               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_blue.png"
+
+IDB_PNG98               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_brown.png"
+
+IDB_PNG99               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_green.png"
+
+IDB_PNG100              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_orange.png"
+
+IDB_PNG101              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_pink.png"
+
+IDB_PNG102              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_purple.png"
+
+IDB_PNG103              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_yellow.png"
+
+IDB_PNG104              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_black.png"
+
+IDB_PNG105              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_blue.png"
+
+IDB_PNG106              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_brown.png"
+
+IDB_PNG107              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_green.png"
+
+IDB_PNG108              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_orange.png"
+
+IDB_PNG109              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_pink.png"
+
+IDB_PNG110              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_purple.png"
+
+IDB_PNG111              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_yellow.png"
+
+IDB_PNG112              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_black.png"
+
+IDB_PNG113              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_blue.png"
+
+IDB_PNG114              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_brown.png"
+
+IDB_PNG115              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_green.png"
+
+IDB_PNG116              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_orange.png"
+
+IDB_PNG117              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_pink.png"
+
+IDB_PNG118              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_purple.png"
+
+IDB_PNG119              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_yellow.png"
+
+IDB_PNG120              PNG                     "E:\\Potoshop projects\\myCursor.png"
+
+IDB_PNG121              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия01.png"
+
+IDB_PNG122              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия02.png"
+
+IDB_PNG123              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия03.png"
+
+IDB_PNG124              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия04.png"
+
+IDB_PNG125              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия05.png"
+
+IDB_PNG126              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия06.png"
+
+IDB_PNG127              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия07.png"
+
+IDB_PNG128              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия08.png"
+
+IDB_PNG129              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия09.png"
+
+IDB_PNG130              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия10.png"
+
+IDB_PNG131              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия11.png"
+
+IDB_PNG132              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия12.png"
+
+IDB_PNG133              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия13.png"
+
+IDB_PNG134              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия14.png"
+
+IDB_PNG135              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия15.png"
+
+IDB_PNG136              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия16.png"
+
+IDB_PNG137              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия17.png"
+
+IDB_PNG138              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия18.png"
+
+IDB_PNG139              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия19.png"
+
+IDB_PNG140              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия20.png"
+
+IDB_PNG141              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия21.png"
+
+IDB_PNG142              PNG                     "E:\\Potoshop projects\\Анимация сжигание одной линии\\Анимация для игры 1 линия22.png"
+
+IDB_PNG143              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии01.png"
+
+IDB_PNG144              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии02.png"
+
+IDB_PNG145              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии03.png"
+
+IDB_PNG146              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии04.png"
+
+IDB_PNG147              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии05.png"
+
+IDB_PNG148              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии06.png"
+
+IDB_PNG149              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии07.png"
+
+IDB_PNG150              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии08.png"
+
+IDB_PNG151              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии09.png"
+
+IDB_PNG152              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии10.png"
+
+IDB_PNG153              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии11.png"
+
+IDB_PNG154              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии12.png"
+
+IDB_PNG155              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии13.png"
+
+IDB_PNG156              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии14.png"
+
+IDB_PNG157              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии15.png"
+
+IDB_PNG158              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии16.png"
+
+IDB_PNG159              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии17.png"
+
+IDB_PNG160              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии18.png"
+
+IDB_PNG161              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии19.png"
+
+IDB_PNG162              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии20.png"
+
+IDB_PNG163              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии21.png"
+
+IDB_PNG164              PNG                     "E:\\Potoshop projects\\Анимация сжигание двух линий\\Анимация для игры 2 линии22.png"
+
+IDB_PNG165              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии01.png"
+
+IDB_PNG166              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии02.png"
+
+IDB_PNG167              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии03.png"
+
+IDB_PNG168              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии04.png"
+
+IDB_PNG169              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии05.png"
+
+IDB_PNG170              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии06.png"
+
+IDB_PNG171              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии07.png"
+
+IDB_PNG172              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии08.png"
+
+IDB_PNG173              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии09.png"
+
+IDB_PNG174              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии10.png"
+
+IDB_PNG175              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии11.png"
+
+IDB_PNG176              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии12.png"
+
+IDB_PNG177              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии13.png"
+
+IDB_PNG178              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии14.png"
+
+IDB_PNG179              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии15.png"
+
+IDB_PNG180              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии16.png"
+
+IDB_PNG181              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии17.png"
+
+IDB_PNG182              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии18.png"
+
+IDB_PNG183              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии19.png"
+
+IDB_PNG184              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии20.png"
+
+IDB_PNG185              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии21.png"
+
+IDB_PNG186              PNG                     "E:\\Potoshop projects\\Анимация сжигание трех линий\\Анимация для игры 3 линии22.png"
+
+IDB_PNG187              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии01.png"
+
+IDB_PNG188              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии02.png"
+
+IDB_PNG189              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии03.png"
+
+IDB_PNG190              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии04.png"
+
+IDB_PNG191              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии05.png"
+
+IDB_PNG192              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии06.png"
+
+IDB_PNG193              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии07.png"
+
+IDB_PNG194              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии08.png"
+
+IDB_PNG195              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии09.png"
+
+IDB_PNG196              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии10.png"
+
+IDB_PNG197              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии11.png"
+
+IDB_PNG198              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии12.png"
+
+IDB_PNG199              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии13.png"
+
+IDB_PNG200              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии14.png"
+
+IDB_PNG201              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии15.png"
+
+IDB_PNG202              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии16.png"
+
+IDB_PNG203              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии17.png"
+
+IDB_PNG204              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии18.png"
+
+IDB_PNG205              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии19.png"
+
+IDB_PNG206              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии20.png"
+
+IDB_PNG207              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии21.png"
+
+IDB_PNG208              PNG                     "E:\\Potoshop projects\\Анимация сжигание четырех линий\\Анимация для игры 4 линии22.png"
+
+IDB_PNG209              PNG                     "E:\\Potoshop projects\\Кадры для анимации падения\\кадр быстрого падения вниз3_в_ряд.png"
+
+IDB_PNG210              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов00.png"
+
+IDB_PNG211              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов01.png"
+
+IDB_PNG212              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов02.png"
+
+IDB_PNG213              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов03.png"
+
+IDB_PNG214              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов04.png"
+
+IDB_PNG215              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов05.png"
+
+IDB_PNG216              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов06.png"
+
+IDB_PNG217              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов07.png"
+
+IDB_PNG218              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов08.png"
+
+IDB_PNG219              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов09.png"
+
+IDB_PNG220              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов10.png"
+
+IDB_PNG221              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз3_в_ряд_16рядов11.png"
+
+IDB_PNG222              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 1 ряд\\анимации быстрого падения вниз1_в_ряд_1ряд00.png"
+
+IDB_PNG223              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 1 ряд\\анимации быстрого падения вниз1_в_ряд_1ряд01.png"
+
+IDB_PNG224              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 2 ряда\\анимации быстрого падения вниз1_в_ряд_2ряд00.png"
+
+IDB_PNG225              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 2 ряда\\анимации быстрого падения вниз1_в_ряд_2ряд01.png"
+
+IDB_PNG226              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 3 ряда\\анимации быстрого падения вниз1_в_ряд_3ряда00.png"
+
+IDB_PNG227              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 3 ряда\\анимации быстрого падения вниз1_в_ряд_3ряда01.png"
+
+IDB_PNG228              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз1_в_ряд_4ряда00.png"
+
+IDB_PNG229              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз1_в_ряд_4ряда01.png"
+
+IDB_PNG230              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз1_в_ряд_4ряда02.png"
+
+IDB_PNG231              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз1_в_ряд_4ряда03.png"
+
+IDB_PNG232              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз1_в_ряд_5рядов00.png"
+
+IDB_PNG233              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз1_в_ряд_5рядов01.png"
+
+IDB_PNG234              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз1_в_ряд_5рядов02.png"
+
+IDB_PNG235              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз1_в_ряд_5рядов03.png"
+
+IDB_PNG236              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз1_в_ряд_6рядов00.png"
+
+IDB_PNG237              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз1_в_ряд_6рядов01.png"
+
+IDB_PNG238              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз1_в_ряд_6рядов02.png"
+
+IDB_PNG239              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз1_в_ряд_6рядов03.png"
+
+IDB_PNG240              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз1_в_ряд_7рядов00.png"
+
+IDB_PNG241              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз1_в_ряд_7рядов01.png"
+
+IDB_PNG242              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз1_в_ряд_7рядов02.png"
+
+IDB_PNG243              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз1_в_ряд_7рядов03.png"
+
+IDB_PNG244              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз1_в_ряд_7рядов04.png"
+
+IDB_PNG245              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз1_в_ряд_7рядов05.png"
+
+IDB_PNG246              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз1_в_ряд_8рядов00.png"
+
+IDB_PNG247              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз1_в_ряд_8рядов01.png"
+
+IDB_PNG248              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз1_в_ряд_8рядов02.png"
+
+IDB_PNG249              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз1_в_ряд_8рядов03.png"
+
+IDB_PNG250              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз1_в_ряд_8рядов04.png"
+
+IDB_PNG251              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз1_в_ряд_8рядов05.png"
+
+IDB_PNG252              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз1_в_ряд_9рядов00.png"
+
+IDB_PNG253              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз1_в_ряд_9рядов01.png"
+
+IDB_PNG254              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз1_в_ряд_9рядов02.png"
+
+IDB_PNG255              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз1_в_ряд_9рядов03.png"
+
+IDB_PNG256              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз1_в_ряд_9рядов04.png"
+
+IDB_PNG257              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз1_в_ряд_9рядов05.png"
+
+IDB_PNG258              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз1_в_ряд_10рядов00.png"
+
+IDB_PNG259              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз1_в_ряд_10рядов01.png"
+
+IDB_PNG260              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз1_в_ряд_10рядов02.png"
+
+IDB_PNG261              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз1_в_ряд_10рядов03.png"
+
+IDB_PNG262              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз1_в_ряд_10рядов04.png"
+
+IDB_PNG263              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз1_в_ряд_10рядов05.png"
+
+IDB_PNG264              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз1_в_ряд_10рядов06.png"
+
+IDB_PNG265              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз1_в_ряд_10рядов07.png"
+
+IDB_PNG266              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз1_в_ряд_11рядов00.png"
+
+IDB_PNG267              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз1_в_ряд_11рядов01.png"
+
+IDB_PNG268              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз1_в_ряд_11рядов02.png"
+
+IDB_PNG269              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз1_в_ряд_11рядов03.png"
+
+IDB_PNG270              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз1_в_ряд_11рядов04.png"
+
+IDB_PNG271              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз1_в_ряд_11рядов05.png"
+
+IDB_PNG272              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз1_в_ряд_11рядов06.png"
+
+IDB_PNG273              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз1_в_ряд_11рядов07.png"
+
+IDB_PNG274              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз1_в_ряд_12рядов00.png"
+
+IDB_PNG275              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз1_в_ряд_12рядов01.png"
+
+IDB_PNG276              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз1_в_ряд_12рядов02.png"
+
+IDB_PNG277              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз1_в_ряд_12рядов03.png"
+
+IDB_PNG278              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз1_в_ряд_12рядов04.png"
+
+IDB_PNG279              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз1_в_ряд_12рядов05.png"
+
+IDB_PNG280              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз1_в_ряд_12рядов06.png"
+
+IDB_PNG281              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз1_в_ряд_12рядов07.png"
+
+IDB_PNG282              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз1_в_ряд_13рядов00.png"
+
+IDB_PNG283              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз1_в_ряд_13рядов01.png"
+
+IDB_PNG284              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз1_в_ряд_13рядов02.png"
+
+IDB_PNG285              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз1_в_ряд_13рядов03.png"
+
+IDB_PNG286              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз1_в_ряд_13рядов04.png"
+
+IDB_PNG287              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз1_в_ряд_13рядов05.png"
+
+IDB_PNG288              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз1_в_ряд_13рядов06.png"
+
+IDB_PNG289              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз1_в_ряд_13рядов07.png"
+
+IDB_PNG290              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз1_в_ряд_13рядов08.png"
+
+IDB_PNG291              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз1_в_ряд_13рядов09.png"
+
+IDB_PNG292              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз1_в_ряд_14рядов00.png"
+
+IDB_PNG293              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз1_в_ряд_14рядов01.png"
+
+IDB_PNG294              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз1_в_ряд_14рядов02.png"
+
+IDB_PNG295              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз1_в_ряд_14рядов03.png"
+
+IDB_PNG296              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз1_в_ряд_14рядов04.png"
+
+IDB_PNG297              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз1_в_ряд_14рядов05.png"
+
+IDB_PNG298              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз1_в_ряд_14рядов06.png"
+
+IDB_PNG299              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз1_в_ряд_14рядов07.png"
+
+IDB_PNG300              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз1_в_ряд_14рядов08.png"
+
+IDB_PNG301              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз1_в_ряд_14рядов09.png"
+
+IDB_PNG302              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз1_в_ряд_15рядов00.png"
+
+IDB_PNG303              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз1_в_ряд_15рядов01.png"
+
+IDB_PNG304              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз1_в_ряд_15рядов02.png"
+
+IDB_PNG305              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз1_в_ряд_15рядов03.png"
+
+IDB_PNG306              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз1_в_ряд_15рядов04.png"
+
+IDB_PNG307              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз1_в_ряд_15рядов05.png"
+
+IDB_PNG308              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз1_в_ряд_15рядов06.png"
+
+IDB_PNG309              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз1_в_ряд_15рядов07.png"
+
+IDB_PNG310              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз1_в_ряд_15рядов08.png"
+
+IDB_PNG311              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз1_в_ряд_15рядов09.png"
+
+IDB_PNG312              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов00.png"
+
+IDB_PNG313              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов01.png"
+
+IDB_PNG314              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов02.png"
+
+IDB_PNG315              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов03.png"
+
+IDB_PNG316              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов04.png"
+
+IDB_PNG317              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов05.png"
+
+IDB_PNG318              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов06.png"
+
+IDB_PNG319              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов07.png"
+
+IDB_PNG320              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов08.png"
+
+IDB_PNG321              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов09.png"
+
+IDB_PNG322              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов10.png"
+
+IDB_PNG323              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз1_в_ряд_16рядов11.png"
+
+IDB_PNG324              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов00.png"
+
+IDB_PNG325              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов01.png"
+
+IDB_PNG326              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов02.png"
+
+IDB_PNG327              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов03.png"
+
+IDB_PNG328              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов04.png"
+
+IDB_PNG329              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов05.png"
+
+IDB_PNG330              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов06.png"
+
+IDB_PNG331              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов07.png"
+
+IDB_PNG332              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов08.png"
+
+IDB_PNG333              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов09.png"
+
+IDB_PNG334              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов10.png"
+
+IDB_PNG335              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 1 квадрат в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз1_в_ряд_17рядов11.png"
+
+IDB_PNG336              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 1 ряд\\анимации быстрого падения вниз2_в_ряд_1ряд00.png"
+
+IDB_PNG337              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 1 ряд\\анимации быстрого падения вниз2_в_ряд_1ряд01.png"
+
+IDB_PNG338              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 2 ряда\\анимации быстрого падения вниз2_в_ряд_2ряда00.png"
+
+IDB_PNG339              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 2 ряда\\анимации быстрого падения вниз2_в_ряд_2ряда01.png"
+
+IDB_PNG340              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 3 ряда\\анимации быстрого падения вниз2_в_ряд_3ряда00.png"
+
+IDB_PNG341              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 3 ряда\\анимации быстрого падения вниз2_в_ряд_3ряда01.png"
+
+IDB_PNG342              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз2_в_ряд_4ряда00.png"
+
+IDB_PNG343              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз2_в_ряд_4ряда01.png"
+
+IDB_PNG344              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз2_в_ряд_4ряда02.png"
+
+IDB_PNG345              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз2_в_ряд_4ряда03.png"
+
+IDB_PNG346              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз2_в_ряд_5ряда00.png"
+
+IDB_PNG347              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз2_в_ряд_5ряда01.png"
+
+IDB_PNG348              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз2_в_ряд_5ряда02.png"
+
+IDB_PNG349              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз2_в_ряд_5ряда03.png"
+
+IDB_PNG350              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз2_в_ряд_6рядов00.png"
+
+IDB_PNG351              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз2_в_ряд_6рядов01.png"
+
+IDB_PNG352              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз2_в_ряд_6рядов02.png"
+
+IDB_PNG353              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз2_в_ряд_6рядов03.png"
+
+IDB_PNG354              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз2_в_ряд_7рядов00.png"
+
+IDB_PNG355              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз2_в_ряд_7рядов01.png"
+
+IDB_PNG356              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз2_в_ряд_7рядов02.png"
+
+IDB_PNG357              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз2_в_ряд_7рядов03.png"
+
+IDB_PNG358              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз2_в_ряд_7рядов04.png"
+
+IDB_PNG359              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз2_в_ряд_7рядов05.png"
+
+IDB_PNG360              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз2_в_ряд_8рядов00.png"
+
+IDB_PNG361              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз2_в_ряд_8рядов01.png"
+
+IDB_PNG362              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз2_в_ряд_8рядов02.png"
+
+IDB_PNG363              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз2_в_ряд_8рядов03.png"
+
+IDB_PNG364              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз2_в_ряд_8рядов04.png"
+
+IDB_PNG365              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз2_в_ряд_8рядов05.png"
+
+IDB_PNG366              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз2_в_ряд_9рядов00.png"
+
+IDB_PNG367              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз2_в_ряд_9рядов01.png"
+
+IDB_PNG368              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз2_в_ряд_9рядов02.png"
+
+IDB_PNG369              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз2_в_ряд_9рядов03.png"
+
+IDB_PNG370              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз2_в_ряд_9рядов04.png"
+
+IDB_PNG371              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз2_в_ряд_9рядов05.png"
+
+IDB_PNG372              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз2_в_ряд_10рядов00.png"
+
+IDB_PNG373              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз2_в_ряд_10рядов01.png"
+
+IDB_PNG374              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз2_в_ряд_10рядов02.png"
+
+IDB_PNG375              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз2_в_ряд_10рядов03.png"
+
+IDB_PNG376              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз2_в_ряд_10рядов04.png"
+
+IDB_PNG377              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз2_в_ряд_10рядов05.png"
+
+IDB_PNG378              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз2_в_ряд_10рядов06.png"
+
+IDB_PNG379              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз2_в_ряд_10рядов07.png"
+
+IDB_PNG380              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз2_в_ряд_11рядов00.png"
+
+IDB_PNG381              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз2_в_ряд_11рядов01.png"
+
+IDB_PNG382              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз2_в_ряд_11рядов02.png"
+
+IDB_PNG383              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз2_в_ряд_11рядов03.png"
+
+IDB_PNG384              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз2_в_ряд_11рядов04.png"
+
+IDB_PNG385              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз2_в_ряд_11рядов05.png"
+
+IDB_PNG386              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз2_в_ряд_11рядов06.png"
+
+IDB_PNG387              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз2_в_ряд_11рядов07.png"
+
+IDB_PNG388              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз2_в_ряд_12рядов00.png"
+
+IDB_PNG389              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз2_в_ряд_12рядов01.png"
+
+IDB_PNG390              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз2_в_ряд_12рядов02.png"
+
+IDB_PNG391              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз2_в_ряд_12рядов03.png"
+
+IDB_PNG392              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз2_в_ряд_12рядов04.png"
+
+IDB_PNG393              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз2_в_ряд_12рядов05.png"
+
+IDB_PNG394              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз2_в_ряд_12рядов06.png"
+
+IDB_PNG395              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз2_в_ряд_12рядов07.png"
+
+IDB_PNG396              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз2_в_ряд_13рядов00.png"
+
+IDB_PNG397              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз2_в_ряд_13рядов01.png"
+
+IDB_PNG398              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз2_в_ряд_13рядов02.png"
+
+IDB_PNG399              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз2_в_ряд_13рядов03.png"
+
+IDB_PNG400              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз2_в_ряд_13рядов04.png"
+
+IDB_PNG401              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз2_в_ряд_13рядов05.png"
+
+IDB_PNG402              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз2_в_ряд_13рядов06.png"
+
+IDB_PNG403              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз2_в_ряд_13рядов07.png"
+
+IDB_PNG404              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз2_в_ряд_13рядов08.png"
+
+IDB_PNG405              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз2_в_ряд_13рядов09.png"
+
+IDB_PNG406              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз2_в_ряд_14рядов00.png"
+
+IDB_PNG407              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз2_в_ряд_14рядов01.png"
+
+IDB_PNG408              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз2_в_ряд_14рядов02.png"
+
+IDB_PNG409              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз2_в_ряд_14рядов03.png"
+
+IDB_PNG410              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз2_в_ряд_14рядов04.png"
+
+IDB_PNG411              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз2_в_ряд_14рядов05.png"
+
+IDB_PNG412              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз2_в_ряд_14рядов06.png"
+
+IDB_PNG413              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз2_в_ряд_14рядов07.png"
+
+IDB_PNG414              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз2_в_ряд_14рядов08.png"
+
+IDB_PNG415              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз2_в_ряд_14рядов09.png"
+
+IDB_PNG416              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз2_в_ряд_15рядов00.png"
+
+IDB_PNG417              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз2_в_ряд_15рядов01.png"
+
+IDB_PNG418              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз2_в_ряд_15рядов02.png"
+
+IDB_PNG419              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз2_в_ряд_15рядов03.png"
+
+IDB_PNG420              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз2_в_ряд_15рядов04.png"
+
+IDB_PNG421              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз2_в_ряд_15рядов05.png"
+
+IDB_PNG422              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз2_в_ряд_15рядов06.png"
+
+IDB_PNG423              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз2_в_ряд_15рядов07.png"
+
+IDB_PNG424              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз2_в_ряд_15рядов08.png"
+
+IDB_PNG425              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз2_в_ряд_15рядов09.png"
+
+IDB_PNG426              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов00.png"
+
+IDB_PNG427              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов01.png"
+
+IDB_PNG428              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов02.png"
+
+IDB_PNG429              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов03.png"
+
+IDB_PNG430              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов04.png"
+
+IDB_PNG431              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов05.png"
+
+IDB_PNG432              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов06.png"
+
+IDB_PNG433              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов07.png"
+
+IDB_PNG434              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов08.png"
+
+IDB_PNG435              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов09.png"
+
+IDB_PNG436              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов10.png"
+
+IDB_PNG437              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз2_в_ряд_16рядов11.png"
+
+IDB_PNG438              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов00.png"
+
+IDB_PNG439              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов01.png"
+
+IDB_PNG440              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов02.png"
+
+IDB_PNG441              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов03.png"
+
+IDB_PNG442              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов04.png"
+
+IDB_PNG443              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов05.png"
+
+IDB_PNG444              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов06.png"
+
+IDB_PNG445              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов07.png"
+
+IDB_PNG446              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов08.png"
+
+IDB_PNG447              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов09.png"
+
+IDB_PNG448              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов10.png"
+
+IDB_PNG449              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимация падения 2 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз2_в_ряд_17рядов11.png"
+
+IDB_PNG450              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 1 ряд\\анимации быстрого падения вниз3_в_ряд_1ряд00.png"
+
+IDB_PNG451              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 1 ряд\\анимации быстрого падения вниз3_в_ряд_1ряд01.png"
+
+IDB_PNG452              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 2 ряда\\анимации быстрого падения вниз3_в_ряд_2ряда00.png"
+
+IDB_PNG453              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 2 ряда\\анимации быстрого падения вниз3_в_ряд_2ряда01.png"
+
+IDB_PNG454              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 3 ряда\\анимации быстрого падения вниз3_в_ряд_3ряда00.png"
+
+IDB_PNG455              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 3 ряда\\анимации быстрого падения вниз3_в_ряд_3ряда01.png"
+
+IDB_PNG456              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз3_в_ряд_4ряда00.png"
+
+IDB_PNG457              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз3_в_ряд_4ряда01.png"
+
+IDB_PNG458              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз3_в_ряд_4ряда02.png"
+
+IDB_PNG459              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз3_в_ряд_4ряда03.png"
+
+IDB_PNG460              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз3_в_ряд_5рядов00.png"
+
+IDB_PNG461              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз3_в_ряд_5рядов01.png"
+
+IDB_PNG462              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз3_в_ряд_5рядов02.png"
+
+IDB_PNG463              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз3_в_ряд_5рядов03.png"
+
+IDB_PNG464              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз3_в_ряд_6рядов00.png"
+
+IDB_PNG465              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз3_в_ряд_6рядов01.png"
+
+IDB_PNG466              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз3_в_ряд_6рядов02.png"
+
+IDB_PNG467              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз3_в_ряд_6рядов03.png"
+
+IDB_PNG468              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз3_в_ряд_7рядов00.png"
+
+IDB_PNG469              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз3_в_ряд_7рядов01.png"
+
+IDB_PNG470              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз3_в_ряд_7рядов02.png"
+
+IDB_PNG471              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз3_в_ряд_7рядов03.png"
+
+IDB_PNG472              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз3_в_ряд_7рядов04.png"
+
+IDB_PNG473              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз3_в_ряд_7рядов05.png"
+
+IDB_PNG474              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз3_в_ряд_8рядов00.png"
+
+IDB_PNG475              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз3_в_ряд_8рядов01.png"
+
+IDB_PNG476              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз3_в_ряд_8рядов02.png"
+
+IDB_PNG477              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз3_в_ряд_8рядов03.png"
+
+IDB_PNG478              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз3_в_ряд_8рядов04.png"
+
+IDB_PNG479              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз3_в_ряд_8рядов05.png"
+
+IDB_PNG480              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз3_в_ряд_9рядов00.png"
+
+IDB_PNG481              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз3_в_ряд_9рядов01.png"
+
+IDB_PNG482              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз3_в_ряд_9рядов02.png"
+
+IDB_PNG483              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз3_в_ряд_9рядов03.png"
+
+IDB_PNG484              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз3_в_ряд_9рядов04.png"
+
+IDB_PNG485              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз3_в_ряд_9рядов05.png"
+
+IDB_PNG486              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз3_в_ряд_10рядов00.png"
+
+IDB_PNG487              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз3_в_ряд_10рядов01.png"
+
+IDB_PNG488              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз3_в_ряд_10рядов02.png"
+
+IDB_PNG489              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз3_в_ряд_10рядов03.png"
+
+IDB_PNG490              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз3_в_ряд_10рядов04.png"
+
+IDB_PNG491              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз3_в_ряд_10рядов05.png"
+
+IDB_PNG492              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз3_в_ряд_10рядов06.png"
+
+IDB_PNG493              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз3_в_ряд_10рядов07.png"
+
+IDB_PNG494              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз3_в_ряд_11рядов00.png"
+
+IDB_PNG495              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз3_в_ряд_11рядов01.png"
+
+IDB_PNG496              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз3_в_ряд_11рядов02.png"
+
+IDB_PNG497              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз3_в_ряд_11рядов03.png"
+
+IDB_PNG498              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз3_в_ряд_11рядов04.png"
+
+IDB_PNG499              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз3_в_ряд_11рядов05.png"
+
+IDB_PNG500              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз3_в_ряд_11рядов06.png"
+
+IDB_PNG501              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз3_в_ряд_11рядов07.png"
+
+IDB_PNG502              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз3_в_ряд_12рядов00.png"
+
+IDB_PNG503              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз3_в_ряд_12рядов01.png"
+
+IDB_PNG504              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз3_в_ряд_12рядов02.png"
+
+IDB_PNG505              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз3_в_ряд_12рядов03.png"
+
+IDB_PNG506              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз3_в_ряд_12рядов04.png"
+
+IDB_PNG507              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз3_в_ряд_12рядов05.png"
+
+IDB_PNG508              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз3_в_ряд_12рядов06.png"
+
+IDB_PNG509              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз3_в_ряд_12рядов07.png"
+
+IDB_PNG510              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз3_в_ряд_13рядов00.png"
+
+IDB_PNG511              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз3_в_ряд_13рядов01.png"
+
+IDB_PNG512              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз3_в_ряд_13рядов02.png"
+
+IDB_PNG513              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз3_в_ряд_13рядов03.png"
+
+IDB_PNG514              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз3_в_ряд_13рядов04.png"
+
+IDB_PNG515              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз3_в_ряд_13рядов05.png"
+
+IDB_PNG516              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз3_в_ряд_13рядов06.png"
+
+IDB_PNG517              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз3_в_ряд_13рядов07.png"
+
+IDB_PNG518              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз3_в_ряд_13рядов08.png"
+
+IDB_PNG519              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз3_в_ряд_13рядов09.png"
+
+IDB_PNG520              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз3_в_ряд_14рядов00.png"
+
+IDB_PNG521              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз3_в_ряд_14рядов01.png"
+
+IDB_PNG522              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз3_в_ряд_14рядов02.png"
+
+IDB_PNG523              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз3_в_ряд_14рядов03.png"
+
+IDB_PNG524              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз3_в_ряд_14рядов04.png"
+
+IDB_PNG525              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз3_в_ряд_14рядов05.png"
+
+IDB_PNG526              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз3_в_ряд_14рядов06.png"
+
+IDB_PNG527              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз3_в_ряд_14рядов07.png"
+
+IDB_PNG528              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз3_в_ряд_14рядов08.png"
+
+IDB_PNG529              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз3_в_ряд_14рядов09.png"
+
+IDB_PNG530              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз3_в_ряд_15рядов00.png"
+
+IDB_PNG531              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз3_в_ряд_15рядов01.png"
+
+IDB_PNG532              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз3_в_ряд_15рядов02.png"
+
+IDB_PNG533              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз3_в_ряд_15рядов03.png"
+
+IDB_PNG534              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз3_в_ряд_15рядов04.png"
+
+IDB_PNG535              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз3_в_ряд_15рядов05.png"
+
+IDB_PNG536              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз3_в_ряд_15рядов06.png"
+
+IDB_PNG537              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз3_в_ряд_15рядов07.png"
+
+IDB_PNG538              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз3_в_ряд_15рядов08.png"
+
+IDB_PNG539              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз3_в_ряд_15рядов09.png"
+
+IDB_PNG540              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов00.png"
+
+IDB_PNG541              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов01.png"
+
+IDB_PNG542              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов02.png"
+
+IDB_PNG543              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов03.png"
+
+IDB_PNG544              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов04.png"
+
+IDB_PNG545              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов05.png"
+
+IDB_PNG546              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов06.png"
+
+IDB_PNG547              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов07.png"
+
+IDB_PNG548              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов08.png"
+
+IDB_PNG549              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов09.png"
+
+IDB_PNG550              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов10.png"
+
+IDB_PNG551              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз3_в_ряд_17рядов11.png"
+
+IDB_PNG552              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов00.png"
+
+IDB_PNG553              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов01.png"
+
+IDB_PNG554              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов02.png"
+
+IDB_PNG555              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов03.png"
+
+IDB_PNG556              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов04.png"
+
+IDB_PNG557              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов05.png"
+
+IDB_PNG558              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов06.png"
+
+IDB_PNG559              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов07.png"
+
+IDB_PNG560              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов08.png"
+
+IDB_PNG561              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов09.png"
+
+IDB_PNG562              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов10.png"
+
+IDB_PNG563              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 3 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз3_в_ряд_18рядов11.png"
+
+IDB_PNG564              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 1 ряд\\анимации быстрого падения вниз4_в_ряд_1ряд00.png"
+
+IDB_PNG565              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 1 ряд\\анимации быстрого падения вниз4_в_ряд_1ряд01.png"
+
+IDB_PNG566              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 2 ряда\\анимации быстрого падения вниз4_в_ряд_2ряда00.png"
+
+IDB_PNG567              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 2 ряда\\анимации быстрого падения вниз4_в_ряд_2ряда01.png"
+
+IDB_PNG568              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 3 ряда\\анимации быстрого падения вниз4_в_ряд_3ряда00.png"
+
+IDB_PNG569              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 3 ряда\\анимации быстрого падения вниз4_в_ряд_3ряда01.png"
+
+IDB_PNG570              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз4_в_ряд_4ряда00.png"
+
+IDB_PNG571              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз4_в_ряд_4ряда01.png"
+
+IDB_PNG572              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз4_в_ряд_4ряда02.png"
+
+IDB_PNG573              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 4 ряда\\анимации быстрого падения вниз4_в_ряд_4ряда03.png"
+
+IDB_PNG574              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз4_в_ряд_5ряда00.png"
+
+IDB_PNG575              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз4_в_ряд_5ряда01.png"
+
+IDB_PNG576              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз4_в_ряд_5ряда02.png"
+
+IDB_PNG577              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 5 рядов\\анимации быстрого падения вниз4_в_ряд_5ряда03.png"
+
+IDB_PNG578              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз4_в_ряд_6рядов00.png"
+
+IDB_PNG579              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз4_в_ряд_6рядов01.png"
+
+IDB_PNG580              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз4_в_ряд_6рядов02.png"
+
+IDB_PNG581              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 6 рядов\\анимации быстрого падения вниз4_в_ряд_6рядов03.png"
+
+IDB_PNG582              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз4_в_ряд_7рядов00.png"
+
+IDB_PNG583              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз4_в_ряд_7рядов01.png"
+
+IDB_PNG584              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз4_в_ряд_7рядов02.png"
+
+IDB_PNG585              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз4_в_ряд_7рядов03.png"
+
+IDB_PNG586              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз4_в_ряд_7рядов04.png"
+
+IDB_PNG587              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 7 рядов\\анимации быстрого падения вниз4_в_ряд_7рядов05.png"
+
+IDB_PNG588              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз4_в_ряд_8рядов00.png"
+
+IDB_PNG589              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз4_в_ряд_8рядов01.png"
+
+IDB_PNG590              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз4_в_ряд_8рядов02.png"
+
+IDB_PNG591              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз4_в_ряд_8рядов03.png"
+
+IDB_PNG592              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз4_в_ряд_8рядов04.png"
+
+IDB_PNG593              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 8 рядов\\анимации быстрого падения вниз4_в_ряд_8рядов05.png"
+
+IDB_PNG594              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз4_в_ряд_9рядов00.png"
+
+IDB_PNG595              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз4_в_ряд_9рядов01.png"
+
+IDB_PNG596              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз4_в_ряд_9рядов02.png"
+
+IDB_PNG597              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз4_в_ряд_9рядов03.png"
+
+IDB_PNG598              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз4_в_ряд_9рядов04.png"
+
+IDB_PNG599              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 9 рядов\\анимации быстрого падения вниз4_в_ряд_9рядов05.png"
+
+IDB_PNG600              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз4_в_ряд_10рядов00.png"
+
+IDB_PNG601              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз4_в_ряд_10рядов01.png"
+
+IDB_PNG602              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз4_в_ряд_10рядов02.png"
+
+IDB_PNG603              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз4_в_ряд_10рядов03.png"
+
+IDB_PNG604              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз4_в_ряд_10рядов04.png"
+
+IDB_PNG605              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз4_в_ряд_10рядов05.png"
+
+IDB_PNG606              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз4_в_ряд_10рядов06.png"
+
+IDB_PNG607              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 10 рядов\\анимации быстрого падения вниз4_в_ряд_10рядов07.png"
+
+IDB_PNG608              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз4_в_ряд_11рядов00.png"
+
+IDB_PNG609              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз4_в_ряд_11рядов01.png"
+
+IDB_PNG610              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз4_в_ряд_11рядов02.png"
+
+IDB_PNG611              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз4_в_ряд_11рядов03.png"
+
+IDB_PNG612              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз4_в_ряд_11рядов04.png"
+
+IDB_PNG613              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз4_в_ряд_11рядов05.png"
+
+IDB_PNG614              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз4_в_ряд_11рядов06.png"
+
+IDB_PNG615              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 11 рядов\\анимации быстрого падения вниз4_в_ряд_11рядов07.png"
+
+IDB_PNG616              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз4_в_ряд_12рядов00.png"
+
+IDB_PNG617              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз4_в_ряд_12рядов01.png"
+
+IDB_PNG618              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз4_в_ряд_12рядов02.png"
+
+IDB_PNG619              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз4_в_ряд_12рядов03.png"
+
+IDB_PNG620              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз4_в_ряд_12рядов04.png"
+
+IDB_PNG621              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз4_в_ряд_12рядов05.png"
+
+IDB_PNG622              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз4_в_ряд_12рядов06.png"
+
+IDB_PNG623              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 12 рядов\\анимации быстрого падения вниз4_в_ряд_12рядов07.png"
+
+IDB_PNG624              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз4_в_ряд_13рядов00.png"
+
+IDB_PNG625              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз4_в_ряд_13рядов01.png"
+
+IDB_PNG626              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз4_в_ряд_13рядов02.png"
+
+IDB_PNG627              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз4_в_ряд_13рядов03.png"
+
+IDB_PNG628              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз4_в_ряд_13рядов04.png"
+
+IDB_PNG629              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз4_в_ряд_13рядов05.png"
+
+IDB_PNG630              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз4_в_ряд_13рядов06.png"
+
+IDB_PNG631              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз4_в_ряд_13рядов07.png"
+
+IDB_PNG632              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз4_в_ряд_13рядов08.png"
+
+IDB_PNG633              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 13 рядов\\анимации быстрого падения вниз4_в_ряд_13рядов09.png"
+
+IDB_PNG634              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз4_в_ряд_14рядов00.png"
+
+IDB_PNG635              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз4_в_ряд_14рядов01.png"
+
+IDB_PNG636              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз4_в_ряд_14рядов02.png"
+
+IDB_PNG637              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз4_в_ряд_14рядов03.png"
+
+IDB_PNG638              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз4_в_ряд_14рядов04.png"
+
+IDB_PNG639              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз4_в_ряд_14рядов05.png"
+
+IDB_PNG640              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз4_в_ряд_14рядов06.png"
+
+IDB_PNG641              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз4_в_ряд_14рядов07.png"
+
+IDB_PNG642              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз4_в_ряд_14рядов08.png"
+
+IDB_PNG643              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 14 рядов\\анимации быстрого падения вниз4_в_ряд_14рядов09.png"
+
+IDB_PNG644              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз4_в_ряд_15рядов00.png"
+
+IDB_PNG645              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз4_в_ряд_15рядов01.png"
+
+IDB_PNG646              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз4_в_ряд_15рядов02.png"
+
+IDB_PNG647              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз4_в_ряд_15рядов03.png"
+
+IDB_PNG648              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз4_в_ряд_15рядов04.png"
+
+IDB_PNG649              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз4_в_ряд_15рядов05.png"
+
+IDB_PNG650              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз4_в_ряд_15рядов06.png"
+
+IDB_PNG651              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз4_в_ряд_15рядов07.png"
+
+IDB_PNG652              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз4_в_ряд_15рядов08.png"
+
+IDB_PNG653              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 15 рядов\\анимации быстрого падения вниз4_в_ряд_15рядов09.png"
+
+IDB_PNG654              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов00.png"
+
+IDB_PNG655              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов01.png"
+
+IDB_PNG656              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов02.png"
+
+IDB_PNG657              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов03.png"
+
+IDB_PNG658              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов04.png"
+
+IDB_PNG659              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов05.png"
+
+IDB_PNG660              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов06.png"
+
+IDB_PNG661              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов07.png"
+
+IDB_PNG662              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов08.png"
+
+IDB_PNG663              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов09.png"
+
+IDB_PNG664              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов10.png"
+
+IDB_PNG665              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 16 рядов\\анимации быстрого падения вниз4_в_ряд_16рядов11.png"
+
+IDB_PNG666              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов00.png"
+
+IDB_PNG667              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов01.png"
+
+IDB_PNG668              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов02.png"
+
+IDB_PNG669              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов03.png"
+
+IDB_PNG670              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов04.png"
+
+IDB_PNG671              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов05.png"
+
+IDB_PNG672              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов06.png"
+
+IDB_PNG673              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов07.png"
+
+IDB_PNG674              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов08.png"
+
+IDB_PNG675              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов09.png"
+
+IDB_PNG676              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов10.png"
+
+IDB_PNG677              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 17 рядов\\анимации быстрого падения вниз4_в_ряд_17рядов11.png"
+
+IDB_PNG678              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов00.png"
+
+IDB_PNG679              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов01.png"
+
+IDB_PNG680              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов02.png"
+
+IDB_PNG681              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов03.png"
+
+IDB_PNG682              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов04.png"
+
+IDB_PNG683              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов05.png"
+
+IDB_PNG684              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов06.png"
+
+IDB_PNG685              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов07.png"
+
+IDB_PNG686              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов08.png"
+
+IDB_PNG687              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов09.png"
+
+IDB_PNG688              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов10.png"
+
+IDB_PNG689              PNG                     "E:\\Potoshop projects\\Анимации БЫСТРОГО ПАДЕНИЯ\\Анимации падения 4 квадрата в ряд\\Анимация 18 рядов\\анимации быстрого падения вниз4_в_ряд_18рядов11.png"
+
+IDB_PNG690              PNG                     "E:\\Potoshop projects\\Экран загрузки1.png"
+
+IDB_PNG691              PNG                     "E:\\Potoshop projects\\LOADING....png"
+
+IDB_PNG692              PNG                     "E:\\Potoshop projects\\сетка 2.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Images\\icon_for_tetris.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// JPEG
+//
+
+IDR_JPEG1               JPEG                    "Images\\galaxy-3608029_1920.jpg"
+
+IDR_JPEG2               JPEG                    "E:\\CPP projects\\Projects on VS\\TetrisTheGame\\ERASBD.TTF"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "E:\\Potoshop projects\\myCursor_128pxcur.cur"
+
+IDC_CURSOR2             CURSOR                  "E:\\Potoshop projects\\myCursor_32pxcur.cur"
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
