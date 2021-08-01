@@ -1434,6 +1434,8 @@ IDB_PNG691              PNG                     "E:\\Potoshop projects\\LOADING.
 
 IDB_PNG692              PNG                     "E:\\Potoshop projects\\сетка 2.png"
 
+IDB_PNG693              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow18rows.png"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -1449,8 +1451,6 @@ IDI_ICON1               ICON                    "Images\\icon_for_tetris.ico"
 //
 // JPEG
 //
-
-IDR_JPEG1               JPEG                    "Images\\galaxy-3608029_1920.jpg"
 
 IDR_JPEG2               JPEG                    "E:\\CPP projects\\Projects on VS\\TetrisTheGame\\ERASBD.TTF"
 
