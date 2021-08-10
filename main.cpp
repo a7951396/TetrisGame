@@ -78,8 +78,92 @@ void animation_4_linesFn(RenderWindow& win, USHORT index, Sprite* spriteAn_4line
 	Sprite* spriteAn_4lines_18, Sprite* spriteAn_4lines_19, Sprite* spriteAn_4lines_20, Sprite* spriteAn_4lines_21, Sprite* spriteAn_4lines_22, Vector2f scale);
 
 
-void animation_fast_falling_4InRow_18RowsFn(RenderWindow& win, Sprite* An_4_inRow_18Rows_1, Sprite* An_4_inRow_18Rows_2, Sprite* An_4_inRow_18Rows_3, Sprite* An_4_inRow_18Rows_4, Sprite* An_4_inRow_18Rows_5, Sprite* An_4_inRow_18Rows_6, Sprite* An_4_inRow_18Rows_7, Sprite* An_4_inRow_18Rows_8, Sprite* An_4_inRow_18Rows_9, Sprite* An_4_inRow_18Rows_10, Sprite* An_4_inRow_18Rows_11, Sprite* An_4_inRow_18Rows_12, Vector2f scale);
+void animation_fast_falling_1InRow_1RowFn(RenderWindow& win, Sprite* An_1_inRow_1Row_1, Sprite* An_1_inRow_1Row_2, Vector2f scale);
+void animation_fast_falling_1InRow_2RowsFn(RenderWindow& win, Sprite* An_1_inRow_2Rows_1, Sprite* An_1_inRow_2Rows_2, Vector2f scale);
+void animation_fast_falling_1InRow_3RowsFn(RenderWindow& win, Sprite* An_1_inRow_3Rows_1, Sprite* An_1_inRow_3Rows_2, Vector2f scale);
+void animation_fast_falling_1InRow_4RowsFn(RenderWindow& win, Sprite* An_1_inRow_4Rows_1, Sprite* An_1_inRow_4Rows_2, Sprite* An_1_inRow_4Rows_3, Sprite* An_1_inRow_4Rows_4, Vector2f scale);
+void animation_fast_falling_1InRow_5RowsFn(RenderWindow& win, Sprite* An_1_inRow_5Rows_1, Sprite* An_1_inRow_5Rows_2, Sprite* An_1_inRow_5Rows_3, Sprite* An_1_inRow_5Rows_4, Vector2f scale);
+void animation_fast_falling_1InRow_6RowsFn(RenderWindow& win, Sprite* An_1_inRow_6Rows_1, Sprite* An_1_inRow_6Rows_2, Sprite* An_1_inRow_6Rows_3, Sprite* An_1_inRow_6Rows_4, Vector2f scale);
+void animation_fast_falling_1InRow_7RowsFn(RenderWindow& win, Sprite* An_1_inRow_7Rows_1, Sprite* An_1_inRow_7Rows_2, Sprite* An_1_inRow_7Rows_3, Sprite* An_1_inRow_7Rows_4,
+	Sprite* An_1_inRow_7Rows_5, Sprite* An_1_inRow_7Rows_6, Vector2f scale);
+void animation_fast_falling_1InRow_8RowsFn(RenderWindow& win, Sprite* An_1_inRow_8Rows_1, Sprite* An_1_inRow_8Rows_2, Sprite* An_1_inRow_8Rows_3, Sprite* An_1_inRow_8Rows_4,
+	Sprite* An_1_inRow_8Rows_5, Sprite* An_1_inRow_8Rows_6, Vector2f scale);
+void animation_fast_falling_1InRow_9RowsFn(RenderWindow& win, Sprite* An_1_inRow_9Rows_1, Sprite* An_1_inRow_9Rows_2, Sprite* An_1_inRow_9Rows_3, Sprite* An_1_inRow_9Rows_4,
+	Sprite* An_1_inRow_9Rows_5, Sprite* An_1_inRow_9Rows_6, Vector2f scale);
+void animation_fast_falling_1InRow_10RowsFn(RenderWindow& win, Sprite* An_1_inRow_10Rows_1, Sprite* An_1_inRow_10Rows_2, Sprite* An_1_inRow_10Rows_3, Sprite* An_1_inRow_10Rows_4,
+	Sprite* An_1_inRow_10Rows_5, Sprite* An_1_inRow_10Rows_6, Sprite* An_1_inRow_10Rows_7, Sprite* An_1_inRow_10Rows_8, Vector2f scale);
+void animation_fast_falling_1InRow_11RowsFn(RenderWindow& win, Sprite* An_1_inRow_11Rows_1, Sprite* An_1_inRow_11Rows_2, Sprite* An_1_inRow_11Rows_3, Sprite* An_1_inRow_11Rows_4,
+	Sprite* An_1_inRow_11Rows_5, Sprite* An_1_inRow_11Rows_6, Sprite* An_1_inRow_11Rows_7, Sprite* An_1_inRow_11Rows_8, Vector2f scale);
+void animation_fast_falling_1InRow_12RowsFn(RenderWindow& win, Sprite* An_1_inRow_12Rows_1, Sprite* An_1_inRow_12Rows_2, Sprite* An_1_inRow_12Rows_3, Sprite* An_1_inRow_12Rows_4,
+	Sprite* An_1_inRow_12Rows_5, Sprite* An_1_inRow_12Rows_6, Sprite* An_1_inRow_12Rows_7, Sprite* An_1_inRow_12Rows_8, Vector2f scale);
+void animation_fast_falling_1InRow_13RowsFn(RenderWindow& win, Sprite* An_1_inRow_13Rows_1, Sprite* An_1_inRow_13Rows_2, Sprite* An_1_inRow_13Rows_3, Sprite* An_1_inRow_13Rows_4,
+	Sprite* An_1_inRow_13Rows_5, Sprite* An_1_inRow_13Rows_6, Sprite* An_1_inRow_13Rows_7, Sprite* An_1_inRow_13Rows_8, Sprite* An_1_inRow_13Rows_9, Sprite* An_1_inRow_13Rows_10, Vector2f scale);
+void animation_fast_falling_1InRow_14RowsFn(RenderWindow& win, Sprite* An_1_inRow_14Rows_1, Sprite* An_1_inRow_14Rows_2, Sprite* An_1_inRow_14Rows_3, Sprite* An_1_inRow_14Rows_4,
+	Sprite* An_1_inRow_14Rows_5, Sprite* An_1_inRow_14Rows_6, Sprite* An_1_inRow_14Rows_7, Sprite* An_1_inRow_14Rows_8, Sprite* An_1_inRow_14Rows_9, Sprite* An_1_inRow_14Rows_10, Vector2f scale);
+void animation_fast_falling_1InRow_15RowsFn(RenderWindow& win, Sprite* An_1_inRow_15Rows_1, Sprite* An_1_inRow_15Rows_2, Sprite* An_1_inRow_15Rows_3, Sprite* An_1_inRow_15Rows_4,
+	Sprite* An_1_inRow_15Rows_5, Sprite* An_1_inRow_15Rows_6, Sprite* An_1_inRow_15Rows_7, Sprite* An_1_inRow_15Rows_8, Sprite* An_1_inRow_15Rows_9, Sprite* An_1_inRow_15Rows_10, Vector2f scale);
+void animation_fast_falling_1InRow_16RowsFn(RenderWindow& win, Sprite* An_1_inRow_16Rows_1, Sprite* An_1_inRow_16Rows_2, Sprite* An_1_inRow_16Rows_3, Sprite* An_1_inRow_16Rows_4,
+	Sprite* An_1_inRow_16Rows_5, Sprite* An_1_inRow_16Rows_6, Sprite* An_1_inRow_16Rows_7, Sprite* An_1_inRow_16Rows_8, Sprite* An_1_inRow_16Rows_9, Sprite* An_1_inRow_16Rows_10,
+	Sprite* An_1_inRow_16Rows_11, Sprite* An_1_inRow_16Rows_12, Vector2f scale);
+void animation_fast_falling_1InRow_17RowsFn(RenderWindow& win, Sprite* An_1_inRow_17Rows_1, Sprite* An_1_inRow_17Rows_2, Sprite* An_1_inRow_17Rows_3, Sprite* An_1_inRow_17Rows_4,
+	Sprite* An_1_inRow_17Rows_5, Sprite* An_1_inRow_17Rows_6, Sprite* An_1_inRow_17Rows_7, Sprite* An_1_inRow_17Rows_8, Sprite* An_1_inRow_17Rows_9, Sprite* An_1_inRow_17Rows_10,
+	Sprite* An_1_inRow_17Rows_11, Sprite* An_1_inRow_17Rows_12, Vector2f scale);
 
+void animation_fast_falling_2InRow_1RowFn(RenderWindow& win, Sprite* An_2_inRow_1Row_1, Sprite* An_2_inRow_1Row_2, Vector2f scale);
+void animation_fast_falling_2InRow_2RowsFn(RenderWindow& win, Sprite* An_2_inRow_2Rows_1, Sprite* An_2_inRow_2Rows_2, Vector2f scale);
+void animation_fast_falling_2InRow_3RowsFn(RenderWindow& win, Sprite* An_2_inRow_3Rows_1, Sprite* An_2_inRow_3Rows_2, Vector2f scale);
+void animation_fast_falling_2InRow_4RowsFn(RenderWindow& win, Sprite* An_2_inRow_4Rows_1, Sprite* An_2_inRow_4Rows_2, Sprite* An_2_inRow_4Rows_3, Sprite* An_2_inRow_4Rows_4, Vector2f scale);
+void animation_fast_falling_2InRow_5RowsFn(RenderWindow& win, Sprite* An_2_inRow_5Rows_1, Sprite* An_2_inRow_5Rows_2, Sprite* An_2_inRow_5Rows_3, Sprite* An_2_inRow_5Rows_4, Vector2f scale);
+void animation_fast_falling_2InRow_6RowsFn(RenderWindow& win, Sprite* An_2_inRow_6Rows_1, Sprite* An_2_inRow_6Rows_2, Sprite* An_2_inRow_6Rows_3, Sprite* An_2_inRow_6Rows_4, Vector2f scale);
+void animation_fast_falling_2InRow_7RowsFn(RenderWindow& win, Sprite* An_2_inRow_7Rows_1, Sprite* An_2_inRow_7Rows_2, Sprite* An_2_inRow_7Rows_3, Sprite* An_2_inRow_7Rows_4, Sprite* An_2_inRow_7Rows_5, Sprite* An_2_inRow_7Rows_6, Vector2f scale);
+void animation_fast_falling_2InRow_8RowsFn(RenderWindow& win, Sprite* An_2_inRow_8Rows_1, Sprite* An_2_inRow_8Rows_2, Sprite* An_2_inRow_8Rows_3, Sprite* An_2_inRow_8Rows_4, Sprite* An_2_inRow_8Rows_5, Sprite* An_2_inRow_8Rows_6, Vector2f scale);
+void animation_fast_falling_2InRow_9RowsFn(RenderWindow& win, Sprite* An_2_inRow_9Rows_1, Sprite* An_2_inRow_9Rows_2, Sprite* An_2_inRow_9Rows_3, Sprite* An_2_inRow_9Rows_4, Sprite* An_2_inRow_9Rows_5, Sprite* An_2_inRow_9Rows_6, Vector2f scale);
+void animation_fast_falling_2InRow_10RowsFn(RenderWindow& win, Sprite* An_2_inRow_10Rows_1, Sprite* An_2_inRow_10Rows_2, Sprite* An_2_inRow_10Rows_3, Sprite* An_2_inRow_10Rows_4, Sprite* An_2_inRow_10Rows_5, Sprite* An_2_inRow_10Rows_6, Sprite* An_2_inRow_10Rows_7, Sprite* An_2_inRow_10Rows_8, Vector2f scale);
+void animation_fast_falling_2InRow_11RowsFn(RenderWindow& win, Sprite* An_2_inRow_11Rows_1, Sprite* An_2_inRow_11Rows_2, Sprite* An_2_inRow_11Rows_3, Sprite* An_2_inRow_11Rows_4, Sprite* An_2_inRow_11Rows_5, Sprite* An_2_inRow_11Rows_6, Sprite* An_2_inRow_11Rows_7, Sprite* An_2_inRow_11Rows_8, Vector2f scale);
+void animation_fast_falling_2InRow_12RowsFn(RenderWindow& win, Sprite* An_2_inRow_12Rows_1, Sprite* An_2_inRow_12Rows_2, Sprite* An_2_inRow_12Rows_3, Sprite* An_2_inRow_12Rows_4, Sprite* An_2_inRow_12Rows_5, Sprite* An_2_inRow_12Rows_6, Sprite* An_2_inRow_12Rows_7, Sprite* An_2_inRow_12Rows_8, Vector2f scale);
+void animation_fast_falling_2InRow_13RowsFn(RenderWindow& win, Sprite* An_2_inRow_13Rows_1, Sprite* An_2_inRow_13Rows_2, Sprite* An_2_inRow_13Rows_3, Sprite* An_2_inRow_13Rows_4, Sprite* An_2_inRow_13Rows_5, Sprite* An_2_inRow_13Rows_6, Sprite* An_2_inRow_13Rows_7, Sprite* An_2_inRow_13Rows_8, Sprite* An_2_inRow_13Rows_9, Sprite* An_2_inRow_13Rows_10, Vector2f scale);
+void animation_fast_falling_2InRow_14RowsFn(RenderWindow& win, Sprite* An_2_inRow_14Rows_1, Sprite* An_2_inRow_14Rows_2, Sprite* An_2_inRow_14Rows_3, Sprite* An_2_inRow_14Rows_4, Sprite* An_2_inRow_14Rows_5, Sprite* An_2_inRow_14Rows_6, Sprite* An_2_inRow_14Rows_7, Sprite* An_2_inRow_14Rows_8, Sprite* An_2_inRow_14Rows_9, Sprite* An_2_inRow_14Rows_10, Vector2f scale);
+void animation_fast_falling_2InRow_15RowsFn(RenderWindow& win, Sprite* An_2_inRow_15Rows_1, Sprite* An_2_inRow_15Rows_2, Sprite* An_2_inRow_15Rows_3, Sprite* An_2_inRow_15Rows_4, Sprite* An_2_inRow_15Rows_5, Sprite* An_2_inRow_15Rows_6, Sprite* An_2_inRow_15Rows_7, Sprite* An_2_inRow_15Rows_8, Sprite* An_2_inRow_15Rows_9, Sprite* An_2_inRow_15Rows_10, Vector2f scale);
+void animation_fast_falling_2InRow_16RowsFn(RenderWindow& win, Sprite* An_2_inRow_16Rows_1, Sprite* An_2_inRow_16Rows_2, Sprite* An_2_inRow_16Rows_3, Sprite* An_2_inRow_16Rows_4, Sprite* An_2_inRow_16Rows_5, Sprite* An_2_inRow_16Rows_6, Sprite* An_2_inRow_16Rows_7, Sprite* An_2_inRow_16Rows_8, Sprite* An_2_inRow_16Rows_9, Sprite* An_2_inRow_16Rows_10, Sprite* An_2_inRow_16Rows_11, Sprite* An_2_inRow_16Rows_12, Vector2f scale);
+void animation_fast_falling_2InRow_17RowsFn(RenderWindow& win, Sprite* An_2_inRow_17Rows_1, Sprite* An_2_inRow_17Rows_2, Sprite* An_2_inRow_17Rows_3, Sprite* An_2_inRow_17Rows_4, Sprite* An_2_inRow_17Rows_5, Sprite* An_2_inRow_17Rows_6, Sprite* An_2_inRow_17Rows_7, Sprite* An_2_inRow_17Rows_8, Sprite* An_2_inRow_17Rows_9, Sprite* An_2_inRow_17Rows_10, Sprite* An_2_inRow_17Rows_11, Sprite* An_2_inRow_17Rows_12, Vector2f scale);
+void animation_fast_falling_3InRow_1RowFn(RenderWindow& win, Sprite* An_3_inRow_1Row_1, Sprite* An_3_inRow_1Row_2, Vector2f scale);
+void animation_fast_falling_3InRow_2RowsFn(RenderWindow& win, Sprite* An_3_inRow_2Rows_1, Sprite* An_3_inRow_2Rows_2, Vector2f scale);
+void animation_fast_falling_3InRow_3RowsFn(RenderWindow& win, Sprite* An_3_inRow_3Rows_1, Sprite* An_3_inRow_3Rows_2, Vector2f scale);
+void animation_fast_falling_3InRow_4RowsFn(RenderWindow& win, Sprite* An_3_inRow_4Rows_1, Sprite* An_3_inRow_4Rows_2, Sprite* An_3_inRow_4Rows_3, Sprite* An_3_inRow_4Rows_4, Vector2f scale);
+void animation_fast_falling_3InRow_5RowsFn(RenderWindow& win, Sprite* An_3_inRow_5Rows_1, Sprite* An_3_inRow_5Rows_2, Sprite* An_3_inRow_5Rows_3, Sprite* An_3_inRow_5Rows_4, Vector2f scale);
+void animation_fast_falling_3InRow_6RowsFn(RenderWindow& win, Sprite* An_3_inRow_6Rows_1, Sprite* An_3_inRow_6Rows_2, Sprite* An_3_inRow_6Rows_3, Sprite* An_3_inRow_6Rows_4, Vector2f scale);
+void animation_fast_falling_3InRow_7RowsFn(RenderWindow& win, Sprite* An_3_inRow_7Rows_1, Sprite* An_3_inRow_7Rows_2, Sprite* An_3_inRow_7Rows_3, Sprite* An_3_inRow_7Rows_4, Sprite* An_3_inRow_7Rows_5, Sprite* An_3_inRow_7Rows_6, Vector2f scale);
+void animation_fast_falling_3InRow_8RowsFn(RenderWindow& win, Sprite* An_3_inRow_8Rows_1, Sprite* An_3_inRow_8Rows_2, Sprite* An_3_inRow_8Rows_3, Sprite* An_3_inRow_8Rows_4, Sprite* An_3_inRow_8Rows_5, Sprite* An_3_inRow_8Rows_6, Vector2f scale);
+void animation_fast_falling_3InRow_9RowsFn(RenderWindow& win, Sprite* An_3_inRow_9Rows_1, Sprite* An_3_inRow_9Rows_2, Sprite* An_3_inRow_9Rows_3, Sprite* An_3_inRow_9Rows_4, Sprite* An_3_inRow_9Rows_5, Sprite* An_3_inRow_9Rows_6, Vector2f scale);
+void animation_fast_falling_3InRow_10RowsFn(RenderWindow& win, Sprite* An_3_inRow_10Rows_1, Sprite* An_3_inRow_10Rows_2, Sprite* An_3_inRow_10Rows_3, Sprite* An_3_inRow_10Rows_4, Sprite* An_3_inRow_10Rows_5, Sprite* An_3_inRow_10Rows_6, Sprite* An_3_inRow_10Rows_7, Sprite* An_3_inRow_10Rows_8, Vector2f scale);
+void animation_fast_falling_3InRow_11RowsFn(RenderWindow& win, Sprite* An_3_inRow_11Rows_1, Sprite* An_3_inRow_11Rows_2, Sprite* An_3_inRow_11Rows_3, Sprite* An_3_inRow_11Rows_4, Sprite* An_3_inRow_11Rows_5, Sprite* An_3_inRow_11Rows_6, Sprite* An_3_inRow_11Rows_7, Sprite* An_3_inRow_11Rows_8, Vector2f scale);
+void animation_fast_falling_3InRow_12RowsFn(RenderWindow& win, Sprite* An_3_inRow_12Rows_1, Sprite* An_3_inRow_12Rows_2, Sprite* An_3_inRow_12Rows_3, Sprite* An_3_inRow_12Rows_4, Sprite* An_3_inRow_12Rows_5, Sprite* An_3_inRow_12Rows_6, Sprite* An_3_inRow_12Rows_7, Sprite* An_3_inRow_12Rows_8, Vector2f scale);
+void animation_fast_falling_3InRow_13RowsFn(RenderWindow& win, Sprite* An_3_inRow_13Rows_1, Sprite* An_3_inRow_13Rows_2, Sprite* An_3_inRow_13Rows_3, Sprite* An_3_inRow_13Rows_4, Sprite* An_3_inRow_13Rows_5, Sprite* An_3_inRow_13Rows_6, Sprite* An_3_inRow_13Rows_7, Sprite* An_3_inRow_13Rows_8, Sprite* An_3_inRow_13Rows_9, Sprite* An_3_inRow_13Rows_10, Vector2f scale);
+void animation_fast_falling_3InRow_14RowsFn(RenderWindow& win, Sprite* An_3_inRow_14Rows_1, Sprite* An_3_inRow_14Rows_2, Sprite* An_3_inRow_14Rows_3, Sprite* An_3_inRow_14Rows_4, Sprite* An_3_inRow_14Rows_5, Sprite* An_3_inRow_14Rows_6, Sprite* An_3_inRow_14Rows_7, Sprite* An_3_inRow_14Rows_8, Sprite* An_3_inRow_14Rows_9, Sprite* An_3_inRow_14Rows_10, Vector2f scale);
+void animation_fast_falling_3InRow_15RowsFn(RenderWindow& win, Sprite* An_3_inRow_15Rows_1, Sprite* An_3_inRow_15Rows_2, Sprite* An_3_inRow_15Rows_3, Sprite* An_3_inRow_15Rows_4, Sprite* An_3_inRow_15Rows_5, Sprite* An_3_inRow_15Rows_6, Sprite* An_3_inRow_15Rows_7, Sprite* An_3_inRow_15Rows_8, Sprite* An_3_inRow_15Rows_9, Sprite* An_3_inRow_15Rows_10, Vector2f scale);
+void animation_fast_falling_3InRow_16RowsFn(RenderWindow& win, Sprite* An_3_inRow_16Rows_1, Sprite* An_3_inRow_16Rows_2, Sprite* An_3_inRow_16Rows_3, Sprite* An_3_inRow_16Rows_4,
+	Sprite* An_3_inRow_16Rows_5, Sprite* An_3_inRow_16Rows_6, Sprite* An_3_inRow_16Rows_7, Sprite* An_3_inRow_16Rows_8, Sprite* An_3_inRow_16Rows_9, Sprite* An_3_inRow_16Rows_10,
+	Sprite* An_3_inRow_16Rows_11, Sprite* An_3_inRow_16Rows_12, Vector2f scale);
+void animation_fast_falling_3InRow_17RowsFn(RenderWindow& win, Sprite* An_3_inRow_17Rows_1, Sprite* An_3_inRow_17Rows_2, Sprite* An_3_inRow_17Rows_3, Sprite* An_3_inRow_17Rows_4, Sprite* An_3_inRow_17Rows_5, Sprite* An_3_inRow_17Rows_6, Sprite* An_3_inRow_17Rows_7, Sprite* An_3_inRow_17Rows_8, Sprite* An_3_inRow_17Rows_9, Sprite* An_3_inRow_17Rows_10, Sprite* An_3_inRow_17Rows_11, Sprite* An_3_inRow_17Rows_12, Vector2f scale);
+void animation_fast_falling_3InRow_18RowsFn(RenderWindow& win, Sprite* An_3_inRow_18Rows_1, Sprite* An_3_inRow_18Rows_2, Sprite* An_3_inRow_18Rows_3, Sprite* An_3_inRow_18Rows_4, Sprite* An_3_inRow_18Rows_5, Sprite* An_3_inRow_18Rows_6, Sprite* An_3_inRow_18Rows_7, Sprite* An_3_inRow_18Rows_8, Sprite* An_3_inRow_18Rows_9, Sprite* An_3_inRow_18Rows_10, Sprite* An_3_inRow_18Rows_11, Sprite* An_3_inRow_18Rows_12, Vector2f scale);
+void animation_fast_falling_4InRow_1RowFn(RenderWindow& win, Sprite* An_4_inRow_1Row_1, Sprite* An_4_inRow_1Row_2, Vector2f scale);
+void animation_fast_falling_4InRow_2RowsFn(RenderWindow& win, Sprite* An_4_inRow_2Rows_1, Sprite* An_4_inRow_2Rows_2, Vector2f scale);
+void animation_fast_falling_4InRow_3RowsFn(RenderWindow& win, Sprite* An_4_inRow_3Rows_1, Sprite* An_4_inRow_3Rows_2, Vector2f scale);
+void animation_fast_falling_4InRow_4RowsFn(RenderWindow& win, Sprite* An_4_inRow_4Rows_1, Sprite* An_4_inRow_4Rows_2, Sprite* An_4_inRow_4Rows_3, Sprite* An_4_inRow_4Rows_4, Vector2f scale);
+void animation_fast_falling_4InRow_5RowsFn(RenderWindow& win, Sprite* An_4_inRow_5Rows_1, Sprite* An_4_inRow_5Rows_2, Sprite* An_4_inRow_5Rows_3, Sprite* An_4_inRow_5Rows_4, Vector2f scale);
+void animation_fast_falling_4InRow_6RowsFn(RenderWindow& win, Sprite* An_4_inRow_6Rows_1, Sprite* An_4_inRow_6Rows_2, Sprite* An_4_inRow_6Rows_3, Sprite* An_4_inRow_6Rows_4, Vector2f scale);
+void animation_fast_falling_4InRow_7RowsFn(RenderWindow& win, Sprite* An_4_inRow_7Rows_1, Sprite* An_4_inRow_7Rows_2, Sprite* An_4_inRow_7Rows_3, Sprite* An_4_inRow_7Rows_4, Sprite* An_4_inRow_7Rows_5, Sprite* An_4_inRow_7Rows_6, Vector2f scale);
+void animation_fast_falling_4InRow_8RowsFn(RenderWindow& win, Sprite* An_4_inRow_8Rows_1, Sprite* An_4_inRow_8Rows_2, Sprite* An_4_inRow_8Rows_3, Sprite* An_4_inRow_8Rows_4, Sprite* An_4_inRow_8Rows_5, Sprite* An_4_inRow_8Rows_6, Vector2f scale);
+void animation_fast_falling_4InRow_9RowsFn(RenderWindow& win, Sprite* An_4_inRow_9Rows_1, Sprite* An_4_inRow_9Rows_2, Sprite* An_4_inRow_9Rows_3, Sprite* An_4_inRow_9Rows_4, Sprite* An_4_inRow_9Rows_5, Sprite* An_4_inRow_9Rows_6, Vector2f scale);
+void animation_fast_falling_4InRow_10RowsFn(RenderWindow& win, Sprite* An_4_inRow_10Rows_1, Sprite* An_4_inRow_10Rows_2, Sprite* An_4_inRow_10Rows_3, Sprite* An_4_inRow_10Rows_4, Sprite* An_4_inRow_10Rows_5, Sprite* An_4_inRow_10Rows_6, Sprite* An_4_inRow_10Rows_7, Sprite* An_4_inRow_10Rows_8, Vector2f scale);
+void animation_fast_falling_4InRow_11RowsFn(RenderWindow& win, Sprite* An_4_inRow_11Rows_1, Sprite* An_4_inRow_11Rows_2, Sprite* An_4_inRow_11Rows_3, Sprite* An_4_inRow_11Rows_4, Sprite* An_4_inRow_11Rows_5, Sprite* An_4_inRow_11Rows_6, Sprite* An_4_inRow_11Rows_7, Sprite* An_4_inRow_11Rows_8, Vector2f scale);
+void animation_fast_falling_4InRow_12RowsFn(RenderWindow& win, Sprite* An_4_inRow_12Rows_1, Sprite* An_4_inRow_12Rows_2, Sprite* An_4_inRow_12Rows_3, Sprite* An_4_inRow_12Rows_4, Sprite* An_4_inRow_12Rows_5, Sprite* An_4_inRow_12Rows_6, Sprite* An_4_inRow_12Rows_7, Sprite* An_4_inRow_12Rows_8, Vector2f scale);
+void animation_fast_falling_4InRow_13RowsFn(RenderWindow& win, Sprite* An_4_inRow_13Rows_1, Sprite* An_4_inRow_13Rows_2, Sprite* An_4_inRow_13Rows_3, Sprite* An_4_inRow_13Rows_4, Sprite* An_4_inRow_13Rows_5, Sprite* An_4_inRow_13Rows_6, Sprite* An_4_inRow_13Rows_7, Sprite* An_4_inRow_13Rows_8, Sprite* An_4_inRow_13Rows_9, Sprite* An_4_inRow_13Rows_10, Vector2f scale);
+void animation_fast_falling_4InRow_14RowsFn(RenderWindow& win, Sprite* An_4_inRow_14Rows_1, Sprite* An_4_inRow_14Rows_2, Sprite* An_4_inRow_14Rows_3, Sprite* An_4_inRow_14Rows_4, Sprite* An_4_inRow_14Rows_5, Sprite* An_4_inRow_14Rows_6, Sprite* An_4_inRow_14Rows_7, Sprite* An_4_inRow_14Rows_8, Sprite* An_4_inRow_14Rows_9, Sprite* An_4_inRow_14Rows_10, Vector2f scale);
+void animation_fast_falling_4InRow_15RowsFn(RenderWindow& win, Sprite* An_4_inRow_15Rows_1, Sprite* An_4_inRow_15Rows_2, Sprite* An_4_inRow_15Rows_3, Sprite* An_4_inRow_15Rows_4, Sprite* An_4_inRow_15Rows_5, Sprite* An_4_inRow_15Rows_6, Sprite* An_4_inRow_15Rows_7, Sprite* An_4_inRow_15Rows_8, Sprite* An_4_inRow_15Rows_9, Sprite* An_4_inRow_15Rows_10, Vector2f scale);
+void animation_fast_falling_4InRow_16RowsFn(RenderWindow& win, Sprite* An_4_inRow_16Rows_1, Sprite* An_4_inRow_16Rows_2, Sprite* An_4_inRow_16Rows_3, Sprite* An_4_inRow_16Rows_4, Sprite* An_4_inRow_16Rows_5, Sprite* An_4_inRow_16Rows_6, Sprite* An_4_inRow_16Rows_7, Sprite* An_4_inRow_16Rows_8, Sprite* An_4_inRow_16Rows_9, Sprite* An_4_inRow_16Rows_10, Sprite* An_4_inRow_16Rows_11, Sprite* An_4_inRow_16Rows_12, Vector2f scale);
+void animation_fast_falling_4InRow_17RowsFn(RenderWindow& win, Sprite* An_4_inRow_17Rows_1, Sprite* An_4_inRow_17Rows_2, Sprite* An_4_inRow_17Rows_3, Sprite* An_4_inRow_17Rows_4, Sprite* An_4_inRow_17Rows_5, Sprite* An_4_inRow_17Rows_6, Sprite* An_4_inRow_17Rows_7, Sprite* An_4_inRow_17Rows_8, Sprite* An_4_inRow_17Rows_9, Sprite* An_4_inRow_17Rows_10, Sprite* An_4_inRow_17Rows_11, Sprite* An_4_inRow_17Rows_12, Vector2f scale);
+void animation_fast_falling_4InRow_18RowsFn(RenderWindow& win, Sprite* An_4_inRow_18Rows_1, Sprite* An_4_inRow_18Rows_2, Sprite* An_4_inRow_18Rows_3, Sprite* An_4_inRow_18Rows_4, Sprite* An_4_inRow_18Rows_5, Sprite* An_4_inRow_18Rows_6, Sprite* An_4_inRow_18Rows_7, Sprite* An_4_inRow_18Rows_8, Sprite* An_4_inRow_18Rows_9, Sprite* An_4_inRow_18Rows_10, Sprite* An_4_inRow_18Rows_11, Sprite* An_4_inRow_18Rows_12, Vector2f scale);
 
 bool enableAnimation1line = false;
 bool enableAnimation3lines_with_void = false;
@@ -230,7 +314,7 @@ int main()
 	Texture *loading_screen_tex = LoadTextureFromResource(IDB_PNG690, "PNG");
 	//loading_screen_tex->setSmooth(true);
 	Sprite *sprite_loading_screen = new Sprite(*loading_screen_tex);
-	Texture *LOADING = LoadTextureFromResource(IDB_PNG691, "PNG");
+	Texture *LOADING = LoadTextureFromResource(IDB_PNG210, "PNG");
 	Sprite* sprite_LOADING = new Sprite(*LOADING);
 	thread* thr1 = new thread(create_window_for_loading_screen, sprite_loading_screen, sprite_LOADING);
 	
@@ -282,7 +366,7 @@ int main()
 	
 
 	//Создание текстур
-	Texture *sqtex = new Texture, *tex_table = new Texture, *tex_table2 = new Texture;
+	Texture *sqtex = new Texture, /**tex_table = new Texture,*/ *tex_table2 = new Texture;
 	Texture* tex_background, * button_start_st1, * button_start_st2, * button_start_st3, * button_newgame_st1, * button_newgame_st2, * button_newgame_st3,
 		* button_options_st1, * button_options_st2, * button_options_st3, * button_left_st1, * button_left_st2, * button_left_st3, * button_right_st1, * button_right_st2, * button_right_st3,
 		* button_middle_restore_st1, * button_middle_restore_st2, * button_middle_restore_st3, * button_pause_st1, /** button_pause_st2,*/ * button_pause_st3, * button_pause_st4,
@@ -303,115 +387,10 @@ int main()
 		* An_3lines_20, * An_3lines_21, * An_3lines_22,
 		* An_4lines_1, * An_4lines_2, * An_4lines_3, * An_4lines_4, * An_4lines_5, * An_4lines_6, * An_4lines_7, * An_4lines_8, * An_4lines_9, * An_4lines_10,
 		* An_4lines_11, * An_4lines_12, * An_4lines_13, * An_4lines_14, * An_4lines_15, * An_4lines_16, * An_4lines_17, * An_4lines_18, * An_4lines_19, * An_4lines_20,
-		* An_4lines_21, * An_4lines_22,
-		/** An_3_inRow_16Rows_1, * An_3_inRow_16Rows_2, * An_3_inRow_16Rows_3, * An_3_inRow_16Rows_4, * An_3_inRow_16Rows_5, * An_3_inRow_16Rows_6, * An_3_inRow_16Rows_7,
-		* An_3_inRow_16Rows_8, * An_3_inRow_16Rows_9, * An_3_inRow_16Rows_10, * An_3_inRow_16Rows_11, * An_3_inRow_16Rows_12,*///не нужно расскомментировать
-
-
-		/** An_1_inRow_1Row_1, * An_1_inRow_1Row_2,
-		* An_1_inRow_2Rows_1, * An_1_inRow_2Rows_2,
-		* An_1_inRow_3Rows_1, * An_1_inRow_3Rows_2,
-* An_1_inRow_4Rows_1, * An_1_inRow_4Rows_2, * An_1_inRow_4Rows_3, * An_1_inRow_4Rows_4,
-* An_1_inRow_5Rows_1, * An_1_inRow_5Rows_2, * An_1_inRow_5Rows_3, * An_1_inRow_5Rows_4,
-* An_1_inRow_6Rows_1, * An_1_inRow_6Rows_2, * An_1_inRow_6Rows_3, * An_1_inRow_6Rows_4,
-* An_1_inRow_7Rows_1, * An_1_inRow_7Rows_2, * An_1_inRow_7Rows_3, * An_1_inRow_7Rows_4, * An_1_inRow_7Rows_5, * An_1_inRow_7Rows_6,
-* An_1_inRow_8Rows_1, * An_1_inRow_8Rows_2, * An_1_inRow_8Rows_3, * An_1_inRow_8Rows_4, * An_1_inRow_8Rows_5, * An_1_inRow_8Rows_6,
-* An_1_inRow_9Rows_1, * An_1_inRow_9Rows_2, * An_1_inRow_9Rows_3, * An_1_inRow_9Rows_4, * An_1_inRow_9Rows_5, * An_1_inRow_9Rows_6,
-* An_1_inRow_10Rows_1, * An_1_inRow_10Rows_2, * An_1_inRow_10Rows_3, * An_1_inRow_10Rows_4, * An_1_inRow_10Rows_5, * An_1_inRow_10Rows_6, * An_1_inRow_10Rows_7,
-* An_1_inRow_10Rows_8,
-* An_1_inRow_11Rows_1, * An_1_inRow_11Rows_2, * An_1_inRow_11Rows_3, * An_1_inRow_11Rows_4, * An_1_inRow_11Rows_5, * An_1_inRow_11Rows_6, * An_1_inRow_11Rows_7,
-* An_1_inRow_11Rows_8,
-* An_1_inRow_12Rows_1, * An_1_inRow_12Rows_2, * An_1_inRow_12Rows_3, * An_1_inRow_12Rows_4, * An_1_inRow_12Rows_5, * An_1_inRow_12Rows_6, * An_1_inRow_12Rows_7,
-* An_1_inRow_12Rows_8,
-* An_1_inRow_13Rows_1, * An_1_inRow_13Rows_2, * An_1_inRow_13Rows_3, * An_1_inRow_13Rows_4, * An_1_inRow_13Rows_5, * An_1_inRow_13Rows_6, * An_1_inRow_13Rows_7,
-* An_1_inRow_13Rows_8, * An_1_inRow_13Rows_9, * An_1_inRow_13Rows_10,
-* An_1_inRow_14Rows_1, * An_1_inRow_14Rows_2, * An_1_inRow_14Rows_3, * An_1_inRow_14Rows_4, * An_1_inRow_14Rows_5, * An_1_inRow_14Rows_6, * An_1_inRow_14Rows_7,
-* An_1_inRow_14Rows_8, * An_1_inRow_14Rows_9, * An_1_inRow_14Rows_10,
-* An_1_inRow_15Rows_1, * An_1_inRow_15Rows_2, * An_1_inRow_15Rows_3, * An_1_inRow_15Rows_4, * An_1_inRow_15Rows_5, * An_1_inRow_15Rows_6, * An_1_inRow_15Rows_7,
-* An_1_inRow_15Rows_8, * An_1_inRow_15Rows_9, * An_1_inRow_15Rows_10,
-* An_1_inRow_16Rows_1, * An_1_inRow_16Rows_2, * An_1_inRow_16Rows_3, * An_1_inRow_16Rows_4, * An_1_inRow_16Rows_5, * An_1_inRow_16Rows_6, * An_1_inRow_16Rows_7,
-* An_1_inRow_16Rows_8, * An_1_inRow_16Rows_9, * An_1_inRow_16Rows_10, * An_1_inRow_16Rows_11, * An_1_inRow_16Rows_12,
-* An_1_inRow_17Rows_1, * An_1_inRow_17Rows_2, * An_1_inRow_17Rows_3, * An_1_inRow_17Rows_4, * An_1_inRow_17Rows_5, * An_1_inRow_17Rows_6, * An_1_inRow_17Rows_7,
-* An_1_inRow_17Rows_8, * An_1_inRow_17Rows_9, * An_1_inRow_17Rows_10, * An_1_inRow_17Rows_11, * An_1_inRow_17Rows_12,
-* An_2_inRow_1Row_1, * An_2_inRow_1Row_2,
-* An_2_inRow_2Rows_1, * An_2_inRow_2Rows_2,
-* An_2_inRow_3Rows_1, * An_2_inRow_3Rows_2,
-* An_2_inRow_4Rows_1, * An_2_inRow_4Rows_2, * An_2_inRow_4Rows_3, * An_2_inRow_4Rows_4,
-* An_2_inRow_5Rows_1, * An_2_inRow_5Rows_2, * An_2_inRow_5Rows_3, * An_2_inRow_5Rows_4,
-* An_2_inRow_6Rows_1, * An_2_inRow_6Rows_2, * An_2_inRow_6Rows_3, * An_2_inRow_6Rows_4,
-* An_2_inRow_7Rows_1, * An_2_inRow_7Rows_2, * An_2_inRow_7Rows_3, * An_2_inRow_7Rows_4, * An_2_inRow_7Rows_5, * An_2_inRow_7Rows_6,
-* An_2_inRow_8Rows_1, * An_2_inRow_8Rows_2, * An_2_inRow_8Rows_3, * An_2_inRow_8Rows_4, * An_2_inRow_8Rows_5, * An_2_inRow_8Rows_6,
-* An_2_inRow_9Rows_1, * An_2_inRow_9Rows_2, * An_2_inRow_9Rows_3, * An_2_inRow_9Rows_4, * An_2_inRow_9Rows_5, * An_2_inRow_9Rows_6,
-* An_2_inRow_10Rows_1, * An_2_inRow_10Rows_2, * An_2_inRow_10Rows_3, * An_2_inRow_10Rows_4, * An_2_inRow_10Rows_5, * An_2_inRow_10Rows_6, * An_2_inRow_10Rows_7,
-* An_2_inRow_10Rows_8,
-* An_2_inRow_11Rows_1, * An_2_inRow_11Rows_2, * An_2_inRow_11Rows_3, * An_2_inRow_11Rows_4, * An_2_inRow_11Rows_5, * An_2_inRow_11Rows_6, * An_2_inRow_11Rows_7,
-* An_2_inRow_11Rows_8,
-* An_2_inRow_12Rows_1, * An_2_inRow_12Rows_2, * An_2_inRow_12Rows_3, * An_2_inRow_12Rows_4, * An_2_inRow_12Rows_5, * An_2_inRow_12Rows_6, * An_2_inRow_12Rows_7,
-* An_2_inRow_12Rows_8,
-* An_2_inRow_13Rows_1, * An_2_inRow_13Rows_2, * An_2_inRow_13Rows_3, * An_2_inRow_13Rows_4, * An_2_inRow_13Rows_5, * An_2_inRow_13Rows_6, * An_2_inRow_13Rows_7,
-* An_2_inRow_13Rows_8, * An_2_inRow_13Rows_9, * An_2_inRow_13Rows_10,
-* An_2_inRow_14Rows_1, * An_2_inRow_14Rows_2, * An_2_inRow_14Rows_3, * An_2_inRow_14Rows_4, * An_2_inRow_14Rows_5, * An_2_inRow_14Rows_6, * An_2_inRow_14Rows_7,
-* An_2_inRow_14Rows_8, * An_2_inRow_14Rows_9, * An_2_inRow_14Rows_10,
-* An_2_inRow_15Rows_1, * An_2_inRow_15Rows_2, * An_2_inRow_15Rows_3, * An_2_inRow_15Rows_4, * An_2_inRow_15Rows_5, * An_2_inRow_15Rows_6, * An_2_inRow_15Rows_7,
-* An_2_inRow_15Rows_8, * An_2_inRow_15Rows_9, * An_2_inRow_15Rows_10,
-* An_2_inRow_16Rows_1, * An_2_inRow_16Rows_2, * An_2_inRow_16Rows_3, * An_2_inRow_16Rows_4, * An_2_inRow_16Rows_5, * An_2_inRow_16Rows_6, * An_2_inRow_16Rows_7,
-* An_2_inRow_16Rows_8, * An_2_inRow_16Rows_9, * An_2_inRow_16Rows_10, * An_2_inRow_16Rows_11, * An_2_inRow_16Rows_12,
-* An_2_inRow_17Rows_1, * An_2_inRow_17Rows_2, * An_2_inRow_17Rows_3, * An_2_inRow_17Rows_4, * An_2_inRow_17Rows_5, * An_2_inRow_17Rows_6, * An_2_inRow_17Rows_7,
-* An_2_inRow_17Rows_8, * An_2_inRow_17Rows_9, * An_2_inRow_17Rows_10, * An_2_inRow_17Rows_11, * An_2_inRow_17Rows_12,
-* An_3_inRow_1Row_1, * An_3_inRow_1Row_2,
-* An_3_inRow_2Rows_1, * An_3_inRow_2Rows_2,
-* An_3_inRow_3Rows_1, * An_3_inRow_3Rows_2,
-* An_3_inRow_4Rows_1, * An_3_inRow_4Rows_2, * An_3_inRow_4Rows_3, * An_3_inRow_4Rows_4,
-* An_3_inRow_5Rows_1, * An_3_inRow_5Rows_2, * An_3_inRow_5Rows_3, * An_3_inRow_5Rows_4,
-* An_3_inRow_6Rows_1, * An_3_inRow_6Rows_2, * An_3_inRow_6Rows_3, * An_3_inRow_6Rows_4,
-* An_3_inRow_7Rows_1, * An_3_inRow_7Rows_2, * An_3_inRow_7Rows_3, * An_3_inRow_7Rows_4, * An_3_inRow_7Rows_5, * An_3_inRow_7Rows_6,
-* An_3_inRow_8Rows_1, * An_3_inRow_8Rows_2, * An_3_inRow_8Rows_3, * An_3_inRow_8Rows_4, * An_3_inRow_8Rows_5, * An_3_inRow_8Rows_6,
-* An_3_inRow_9Rows_1, * An_3_inRow_9Rows_2, * An_3_inRow_9Rows_3, * An_3_inRow_9Rows_4, * An_3_inRow_9Rows_5, * An_3_inRow_9Rows_6,
-* An_3_inRow_10Rows_1, * An_3_inRow_10Rows_2, * An_3_inRow_10Rows_3, * An_3_inRow_10Rows_4, * An_3_inRow_10Rows_5, * An_3_inRow_10Rows_6, * An_3_inRow_10Rows_7,
-* An_3_inRow_10Rows_8,
-* An_3_inRow_11Rows_1, * An_3_inRow_11Rows_2, * An_3_inRow_11Rows_3, * An_3_inRow_11Rows_4, * An_3_inRow_11Rows_5, * An_3_inRow_11Rows_6, * An_3_inRow_11Rows_7,
-* An_3_inRow_11Rows_8,
-* An_3_inRow_12Rows_1, * An_3_inRow_12Rows_2, * An_3_inRow_12Rows_3, * An_3_inRow_12Rows_4, * An_3_inRow_12Rows_5, * An_3_inRow_12Rows_6, * An_3_inRow_12Rows_7,
-* An_3_inRow_12Rows_8,
-* An_3_inRow_13Rows_1, * An_3_inRow_13Rows_2, * An_3_inRow_13Rows_3, * An_3_inRow_13Rows_4, * An_3_inRow_13Rows_5, * An_3_inRow_13Rows_6, * An_3_inRow_13Rows_7,
-* An_3_inRow_13Rows_8, * An_3_inRow_13Rows_9, * An_3_inRow_13Rows_10,
-* An_3_inRow_14Rows_1, * An_3_inRow_14Rows_2, * An_3_inRow_14Rows_3, * An_3_inRow_14Rows_4, * An_3_inRow_14Rows_5, * An_3_inRow_14Rows_6, * An_3_inRow_14Rows_7,
-* An_3_inRow_14Rows_8, * An_3_inRow_14Rows_9, * An_3_inRow_14Rows_10,
-* An_3_inRow_15Rows_1, * An_3_inRow_15Rows_2, * An_3_inRow_15Rows_3, * An_3_inRow_15Rows_4, * An_3_inRow_15Rows_5, * An_3_inRow_15Rows_6, * An_3_inRow_15Rows_7,
-* An_3_inRow_15Rows_8, * An_3_inRow_15Rows_9, * An_3_inRow_15Rows_10,
-* An_3_inRow_16Rows_1, * An_3_inRow_16Rows_2, * An_3_inRow_16Rows_3, * An_3_inRow_16Rows_4, * An_3_inRow_16Rows_5, * An_3_inRow_16Rows_6, * An_3_inRow_16Rows_7,
-* An_3_inRow_16Rows_8, * An_3_inRow_16Rows_9, * An_3_inRow_16Rows_10, * An_3_inRow_16Rows_11, * An_3_inRow_16Rows_12,
-* An_3_inRow_17Rows_1, * An_3_inRow_17Rows_2, * An_3_inRow_17Rows_3, * An_3_inRow_17Rows_4, * An_3_inRow_17Rows_5, * An_3_inRow_17Rows_6, * An_3_inRow_17Rows_7,
-* An_3_inRow_17Rows_8, * An_3_inRow_17Rows_9, * An_3_inRow_17Rows_10, * An_3_inRow_17Rows_11, * An_3_inRow_17Rows_12,
-* An_3_inRow_18Rows_1, * An_3_inRow_18Rows_2, * An_3_inRow_18Rows_3, * An_3_inRow_18Rows_4, * An_3_inRow_18Rows_5, * An_3_inRow_18Rows_6, * An_3_inRow_18Rows_7,
-* An_3_inRow_18Rows_8, * An_3_inRow_18Rows_9, * An_3_inRow_18Rows_10, * An_3_inRow_18Rows_11, * An_3_inRow_18Rows_12,
-* An_4_inRow_1Row_1, * An_4_inRow_1Row_2,
-* An_4_inRow_2Rows_1, * An_4_inRow_2Rows_2,
-* An_4_inRow_3Rows_1, * An_4_inRow_3Rows_2,
-* An_4_inRow_4Rows_1, * An_4_inRow_4Rows_2, * An_4_inRow_4Rows_3, * An_4_inRow_4Rows_4,
-* An_4_inRow_5Rows_1, * An_4_inRow_5Rows_2, * An_4_inRow_5Rows_3, * An_4_inRow_5Rows_4,
-* An_4_inRow_6Rows_1, * An_4_inRow_6Rows_2, * An_4_inRow_6Rows_3, * An_4_inRow_6Rows_4,
-* An_4_inRow_7Rows_1, * An_4_inRow_7Rows_2, * An_4_inRow_7Rows_3, * An_4_inRow_7Rows_4, * An_4_inRow_7Rows_5, * An_4_inRow_7Rows_6,
-* An_4_inRow_8Rows_1, * An_4_inRow_8Rows_2, * An_4_inRow_8Rows_3, * An_4_inRow_8Rows_4, * An_4_inRow_8Rows_5, * An_4_inRow_8Rows_6,
-* An_4_inRow_9Rows_1, * An_4_inRow_9Rows_2, * An_4_inRow_9Rows_3, * An_4_inRow_9Rows_4, * An_4_inRow_9Rows_5, * An_4_inRow_9Rows_6,
-* An_4_inRow_10Rows_1, * An_4_inRow_10Rows_2, * An_4_inRow_10Rows_3, * An_4_inRow_10Rows_4, * An_4_inRow_10Rows_5, * An_4_inRow_10Rows_6, * An_4_inRow_10Rows_7,
-* An_4_inRow_10Rows_8,
-* An_4_inRow_11Rows_1, * An_4_inRow_11Rows_2, * An_4_inRow_11Rows_3, * An_4_inRow_11Rows_4, * An_4_inRow_11Rows_5, * An_4_inRow_11Rows_6, * An_4_inRow_11Rows_7,
-* An_4_inRow_11Rows_8,
-* An_4_inRow_12Rows_1, * An_4_inRow_12Rows_2, * An_4_inRow_12Rows_3, * An_4_inRow_12Rows_4, * An_4_inRow_12Rows_5, * An_4_inRow_12Rows_6, * An_4_inRow_12Rows_7,
-* An_4_inRow_12Rows_8,
-* An_4_inRow_13Rows_1, * An_4_inRow_13Rows_2, * An_4_inRow_13Rows_3, * An_4_inRow_13Rows_4, * An_4_inRow_13Rows_5, * An_4_inRow_13Rows_6, * An_4_inRow_13Rows_7,
-* An_4_inRow_13Rows_8, * An_4_inRow_13Rows_9, * An_4_inRow_13Rows_10,
-* An_4_inRow_14Rows_1, * An_4_inRow_14Rows_2, * An_4_inRow_14Rows_3, * An_4_inRow_14Rows_4, * An_4_inRow_14Rows_5, * An_4_inRow_14Rows_6, * An_4_inRow_14Rows_7,
-* An_4_inRow_14Rows_8, * An_4_inRow_14Rows_9, * An_4_inRow_14Rows_10,
-* An_4_inRow_15Rows_1, * An_4_inRow_15Rows_2, * An_4_inRow_15Rows_3, * An_4_inRow_15Rows_4, * An_4_inRow_15Rows_5, * An_4_inRow_15Rows_6, * An_4_inRow_15Rows_7,
-* An_4_inRow_15Rows_8, * An_4_inRow_15Rows_9, * An_4_inRow_15Rows_10,
-* An_4_inRow_16Rows_1, * An_4_inRow_16Rows_2, * An_4_inRow_16Rows_3, * An_4_inRow_16Rows_4, * An_4_inRow_16Rows_5, * An_4_inRow_16Rows_6, * An_4_inRow_16Rows_7,
-* An_4_inRow_16Rows_8, * An_4_inRow_16Rows_9, * An_4_inRow_16Rows_10, * An_4_inRow_16Rows_11, * An_4_inRow_16Rows_12,
-* An_4_inRow_17Rows_1, * An_4_inRow_17Rows_2, * An_4_inRow_17Rows_3, * An_4_inRow_17Rows_4, * An_4_inRow_17Rows_5, * An_4_inRow_17Rows_6, * An_4_inRow_17Rows_7,
-* An_4_inRow_17Rows_8, * An_4_inRow_17Rows_9, * An_4_inRow_17Rows_10, * An_4_inRow_17Rows_11, * An_4_inRow_17Rows_12,*/
-* An_4_inRow_18Rows_1, * An_4_inRow_18Rows_2, * An_4_inRow_18Rows_3, * An_4_inRow_18Rows_4, * An_4_inRow_18Rows_5, * An_4_inRow_18Rows_6, * An_4_inRow_18Rows_7,
-* An_4_inRow_18Rows_8, * An_4_inRow_18Rows_9, * An_4_inRow_18Rows_10, * An_4_inRow_18Rows_11, * An_4_inRow_18Rows_12, * An_test;
+		* An_4lines_21, * An_4lines_22, * AnFF1inRow1To4Rows, * AnFF1inRow5To8Rows, * AnFF1inRow9To12Rows, * AnFF1inRow13To15Rows, * AnFF1inRow16To17Rows,
+		* AnFF2inRow1To6Rows, *AnFF2inRow7To10Rows, *AnFF2inRow11To13Rows, *AnFF2inRow14To15Rows, *AnFF2inRow16To17Rows, *AnFF3inRow1To4Rows, *AnFF3inRow5To8Rows, 
+		*AnFF3inRow9To11Rows, *AnFF3inRow12To13Rows, *AnFF3inRow14To15Rows, *AnFF3inRow16Rows, *AnFF3inRow17Rows, *AnFF3inRow18Rows, *AnFF4inRow1To4Rows, *AnFF4inRow5To8Rows,
+		*AnFF4inRow9To11Rows, *AnFF4inRow12To13Rows, *AnFF4inRow14Rows, *AnFF4inRow15Rows, *AnFF4inRow16Rows, *AnFF4inRow17Rows, *AnFF4inRow18Rows;
 		
 
 
@@ -646,496 +625,41 @@ int main()
 	An_4lines_21 = LoadTextureFromResource(IDB_PNG207, "PNG");
 	An_4lines_22 = LoadTextureFromResource(IDB_PNG208, "PNG");
 	
-	/*An_3_inRow_16Rows_1 = LoadTextureFromResource(IDB_PNG210, "PNG");
-	An_3_inRow_16Rows_2 = LoadTextureFromResource(IDB_PNG211, "PNG");
-	An_3_inRow_16Rows_3 = LoadTextureFromResource(IDB_PNG212, "PNG");
-	An_3_inRow_16Rows_4 = LoadTextureFromResource(IDB_PNG213, "PNG");
-	An_3_inRow_16Rows_5 = LoadTextureFromResource(IDB_PNG214, "PNG");
-	An_3_inRow_16Rows_6 = LoadTextureFromResource(IDB_PNG215, "PNG");
-	An_3_inRow_16Rows_7 = LoadTextureFromResource(IDB_PNG216, "PNG");
-	An_3_inRow_16Rows_8 = LoadTextureFromResource(IDB_PNG217, "PNG");
-	An_3_inRow_16Rows_9 = LoadTextureFromResource(IDB_PNG218, "PNG");
-	An_3_inRow_16Rows_10 = LoadTextureFromResource(IDB_PNG219, "PNG");
-	An_3_inRow_16Rows_11 = LoadTextureFromResource(IDB_PNG220, "PNG");
-	An_3_inRow_16Rows_12 = LoadTextureFromResource(IDB_PNG221, "PNG");
-
-	An_1_inRow_1Row_1 = LoadTextureFromResource(IDB_PNG222, "PNG");
-	An_1_inRow_1Row_2 = LoadTextureFromResource(IDB_PNG223, "PNG");
-	An_1_inRow_2Rows_1 = LoadTextureFromResource(IDB_PNG224, "PNG");
-	An_1_inRow_2Rows_2 = LoadTextureFromResource(IDB_PNG225, "PNG");
-	An_1_inRow_3Rows_1 = LoadTextureFromResource(IDB_PNG226, "PNG");
-	An_1_inRow_3Rows_2 = LoadTextureFromResource(IDB_PNG227, "PNG");
-	An_1_inRow_4Rows_1 = LoadTextureFromResource(IDB_PNG228, "PNG");
-	An_1_inRow_4Rows_2 = LoadTextureFromResource(IDB_PNG229, "PNG");
-	An_1_inRow_4Rows_3 = LoadTextureFromResource(IDB_PNG230, "PNG");
-	An_1_inRow_4Rows_4 = LoadTextureFromResource(IDB_PNG231, "PNG");
-	An_1_inRow_5Rows_1 = LoadTextureFromResource(IDB_PNG232, "PNG");
-	An_1_inRow_5Rows_2 = LoadTextureFromResource(IDB_PNG233, "PNG");
-	An_1_inRow_5Rows_3 = LoadTextureFromResource(IDB_PNG234, "PNG");
-	An_1_inRow_5Rows_4 = LoadTextureFromResource(IDB_PNG235, "PNG");
-	An_1_inRow_6Rows_1 = LoadTextureFromResource(IDB_PNG236, "PNG");
-	An_1_inRow_6Rows_2 = LoadTextureFromResource(IDB_PNG237, "PNG");
-	An_1_inRow_6Rows_3 = LoadTextureFromResource(IDB_PNG238, "PNG");
-	An_1_inRow_6Rows_4 = LoadTextureFromResource(IDB_PNG239, "PNG");
-	An_1_inRow_7Rows_1 = LoadTextureFromResource(IDB_PNG240, "PNG");
-	An_1_inRow_7Rows_2 = LoadTextureFromResource(IDB_PNG241, "PNG");
-	An_1_inRow_7Rows_3 = LoadTextureFromResource(IDB_PNG242, "PNG");
-	An_1_inRow_7Rows_4 = LoadTextureFromResource(IDB_PNG243, "PNG");
-	An_1_inRow_7Rows_5 = LoadTextureFromResource(IDB_PNG244, "PNG");
-	An_1_inRow_7Rows_6 = LoadTextureFromResource(IDB_PNG245, "PNG");
-	An_1_inRow_8Rows_1 = LoadTextureFromResource(IDB_PNG246, "PNG");
-	An_1_inRow_8Rows_2 = LoadTextureFromResource(IDB_PNG247, "PNG");
-	An_1_inRow_8Rows_3 = LoadTextureFromResource(IDB_PNG248, "PNG");
-	An_1_inRow_8Rows_4 = LoadTextureFromResource(IDB_PNG249, "PNG");
-	An_1_inRow_8Rows_5 = LoadTextureFromResource(IDB_PNG250, "PNG");
-	An_1_inRow_8Rows_6 = LoadTextureFromResource(IDB_PNG251, "PNG");
-	An_1_inRow_9Rows_1 = LoadTextureFromResource(IDB_PNG252, "PNG");
-	An_1_inRow_9Rows_2 = LoadTextureFromResource(IDB_PNG253, "PNG");
-	An_1_inRow_9Rows_3 = LoadTextureFromResource(IDB_PNG254, "PNG");
-	An_1_inRow_9Rows_4 = LoadTextureFromResource(IDB_PNG255, "PNG");
-	An_1_inRow_9Rows_5 = LoadTextureFromResource(IDB_PNG256, "PNG");
-	An_1_inRow_9Rows_6 = LoadTextureFromResource(IDB_PNG257, "PNG");
-	An_1_inRow_10Rows_1 = LoadTextureFromResource(IDB_PNG258, "PNG");
-	An_1_inRow_10Rows_2 = LoadTextureFromResource(IDB_PNG259, "PNG");
-	An_1_inRow_10Rows_3 = LoadTextureFromResource(IDB_PNG260, "PNG");
-	An_1_inRow_10Rows_4 = LoadTextureFromResource(IDB_PNG261, "PNG");
-	An_1_inRow_10Rows_5 = LoadTextureFromResource(IDB_PNG262, "PNG");
-	An_1_inRow_10Rows_6 = LoadTextureFromResource(IDB_PNG263, "PNG");
-	An_1_inRow_10Rows_7 = LoadTextureFromResource(IDB_PNG264, "PNG");
-	An_1_inRow_10Rows_8 = LoadTextureFromResource(IDB_PNG265, "PNG");
-	An_1_inRow_11Rows_1 = LoadTextureFromResource(IDB_PNG266, "PNG");
-	An_1_inRow_11Rows_2 = LoadTextureFromResource(IDB_PNG267, "PNG");
-	An_1_inRow_11Rows_3 = LoadTextureFromResource(IDB_PNG268, "PNG");
-	An_1_inRow_11Rows_4 = LoadTextureFromResource(IDB_PNG269, "PNG");
-	An_1_inRow_11Rows_5 = LoadTextureFromResource(IDB_PNG270, "PNG");
-	An_1_inRow_11Rows_6 = LoadTextureFromResource(IDB_PNG271, "PNG");
-	An_1_inRow_11Rows_7 = LoadTextureFromResource(IDB_PNG272, "PNG");
-	An_1_inRow_11Rows_8 = LoadTextureFromResource(IDB_PNG273, "PNG");
-	An_1_inRow_12Rows_1 = LoadTextureFromResource(IDB_PNG274, "PNG");
-	An_1_inRow_12Rows_2 = LoadTextureFromResource(IDB_PNG275, "PNG");
-	An_1_inRow_12Rows_3 = LoadTextureFromResource(IDB_PNG276, "PNG");
-	An_1_inRow_12Rows_4 = LoadTextureFromResource(IDB_PNG277, "PNG");
-	An_1_inRow_12Rows_5 = LoadTextureFromResource(IDB_PNG278, "PNG");
-	An_1_inRow_12Rows_6 = LoadTextureFromResource(IDB_PNG279, "PNG");
-	An_1_inRow_12Rows_7 = LoadTextureFromResource(IDB_PNG280, "PNG");
-	An_1_inRow_12Rows_8 = LoadTextureFromResource(IDB_PNG281, "PNG");
-	An_1_inRow_13Rows_1 = LoadTextureFromResource(IDB_PNG282, "PNG");
-	An_1_inRow_13Rows_2 = LoadTextureFromResource(IDB_PNG283, "PNG");
-	An_1_inRow_13Rows_3 = LoadTextureFromResource(IDB_PNG284, "PNG");
-	An_1_inRow_13Rows_4 = LoadTextureFromResource(IDB_PNG285, "PNG");
-	An_1_inRow_13Rows_5 = LoadTextureFromResource(IDB_PNG286, "PNG");
-	An_1_inRow_13Rows_6 = LoadTextureFromResource(IDB_PNG287, "PNG");
-	An_1_inRow_13Rows_7 = LoadTextureFromResource(IDB_PNG288, "PNG");
-	An_1_inRow_13Rows_8 = LoadTextureFromResource(IDB_PNG289, "PNG");
-	An_1_inRow_13Rows_9 = LoadTextureFromResource(IDB_PNG290, "PNG");
-	An_1_inRow_13Rows_10 = LoadTextureFromResource(IDB_PNG291, "PNG");
-	An_1_inRow_14Rows_1 = LoadTextureFromResource(IDB_PNG292, "PNG");
-	An_1_inRow_14Rows_2 = LoadTextureFromResource(IDB_PNG293, "PNG");
-	An_1_inRow_14Rows_3 = LoadTextureFromResource(IDB_PNG294, "PNG");
-	An_1_inRow_14Rows_4 = LoadTextureFromResource(IDB_PNG295, "PNG");
-	An_1_inRow_14Rows_5 = LoadTextureFromResource(IDB_PNG296, "PNG");
-	An_1_inRow_14Rows_6 = LoadTextureFromResource(IDB_PNG297, "PNG");
-	An_1_inRow_14Rows_7 = LoadTextureFromResource(IDB_PNG298, "PNG");
-	An_1_inRow_14Rows_8 = LoadTextureFromResource(IDB_PNG299, "PNG");
-	An_1_inRow_14Rows_9 = LoadTextureFromResource(IDB_PNG300, "PNG");
-	An_1_inRow_14Rows_10 = LoadTextureFromResource(IDB_PNG301, "PNG");
-	An_1_inRow_15Rows_1 = LoadTextureFromResource(IDB_PNG302, "PNG");
-	An_1_inRow_15Rows_2 = LoadTextureFromResource(IDB_PNG303, "PNG");
-	An_1_inRow_15Rows_3 = LoadTextureFromResource(IDB_PNG304, "PNG");
-	An_1_inRow_15Rows_4 = LoadTextureFromResource(IDB_PNG305, "PNG");
-	An_1_inRow_15Rows_5 = LoadTextureFromResource(IDB_PNG306, "PNG");
-	An_1_inRow_15Rows_6 = LoadTextureFromResource(IDB_PNG307, "PNG");
-	An_1_inRow_15Rows_7 = LoadTextureFromResource(IDB_PNG308, "PNG");
-	An_1_inRow_15Rows_8 = LoadTextureFromResource(IDB_PNG309, "PNG");
-	An_1_inRow_15Rows_9 = LoadTextureFromResource(IDB_PNG310, "PNG");
-	An_1_inRow_15Rows_10 = LoadTextureFromResource(IDB_PNG311, "PNG");
-	An_1_inRow_16Rows_1 = LoadTextureFromResource(IDB_PNG312, "PNG");
-	An_1_inRow_16Rows_2 = LoadTextureFromResource(IDB_PNG313, "PNG");
-	An_1_inRow_16Rows_3 = LoadTextureFromResource(IDB_PNG314, "PNG");
-	An_1_inRow_16Rows_4 = LoadTextureFromResource(IDB_PNG315, "PNG");
-	An_1_inRow_16Rows_5 = LoadTextureFromResource(IDB_PNG316, "PNG");
-	An_1_inRow_16Rows_6 = LoadTextureFromResource(IDB_PNG317, "PNG");
-	An_1_inRow_16Rows_7 = LoadTextureFromResource(IDB_PNG318, "PNG");
-	An_1_inRow_16Rows_8 = LoadTextureFromResource(IDB_PNG319, "PNG");
-	An_1_inRow_16Rows_9 = LoadTextureFromResource(IDB_PNG320, "PNG");
-	An_1_inRow_16Rows_10 = LoadTextureFromResource(IDB_PNG321, "PNG");
-	An_1_inRow_16Rows_11 = LoadTextureFromResource(IDB_PNG322, "PNG");
-	An_1_inRow_16Rows_12 = LoadTextureFromResource(IDB_PNG323, "PNG");
-	An_1_inRow_17Rows_1 = LoadTextureFromResource(IDB_PNG324, "PNG");
-	An_1_inRow_17Rows_2 = LoadTextureFromResource(IDB_PNG325, "PNG");
-	An_1_inRow_17Rows_3 = LoadTextureFromResource(IDB_PNG326, "PNG");
-	An_1_inRow_17Rows_4 = LoadTextureFromResource(IDB_PNG327, "PNG");
-	An_1_inRow_17Rows_5 = LoadTextureFromResource(IDB_PNG328, "PNG");
-	An_1_inRow_17Rows_6 = LoadTextureFromResource(IDB_PNG329, "PNG");
-	An_1_inRow_17Rows_7 = LoadTextureFromResource(IDB_PNG330, "PNG");
-	An_1_inRow_17Rows_8 = LoadTextureFromResource(IDB_PNG331, "PNG");
-	An_1_inRow_17Rows_9 = LoadTextureFromResource(IDB_PNG332, "PNG");
-	An_1_inRow_17Rows_10 = LoadTextureFromResource(IDB_PNG333, "PNG");
-	An_1_inRow_17Rows_11 = LoadTextureFromResource(IDB_PNG334, "PNG");
-	An_1_inRow_17Rows_12 = LoadTextureFromResource(IDB_PNG335, "PNG");
-	An_2_inRow_1Row_1 = LoadTextureFromResource(IDB_PNG336, "PNG");
-	An_2_inRow_1Row_2 = LoadTextureFromResource(IDB_PNG337, "PNG");
-	An_2_inRow_2Rows_1 = LoadTextureFromResource(IDB_PNG338, "PNG");
-	An_2_inRow_2Rows_2 = LoadTextureFromResource(IDB_PNG339, "PNG");
-	An_2_inRow_3Rows_1 = LoadTextureFromResource(IDB_PNG340, "PNG");
-	An_2_inRow_3Rows_2 = LoadTextureFromResource(IDB_PNG341, "PNG");
-	An_2_inRow_4Rows_1 = LoadTextureFromResource(IDB_PNG342, "PNG");
-	An_2_inRow_4Rows_2 = LoadTextureFromResource(IDB_PNG343, "PNG");
-	An_2_inRow_4Rows_3 = LoadTextureFromResource(IDB_PNG344, "PNG");
-	An_2_inRow_4Rows_4 = LoadTextureFromResource(IDB_PNG345, "PNG");
-	An_2_inRow_5Rows_1 = LoadTextureFromResource(IDB_PNG346, "PNG");
-	An_2_inRow_5Rows_2 = LoadTextureFromResource(IDB_PNG347, "PNG");
-	An_2_inRow_5Rows_3 = LoadTextureFromResource(IDB_PNG348, "PNG");
-	An_2_inRow_5Rows_4 = LoadTextureFromResource(IDB_PNG349, "PNG");
-	An_2_inRow_6Rows_1 = LoadTextureFromResource(IDB_PNG350, "PNG");
-	An_2_inRow_6Rows_2 = LoadTextureFromResource(IDB_PNG351, "PNG");
-	An_2_inRow_6Rows_3 = LoadTextureFromResource(IDB_PNG352, "PNG");
-	An_2_inRow_6Rows_4 = LoadTextureFromResource(IDB_PNG353, "PNG");
-	An_2_inRow_7Rows_1 = LoadTextureFromResource(IDB_PNG354, "PNG");
-	An_2_inRow_7Rows_2 = LoadTextureFromResource(IDB_PNG355, "PNG");
-	An_2_inRow_7Rows_3 = LoadTextureFromResource(IDB_PNG356, "PNG");
-	An_2_inRow_7Rows_4 = LoadTextureFromResource(IDB_PNG357, "PNG");
-	An_2_inRow_7Rows_5 = LoadTextureFromResource(IDB_PNG358, "PNG");
-	An_2_inRow_7Rows_6 = LoadTextureFromResource(IDB_PNG359, "PNG");
-	An_2_inRow_8Rows_1 = LoadTextureFromResource(IDB_PNG360, "PNG");
-	An_2_inRow_8Rows_2 = LoadTextureFromResource(IDB_PNG361, "PNG");
-	An_2_inRow_8Rows_3 = LoadTextureFromResource(IDB_PNG362, "PNG");
-	An_2_inRow_8Rows_4 = LoadTextureFromResource(IDB_PNG363, "PNG");
-	An_2_inRow_8Rows_5 = LoadTextureFromResource(IDB_PNG364, "PNG");
-	An_2_inRow_8Rows_6 = LoadTextureFromResource(IDB_PNG365, "PNG");
-	An_2_inRow_9Rows_1 = LoadTextureFromResource(IDB_PNG366, "PNG");
-	An_2_inRow_9Rows_2 = LoadTextureFromResource(IDB_PNG367, "PNG");
-	An_2_inRow_9Rows_3 = LoadTextureFromResource(IDB_PNG368, "PNG");
-	An_2_inRow_9Rows_4 = LoadTextureFromResource(IDB_PNG369, "PNG");
-	An_2_inRow_9Rows_5 = LoadTextureFromResource(IDB_PNG370, "PNG");
-	An_2_inRow_9Rows_6 = LoadTextureFromResource(IDB_PNG371, "PNG");
-	An_2_inRow_10Rows_1 = LoadTextureFromResource(IDB_PNG372, "PNG");
-	An_2_inRow_10Rows_2 = LoadTextureFromResource(IDB_PNG373, "PNG");
-	An_2_inRow_10Rows_3 = LoadTextureFromResource(IDB_PNG374, "PNG");
-	An_2_inRow_10Rows_4 = LoadTextureFromResource(IDB_PNG375, "PNG");
-	An_2_inRow_10Rows_5 = LoadTextureFromResource(IDB_PNG376, "PNG");
-	An_2_inRow_10Rows_6 = LoadTextureFromResource(IDB_PNG377, "PNG");
-	An_2_inRow_10Rows_7 = LoadTextureFromResource(IDB_PNG378, "PNG");
-	An_2_inRow_10Rows_8 = LoadTextureFromResource(IDB_PNG379, "PNG");
-	An_2_inRow_11Rows_1 = LoadTextureFromResource(IDB_PNG380, "PNG");
-	An_2_inRow_11Rows_2 = LoadTextureFromResource(IDB_PNG381, "PNG");
-	An_2_inRow_11Rows_3 = LoadTextureFromResource(IDB_PNG382, "PNG");
-	An_2_inRow_11Rows_4 = LoadTextureFromResource(IDB_PNG383, "PNG");
-	An_2_inRow_11Rows_5 = LoadTextureFromResource(IDB_PNG384, "PNG");
-	An_2_inRow_11Rows_6 = LoadTextureFromResource(IDB_PNG385, "PNG");
-	An_2_inRow_11Rows_7 = LoadTextureFromResource(IDB_PNG386, "PNG");
-	An_2_inRow_11Rows_8 = LoadTextureFromResource(IDB_PNG387, "PNG");
-	An_2_inRow_12Rows_1 = LoadTextureFromResource(IDB_PNG388, "PNG");
-	An_2_inRow_12Rows_2 = LoadTextureFromResource(IDB_PNG389, "PNG");
-	An_2_inRow_12Rows_3 = LoadTextureFromResource(IDB_PNG390, "PNG");
-	An_2_inRow_12Rows_4 = LoadTextureFromResource(IDB_PNG391, "PNG");
-	An_2_inRow_12Rows_5 = LoadTextureFromResource(IDB_PNG392, "PNG");
-	An_2_inRow_12Rows_6 = LoadTextureFromResource(IDB_PNG393, "PNG");
-	An_2_inRow_12Rows_7 = LoadTextureFromResource(IDB_PNG394, "PNG");
-	An_2_inRow_12Rows_8 = LoadTextureFromResource(IDB_PNG395, "PNG");
-	An_2_inRow_13Rows_1 = LoadTextureFromResource(IDB_PNG396, "PNG");
-	An_2_inRow_13Rows_2 = LoadTextureFromResource(IDB_PNG397, "PNG");
-	An_2_inRow_13Rows_3 = LoadTextureFromResource(IDB_PNG398, "PNG");
-	An_2_inRow_13Rows_4 = LoadTextureFromResource(IDB_PNG399, "PNG");
-	An_2_inRow_13Rows_5 = LoadTextureFromResource(IDB_PNG400, "PNG");
-	An_2_inRow_13Rows_6 = LoadTextureFromResource(IDB_PNG401, "PNG");
-	An_2_inRow_13Rows_7 = LoadTextureFromResource(IDB_PNG402, "PNG");
-	An_2_inRow_13Rows_8 = LoadTextureFromResource(IDB_PNG403, "PNG");
-	An_2_inRow_13Rows_9 = LoadTextureFromResource(IDB_PNG404, "PNG");
-	An_2_inRow_13Rows_10 = LoadTextureFromResource(IDB_PNG405, "PNG");
-	An_2_inRow_14Rows_1 = LoadTextureFromResource(IDB_PNG406, "PNG");
-	An_2_inRow_14Rows_2 = LoadTextureFromResource(IDB_PNG407, "PNG");
-	An_2_inRow_14Rows_3 = LoadTextureFromResource(IDB_PNG408, "PNG");
-	An_2_inRow_14Rows_4 = LoadTextureFromResource(IDB_PNG409, "PNG");
-	An_2_inRow_14Rows_5 = LoadTextureFromResource(IDB_PNG410, "PNG");
-	An_2_inRow_14Rows_6 = LoadTextureFromResource(IDB_PNG411, "PNG");
-	An_2_inRow_14Rows_7 = LoadTextureFromResource(IDB_PNG412, "PNG");
-	An_2_inRow_14Rows_8 = LoadTextureFromResource(IDB_PNG413, "PNG");
-	An_2_inRow_14Rows_9 = LoadTextureFromResource(IDB_PNG414, "PNG");
-	An_2_inRow_14Rows_10 = LoadTextureFromResource(IDB_PNG415, "PNG");
-	An_2_inRow_15Rows_1 = LoadTextureFromResource(IDB_PNG416, "PNG");
-	An_2_inRow_15Rows_2 = LoadTextureFromResource(IDB_PNG417, "PNG");
-	An_2_inRow_15Rows_3 = LoadTextureFromResource(IDB_PNG418, "PNG");
-	An_2_inRow_15Rows_4 = LoadTextureFromResource(IDB_PNG419, "PNG");
-	An_2_inRow_15Rows_5 = LoadTextureFromResource(IDB_PNG420, "PNG");
-	An_2_inRow_15Rows_6 = LoadTextureFromResource(IDB_PNG421, "PNG");
-	An_2_inRow_15Rows_7 = LoadTextureFromResource(IDB_PNG422, "PNG");
-	An_2_inRow_15Rows_8 = LoadTextureFromResource(IDB_PNG423, "PNG");
-	An_2_inRow_15Rows_9 = LoadTextureFromResource(IDB_PNG424, "PNG");
-	An_2_inRow_15Rows_10 = LoadTextureFromResource(IDB_PNG425, "PNG");
-	An_2_inRow_16Rows_1 = LoadTextureFromResource(IDB_PNG426, "PNG");
-	An_2_inRow_16Rows_2 = LoadTextureFromResource(IDB_PNG427, "PNG");
-	An_2_inRow_16Rows_3 = LoadTextureFromResource(IDB_PNG428, "PNG");
-	An_2_inRow_16Rows_4 = LoadTextureFromResource(IDB_PNG429, "PNG");
-	An_2_inRow_16Rows_5 = LoadTextureFromResource(IDB_PNG430, "PNG");
-	An_2_inRow_16Rows_6 = LoadTextureFromResource(IDB_PNG431, "PNG");
-	An_2_inRow_16Rows_7 = LoadTextureFromResource(IDB_PNG432, "PNG");
-	An_2_inRow_16Rows_8 = LoadTextureFromResource(IDB_PNG433, "PNG");
-	An_2_inRow_16Rows_9 = LoadTextureFromResource(IDB_PNG434, "PNG");
-	An_2_inRow_16Rows_10 = LoadTextureFromResource(IDB_PNG435, "PNG");
-	An_2_inRow_16Rows_11 = LoadTextureFromResource(IDB_PNG436, "PNG");
-	An_2_inRow_16Rows_12 = LoadTextureFromResource(IDB_PNG437, "PNG");
-	An_2_inRow_17Rows_1 = LoadTextureFromResource(IDB_PNG438, "PNG");
-	An_2_inRow_17Rows_2 = LoadTextureFromResource(IDB_PNG439, "PNG");
-	An_2_inRow_17Rows_3 = LoadTextureFromResource(IDB_PNG440, "PNG");
-	An_2_inRow_17Rows_4 = LoadTextureFromResource(IDB_PNG441, "PNG");
-	An_2_inRow_17Rows_5 = LoadTextureFromResource(IDB_PNG442, "PNG");
-	An_2_inRow_17Rows_6 = LoadTextureFromResource(IDB_PNG443, "PNG");
-	An_2_inRow_17Rows_7 = LoadTextureFromResource(IDB_PNG444, "PNG");
-	An_2_inRow_17Rows_8 = LoadTextureFromResource(IDB_PNG445, "PNG");
-	An_2_inRow_17Rows_9 = LoadTextureFromResource(IDB_PNG446, "PNG");
-	An_2_inRow_17Rows_10 = LoadTextureFromResource(IDB_PNG447, "PNG");
-	An_2_inRow_17Rows_11 = LoadTextureFromResource(IDB_PNG448, "PNG");
-	An_2_inRow_17Rows_12 = LoadTextureFromResource(IDB_PNG449, "PNG");
-	An_3_inRow_1Row_1 = LoadTextureFromResource(IDB_PNG450, "PNG");
-	An_3_inRow_1Row_2 = LoadTextureFromResource(IDB_PNG451, "PNG");
-	An_3_inRow_2Rows_1 = LoadTextureFromResource(IDB_PNG452, "PNG");
-	An_3_inRow_2Rows_2 = LoadTextureFromResource(IDB_PNG453, "PNG");
-	An_3_inRow_3Rows_1 = LoadTextureFromResource(IDB_PNG454, "PNG");
-	An_3_inRow_3Rows_2 = LoadTextureFromResource(IDB_PNG455, "PNG");
-	An_3_inRow_4Rows_1 = LoadTextureFromResource(IDB_PNG456, "PNG");
-	An_3_inRow_4Rows_2 = LoadTextureFromResource(IDB_PNG457, "PNG");
-	An_3_inRow_4Rows_3 = LoadTextureFromResource(IDB_PNG458, "PNG");
-	An_3_inRow_4Rows_4 = LoadTextureFromResource(IDB_PNG459, "PNG");
-	An_3_inRow_5Rows_1 = LoadTextureFromResource(IDB_PNG460, "PNG");
-	An_3_inRow_5Rows_2 = LoadTextureFromResource(IDB_PNG461, "PNG");
-	An_3_inRow_5Rows_3 = LoadTextureFromResource(IDB_PNG462, "PNG");
-	An_3_inRow_5Rows_4 = LoadTextureFromResource(IDB_PNG463, "PNG");
-	An_3_inRow_6Rows_1 = LoadTextureFromResource(IDB_PNG464, "PNG");
-	An_3_inRow_6Rows_2 = LoadTextureFromResource(IDB_PNG465, "PNG");
-	An_3_inRow_6Rows_3 = LoadTextureFromResource(IDB_PNG466, "PNG");
-	An_3_inRow_6Rows_4 = LoadTextureFromResource(IDB_PNG467, "PNG");
-	An_3_inRow_7Rows_1 = LoadTextureFromResource(IDB_PNG468, "PNG");
-	An_3_inRow_7Rows_2 = LoadTextureFromResource(IDB_PNG469, "PNG");
-	An_3_inRow_7Rows_3 = LoadTextureFromResource(IDB_PNG470, "PNG");
-	An_3_inRow_7Rows_4 = LoadTextureFromResource(IDB_PNG471, "PNG");
-	An_3_inRow_7Rows_5 = LoadTextureFromResource(IDB_PNG472, "PNG");
-	An_3_inRow_7Rows_6 = LoadTextureFromResource(IDB_PNG473, "PNG");
-	An_3_inRow_8Rows_1 = LoadTextureFromResource(IDB_PNG474, "PNG");
-	An_3_inRow_8Rows_2 = LoadTextureFromResource(IDB_PNG475, "PNG");
-	An_3_inRow_8Rows_3 = LoadTextureFromResource(IDB_PNG476, "PNG");
-	An_3_inRow_8Rows_4 = LoadTextureFromResource(IDB_PNG477, "PNG");
-	An_3_inRow_8Rows_5 = LoadTextureFromResource(IDB_PNG478, "PNG");
-	An_3_inRow_8Rows_6 = LoadTextureFromResource(IDB_PNG479, "PNG");
-	An_3_inRow_9Rows_1 = LoadTextureFromResource(IDB_PNG480, "PNG");
-	An_3_inRow_9Rows_2 = LoadTextureFromResource(IDB_PNG481, "PNG");
-	An_3_inRow_9Rows_3 = LoadTextureFromResource(IDB_PNG482, "PNG");
-	An_3_inRow_9Rows_4 = LoadTextureFromResource(IDB_PNG483, "PNG");
-	An_3_inRow_9Rows_5 = LoadTextureFromResource(IDB_PNG484, "PNG");
-	An_3_inRow_9Rows_6 = LoadTextureFromResource(IDB_PNG485, "PNG");
-	An_3_inRow_10Rows_1 = LoadTextureFromResource(IDB_PNG486, "PNG");
-	An_3_inRow_10Rows_2 = LoadTextureFromResource(IDB_PNG487, "PNG");
-	An_3_inRow_10Rows_3 = LoadTextureFromResource(IDB_PNG488, "PNG");
-	An_3_inRow_10Rows_4 = LoadTextureFromResource(IDB_PNG489, "PNG");
-	An_3_inRow_10Rows_5 = LoadTextureFromResource(IDB_PNG490, "PNG");
-	An_3_inRow_10Rows_6 = LoadTextureFromResource(IDB_PNG491, "PNG");
-	An_3_inRow_10Rows_7 = LoadTextureFromResource(IDB_PNG492, "PNG");
-	An_3_inRow_10Rows_8 = LoadTextureFromResource(IDB_PNG493, "PNG");
-	An_3_inRow_11Rows_1 = LoadTextureFromResource(IDB_PNG494, "PNG");
-	An_3_inRow_11Rows_2 = LoadTextureFromResource(IDB_PNG495, "PNG");
-	An_3_inRow_11Rows_3 = LoadTextureFromResource(IDB_PNG496, "PNG");
-	An_3_inRow_11Rows_4 = LoadTextureFromResource(IDB_PNG497, "PNG");
-	An_3_inRow_11Rows_5 = LoadTextureFromResource(IDB_PNG498, "PNG");
-	An_3_inRow_11Rows_6 = LoadTextureFromResource(IDB_PNG499, "PNG");
-	An_3_inRow_11Rows_7 = LoadTextureFromResource(IDB_PNG500, "PNG");
-	An_3_inRow_11Rows_8 = LoadTextureFromResource(IDB_PNG501, "PNG");
-	An_3_inRow_12Rows_1 = LoadTextureFromResource(IDB_PNG502, "PNG");
-	An_3_inRow_12Rows_2 = LoadTextureFromResource(IDB_PNG503, "PNG");
-	An_3_inRow_12Rows_3 = LoadTextureFromResource(IDB_PNG504, "PNG");
-	An_3_inRow_12Rows_4 = LoadTextureFromResource(IDB_PNG505, "PNG");
-	An_3_inRow_12Rows_5 = LoadTextureFromResource(IDB_PNG506, "PNG");
-	An_3_inRow_12Rows_6 = LoadTextureFromResource(IDB_PNG507, "PNG");
-	An_3_inRow_12Rows_7 = LoadTextureFromResource(IDB_PNG508, "PNG");
-	An_3_inRow_12Rows_8 = LoadTextureFromResource(IDB_PNG509, "PNG");
-	An_3_inRow_13Rows_1 = LoadTextureFromResource(IDB_PNG510, "PNG");
-	An_3_inRow_13Rows_2 = LoadTextureFromResource(IDB_PNG511, "PNG");
-	An_3_inRow_13Rows_3 = LoadTextureFromResource(IDB_PNG512, "PNG");
-	An_3_inRow_13Rows_4 = LoadTextureFromResource(IDB_PNG513, "PNG");
-	An_3_inRow_13Rows_5 = LoadTextureFromResource(IDB_PNG514, "PNG");
-	An_3_inRow_13Rows_6 = LoadTextureFromResource(IDB_PNG515, "PNG");
-	An_3_inRow_13Rows_7 = LoadTextureFromResource(IDB_PNG516, "PNG");
-	An_3_inRow_13Rows_8 = LoadTextureFromResource(IDB_PNG517, "PNG");
-	An_3_inRow_13Rows_9 = LoadTextureFromResource(IDB_PNG518, "PNG");
-	An_3_inRow_13Rows_10 = LoadTextureFromResource(IDB_PNG519, "PNG");
-	An_3_inRow_14Rows_1 = LoadTextureFromResource(IDB_PNG520, "PNG");
-	An_3_inRow_14Rows_2 = LoadTextureFromResource(IDB_PNG521, "PNG");
-	An_3_inRow_14Rows_3 = LoadTextureFromResource(IDB_PNG522, "PNG");
-	An_3_inRow_14Rows_4 = LoadTextureFromResource(IDB_PNG523, "PNG");
-	An_3_inRow_14Rows_5 = LoadTextureFromResource(IDB_PNG524, "PNG");
-	An_3_inRow_14Rows_6 = LoadTextureFromResource(IDB_PNG525, "PNG");
-	An_3_inRow_14Rows_7 = LoadTextureFromResource(IDB_PNG526, "PNG");
-	An_3_inRow_14Rows_8 = LoadTextureFromResource(IDB_PNG527, "PNG");
-	An_3_inRow_14Rows_9 = LoadTextureFromResource(IDB_PNG528, "PNG");
-	An_3_inRow_14Rows_10 = LoadTextureFromResource(IDB_PNG529, "PNG");
-	An_3_inRow_15Rows_1 = LoadTextureFromResource(IDB_PNG530, "PNG");
-	An_3_inRow_15Rows_2 = LoadTextureFromResource(IDB_PNG531, "PNG");
-	An_3_inRow_15Rows_3 = LoadTextureFromResource(IDB_PNG532, "PNG");
-	An_3_inRow_15Rows_4 = LoadTextureFromResource(IDB_PNG533, "PNG");
-	An_3_inRow_15Rows_5 = LoadTextureFromResource(IDB_PNG534, "PNG");
-	An_3_inRow_15Rows_6 = LoadTextureFromResource(IDB_PNG535, "PNG");
-	An_3_inRow_15Rows_7 = LoadTextureFromResource(IDB_PNG536, "PNG");
-	An_3_inRow_15Rows_8 = LoadTextureFromResource(IDB_PNG537, "PNG");
-	An_3_inRow_15Rows_9 = LoadTextureFromResource(IDB_PNG538, "PNG");
-	An_3_inRow_15Rows_10 = LoadTextureFromResource(IDB_PNG539, "PNG");
-	An_3_inRow_17Rows_1 = LoadTextureFromResource(IDB_PNG540, "PNG");
-	An_3_inRow_17Rows_2 = LoadTextureFromResource(IDB_PNG541, "PNG");
-	An_3_inRow_17Rows_3 = LoadTextureFromResource(IDB_PNG542, "PNG");
-	An_3_inRow_17Rows_4 = LoadTextureFromResource(IDB_PNG543, "PNG");
-	An_3_inRow_17Rows_5 = LoadTextureFromResource(IDB_PNG544, "PNG");
-	An_3_inRow_17Rows_6 = LoadTextureFromResource(IDB_PNG545, "PNG");
-	An_3_inRow_17Rows_7 = LoadTextureFromResource(IDB_PNG546, "PNG");
-	An_3_inRow_17Rows_8 = LoadTextureFromResource(IDB_PNG547, "PNG");
-	An_3_inRow_17Rows_9 = LoadTextureFromResource(IDB_PNG548, "PNG");
-	An_3_inRow_17Rows_10 = LoadTextureFromResource(IDB_PNG549, "PNG");
-	An_3_inRow_17Rows_11 = LoadTextureFromResource(IDB_PNG550, "PNG");
-	An_3_inRow_17Rows_12 = LoadTextureFromResource(IDB_PNG551, "PNG");
-	An_3_inRow_18Rows_1 = LoadTextureFromResource(IDB_PNG552, "PNG");
-	An_3_inRow_18Rows_2 = LoadTextureFromResource(IDB_PNG553, "PNG");
-	An_3_inRow_18Rows_3 = LoadTextureFromResource(IDB_PNG554, "PNG");
-	An_3_inRow_18Rows_4 = LoadTextureFromResource(IDB_PNG555, "PNG");
-	An_3_inRow_18Rows_5 = LoadTextureFromResource(IDB_PNG556, "PNG");
-	An_3_inRow_18Rows_6 = LoadTextureFromResource(IDB_PNG557, "PNG");
-	An_3_inRow_18Rows_7 = LoadTextureFromResource(IDB_PNG558, "PNG");
-	An_3_inRow_18Rows_8 = LoadTextureFromResource(IDB_PNG559, "PNG");
-	An_3_inRow_18Rows_9 = LoadTextureFromResource(IDB_PNG560, "PNG");
-	An_3_inRow_18Rows_10 = LoadTextureFromResource(IDB_PNG561, "PNG");
-	An_3_inRow_18Rows_11 = LoadTextureFromResource(IDB_PNG562, "PNG");
-	An_3_inRow_18Rows_12 = LoadTextureFromResource(IDB_PNG563, "PNG");
 	
-	An_4_inRow_1Row_1 = LoadTextureFromResource(IDB_PNG564, "PNG");
-	An_4_inRow_1Row_2 = LoadTextureFromResource(IDB_PNG565, "PNG");
-	An_4_inRow_2Rows_1 = LoadTextureFromResource(IDB_PNG566, "PNG");
-	An_4_inRow_2Rows_2 = LoadTextureFromResource(IDB_PNG567, "PNG");
-	An_4_inRow_3Rows_1 = LoadTextureFromResource(IDB_PNG568, "PNG");
-	An_4_inRow_3Rows_2 = LoadTextureFromResource(IDB_PNG569, "PNG");
-	An_4_inRow_4Rows_1 = LoadTextureFromResource(IDB_PNG570, "PNG");
-	An_4_inRow_4Rows_2 = LoadTextureFromResource(IDB_PNG571, "PNG");
-	An_4_inRow_4Rows_3 = LoadTextureFromResource(IDB_PNG572, "PNG");
-	An_4_inRow_4Rows_4 = LoadTextureFromResource(IDB_PNG573, "PNG");
-	An_4_inRow_5Rows_1 = LoadTextureFromResource(IDB_PNG574, "PNG");
-	An_4_inRow_5Rows_2 = LoadTextureFromResource(IDB_PNG575, "PNG");
-	An_4_inRow_5Rows_3 = LoadTextureFromResource(IDB_PNG576, "PNG");
-	An_4_inRow_5Rows_4 = LoadTextureFromResource(IDB_PNG577, "PNG");
-	An_4_inRow_6Rows_1 = LoadTextureFromResource(IDB_PNG578, "PNG");
-	An_4_inRow_6Rows_2 = LoadTextureFromResource(IDB_PNG579, "PNG");
-	An_4_inRow_6Rows_3 = LoadTextureFromResource(IDB_PNG580, "PNG");
-	An_4_inRow_6Rows_4 = LoadTextureFromResource(IDB_PNG581, "PNG");
-	An_4_inRow_7Rows_1 = LoadTextureFromResource(IDB_PNG582, "PNG");
-	An_4_inRow_7Rows_2 = LoadTextureFromResource(IDB_PNG583, "PNG");
-	An_4_inRow_7Rows_3 = LoadTextureFromResource(IDB_PNG584, "PNG");
-	An_4_inRow_7Rows_4 = LoadTextureFromResource(IDB_PNG585, "PNG");
-	An_4_inRow_7Rows_5 = LoadTextureFromResource(IDB_PNG586, "PNG");
-	An_4_inRow_7Rows_6 = LoadTextureFromResource(IDB_PNG587, "PNG");
-	An_4_inRow_8Rows_1 = LoadTextureFromResource(IDB_PNG588, "PNG");
-	An_4_inRow_8Rows_2 = LoadTextureFromResource(IDB_PNG589, "PNG");
-	An_4_inRow_8Rows_3 = LoadTextureFromResource(IDB_PNG590, "PNG");
-	An_4_inRow_8Rows_4 = LoadTextureFromResource(IDB_PNG591, "PNG");
-	An_4_inRow_8Rows_5 = LoadTextureFromResource(IDB_PNG592, "PNG");
-	An_4_inRow_8Rows_6 = LoadTextureFromResource(IDB_PNG593, "PNG");
-	An_4_inRow_9Rows_1 = LoadTextureFromResource(IDB_PNG594, "PNG");
-	An_4_inRow_9Rows_2 = LoadTextureFromResource(IDB_PNG595, "PNG");
-	An_4_inRow_9Rows_3 = LoadTextureFromResource(IDB_PNG596, "PNG");
-	An_4_inRow_9Rows_4 = LoadTextureFromResource(IDB_PNG597, "PNG");
-	An_4_inRow_9Rows_5 = LoadTextureFromResource(IDB_PNG598, "PNG");
-	An_4_inRow_9Rows_6 = LoadTextureFromResource(IDB_PNG599, "PNG");
-	An_4_inRow_10Rows_1 = LoadTextureFromResource(IDB_PNG600, "PNG");
-	An_4_inRow_10Rows_2 = LoadTextureFromResource(IDB_PNG601, "PNG");
-	An_4_inRow_10Rows_3 = LoadTextureFromResource(IDB_PNG602, "PNG");
-	An_4_inRow_10Rows_4 = LoadTextureFromResource(IDB_PNG603, "PNG");
-	An_4_inRow_10Rows_5 = LoadTextureFromResource(IDB_PNG604, "PNG");
-	An_4_inRow_10Rows_6 = LoadTextureFromResource(IDB_PNG605, "PNG");
-	An_4_inRow_10Rows_7 = LoadTextureFromResource(IDB_PNG606, "PNG");
-	An_4_inRow_10Rows_8 = LoadTextureFromResource(IDB_PNG607, "PNG");
-	An_4_inRow_11Rows_1 = LoadTextureFromResource(IDB_PNG608, "PNG");
-	An_4_inRow_11Rows_2 = LoadTextureFromResource(IDB_PNG609, "PNG");
-	An_4_inRow_11Rows_3 = LoadTextureFromResource(IDB_PNG610, "PNG");
-	An_4_inRow_11Rows_4 = LoadTextureFromResource(IDB_PNG611, "PNG");
-	An_4_inRow_11Rows_5 = LoadTextureFromResource(IDB_PNG612, "PNG");
-	An_4_inRow_11Rows_6 = LoadTextureFromResource(IDB_PNG613, "PNG");
-	An_4_inRow_11Rows_7 = LoadTextureFromResource(IDB_PNG614, "PNG");
-	An_4_inRow_11Rows_8 = LoadTextureFromResource(IDB_PNG615, "PNG");
-	An_4_inRow_12Rows_1 = LoadTextureFromResource(IDB_PNG616, "PNG");
-	An_4_inRow_12Rows_2 = LoadTextureFromResource(IDB_PNG617, "PNG");
-	An_4_inRow_12Rows_3 = LoadTextureFromResource(IDB_PNG618, "PNG");
-	An_4_inRow_12Rows_4 = LoadTextureFromResource(IDB_PNG619, "PNG");
-	An_4_inRow_12Rows_5 = LoadTextureFromResource(IDB_PNG620, "PNG");
-	An_4_inRow_12Rows_6 = LoadTextureFromResource(IDB_PNG621, "PNG");
-	An_4_inRow_12Rows_7 = LoadTextureFromResource(IDB_PNG622, "PNG");
-	An_4_inRow_12Rows_8 = LoadTextureFromResource(IDB_PNG623, "PNG");
-	An_4_inRow_13Rows_1 = LoadTextureFromResource(IDB_PNG624, "PNG");
-	An_4_inRow_13Rows_2 = LoadTextureFromResource(IDB_PNG625, "PNG");
-	An_4_inRow_13Rows_3 = LoadTextureFromResource(IDB_PNG626, "PNG");
-	An_4_inRow_13Rows_4 = LoadTextureFromResource(IDB_PNG627, "PNG");
-	An_4_inRow_13Rows_5 = LoadTextureFromResource(IDB_PNG628, "PNG");
-	An_4_inRow_13Rows_6 = LoadTextureFromResource(IDB_PNG629, "PNG");
-	An_4_inRow_13Rows_7 = LoadTextureFromResource(IDB_PNG630, "PNG");
-	An_4_inRow_13Rows_8 = LoadTextureFromResource(IDB_PNG631, "PNG");
-	An_4_inRow_13Rows_9 = LoadTextureFromResource(IDB_PNG632, "PNG");
-	An_4_inRow_13Rows_10 = LoadTextureFromResource(IDB_PNG633, "PNG");
-	An_4_inRow_14Rows_1 = LoadTextureFromResource(IDB_PNG634, "PNG");
-	An_4_inRow_14Rows_2 = LoadTextureFromResource(IDB_PNG635, "PNG");
-	An_4_inRow_14Rows_3 = LoadTextureFromResource(IDB_PNG636, "PNG");
-	An_4_inRow_14Rows_4 = LoadTextureFromResource(IDB_PNG637, "PNG");
-	An_4_inRow_14Rows_5 = LoadTextureFromResource(IDB_PNG638, "PNG");
-	An_4_inRow_14Rows_6 = LoadTextureFromResource(IDB_PNG639, "PNG");
-	An_4_inRow_14Rows_7 = LoadTextureFromResource(IDB_PNG640, "PNG");
-	An_4_inRow_14Rows_8 = LoadTextureFromResource(IDB_PNG641, "PNG");
-	An_4_inRow_14Rows_9 = LoadTextureFromResource(IDB_PNG642, "PNG");
-	An_4_inRow_14Rows_10 = LoadTextureFromResource(IDB_PNG643, "PNG");
-	An_4_inRow_15Rows_1 = LoadTextureFromResource(IDB_PNG644, "PNG");
-	An_4_inRow_15Rows_2 = LoadTextureFromResource(IDB_PNG645, "PNG");
-	An_4_inRow_15Rows_3 = LoadTextureFromResource(IDB_PNG646, "PNG");
-	An_4_inRow_15Rows_4 = LoadTextureFromResource(IDB_PNG647, "PNG");
-	An_4_inRow_15Rows_5 = LoadTextureFromResource(IDB_PNG648, "PNG");
-	An_4_inRow_15Rows_6 = LoadTextureFromResource(IDB_PNG649, "PNG");
-	An_4_inRow_15Rows_7 = LoadTextureFromResource(IDB_PNG650, "PNG");
-	An_4_inRow_15Rows_8 = LoadTextureFromResource(IDB_PNG651, "PNG");
-	An_4_inRow_15Rows_9 = LoadTextureFromResource(IDB_PNG652, "PNG");
-	An_4_inRow_15Rows_10 = LoadTextureFromResource(IDB_PNG653, "PNG");
-	An_4_inRow_16Rows_1 = LoadTextureFromResource(IDB_PNG654, "PNG");
-	An_4_inRow_16Rows_2 = LoadTextureFromResource(IDB_PNG655, "PNG");
-	An_4_inRow_16Rows_3 = LoadTextureFromResource(IDB_PNG656, "PNG");
-	An_4_inRow_16Rows_4 = LoadTextureFromResource(IDB_PNG657, "PNG");
-	An_4_inRow_16Rows_5 = LoadTextureFromResource(IDB_PNG658, "PNG");
-	An_4_inRow_16Rows_6 = LoadTextureFromResource(IDB_PNG659, "PNG");
-	An_4_inRow_16Rows_7 = LoadTextureFromResource(IDB_PNG660, "PNG");
-	An_4_inRow_16Rows_8 = LoadTextureFromResource(IDB_PNG661, "PNG");
-	An_4_inRow_16Rows_9 = LoadTextureFromResource(IDB_PNG662, "PNG");
-	An_4_inRow_16Rows_10 = LoadTextureFromResource(IDB_PNG663, "PNG");
-	An_4_inRow_16Rows_11 = LoadTextureFromResource(IDB_PNG664, "PNG");
-	An_4_inRow_16Rows_12 = LoadTextureFromResource(IDB_PNG665, "PNG");
-	An_4_inRow_17Rows_1 = LoadTextureFromResource(IDB_PNG666, "PNG");
-	An_4_inRow_17Rows_2 = LoadTextureFromResource(IDB_PNG667, "PNG");
-	An_4_inRow_17Rows_3 = LoadTextureFromResource(IDB_PNG668, "PNG");
-	An_4_inRow_17Rows_4 = LoadTextureFromResource(IDB_PNG669, "PNG");
-	An_4_inRow_17Rows_5 = LoadTextureFromResource(IDB_PNG670, "PNG");
-	An_4_inRow_17Rows_6 = LoadTextureFromResource(IDB_PNG671, "PNG");
-	An_4_inRow_17Rows_7 = LoadTextureFromResource(IDB_PNG672, "PNG");
-	An_4_inRow_17Rows_8 = LoadTextureFromResource(IDB_PNG673, "PNG");
-	An_4_inRow_17Rows_9 = LoadTextureFromResource(IDB_PNG674, "PNG");
-	An_4_inRow_17Rows_10 = LoadTextureFromResource(IDB_PNG675, "PNG");
-	An_4_inRow_17Rows_11 = LoadTextureFromResource(IDB_PNG676, "PNG");
-	An_4_inRow_17Rows_12 = LoadTextureFromResource(IDB_PNG677, "PNG");*/
-	An_4_inRow_18Rows_1 = LoadTextureFromResource(IDB_PNG678, "PNG");
-	An_4_inRow_18Rows_2 = LoadTextureFromResource(IDB_PNG679, "PNG");
-	An_4_inRow_18Rows_3 = LoadTextureFromResource(IDB_PNG680, "PNG");
-	An_4_inRow_18Rows_4 = LoadTextureFromResource(IDB_PNG681, "PNG");
-	An_4_inRow_18Rows_5 = LoadTextureFromResource(IDB_PNG682, "PNG");
-	An_4_inRow_18Rows_6 = LoadTextureFromResource(IDB_PNG683, "PNG");
-	An_4_inRow_18Rows_7 = LoadTextureFromResource(IDB_PNG684, "PNG");
-	An_4_inRow_18Rows_8 = LoadTextureFromResource(IDB_PNG685, "PNG");
-	An_4_inRow_18Rows_9 = LoadTextureFromResource(IDB_PNG686, "PNG");
-	An_4_inRow_18Rows_10 = LoadTextureFromResource(IDB_PNG687, "PNG");
-	An_4_inRow_18Rows_11 = LoadTextureFromResource(IDB_PNG688, "PNG");
-	An_4_inRow_18Rows_12 = LoadTextureFromResource(IDB_PNG689, "PNG");
-	An_test = LoadTextureFromResource(IDB_PNG693, "PNG");
+	AnFF1inRow1To4Rows = LoadTextureFromResource(IDB_PNG209, "PNG");
+	AnFF1inRow5To8Rows = LoadTextureFromResource(IDB_PNG211, "PNG");
+	AnFF1inRow9To12Rows = LoadTextureFromResource(IDB_PNG212, "PNG");
+	AnFF1inRow13To15Rows = LoadTextureFromResource(IDB_PNG213, "PNG");
+	AnFF1inRow16To17Rows = LoadTextureFromResource(IDB_PNG214, "PNG");
+	AnFF2inRow1To6Rows = LoadTextureFromResource(IDB_PNG215, "PNG");
+	AnFF2inRow7To10Rows = LoadTextureFromResource(IDB_PNG216, "PNG");
+	AnFF2inRow11To13Rows = LoadTextureFromResource(IDB_PNG217, "PNG");
+	AnFF2inRow14To15Rows = LoadTextureFromResource(IDB_PNG218, "PNG");
+	AnFF2inRow16To17Rows = LoadTextureFromResource(IDB_PNG219, "PNG");
+	AnFF3inRow1To4Rows = LoadTextureFromResource(IDB_PNG220, "PNG");
+	AnFF3inRow5To8Rows = LoadTextureFromResource(IDB_PNG221, "PNG");
+	AnFF3inRow9To11Rows = LoadTextureFromResource(IDB_PNG222, "PNG");
+	AnFF3inRow12To13Rows = LoadTextureFromResource(IDB_PNG223, "PNG");
+	AnFF3inRow14To15Rows = LoadTextureFromResource(IDB_PNG224, "PNG");
+	AnFF3inRow16Rows = LoadTextureFromResource(IDB_PNG225, "PNG");
+	AnFF3inRow17Rows = LoadTextureFromResource(IDB_PNG226, "PNG");
+	AnFF3inRow18Rows = LoadTextureFromResource(IDB_PNG227, "PNG");
+	AnFF4inRow1To4Rows = LoadTextureFromResource(IDB_PNG228, "PNG");
+	AnFF4inRow5To8Rows = LoadTextureFromResource(IDB_PNG230, "PNG");
+	AnFF4inRow9To11Rows = LoadTextureFromResource(IDB_PNG231, "PNG");
+	AnFF4inRow12To13Rows = LoadTextureFromResource(IDB_PNG232, "PNG");
+	AnFF4inRow14Rows = LoadTextureFromResource(IDB_PNG233, "PNG");
+	AnFF4inRow15Rows = LoadTextureFromResource(IDB_PNG234, "PNG");
+	AnFF4inRow16Rows = LoadTextureFromResource(IDB_PNG235, "PNG");
+	AnFF4inRow17Rows = LoadTextureFromResource(IDB_PNG236, "PNG");
+	AnFF4inRow18Rows = LoadTextureFromResource(IDB_PNG693, "PNG");
 	//loading_screen_tex = LoadTextureFromResource(IDB_PNG690, "PNG");
 	
-	Image *img_table, *tetramino /*,*img_myCursor*/;
-	img_table = LoadImageFromResource(IDB_PNG5, "PNG");
+	Image /**img_table,*/ *tetramino /*,*img_myCursor*/;
+	//img_table = LoadImageFromResource(IDB_PNG5, "PNG");
 
-	tex_table->loadFromImage(*img_table);
-	tex_table2 = LoadTextureFromResource(IDB_PNG692, "PNG");
+	//tex_table->loadFromImage(*img_table);
+	tex_table2 = LoadTextureFromResource(IDB_PNG5, "PNG");
 	//img_myCursor = LoadImageFromResource(IDB_PNG120, "PNG");
 
 	tetramino = LoadImageFromResource(IDB_PNG7, "PNG");
@@ -1151,7 +675,7 @@ int main()
 	sqtex->setSmooth(true);
 	
 	//Создание спрайтов
-	Sprite* sprite = new Sprite(*sqtex), * sprite_background = new Sprite(*tex_background), * sprite_table = new Sprite(*tex_table), * sprite_table2 = new Sprite(*tex_table2),
+	Sprite* sprite = new Sprite(*sqtex), * sprite_background = new Sprite(*tex_background), /** sprite_table = new Sprite(*tex_table),*/ * sprite_table2 = new Sprite(*tex_table2),
 		* sprite_button_start_st1 = new Sprite(*button_start_st1), * sprite_button_start_st2 = new Sprite(*button_start_st2), * sprite_button_start_st3 = new Sprite(*button_start_st3),
 		* sprite_button_newgame_st1 = new Sprite(*button_newgame_st1), * sprite_button_newgame_st2 = new Sprite(*button_newgame_st2), * sprite_button_newgame_st3 = new Sprite(*button_newgame_st3),
 		* sprite_button_options_st1 = new Sprite(*button_options_st1), * sprite_button_options_st2 = new Sprite(*button_options_st2), * sprite_button_options_st3 = new Sprite(*button_options_st3),
@@ -1230,262 +754,255 @@ int main()
 * spriteAn_4lines_19 = new Sprite(*An_4lines_19), * spriteAn_4lines_20 = new Sprite(*An_4lines_20), * spriteAn_4lines_21 = new Sprite(*An_4lines_21),
 * spriteAn_4lines_22 = new Sprite(*An_4lines_22),
 
-//* spriteAn_3_inRow_16Rows_1 = new Sprite(*An_3_inRow_16Rows_1), * spriteAn_3_inRow_16Rows_2 = new Sprite(*An_3_inRow_16Rows_2), * spriteAn_3_inRow_16Rows_3 = new Sprite(*An_3_inRow_16Rows_3),
-//* spriteAn_3_inRow_16Rows_4 = new Sprite(*An_3_inRow_16Rows_4), * spriteAn_3_inRow_16Rows_5 = new Sprite(*An_3_inRow_16Rows_5), * spriteAn_3_inRow_16Rows_6 = new Sprite(*An_3_inRow_16Rows_6),
-//* spriteAn_3_inRow_16Rows_7 = new Sprite(*An_3_inRow_16Rows_7), * spriteAn_3_inRow_16Rows_8 = new Sprite(*An_3_inRow_16Rows_8), * spriteAn_3_inRow_16Rows_9 = new Sprite(*An_3_inRow_16Rows_9),
-//* spriteAn_3_inRow_16Rows_10 = new Sprite(*An_3_inRow_16Rows_10), * spriteAn_3_inRow_16Rows_11 = new Sprite(*An_3_inRow_16Rows_11), * spriteAn_3_inRow_16Rows_12 = new Sprite(*An_3_inRow_16Rows_12),
-//
-//* spriteAn_1_inRow_1Row_1 = new Sprite(*An_1_inRow_1Row_1), * spriteAn_1_inRow_1Row_2 = new Sprite(*An_1_inRow_1Row_2),
-//* spriteAn_1_inRow_2Rows_1 = new Sprite(*An_1_inRow_2Rows_1), * spriteAn_1_inRow_2Rows_2 = new Sprite(*An_1_inRow_2Rows_2),
-//* spriteAn_1_inRow_3Rows_1 = new Sprite(*An_1_inRow_3Rows_1), * spriteAn_1_inRow_3Rows_2 = new Sprite(*An_1_inRow_3Rows_2),
-//* spriteAn_1_inRow_4Rows_1 = new Sprite(*An_1_inRow_4Rows_1), * spriteAn_1_inRow_4Rows_2 = new Sprite(*An_1_inRow_4Rows_2),
-//* spriteAn_1_inRow_4Rows_3 = new Sprite(*An_1_inRow_4Rows_3), * spriteAn_1_inRow_4Rows_4 = new Sprite(*An_1_inRow_4Rows_4),
-//* spriteAn_1_inRow_5Rows_1 = new Sprite(*An_1_inRow_5Rows_1), * spriteAn_1_inRow_5Rows_2 = new Sprite(*An_1_inRow_5Rows_2),
-//* spriteAn_1_inRow_5Rows_3 = new Sprite(*An_1_inRow_5Rows_3), * spriteAn_1_inRow_5Rows_4 = new Sprite(*An_1_inRow_5Rows_4),
-//* spriteAn_1_inRow_6Rows_1 = new Sprite(*An_1_inRow_6Rows_1), * spriteAn_1_inRow_6Rows_2 = new Sprite(*An_1_inRow_6Rows_2),
-//* spriteAn_1_inRow_6Rows_3 = new Sprite(*An_1_inRow_6Rows_3), * spriteAn_1_inRow_6Rows_4 = new Sprite(*An_1_inRow_6Rows_4),
-//* spriteAn_1_inRow_7Rows_1 = new Sprite(*An_1_inRow_7Rows_1), * spriteAn_1_inRow_7Rows_2 = new Sprite(*An_1_inRow_7Rows_2),
-//* spriteAn_1_inRow_7Rows_3 = new Sprite(*An_1_inRow_7Rows_3), * spriteAn_1_inRow_7Rows_4 = new Sprite(*An_1_inRow_7Rows_4),
-//* spriteAn_1_inRow_7Rows_5 = new Sprite(*An_1_inRow_7Rows_5), * spriteAn_1_inRow_7Rows_6 = new Sprite(*An_1_inRow_7Rows_6),
-//* spriteAn_1_inRow_8Rows_1 = new Sprite(*An_1_inRow_8Rows_1), * spriteAn_1_inRow_8Rows_2 = new Sprite(*An_1_inRow_8Rows_2),
-//* spriteAn_1_inRow_8Rows_3 = new Sprite(*An_1_inRow_8Rows_3), * spriteAn_1_inRow_8Rows_4 = new Sprite(*An_1_inRow_8Rows_4),
-//* spriteAn_1_inRow_8Rows_5 = new Sprite(*An_1_inRow_8Rows_5), * spriteAn_1_inRow_8Rows_6 = new Sprite(*An_1_inRow_8Rows_6),
-//* spriteAn_1_inRow_9Rows_1 = new Sprite(*An_1_inRow_9Rows_1), * spriteAn_1_inRow_9Rows_2 = new Sprite(*An_1_inRow_9Rows_2),
-//* spriteAn_1_inRow_9Rows_3 = new Sprite(*An_1_inRow_9Rows_3), * spriteAn_1_inRow_9Rows_4 = new Sprite(*An_1_inRow_9Rows_4),
-//* spriteAn_1_inRow_9Rows_5 = new Sprite(*An_1_inRow_9Rows_5), * spriteAn_1_inRow_9Rows_6 = new Sprite(*An_1_inRow_9Rows_6),
-//* spriteAn_1_inRow_10Rows_1 = new Sprite(*An_1_inRow_10Rows_1), * spriteAn_1_inRow_10Rows_2 = new Sprite(*An_1_inRow_10Rows_2),
-//* spriteAn_1_inRow_10Rows_3 = new Sprite(*An_1_inRow_10Rows_3), * spriteAn_1_inRow_10Rows_4 = new Sprite(*An_1_inRow_10Rows_4),
-//* spriteAn_1_inRow_10Rows_5 = new Sprite(*An_1_inRow_10Rows_5), * spriteAn_1_inRow_10Rows_6 = new Sprite(*An_1_inRow_10Rows_6),
-//* spriteAn_1_inRow_10Rows_7 = new Sprite(*An_1_inRow_10Rows_7), * spriteAn_1_inRow_10Rows_8 = new Sprite(*An_1_inRow_10Rows_8),
-//* spriteAn_1_inRow_11Rows_1 = new Sprite(*An_1_inRow_11Rows_1), * spriteAn_1_inRow_11Rows_2 = new Sprite(*An_1_inRow_11Rows_2),
-//* spriteAn_1_inRow_11Rows_3 = new Sprite(*An_1_inRow_11Rows_3), * spriteAn_1_inRow_11Rows_4 = new Sprite(*An_1_inRow_11Rows_4),
-//* spriteAn_1_inRow_11Rows_5 = new Sprite(*An_1_inRow_11Rows_5), * spriteAn_1_inRow_11Rows_6 = new Sprite(*An_1_inRow_11Rows_6),
-//* spriteAn_1_inRow_11Rows_7 = new Sprite(*An_1_inRow_11Rows_7), * spriteAn_1_inRow_11Rows_8 = new Sprite(*An_1_inRow_11Rows_8),
-//* spriteAn_1_inRow_12Rows_1 = new Sprite(*An_1_inRow_12Rows_1), * spriteAn_1_inRow_12Rows_2 = new Sprite(*An_1_inRow_12Rows_2),
-//* spriteAn_1_inRow_12Rows_3 = new Sprite(*An_1_inRow_12Rows_3), * spriteAn_1_inRow_12Rows_4 = new Sprite(*An_1_inRow_12Rows_4),
-//* spriteAn_1_inRow_12Rows_5 = new Sprite(*An_1_inRow_12Rows_5), * spriteAn_1_inRow_12Rows_6 = new Sprite(*An_1_inRow_12Rows_6),
-//* spriteAn_1_inRow_12Rows_7 = new Sprite(*An_1_inRow_12Rows_7), * spriteAn_1_inRow_12Rows_8 = new Sprite(*An_1_inRow_12Rows_8),
-//* spriteAn_1_inRow_13Rows_1 = new Sprite(*An_1_inRow_13Rows_1), * spriteAn_1_inRow_13Rows_2 = new Sprite(*An_1_inRow_13Rows_2),
-//* spriteAn_1_inRow_13Rows_3 = new Sprite(*An_1_inRow_13Rows_3), * spriteAn_1_inRow_13Rows_4 = new Sprite(*An_1_inRow_13Rows_4),
-//* spriteAn_1_inRow_13Rows_5 = new Sprite(*An_1_inRow_13Rows_5), * spriteAn_1_inRow_13Rows_6 = new Sprite(*An_1_inRow_13Rows_6),
-//* spriteAn_1_inRow_13Rows_7 = new Sprite(*An_1_inRow_13Rows_7), * spriteAn_1_inRow_13Rows_8 = new Sprite(*An_1_inRow_13Rows_8),
-//* spriteAn_1_inRow_13Rows_9 = new Sprite(*An_1_inRow_13Rows_9), * spriteAn_1_inRow_13Rows_10 = new Sprite(*An_1_inRow_13Rows_10),
-//* spriteAn_1_inRow_14Rows_1 = new Sprite(*An_1_inRow_14Rows_1), * spriteAn_1_inRow_14Rows_2 = new Sprite(*An_1_inRow_14Rows_2),
-//* spriteAn_1_inRow_14Rows_3 = new Sprite(*An_1_inRow_14Rows_3), * spriteAn_1_inRow_14Rows_4 = new Sprite(*An_1_inRow_14Rows_4),
-//* spriteAn_1_inRow_14Rows_5 = new Sprite(*An_1_inRow_14Rows_5), * spriteAn_1_inRow_14Rows_6 = new Sprite(*An_1_inRow_14Rows_6),
-//* spriteAn_1_inRow_14Rows_7 = new Sprite(*An_1_inRow_14Rows_7), * spriteAn_1_inRow_14Rows_8 = new Sprite(*An_1_inRow_14Rows_8),
-//* spriteAn_1_inRow_14Rows_9 = new Sprite(*An_1_inRow_14Rows_9), * spriteAn_1_inRow_14Rows_10 = new Sprite(*An_1_inRow_14Rows_10),
-//* spriteAn_1_inRow_15Rows_1 = new Sprite(*An_1_inRow_15Rows_1), * spriteAn_1_inRow_15Rows_2 = new Sprite(*An_1_inRow_15Rows_2),
-//* spriteAn_1_inRow_15Rows_3 = new Sprite(*An_1_inRow_15Rows_3), * spriteAn_1_inRow_15Rows_4 = new Sprite(*An_1_inRow_15Rows_4),
-//* spriteAn_1_inRow_15Rows_5 = new Sprite(*An_1_inRow_15Rows_5), * spriteAn_1_inRow_15Rows_6 = new Sprite(*An_1_inRow_15Rows_6),
-//* spriteAn_1_inRow_15Rows_7 = new Sprite(*An_1_inRow_15Rows_7), * spriteAn_1_inRow_15Rows_8 = new Sprite(*An_1_inRow_15Rows_8),
-//* spriteAn_1_inRow_15Rows_9 = new Sprite(*An_1_inRow_15Rows_9), * spriteAn_1_inRow_15Rows_10 = new Sprite(*An_1_inRow_15Rows_10),
-//* spriteAn_1_inRow_16Rows_1 = new Sprite(*An_1_inRow_16Rows_1), * spriteAn_1_inRow_16Rows_2 = new Sprite(*An_1_inRow_16Rows_2),
-//* spriteAn_1_inRow_16Rows_3 = new Sprite(*An_1_inRow_16Rows_3), * spriteAn_1_inRow_16Rows_4 = new Sprite(*An_1_inRow_16Rows_4),
-//* spriteAn_1_inRow_16Rows_5 = new Sprite(*An_1_inRow_16Rows_5), * spriteAn_1_inRow_16Rows_6 = new Sprite(*An_1_inRow_16Rows_6),
-//* spriteAn_1_inRow_16Rows_7 = new Sprite(*An_1_inRow_16Rows_7), * spriteAn_1_inRow_16Rows_8 = new Sprite(*An_1_inRow_16Rows_8),
-//* spriteAn_1_inRow_16Rows_9 = new Sprite(*An_1_inRow_16Rows_9), * spriteAn_1_inRow_16Rows_10 = new Sprite(*An_1_inRow_16Rows_10),
-//* spriteAn_1_inRow_16Rows_11 = new Sprite(*An_1_inRow_16Rows_11), * spriteAn_1_inRow_16Rows_12 = new Sprite(*An_1_inRow_16Rows_12),
-//* spriteAn_1_inRow_17Rows_1 = new Sprite(*An_1_inRow_17Rows_1), * spriteAn_1_inRow_17Rows_2 = new Sprite(*An_1_inRow_17Rows_2),
-//* spriteAn_1_inRow_17Rows_3 = new Sprite(*An_1_inRow_17Rows_3), * spriteAn_1_inRow_17Rows_4 = new Sprite(*An_1_inRow_17Rows_4),
-//* spriteAn_1_inRow_17Rows_5 = new Sprite(*An_1_inRow_17Rows_5), * spriteAn_1_inRow_17Rows_6 = new Sprite(*An_1_inRow_17Rows_6),
-//* spriteAn_1_inRow_17Rows_7 = new Sprite(*An_1_inRow_17Rows_7), * spriteAn_1_inRow_17Rows_8 = new Sprite(*An_1_inRow_17Rows_8),
-//* spriteAn_1_inRow_17Rows_9 = new Sprite(*An_1_inRow_17Rows_9), * spriteAn_1_inRow_17Rows_10 = new Sprite(*An_1_inRow_17Rows_10),
-//* spriteAn_1_inRow_17Rows_11 = new Sprite(*An_1_inRow_17Rows_11), * spriteAn_1_inRow_17Rows_12 = new Sprite(*An_1_inRow_17Rows_12),
-//
-//* spriteAn_2_inRow_1Row_1 = new Sprite(*An_2_inRow_1Row_1), * spriteAn_2_inRow_1Row_2 = new Sprite(*An_2_inRow_1Row_2),
-//* spriteAn_2_inRow_2Rows_1 = new Sprite(*An_2_inRow_2Rows_1), * spriteAn_2_inRow_2Rows_2 = new Sprite(*An_2_inRow_2Rows_2),
-//* spriteAn_2_inRow_3Rows_1 = new Sprite(*An_2_inRow_3Rows_1), * spriteAn_2_inRow_3Rows_2 = new Sprite(*An_2_inRow_3Rows_2),
-//* spriteAn_2_inRow_4Rows_1 = new Sprite(*An_2_inRow_4Rows_1), * spriteAn_2_inRow_4Rows_2 = new Sprite(*An_2_inRow_4Rows_2),
-//* spriteAn_2_inRow_4Rows_3 = new Sprite(*An_2_inRow_4Rows_3), * spriteAn_2_inRow_4Rows_4 = new Sprite(*An_2_inRow_4Rows_4),
-//* spriteAn_2_inRow_5Rows_1 = new Sprite(*An_2_inRow_5Rows_1), * spriteAn_2_inRow_5Rows_2 = new Sprite(*An_2_inRow_5Rows_2),
-//* spriteAn_2_inRow_5Rows_3 = new Sprite(*An_2_inRow_5Rows_3), * spriteAn_2_inRow_5Rows_4 = new Sprite(*An_2_inRow_5Rows_4),
-//* spriteAn_2_inRow_6Rows_1 = new Sprite(*An_2_inRow_6Rows_1), * spriteAn_2_inRow_6Rows_2 = new Sprite(*An_2_inRow_6Rows_2),
-//* spriteAn_2_inRow_6Rows_3 = new Sprite(*An_2_inRow_6Rows_3), * spriteAn_2_inRow_6Rows_4 = new Sprite(*An_2_inRow_6Rows_4),
-//* spriteAn_2_inRow_7Rows_1 = new Sprite(*An_2_inRow_7Rows_1), * spriteAn_2_inRow_7Rows_2 = new Sprite(*An_2_inRow_7Rows_2),
-//* spriteAn_2_inRow_7Rows_3 = new Sprite(*An_2_inRow_7Rows_3), * spriteAn_2_inRow_7Rows_4 = new Sprite(*An_2_inRow_7Rows_4),
-//* spriteAn_2_inRow_7Rows_5 = new Sprite(*An_2_inRow_7Rows_5), * spriteAn_2_inRow_7Rows_6 = new Sprite(*An_2_inRow_7Rows_6),
-//* spriteAn_2_inRow_8Rows_1 = new Sprite(*An_2_inRow_8Rows_1), * spriteAn_2_inRow_8Rows_2 = new Sprite(*An_2_inRow_8Rows_2),
-//* spriteAn_2_inRow_8Rows_3 = new Sprite(*An_2_inRow_8Rows_3), * spriteAn_2_inRow_8Rows_4 = new Sprite(*An_2_inRow_8Rows_4),
-//* spriteAn_2_inRow_8Rows_5 = new Sprite(*An_2_inRow_8Rows_5), * spriteAn_2_inRow_8Rows_6 = new Sprite(*An_2_inRow_8Rows_6),
-//* spriteAn_2_inRow_9Rows_1 = new Sprite(*An_2_inRow_9Rows_1), * spriteAn_2_inRow_9Rows_2 = new Sprite(*An_2_inRow_9Rows_2),
-//* spriteAn_2_inRow_9Rows_3 = new Sprite(*An_2_inRow_9Rows_3), * spriteAn_2_inRow_9Rows_4 = new Sprite(*An_2_inRow_9Rows_4),
-//* spriteAn_2_inRow_9Rows_5 = new Sprite(*An_2_inRow_9Rows_5), * spriteAn_2_inRow_9Rows_6 = new Sprite(*An_2_inRow_9Rows_6),
-//* spriteAn_2_inRow_10Rows_1 = new Sprite(*An_2_inRow_10Rows_1), * spriteAn_2_inRow_10Rows_2 = new Sprite(*An_2_inRow_10Rows_2),
-//* spriteAn_2_inRow_10Rows_3 = new Sprite(*An_2_inRow_10Rows_3), * spriteAn_2_inRow_10Rows_4 = new Sprite(*An_2_inRow_10Rows_4),
-//* spriteAn_2_inRow_10Rows_5 = new Sprite(*An_2_inRow_10Rows_5), * spriteAn_2_inRow_10Rows_6 = new Sprite(*An_2_inRow_10Rows_6),
-//* spriteAn_2_inRow_10Rows_7 = new Sprite(*An_2_inRow_10Rows_7), * spriteAn_2_inRow_10Rows_8 = new Sprite(*An_2_inRow_10Rows_8),
-//* spriteAn_2_inRow_11Rows_1 = new Sprite(*An_2_inRow_11Rows_1), * spriteAn_2_inRow_11Rows_2 = new Sprite(*An_2_inRow_11Rows_2),
-//* spriteAn_2_inRow_11Rows_3 = new Sprite(*An_2_inRow_11Rows_3), * spriteAn_2_inRow_11Rows_4 = new Sprite(*An_2_inRow_11Rows_4),
-//* spriteAn_2_inRow_11Rows_5 = new Sprite(*An_2_inRow_11Rows_5), * spriteAn_2_inRow_11Rows_6 = new Sprite(*An_2_inRow_11Rows_6),
-//* spriteAn_2_inRow_11Rows_7 = new Sprite(*An_2_inRow_11Rows_7), * spriteAn_2_inRow_11Rows_8 = new Sprite(*An_2_inRow_11Rows_8),
-//* spriteAn_2_inRow_12Rows_1 = new Sprite(*An_2_inRow_12Rows_1), * spriteAn_2_inRow_12Rows_2 = new Sprite(*An_2_inRow_12Rows_2),
-//* spriteAn_2_inRow_12Rows_3 = new Sprite(*An_2_inRow_12Rows_3), * spriteAn_2_inRow_12Rows_4 = new Sprite(*An_2_inRow_12Rows_4),
-//* spriteAn_2_inRow_12Rows_5 = new Sprite(*An_2_inRow_12Rows_5), * spriteAn_2_inRow_12Rows_6 = new Sprite(*An_2_inRow_12Rows_6),
-//* spriteAn_2_inRow_12Rows_7 = new Sprite(*An_2_inRow_12Rows_7), * spriteAn_2_inRow_12Rows_8 = new Sprite(*An_2_inRow_12Rows_8),
-//* spriteAn_2_inRow_13Rows_1 = new Sprite(*An_2_inRow_13Rows_1), * spriteAn_2_inRow_13Rows_2 = new Sprite(*An_2_inRow_13Rows_2),
-//* spriteAn_2_inRow_13Rows_3 = new Sprite(*An_2_inRow_13Rows_3), * spriteAn_2_inRow_13Rows_4 = new Sprite(*An_2_inRow_13Rows_4),
-//* spriteAn_2_inRow_13Rows_5 = new Sprite(*An_2_inRow_13Rows_5), * spriteAn_2_inRow_13Rows_6 = new Sprite(*An_2_inRow_13Rows_6),
-//* spriteAn_2_inRow_13Rows_7 = new Sprite(*An_2_inRow_13Rows_7), * spriteAn_2_inRow_13Rows_8 = new Sprite(*An_2_inRow_13Rows_8),
-//* spriteAn_2_inRow_13Rows_9 = new Sprite(*An_2_inRow_13Rows_9), * spriteAn_2_inRow_13Rows_10 = new Sprite(*An_2_inRow_13Rows_10),
-//* spriteAn_2_inRow_14Rows_1 = new Sprite(*An_2_inRow_14Rows_1), * spriteAn_2_inRow_14Rows_2 = new Sprite(*An_2_inRow_14Rows_2),
-//* spriteAn_2_inRow_14Rows_3 = new Sprite(*An_2_inRow_14Rows_3), * spriteAn_2_inRow_14Rows_4 = new Sprite(*An_2_inRow_14Rows_4),
-//* spriteAn_2_inRow_14Rows_5 = new Sprite(*An_2_inRow_14Rows_5), * spriteAn_2_inRow_14Rows_6 = new Sprite(*An_2_inRow_14Rows_6),
-//* spriteAn_2_inRow_14Rows_7 = new Sprite(*An_2_inRow_14Rows_7), * spriteAn_2_inRow_14Rows_8 = new Sprite(*An_2_inRow_14Rows_8),
-//* spriteAn_2_inRow_14Rows_9 = new Sprite(*An_2_inRow_14Rows_9), * spriteAn_2_inRow_14Rows_10 = new Sprite(*An_2_inRow_14Rows_10),
-//* spriteAn_2_inRow_15Rows_1 = new Sprite(*An_2_inRow_15Rows_1), * spriteAn_2_inRow_15Rows_2 = new Sprite(*An_2_inRow_15Rows_2),
-//* spriteAn_2_inRow_15Rows_3 = new Sprite(*An_2_inRow_15Rows_3), * spriteAn_2_inRow_15Rows_4 = new Sprite(*An_2_inRow_15Rows_4),
-//* spriteAn_2_inRow_15Rows_5 = new Sprite(*An_2_inRow_15Rows_5), * spriteAn_2_inRow_15Rows_6 = new Sprite(*An_2_inRow_15Rows_6),
-//* spriteAn_2_inRow_15Rows_7 = new Sprite(*An_2_inRow_15Rows_7), * spriteAn_2_inRow_15Rows_8 = new Sprite(*An_2_inRow_15Rows_8),
-//* spriteAn_2_inRow_15Rows_9 = new Sprite(*An_2_inRow_15Rows_9), * spriteAn_2_inRow_15Rows_10 = new Sprite(*An_2_inRow_15Rows_10),
-//* spriteAn_2_inRow_16Rows_1 = new Sprite(*An_2_inRow_16Rows_1), * spriteAn_2_inRow_16Rows_2 = new Sprite(*An_2_inRow_16Rows_2),
-//* spriteAn_2_inRow_16Rows_3 = new Sprite(*An_2_inRow_16Rows_3), * spriteAn_2_inRow_16Rows_4 = new Sprite(*An_2_inRow_16Rows_4),
-//* spriteAn_2_inRow_16Rows_5 = new Sprite(*An_2_inRow_16Rows_5), * spriteAn_2_inRow_16Rows_6 = new Sprite(*An_2_inRow_16Rows_6),
-//* spriteAn_2_inRow_16Rows_7 = new Sprite(*An_2_inRow_16Rows_7), * spriteAn_2_inRow_16Rows_8 = new Sprite(*An_2_inRow_16Rows_8),
-//* spriteAn_2_inRow_16Rows_9 = new Sprite(*An_2_inRow_16Rows_9), * spriteAn_2_inRow_16Rows_10 = new Sprite(*An_2_inRow_16Rows_10),
-//* spriteAn_2_inRow_16Rows_11 = new Sprite(*An_2_inRow_16Rows_11), * spriteAn_2_inRow_16Rows_12 = new Sprite(*An_2_inRow_16Rows_12),
-//* spriteAn_2_inRow_17Rows_1 = new Sprite(*An_2_inRow_17Rows_1), * spriteAn_2_inRow_17Rows_2 = new Sprite(*An_2_inRow_17Rows_2),
-//* spriteAn_2_inRow_17Rows_3 = new Sprite(*An_2_inRow_17Rows_3), * spriteAn_2_inRow_17Rows_4 = new Sprite(*An_2_inRow_17Rows_4),
-//* spriteAn_2_inRow_17Rows_5 = new Sprite(*An_2_inRow_17Rows_5), * spriteAn_2_inRow_17Rows_6 = new Sprite(*An_2_inRow_17Rows_6),
-//* spriteAn_2_inRow_17Rows_7 = new Sprite(*An_2_inRow_17Rows_7), * spriteAn_2_inRow_17Rows_8 = new Sprite(*An_2_inRow_17Rows_8),
-//* spriteAn_2_inRow_17Rows_9 = new Sprite(*An_2_inRow_17Rows_9), * spriteAn_2_inRow_17Rows_10 = new Sprite(*An_2_inRow_17Rows_10),
-//* spriteAn_2_inRow_17Rows_11 = new Sprite(*An_2_inRow_17Rows_11), * spriteAn_2_inRow_17Rows_12 = new Sprite(*An_2_inRow_17Rows_12),
-//
-//* spriteAn_3_inRow_1Row_1 = new Sprite(*An_3_inRow_1Row_1), * spriteAn_3_inRow_1Row_2 = new Sprite(*An_3_inRow_1Row_2),
-//* spriteAn_3_inRow_2Rows_1 = new Sprite(*An_3_inRow_2Rows_1), * spriteAn_3_inRow_2Rows_2 = new Sprite(*An_3_inRow_2Rows_2),
-//* spriteAn_3_inRow_3Rows_1 = new Sprite(*An_3_inRow_3Rows_1), * spriteAn_3_inRow_3Rows_2 = new Sprite(*An_3_inRow_3Rows_2),
-//* spriteAn_3_inRow_4Rows_1 = new Sprite(*An_3_inRow_4Rows_1), * spriteAn_3_inRow_4Rows_2 = new Sprite(*An_3_inRow_4Rows_2),
-//* spriteAn_3_inRow_4Rows_3 = new Sprite(*An_3_inRow_4Rows_3), * spriteAn_3_inRow_4Rows_4 = new Sprite(*An_3_inRow_4Rows_4),
-//* spriteAn_3_inRow_5Rows_1 = new Sprite(*An_3_inRow_5Rows_1), * spriteAn_3_inRow_5Rows_2 = new Sprite(*An_3_inRow_5Rows_2),
-//* spriteAn_3_inRow_5Rows_3 = new Sprite(*An_3_inRow_5Rows_3), * spriteAn_3_inRow_5Rows_4 = new Sprite(*An_3_inRow_5Rows_4),
-//* spriteAn_3_inRow_6Rows_1 = new Sprite(*An_3_inRow_6Rows_1), * spriteAn_3_inRow_6Rows_2 = new Sprite(*An_3_inRow_6Rows_2),
-//* spriteAn_3_inRow_6Rows_3 = new Sprite(*An_3_inRow_6Rows_3), * spriteAn_3_inRow_6Rows_4 = new Sprite(*An_3_inRow_6Rows_4),
-//* spriteAn_3_inRow_7Rows_1 = new Sprite(*An_3_inRow_7Rows_1), * spriteAn_3_inRow_7Rows_2 = new Sprite(*An_3_inRow_7Rows_2),
-//* spriteAn_3_inRow_7Rows_3 = new Sprite(*An_3_inRow_7Rows_3), * spriteAn_3_inRow_7Rows_4 = new Sprite(*An_3_inRow_7Rows_4),
-//* spriteAn_3_inRow_7Rows_5 = new Sprite(*An_3_inRow_7Rows_5), * spriteAn_3_inRow_7Rows_6 = new Sprite(*An_3_inRow_7Rows_6),
-//* spriteAn_3_inRow_8Rows_1 = new Sprite(*An_3_inRow_8Rows_1), * spriteAn_3_inRow_8Rows_2 = new Sprite(*An_3_inRow_8Rows_2),
-//* spriteAn_3_inRow_8Rows_3 = new Sprite(*An_3_inRow_8Rows_3), * spriteAn_3_inRow_8Rows_4 = new Sprite(*An_3_inRow_8Rows_4),
-//* spriteAn_3_inRow_8Rows_5 = new Sprite(*An_3_inRow_8Rows_5), * spriteAn_3_inRow_8Rows_6 = new Sprite(*An_3_inRow_8Rows_6),
-//* spriteAn_3_inRow_9Rows_1 = new Sprite(*An_3_inRow_9Rows_1), * spriteAn_3_inRow_9Rows_2 = new Sprite(*An_3_inRow_9Rows_2),
-//* spriteAn_3_inRow_9Rows_3 = new Sprite(*An_3_inRow_9Rows_3), * spriteAn_3_inRow_9Rows_4 = new Sprite(*An_3_inRow_9Rows_4),
-//* spriteAn_3_inRow_9Rows_5 = new Sprite(*An_3_inRow_9Rows_5), * spriteAn_3_inRow_9Rows_6 = new Sprite(*An_3_inRow_9Rows_6),
-//* spriteAn_3_inRow_10Rows_1 = new Sprite(*An_3_inRow_10Rows_1), * spriteAn_3_inRow_10Rows_2 = new Sprite(*An_3_inRow_10Rows_2),
-//* spriteAn_3_inRow_10Rows_3 = new Sprite(*An_3_inRow_10Rows_3), * spriteAn_3_inRow_10Rows_4 = new Sprite(*An_3_inRow_10Rows_4),
-//* spriteAn_3_inRow_10Rows_5 = new Sprite(*An_3_inRow_10Rows_5), * spriteAn_3_inRow_10Rows_6 = new Sprite(*An_3_inRow_10Rows_6),
-//* spriteAn_3_inRow_10Rows_7 = new Sprite(*An_3_inRow_10Rows_7), * spriteAn_3_inRow_10Rows_8 = new Sprite(*An_3_inRow_10Rows_8),
-//* spriteAn_3_inRow_11Rows_1 = new Sprite(*An_3_inRow_11Rows_1), * spriteAn_3_inRow_11Rows_2 = new Sprite(*An_3_inRow_11Rows_2),
-//* spriteAn_3_inRow_11Rows_3 = new Sprite(*An_3_inRow_11Rows_3), * spriteAn_3_inRow_11Rows_4 = new Sprite(*An_3_inRow_11Rows_4),
-//* spriteAn_3_inRow_11Rows_5 = new Sprite(*An_3_inRow_11Rows_5), * spriteAn_3_inRow_11Rows_6 = new Sprite(*An_3_inRow_11Rows_6),
-//* spriteAn_3_inRow_11Rows_7 = new Sprite(*An_3_inRow_11Rows_7), * spriteAn_3_inRow_11Rows_8 = new Sprite(*An_3_inRow_11Rows_8),
-//* spriteAn_3_inRow_12Rows_1 = new Sprite(*An_3_inRow_12Rows_1), * spriteAn_3_inRow_12Rows_2 = new Sprite(*An_3_inRow_12Rows_2),
-//* spriteAn_3_inRow_12Rows_3 = new Sprite(*An_3_inRow_12Rows_3), * spriteAn_3_inRow_12Rows_4 = new Sprite(*An_3_inRow_12Rows_4),
-//* spriteAn_3_inRow_12Rows_5 = new Sprite(*An_3_inRow_12Rows_5), * spriteAn_3_inRow_12Rows_6 = new Sprite(*An_3_inRow_12Rows_6),
-//* spriteAn_3_inRow_12Rows_7 = new Sprite(*An_3_inRow_12Rows_7), * spriteAn_3_inRow_12Rows_8 = new Sprite(*An_3_inRow_12Rows_8),
-//* spriteAn_3_inRow_13Rows_1 = new Sprite(*An_3_inRow_13Rows_1), * spriteAn_3_inRow_13Rows_2 = new Sprite(*An_3_inRow_13Rows_2),
-//* spriteAn_3_inRow_13Rows_3 = new Sprite(*An_3_inRow_13Rows_3), * spriteAn_3_inRow_13Rows_4 = new Sprite(*An_3_inRow_13Rows_4),
-//* spriteAn_3_inRow_13Rows_5 = new Sprite(*An_3_inRow_13Rows_5), * spriteAn_3_inRow_13Rows_6 = new Sprite(*An_3_inRow_13Rows_6),
-//* spriteAn_3_inRow_13Rows_7 = new Sprite(*An_3_inRow_13Rows_7), * spriteAn_3_inRow_13Rows_8 = new Sprite(*An_3_inRow_13Rows_8),
-//* spriteAn_3_inRow_13Rows_9 = new Sprite(*An_3_inRow_13Rows_9), * spriteAn_3_inRow_13Rows_10 = new Sprite(*An_3_inRow_13Rows_10),
-//* spriteAn_3_inRow_14Rows_1 = new Sprite(*An_3_inRow_14Rows_1), * spriteAn_3_inRow_14Rows_2 = new Sprite(*An_3_inRow_14Rows_2),
-//* spriteAn_3_inRow_14Rows_3 = new Sprite(*An_3_inRow_14Rows_3), * spriteAn_3_inRow_14Rows_4 = new Sprite(*An_3_inRow_14Rows_4),
-//* spriteAn_3_inRow_14Rows_5 = new Sprite(*An_3_inRow_14Rows_5), * spriteAn_3_inRow_14Rows_6 = new Sprite(*An_3_inRow_14Rows_6),
-//* spriteAn_3_inRow_14Rows_7 = new Sprite(*An_3_inRow_14Rows_7), * spriteAn_3_inRow_14Rows_8 = new Sprite(*An_3_inRow_14Rows_8),
-//* spriteAn_3_inRow_14Rows_9 = new Sprite(*An_3_inRow_14Rows_9), * spriteAn_3_inRow_14Rows_10 = new Sprite(*An_3_inRow_14Rows_10),
-//* spriteAn_3_inRow_15Rows_1 = new Sprite(*An_3_inRow_15Rows_1), * spriteAn_3_inRow_15Rows_2 = new Sprite(*An_3_inRow_15Rows_2),
-//* spriteAn_3_inRow_15Rows_3 = new Sprite(*An_3_inRow_15Rows_3), * spriteAn_3_inRow_15Rows_4 = new Sprite(*An_3_inRow_15Rows_4),
-//* spriteAn_3_inRow_15Rows_5 = new Sprite(*An_3_inRow_15Rows_5), * spriteAn_3_inRow_15Rows_6 = new Sprite(*An_3_inRow_15Rows_6),
-//* spriteAn_3_inRow_15Rows_7 = new Sprite(*An_3_inRow_15Rows_7), * spriteAn_3_inRow_15Rows_8 = new Sprite(*An_3_inRow_15Rows_8),
-//* spriteAn_3_inRow_15Rows_9 = new Sprite(*An_3_inRow_15Rows_9), * spriteAn_3_inRow_15Rows_10 = new Sprite(*An_3_inRow_15Rows_10),
-//* spriteAn_3_inRow_17Rows_1 = new Sprite(*An_3_inRow_17Rows_1), * spriteAn_3_inRow_17Rows_2 = new Sprite(*An_3_inRow_17Rows_2),
-//* spriteAn_3_inRow_17Rows_3 = new Sprite(*An_3_inRow_17Rows_3), * spriteAn_3_inRow_17Rows_4 = new Sprite(*An_3_inRow_17Rows_4),
-//* spriteAn_3_inRow_17Rows_5 = new Sprite(*An_3_inRow_17Rows_5), * spriteAn_3_inRow_17Rows_6 = new Sprite(*An_3_inRow_17Rows_6),
-//* spriteAn_3_inRow_17Rows_7 = new Sprite(*An_3_inRow_17Rows_7), * spriteAn_3_inRow_17Rows_8 = new Sprite(*An_3_inRow_17Rows_8),
-//* spriteAn_3_inRow_17Rows_9 = new Sprite(*An_3_inRow_17Rows_9), * spriteAn_3_inRow_17Rows_10 = new Sprite(*An_3_inRow_17Rows_10),
-//* spriteAn_3_inRow_17Rows_11 = new Sprite(*An_3_inRow_17Rows_11), * spriteAn_3_inRow_17Rows_12 = new Sprite(*An_3_inRow_17Rows_12),
-//* spriteAn_3_inRow_18Rows_1 = new Sprite(*An_3_inRow_18Rows_1), * spriteAn_3_inRow_18Rows_2 = new Sprite(*An_3_inRow_18Rows_2),
-//* spriteAn_3_inRow_18Rows_3 = new Sprite(*An_3_inRow_18Rows_3), * spriteAn_3_inRow_18Rows_4 = new Sprite(*An_3_inRow_18Rows_4),
-//* spriteAn_3_inRow_18Rows_5 = new Sprite(*An_3_inRow_18Rows_5), * spriteAn_3_inRow_18Rows_6 = new Sprite(*An_3_inRow_18Rows_6),
-//* spriteAn_3_inRow_18Rows_7 = new Sprite(*An_3_inRow_18Rows_7), * spriteAn_3_inRow_18Rows_8 = new Sprite(*An_3_inRow_18Rows_8),
-//* spriteAn_3_inRow_18Rows_9 = new Sprite(*An_3_inRow_18Rows_9), * spriteAn_3_inRow_18Rows_10 = new Sprite(*An_3_inRow_18Rows_10),
-//* spriteAn_3_inRow_18Rows_11 = new Sprite(*An_3_inRow_18Rows_11), * spriteAn_3_inRow_18Rows_12 = new Sprite(*An_3_inRow_18Rows_12),
-//
-//* spriteAn_4_inRow_1Row_1 = new Sprite(*An_4_inRow_1Row_1), * spriteAn_4_inRow_1Row_2 = new Sprite(*An_4_inRow_1Row_2),
-//* spriteAn_4_inRow_2Rows_1 = new Sprite(*An_4_inRow_2Rows_1), * spriteAn_4_inRow_2Rows_2 = new Sprite(*An_4_inRow_2Rows_2),
-//* spriteAn_4_inRow_3Rows_1 = new Sprite(*An_4_inRow_3Rows_1), * spriteAn_4_inRow_3Rows_2 = new Sprite(*An_4_inRow_3Rows_2),
-//* spriteAn_4_inRow_4Rows_1 = new Sprite(*An_4_inRow_4Rows_1), * spriteAn_4_inRow_4Rows_2 = new Sprite(*An_4_inRow_4Rows_2),
-//* spriteAn_4_inRow_4Rows_3 = new Sprite(*An_4_inRow_4Rows_3), * spriteAn_4_inRow_4Rows_4 = new Sprite(*An_4_inRow_4Rows_4),
-//* spriteAn_4_inRow_5Rows_1 = new Sprite(*An_4_inRow_5Rows_1), * spriteAn_4_inRow_5Rows_2 = new Sprite(*An_4_inRow_5Rows_2),
-//* spriteAn_4_inRow_5Rows_3 = new Sprite(*An_4_inRow_5Rows_3), * spriteAn_4_inRow_5Rows_4 = new Sprite(*An_4_inRow_5Rows_4),
-//* spriteAn_4_inRow_6Rows_1 = new Sprite(*An_4_inRow_6Rows_1), * spriteAn_4_inRow_6Rows_2 = new Sprite(*An_4_inRow_6Rows_2),
-//* spriteAn_4_inRow_6Rows_3 = new Sprite(*An_4_inRow_6Rows_3), * spriteAn_4_inRow_6Rows_4 = new Sprite(*An_4_inRow_6Rows_4),
-//* spriteAn_4_inRow_7Rows_1 = new Sprite(*An_4_inRow_7Rows_1), * spriteAn_4_inRow_7Rows_2 = new Sprite(*An_4_inRow_7Rows_2),
-//* spriteAn_4_inRow_7Rows_3 = new Sprite(*An_4_inRow_7Rows_3), * spriteAn_4_inRow_7Rows_4 = new Sprite(*An_4_inRow_7Rows_4),
-//* spriteAn_4_inRow_7Rows_5 = new Sprite(*An_4_inRow_7Rows_5), * spriteAn_4_inRow_7Rows_6 = new Sprite(*An_4_inRow_7Rows_6),
-//* spriteAn_4_inRow_8Rows_1 = new Sprite(*An_4_inRow_8Rows_1), * spriteAn_4_inRow_8Rows_2 = new Sprite(*An_4_inRow_8Rows_2),
-//* spriteAn_4_inRow_8Rows_3 = new Sprite(*An_4_inRow_8Rows_3), * spriteAn_4_inRow_8Rows_4 = new Sprite(*An_4_inRow_8Rows_4),
-//* spriteAn_4_inRow_8Rows_5 = new Sprite(*An_4_inRow_8Rows_5), * spriteAn_4_inRow_8Rows_6 = new Sprite(*An_4_inRow_8Rows_6),
-//* spriteAn_4_inRow_9Rows_1 = new Sprite(*An_4_inRow_9Rows_1), * spriteAn_4_inRow_9Rows_2 = new Sprite(*An_4_inRow_9Rows_2),
-//* spriteAn_4_inRow_9Rows_3 = new Sprite(*An_4_inRow_9Rows_3), * spriteAn_4_inRow_9Rows_4 = new Sprite(*An_4_inRow_9Rows_4),
-//* spriteAn_4_inRow_9Rows_5 = new Sprite(*An_4_inRow_9Rows_5), * spriteAn_4_inRow_9Rows_6 = new Sprite(*An_4_inRow_9Rows_6),
-//* spriteAn_4_inRow_10Rows_1 = new Sprite(*An_4_inRow_10Rows_1), * spriteAn_4_inRow_10Rows_2 = new Sprite(*An_4_inRow_10Rows_2),
-//* spriteAn_4_inRow_10Rows_3 = new Sprite(*An_4_inRow_10Rows_3), * spriteAn_4_inRow_10Rows_4 = new Sprite(*An_4_inRow_10Rows_4),
-//* spriteAn_4_inRow_10Rows_5 = new Sprite(*An_4_inRow_10Rows_5), * spriteAn_4_inRow_10Rows_6 = new Sprite(*An_4_inRow_10Rows_6),
-//* spriteAn_4_inRow_10Rows_7 = new Sprite(*An_4_inRow_10Rows_7), * spriteAn_4_inRow_10Rows_8 = new Sprite(*An_4_inRow_10Rows_8),
-//* spriteAn_4_inRow_11Rows_1 = new Sprite(*An_4_inRow_11Rows_1), * spriteAn_4_inRow_11Rows_2 = new Sprite(*An_4_inRow_11Rows_2),
-//* spriteAn_4_inRow_11Rows_3 = new Sprite(*An_4_inRow_11Rows_3), * spriteAn_4_inRow_11Rows_4 = new Sprite(*An_4_inRow_11Rows_4),
-//* spriteAn_4_inRow_11Rows_5 = new Sprite(*An_4_inRow_11Rows_5), * spriteAn_4_inRow_11Rows_6 = new Sprite(*An_4_inRow_11Rows_6),
-//* spriteAn_4_inRow_11Rows_7 = new Sprite(*An_4_inRow_11Rows_7), * spriteAn_4_inRow_11Rows_8 = new Sprite(*An_4_inRow_11Rows_8),
-//* spriteAn_4_inRow_12Rows_1 = new Sprite(*An_4_inRow_12Rows_1), * spriteAn_4_inRow_12Rows_2 = new Sprite(*An_4_inRow_12Rows_2),
-//* spriteAn_4_inRow_12Rows_3 = new Sprite(*An_4_inRow_12Rows_3), * spriteAn_4_inRow_12Rows_4 = new Sprite(*An_4_inRow_12Rows_4),
-//* spriteAn_4_inRow_12Rows_5 = new Sprite(*An_4_inRow_12Rows_5), * spriteAn_4_inRow_12Rows_6 = new Sprite(*An_4_inRow_12Rows_6),
-//* spriteAn_4_inRow_12Rows_7 = new Sprite(*An_4_inRow_12Rows_7), * spriteAn_4_inRow_12Rows_8 = new Sprite(*An_4_inRow_12Rows_8),
-//* spriteAn_4_inRow_13Rows_1 = new Sprite(*An_4_inRow_13Rows_1), * spriteAn_4_inRow_13Rows_2 = new Sprite(*An_4_inRow_13Rows_2),
-//* spriteAn_4_inRow_13Rows_3 = new Sprite(*An_4_inRow_13Rows_3), * spriteAn_4_inRow_13Rows_4 = new Sprite(*An_4_inRow_13Rows_4),
-//* spriteAn_4_inRow_13Rows_5 = new Sprite(*An_4_inRow_13Rows_5), * spriteAn_4_inRow_13Rows_6 = new Sprite(*An_4_inRow_13Rows_6),
-//* spriteAn_4_inRow_13Rows_7 = new Sprite(*An_4_inRow_13Rows_7), * spriteAn_4_inRow_13Rows_8 = new Sprite(*An_4_inRow_13Rows_8),
-//* spriteAn_4_inRow_13Rows_9 = new Sprite(*An_4_inRow_13Rows_9), * spriteAn_4_inRow_13Rows_10 = new Sprite(*An_4_inRow_13Rows_10),
-//* spriteAn_4_inRow_14Rows_1 = new Sprite(*An_4_inRow_14Rows_1), * spriteAn_4_inRow_14Rows_2 = new Sprite(*An_4_inRow_14Rows_2),
-//* spriteAn_4_inRow_14Rows_3 = new Sprite(*An_4_inRow_14Rows_3), * spriteAn_4_inRow_14Rows_4 = new Sprite(*An_4_inRow_14Rows_4),
-//* spriteAn_4_inRow_14Rows_5 = new Sprite(*An_4_inRow_14Rows_5), * spriteAn_4_inRow_14Rows_6 = new Sprite(*An_4_inRow_14Rows_6),
-//* spriteAn_4_inRow_14Rows_7 = new Sprite(*An_4_inRow_14Rows_7), * spriteAn_4_inRow_14Rows_8 = new Sprite(*An_4_inRow_14Rows_8),
-//* spriteAn_4_inRow_14Rows_9 = new Sprite(*An_4_inRow_14Rows_9), * spriteAn_4_inRow_14Rows_10 = new Sprite(*An_4_inRow_14Rows_10),
-//* spriteAn_4_inRow_15Rows_1 = new Sprite(*An_4_inRow_15Rows_1), * spriteAn_4_inRow_15Rows_2 = new Sprite(*An_4_inRow_15Rows_2),
-//* spriteAn_4_inRow_15Rows_3 = new Sprite(*An_4_inRow_15Rows_3), * spriteAn_4_inRow_15Rows_4 = new Sprite(*An_4_inRow_15Rows_4),
-//* spriteAn_4_inRow_15Rows_5 = new Sprite(*An_4_inRow_15Rows_5), * spriteAn_4_inRow_15Rows_6 = new Sprite(*An_4_inRow_15Rows_6),
-//* spriteAn_4_inRow_15Rows_7 = new Sprite(*An_4_inRow_15Rows_7), * spriteAn_4_inRow_15Rows_8 = new Sprite(*An_4_inRow_15Rows_8),
-//* spriteAn_4_inRow_15Rows_9 = new Sprite(*An_4_inRow_15Rows_9), * spriteAn_4_inRow_15Rows_10 = new Sprite(*An_4_inRow_15Rows_10),
-//* spriteAn_4_inRow_16Rows_1 = new Sprite(*An_4_inRow_16Rows_1), * spriteAn_4_inRow_16Rows_2 = new Sprite(*An_4_inRow_16Rows_2),
-//* spriteAn_4_inRow_16Rows_3 = new Sprite(*An_4_inRow_16Rows_3), * spriteAn_4_inRow_16Rows_4 = new Sprite(*An_4_inRow_16Rows_4),
-//* spriteAn_4_inRow_16Rows_5 = new Sprite(*An_4_inRow_16Rows_5), * spriteAn_4_inRow_16Rows_6 = new Sprite(*An_4_inRow_16Rows_6),
-//* spriteAn_4_inRow_16Rows_7 = new Sprite(*An_4_inRow_16Rows_7), * spriteAn_4_inRow_16Rows_8 = new Sprite(*An_4_inRow_16Rows_8),
-//* spriteAn_4_inRow_16Rows_9 = new Sprite(*An_4_inRow_16Rows_9), * spriteAn_4_inRow_16Rows_10 = new Sprite(*An_4_inRow_16Rows_10),
-//* spriteAn_4_inRow_16Rows_11 = new Sprite(*An_4_inRow_16Rows_11), * spriteAn_4_inRow_16Rows_12 = new Sprite(*An_4_inRow_16Rows_12),
-//* spriteAn_4_inRow_17Rows_1 = new Sprite(*An_4_inRow_17Rows_1), * spriteAn_4_inRow_17Rows_2 = new Sprite(*An_4_inRow_17Rows_2),
-//* spriteAn_4_inRow_17Rows_3 = new Sprite(*An_4_inRow_17Rows_3), * spriteAn_4_inRow_17Rows_4 = new Sprite(*An_4_inRow_17Rows_4),
-//* spriteAn_4_inRow_17Rows_5 = new Sprite(*An_4_inRow_17Rows_5), * spriteAn_4_inRow_17Rows_6 = new Sprite(*An_4_inRow_17Rows_6),
-//* spriteAn_4_inRow_17Rows_7 = new Sprite(*An_4_inRow_17Rows_7), * spriteAn_4_inRow_17Rows_8 = new Sprite(*An_4_inRow_17Rows_8),
-//* spriteAn_4_inRow_17Rows_9 = new Sprite(*An_4_inRow_17Rows_9), * spriteAn_4_inRow_17Rows_10 = new Sprite(*An_4_inRow_17Rows_10),
-//* spriteAn_4_inRow_17Rows_11 = new Sprite(*An_4_inRow_17Rows_11), * spriteAn_4_inRow_17Rows_12 = new Sprite(*An_4_inRow_17Rows_12),
+* spriteAn_1_inRow_1Row_1 = new Sprite(*AnFF1inRow1To4Rows,IntRect(251, 1182, 248, 232)), * spriteAn_1_inRow_1Row_2 = new Sprite(*AnFF1inRow1To4Rows, IntRect(0, 1175, 251, 247)),
+* spriteAn_1_inRow_2Rows_1 = new Sprite(*AnFF1inRow1To4Rows, IntRect(0, 924, 251, 251)), * spriteAn_1_inRow_2Rows_2 = new Sprite(*AnFF1inRow1To4Rows, IntRect(253, 637, 253, 285)),
+* spriteAn_1_inRow_3Rows_1 = new Sprite(*AnFF1inRow1To4Rows, IntRect(0, 654, 252, 270)), * spriteAn_1_inRow_3Rows_2 = new Sprite(*AnFF1inRow1To4Rows, IntRect(254, 0, 253, 323)),
+* spriteAn_1_inRow_4Rows_1 = new Sprite(*AnFF1inRow1To4Rows, IntRect(252, 922, 249, 260)), * spriteAn_1_inRow_4Rows_2 = new Sprite(*AnFF1inRow1To4Rows, IntRect(254, 323, 253, 314)),
+* spriteAn_1_inRow_4Rows_3 = new Sprite(*AnFF1inRow1To4Rows, IntRect(0, 0, 254, 365)), * spriteAn_1_inRow_4Rows_4 = new Sprite(*AnFF1inRow1To4Rows, IntRect(0, 365, 253, 289)),
+* spriteAn_1_inRow_5Rows_1 = new Sprite(*AnFF1inRow5To8Rows, IntRect(750, 1542, 249, 272)), * spriteAn_1_inRow_5Rows_2 = new Sprite(*AnFF1inRow5To8Rows, IntRect(254, 892, 253, 340)),
+* spriteAn_1_inRow_5Rows_3 = new Sprite(*AnFF1inRow5To8Rows, IntRect(0, 517, 254, 403)), * spriteAn_1_inRow_5Rows_4 = new Sprite(*AnFF1inRow5To8Rows, IntRect(507, 1222, 253, 308)),
+* spriteAn_1_inRow_6Rows_1 = new Sprite(*AnFF1inRow5To8Rows, IntRect(250, 1543, 250, 284)), * spriteAn_1_inRow_6Rows_2 = new Sprite(*AnFF1inRow5To8Rows, IntRect(762, 831, 254, 365)),
+* spriteAn_1_inRow_6Rows_3 = new Sprite(*AnFF1inRow5To8Rows, IntRect(508, 0, 254, 441)), * spriteAn_1_inRow_6Rows_4 = new Sprite(*AnFF1inRow5To8Rows, IntRect(0, 920, 253, 327)),
+* spriteAn_1_inRow_7Rows_1 = new Sprite(*AnFF1inRow5To8Rows, IntRect(0, 1247, 249, 276)), * spriteAn_1_inRow_7Rows_2 = new Sprite(*AnFF1inRow5To8Rows, IntRect(762, 1196, 253, 346)),
+* spriteAn_1_inRow_7Rows_3 = new Sprite(*AnFF1inRow5To8Rows, IntRect(254, 479, 254, 413)), * spriteAn_1_inRow_7Rows_4 = new Sprite(*AnFF1inRow5To8Rows, IntRect(254, 0, 254, 479)),
+* spriteAn_1_inRow_7Rows_5 = new Sprite(*AnFF1inRow5To8Rows, IntRect(762, 441, 254, 390)), * spriteAn_1_inRow_7Rows_6 = new Sprite(*AnFF1inRow5To8Rows, IntRect(0, 1530, 250, 298)),
+* spriteAn_1_inRow_8Rows_1 = new Sprite(*AnFF1inRow5To8Rows, IntRect(500, 1543, 250, 285)), * spriteAn_1_inRow_8Rows_2 = new Sprite(*AnFF1inRow5To8Rows, IntRect(508, 857, 254, 365)),
+* spriteAn_1_inRow_8Rows_3 = new Sprite(*AnFF1inRow5To8Rows, IntRect(762, 0, 254, 441)), * spriteAn_1_inRow_8Rows_4 = new Sprite(*AnFF1inRow5To8Rows, IntRect(0, 0, 254, 517)),
+* spriteAn_1_inRow_8Rows_5 = new Sprite(*AnFF1inRow5To8Rows, IntRect(508, 441, 254, 416)), * spriteAn_1_inRow_8Rows_6 = new Sprite(*AnFF1inRow5To8Rows, IntRect(253, 1232, 251, 311)),
+* spriteAn_1_inRow_9Rows_1 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1772, 600, 250, 295)), * spriteAn_1_inRow_9Rows_2 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1016, 1346, 254, 384)),
+* spriteAn_1_inRow_9Rows_3 = new Sprite(*AnFF1inRow9To12Rows, IntRect(762, 1133, 254, 470)), * spriteAn_1_inRow_9Rows_4 = new Sprite(*AnFF1inRow9To12Rows, IntRect(0, 669, 254, 555)),
+* spriteAn_1_inRow_9Rows_5 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1016, 905, 254, 441)), * spriteAn_1_inRow_9Rows_6 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1521, 1060, 251, 323)),
+* spriteAn_1_inRow_10Rows_1 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1772, 1184, 245, 281)), * spriteAn_1_inRow_10Rows_2 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1521, 376, 251, 361)),
+* spriteAn_1_inRow_10Rows_3 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1016, 464, 254, 441)), * spriteAn_1_inRow_10Rows_4 = new Sprite(*AnFF1inRow9To12Rows, IntRect(508, 1120, 254,517)),
+* spriteAn_1_inRow_10Rows_5 = new Sprite(*AnFF1inRow9To12Rows, IntRect(508, 0, 254, 593)), * spriteAn_1_inRow_10Rows_6 = new Sprite(*AnFF1inRow9To12Rows, IntRect(254, 1178, 254, 498)),
+* spriteAn_1_inRow_10Rows_7 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1270, 855, 251, 399)), * spriteAn_1_inRow_10Rows_8 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1772, 0, 251, 304)),
+* spriteAn_1_inRow_11Rows_1 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1772, 895, 246, 289)), * spriteAn_1_inRow_11Rows_2 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1521, 0, 251, 376)),
+* spriteAn_1_inRow_11Rows_3 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1016, 0, 254, 464)), * spriteAn_1_inRow_11Rows_4 = new Sprite(*AnFF1inRow9To12Rows, IntRect(254, 631, 254, 547)),
+* spriteAn_1_inRow_11Rows_5 = new Sprite(*AnFF1inRow9To12Rows, IntRect(254, 0, 254, 631)), * spriteAn_1_inRow_11Rows_6 = new Sprite(*AnFF1inRow9To12Rows, IntRect(508, 593, 254, 527)),
+* spriteAn_1_inRow_11Rows_7 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1270, 437, 251, 418)), * spriteAn_1_inRow_11Rows_8 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1521, 1383, 251, 314)),
+* spriteAn_1_inRow_12Rows_1 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1772, 304, 246, 296)), * spriteAn_1_inRow_12Rows_2 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1270, 1254, 251, 391)),
+* spriteAn_1_inRow_12Rows_3 = new Sprite(*AnFF1inRow9To12Rows, IntRect(0, 1224, 254, 486)), * spriteAn_1_inRow_12Rows_4 = new Sprite(*AnFF1inRow9To12Rows, IntRect(762, 0, 254, 578)),
+* spriteAn_1_inRow_12Rows_5 = new Sprite(*AnFF1inRow9To12Rows, IntRect(0, 0, 254, 669)), * spriteAn_1_inRow_12Rows_6 = new Sprite(*AnFF1inRow9To12Rows, IntRect(762, 578, 254, 555)),
+* spriteAn_1_inRow_12Rows_7 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1270, 0, 251, 437)), * spriteAn_1_inRow_12Rows_8 = new Sprite(*AnFF1inRow9To12Rows, IntRect(1521, 737, 251, 323)),
+* spriteAn_1_inRow_13Rows_1 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1775, 897, 245, 287)), * spriteAn_1_inRow_13Rows_2 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1760, 1614, 251, 373)),
+* spriteAn_1_inRow_13Rows_3 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1270, 976, 254, 460)), * spriteAn_1_inRow_13Rows_4 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1016, 593, 254, 542)),
+* spriteAn_1_inRow_13Rows_5 = new Sprite(*AnFF1inRow13To15Rows, IntRect(762, 639, 254, 625)), * spriteAn_1_inRow_13Rows_6 = new Sprite(*AnFF1inRow13To15Rows, IntRect(508, 0, 254, 707)),
+* spriteAn_1_inRow_13Rows_7 = new Sprite(*AnFF1inRow13To15Rows, IntRect(762, 1264, 254, 608)), * spriteAn_1_inRow_13Rows_8 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1016, 1135, 254, 510)),
+* spriteAn_1_inRow_13Rows_9 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1524, 422, 251, 407)), * spriteAn_1_inRow_13Rows_10 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1775, 0, 246, 304)),
+* spriteAn_1_inRow_14Rows_1 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1775, 604, 246, 293)), * spriteAn_1_inRow_14Rows_2 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1760, 1228, 251, 386)),
+* spriteAn_1_inRow_14Rows_3 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1270, 498, 254, 478)), * spriteAn_1_inRow_14Rows_4 = new Sprite(*AnFF1inRow13To15Rows, IntRect(508, 1395, 254, 567)),
+* spriteAn_1_inRow_14Rows_5 = new Sprite(*AnFF1inRow13To15Rows, IntRect(254, 745, 254, 656)), * spriteAn_1_inRow_14Rows_6 = new Sprite(*AnFF1inRow13To15Rows, IntRect(254, 0, 254, 745)),
+* spriteAn_1_inRow_14Rows_7 = new Sprite(*AnFF1inRow13To15Rows, IntRect(762, 0, 254, 639)), * spriteAn_1_inRow_14Rows_8 = new Sprite(*AnFF1inRow13To15Rows, IntRect(0, 1452, 254, 532)),
+* spriteAn_1_inRow_14Rows_9 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1524, 0, 251, 422)), * spriteAn_1_inRow_14Rows_10 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1263, 1645, 246, 311)),
+* spriteAn_1_inRow_15Rows_1 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1775, 304, 246, 300)), * spriteAn_1_inRow_15Rows_2 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1524, 829, 251, 399)),
+* spriteAn_1_inRow_15Rows_3 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1270, 0, 254, 498)), * spriteAn_1_inRow_15Rows_4 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1016, 0, 254, 593)),
+* spriteAn_1_inRow_15Rows_5 = new Sprite(*AnFF1inRow13To15Rows, IntRect(508, 707, 254, 688)), * spriteAn_1_inRow_15Rows_6 = new Sprite(*AnFF1inRow13To15Rows, IntRect(0, 0, 254, 783)),
+* spriteAn_1_inRow_15Rows_7 = new Sprite(*AnFF1inRow13To15Rows, IntRect(0, 783, 254, 669)), * spriteAn_1_inRow_15Rows_8 = new Sprite(*AnFF1inRow13To15Rows, IntRect(254, 1401, 254, 555)),
+* spriteAn_1_inRow_15Rows_9 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1509, 1436, 251, 437)), * spriteAn_1_inRow_15Rows_10 = new Sprite(*AnFF1inRow13To15Rows, IntRect(1016, 1645, 247, 319)),
+* spriteAn_1_inRow_16Rows_1 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1517, 1405, 246, 306)), * spriteAn_1_inRow_16Rows_2 = new Sprite(*AnFF1inRow16To17Rows, IntRect(762, 1322, 251, 412)),
+* spriteAn_1_inRow_16Rows_3 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1778, 0, 254, 517)), * spriteAn_1_inRow_16Rows_4 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1016, 644, 254, 618)),
+* spriteAn_1_inRow_16Rows_5 = new Sprite(*AnFF1inRow16To17Rows, IntRect(508, 734, 254, 720)), * spriteAn_1_inRow_16Rows_6 = new Sprite(*AnFF1inRow16To17Rows, IntRect(0, 859, 254, 821)),
+* spriteAn_1_inRow_16Rows_7 = new Sprite(*AnFF1inRow16To17Rows, IntRect(508, 0, 254, 734)), * spriteAn_1_inRow_16Rows_8 = new Sprite(*AnFF1inRow16To17Rows, IntRect(762, 675, 254, 647)),
+* spriteAn_1_inRow_16Rows_9 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1270, 582, 254, 561)), * spriteAn_1_inRow_16Rows_10 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1775, 536, 251, 470)),
+* spriteAn_1_inRow_16Rows_11 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1524, 1022, 251, 383)), * spriteAn_1_inRow_16Rows_12 = new Sprite(*AnFF1inRow16To17Rows, IntRect(508, 1454, 242, 288)),
+* spriteAn_1_inRow_17Rows_1 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1270, 1143, 247, 313)), * spriteAn_1_inRow_17Rows_2 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1775, 1006, 251, 424)),
+* spriteAn_1_inRow_17Rows_3 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1524, 0, 254, 536)), * spriteAn_1_inRow_17Rows_4 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1016, 0, 254, 644)),
+* spriteAn_1_inRow_17Rows_5 = new Sprite(*AnFF1inRow16To17Rows, IntRect(254, 767, 254, 751)), * spriteAn_1_inRow_17Rows_6 = new Sprite(*AnFF1inRow16To17Rows, IntRect(0, 0, 254, 859)),
+* spriteAn_1_inRow_17Rows_7 = new Sprite(*AnFF1inRow16To17Rows, IntRect(254, 0, 254, 767)), * spriteAn_1_inRow_17Rows_8 = new Sprite(*AnFF1inRow16To17Rows, IntRect(762, 0, 254, 675)),
+* spriteAn_1_inRow_17Rows_9 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1270, 0, 254, 582)), * spriteAn_1_inRow_17Rows_10 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1524, 536, 251, 486)),
+* spriteAn_1_inRow_17Rows_11 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1013, 1322, 251, 394)), * spriteAn_1_inRow_17Rows_12 = new Sprite(*AnFF1inRow16To17Rows, IntRect(1763, 1430, 243, 294)),
 
+* spriteAn_2_inRow_1Row_1 = new Sprite(*AnFF2inRow1To6Rows, IntRect(0, 1636, 285, 234)), * spriteAn_2_inRow_1Row_2 = new Sprite(*AnFF2inRow1To6Rows, IntRect(287, 1626, 289, 253)),
+* spriteAn_2_inRow_2Rows_1 = new Sprite(*AnFF2inRow1To6Rows, IntRect(576, 1626, 289, 253)), * spriteAn_2_inRow_2Rows_2 = new Sprite(*AnFF2inRow1To6Rows, IntRect(291, 1063, 291, 291)),
+* spriteAn_2_inRow_3Rows_1 = new Sprite(*AnFF2inRow1To6Rows, IntRect(291, 1354, 290, 272)), * spriteAn_2_inRow_3Rows_2 = new Sprite(*AnFF2inRow1To6Rows, IntRect(0, 443, 291, 329)),
+* spriteAn_2_inRow_4Rows_1 = new Sprite(*AnFF2inRow1To6Rows, IntRect(0, 1373, 287, 263)), * spriteAn_2_inRow_4Rows_2 = new Sprite(*AnFF2inRow1To6Rows, IntRect(291, 747, 291, 316)),
+* spriteAn_2_inRow_4Rows_3 = new Sprite(*AnFF2inRow1To6Rows, IntRect(584, 0, 292, 367)), * spriteAn_2_inRow_4Rows_4 = new Sprite(*AnFF2inRow1To6Rows, IntRect(0, 1082, 291, 291)),
+* spriteAn_2_inRow_5Rows_1 = new Sprite(*AnFF2inRow1To6Rows, IntRect(582, 1351, 287, 275)), * spriteAn_2_inRow_5Rows_2 = new Sprite(*AnFF2inRow1To6Rows, IntRect(292, 405, 291, 342)),
+* spriteAn_2_inRow_5Rows_3 = new Sprite(*AnFF2inRow1To6Rows, IntRect(292, 0, 292, 405)), * spriteAn_2_inRow_5Rows_4 = new Sprite(*AnFF2inRow1To6Rows, IntRect(0, 772, 291, 310)),
+* spriteAn_2_inRow_6Rows_1 = new Sprite(*AnFF2inRow1To6Rows, IntRect(582, 1063, 288, 288)), * spriteAn_2_inRow_6Rows_2 = new Sprite(*AnFF2inRow1To6Rows, IntRect(584, 367, 292, 367)),
+* spriteAn_2_inRow_6Rows_3 = new Sprite(*AnFF2inRow1To6Rows, IntRect(0, 0, 292, 443)), * spriteAn_2_inRow_6Rows_4 = new Sprite(*AnFF2inRow1To6Rows, IntRect(583, 734, 291, 329)),
+* spriteAn_2_inRow_7Rows_1 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1454, 1171, 287, 279)), * spriteAn_2_inRow_7Rows_2 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1168, 804, 291, 348)),
+* spriteAn_2_inRow_7Rows_3 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1460, 0, 292, 415)), * spriteAn_2_inRow_7Rows_4 = new Sprite(*AnFF2inRow7To10Rows, IntRect(584,0, 292, 481)),
+* spriteAn_2_inRow_7Rows_5 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1460, 415, 292, 392)), * spriteAn_2_inRow_7Rows_6 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1752, 0, 288, 301)),
+* spriteAn_2_inRow_8Rows_1 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1752, 599, 288, 288)), * spriteAn_2_inRow_8Rows_2 = new Sprite(*AnFF2inRow7To10Rows, IntRect(876, 443, 292, 367)),
+* spriteAn_2_inRow_8Rows_3 = new Sprite(*AnFF2inRow7To10Rows, IntRect(584, 953, 292, 443)), * spriteAn_2_inRow_8Rows_4 = new Sprite(*AnFF2inRow7To10Rows, IntRect(292, 519, 292, 519)),
+* spriteAn_2_inRow_8Rows_5 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1168, 0, 292, 418)), * spriteAn_2_inRow_8Rows_6 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1165, 1152, 289, 314)),
+* spriteAn_2_inRow_9Rows_1 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1752, 301, 288, 298)), * spriteAn_2_inRow_9Rows_2 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1168, 418, 292, 386)),
+* spriteAn_2_inRow_9Rows_3 = new Sprite(*AnFF2inRow7To10Rows, IntRect(584, 481, 292, 472)), * spriteAn_2_inRow_9Rows_4 = new Sprite(*AnFF2inRow7To10Rows, IntRect(0, 595, 292, 557)),
+* spriteAn_2_inRow_9Rows_5 = new Sprite(*AnFF2inRow7To10Rows, IntRect(876, 0, 292, 443)), * spriteAn_2_inRow_9Rows_6 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1748, 887, 289, 326)),
+* spriteAn_2_inRow_10Rows_1 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1741, 1213, 283, 283)), * spriteAn_2_inRow_10Rows_2 = new Sprite(*AnFF2inRow7To10Rows, IntRect(1459, 807, 289, 364)),
+* spriteAn_2_inRow_10Rows_3 = new Sprite(*AnFF2inRow7To10Rows, IntRect(0, 1152, 292, 443)), * spriteAn_2_inRow_10Rows_4 = new Sprite(*AnFF2inRow7To10Rows, IntRect(292, 0, 292, 519)),
+* spriteAn_2_inRow_10Rows_5 = new Sprite(*AnFF2inRow7To10Rows, IntRect(0, 0, 292, 595)), * spriteAn_2_inRow_10Rows_6 = new Sprite(*AnFF2inRow7To10Rows, IntRect(292, 1038, 292, 500)),
+* spriteAn_2_inRow_10Rows_7 = new Sprite(*AnFF2inRow7To10Rows, IntRect(876, 810, 289, 402)), * spriteAn_2_inRow_10Rows_8 = new Sprite(*AnFF2inRow7To10Rows, IntRect(876, 1212, 289, 307)),
+* spriteAn_2_inRow_11Rows_1 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1752, 604, 284, 291)), * spriteAn_2_inRow_11Rows_2 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1743, 1184, 289, 379)),
+* spriteAn_2_inRow_11Rows_3 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1168, 529, 292, 466)), * spriteAn_2_inRow_11Rows_4 = new Sprite(*AnFF2inRow11To13Rows, IntRect(584, 1167, 292, 549)),
+* spriteAn_2_inRow_11Rows_5 = new Sprite(*AnFF2inRow11To13Rows, IntRect(292, 0, 292, 633)), * spriteAn_2_inRow_11Rows_6 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1168, 0, 292, 529)),
+* spriteAn_2_inRow_11Rows_7 = new Sprite(*AnFF2inRow11To13Rows, IntRect(876, 984, 289, 421)), * spriteAn_2_inRow_11Rows_8 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1165, 1405, 289, 317)),
+* spriteAn_2_inRow_12Rows_1 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1752, 306, 284, 298)), * spriteAn_2_inRow_12Rows_2 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1454, 1001, 289, 394)),
+* spriteAn_2_inRow_12Rows_3 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1460, 512, 292, 489)), * spriteAn_2_inRow_12Rows_4 = new Sprite(*AnFF2inRow11To13Rows, IntRect(292, 1260, 292, 580)),
+* spriteAn_2_inRow_12Rows_5 = new Sprite(*AnFF2inRow11To13Rows, IntRect(0, 709, 292, 671)), * spriteAn_2_inRow_12Rows_6 = new Sprite(*AnFF2inRow11To13Rows, IntRect(584, 610, 292, 557)),
+* spriteAn_2_inRow_12Rows_7 = new Sprite(*AnFF2inRow11To13Rows, IntRect(876, 544, 289, 440)), * spriteAn_2_inRow_12Rows_8 = new Sprite(*AnFF2inRow11To13Rows, IntRect(876, 1405, 289, 326)),
+* spriteAn_2_inRow_13Rows_1 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1752, 895, 283, 289)), * spriteAn_2_inRow_13Rows_2 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1454, 1395, 289, 377)),
+* spriteAn_2_inRow_13Rows_3 = new Sprite(*AnFF2inRow11To13Rows, IntRect(0, 1380, 292, 462)), * spriteAn_2_inRow_13Rows_4 = new Sprite(*AnFF2inRow11To13Rows, IntRect(876, 0, 292, 544)),
+* spriteAn_2_inRow_13Rows_5 = new Sprite(*AnFF2inRow11To13Rows, IntRect(292, 633, 292, 627)), * spriteAn_2_inRow_13Rows_6 = new Sprite(*AnFF2inRow11To13Rows, IntRect(0, 0, 292, 709)),
+* spriteAn_2_inRow_13Rows_7 = new Sprite(*AnFF2inRow11To13Rows, IntRect(584, 0, 292, 610)), * spriteAn_2_inRow_13Rows_8 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1460, 0, 292, 512)),
+* spriteAn_2_inRow_13Rows_9 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1165, 995, 289, 410)), * spriteAn_2_inRow_13Rows_10 = new Sprite(*AnFF2inRow11To13Rows, IntRect(1752, 0, 284, 306)),
+* spriteAn_2_inRow_14Rows_1 = new Sprite(*AnFF2inRow14To15Rows, IntRect(1452, 1267, 284, 296)), * spriteAn_2_inRow_14Rows_2 = new Sprite(*AnFF2inRow14To15Rows, IntRect(1445, 1569, 289, 389)),
+* spriteAn_2_inRow_14Rows_3 = new Sprite(*AnFF2inRow14To15Rows, IntRect(876, 1127, 292, 481)), * spriteAn_2_inRow_14Rows_4 = new Sprite(*AnFF2inRow14To15Rows, IntRect(876, 0, 292, 570)),
+* spriteAn_2_inRow_14Rows_5 = new Sprite(*AnFF2inRow14To15Rows, IntRect(584, 0, 292, 658)), * spriteAn_2_inRow_14Rows_6 = new Sprite(*AnFF2inRow14To15Rows, IntRect(292, 0, 292, 747)),
+* spriteAn_2_inRow_14Rows_7 = new Sprite(*AnFF2inRow14To15Rows, IntRect(584, 658, 292, 641)), * spriteAn_2_inRow_14Rows_8 = new Sprite(*AnFF2inRow14To15Rows, IntRect(292, 1437, 292, 534)),
+* spriteAn_2_inRow_14Rows_9 = new Sprite(*AnFF2inRow14To15Rows, IntRect(1168, 440, 289, 425)), * spriteAn_2_inRow_14Rows_10 = new Sprite(*AnFF2inRow14To15Rows, IntRect(1161, 1608, 284, 314)),
+* spriteAn_2_inRow_15Rows_1 = new Sprite(*AnFF2inRow14To15Rows, IntRect(1168, 1267, 284, 302)), * spriteAn_2_inRow_15Rows_2 = new Sprite(*AnFF2inRow14To15Rows, IntRect(1168, 865, 289, 402)),
+* spriteAn_2_inRow_15Rows_3 = new Sprite(*AnFF2inRow14To15Rows, IntRect(0, 1456, 292, 500)), * spriteAn_2_inRow_15Rows_4 = new Sprite(*AnFF2inRow14To15Rows, IntRect(584, 1299, 292, 595)),
+* spriteAn_2_inRow_15Rows_5 = new Sprite(*AnFF2inRow14To15Rows, IntRect(292, 747, 292, 690)), * spriteAn_2_inRow_15Rows_6 = new Sprite(*AnFF2inRow14To15Rows, IntRect(0, 0, 292, 785)),
+* spriteAn_2_inRow_15Rows_7 = new Sprite(*AnFF2inRow14To15Rows, IntRect(0, 785, 292, 671)), * spriteAn_2_inRow_15Rows_8 = new Sprite(*AnFF2inRow14To15Rows, IntRect(876, 570, 292, 557)),
+* spriteAn_2_inRow_15Rows_9 = new Sprite(*AnFF2inRow14To15Rows, IntRect(1168, 0, 289, 440)), * spriteAn_2_inRow_15Rows_10 = new Sprite(*AnFF2inRow14To15Rows, IntRect(876, 1608, 285, 321)),
+* spriteAn_2_inRow_16Rows_1 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1752, 1058, 284, 309)), * spriteAn_2_inRow_16Rows_2 = new Sprite(*AnFF2inRow16To17Rows, IntRect(292, 1522, 289, 415)),
+* spriteAn_2_inRow_16Rows_3 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1752, 538, 292, 520)), * spriteAn_2_inRow_16Rows_4 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1168, 646, 292, 621)),
+* spriteAn_2_inRow_16Rows_5 = new Sprite(*AnFF2inRow16To17Rows, IntRect(584, 736, 292, 722)), * spriteAn_2_inRow_16Rows_6 = new Sprite(*AnFF2inRow16To17Rows, IntRect(0, 861, 292, 823)),
+* spriteAn_2_inRow_16Rows_7 = new Sprite(*AnFF2inRow16To17Rows, IntRect(584, 0, 292, 736)), * spriteAn_2_inRow_16Rows_8 = new Sprite(*AnFF2inRow16To17Rows, IntRect(876, 677, 292, 649)),
+* spriteAn_2_inRow_16Rows_9 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1460, 584, 292, 562)), * spriteAn_2_inRow_16Rows_10 = new Sprite(*AnFF2inRow16To17Rows, IntRect(876, 1326, 289, 472)),
+* spriteAn_2_inRow_16Rows_11 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1460, 1146, 289, 385)), * spriteAn_2_inRow_16Rows_12 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1743, 1664, 280, 290)),
+* spriteAn_2_inRow_17Rows_1 = new Sprite(*AnFF2inRow16To17Rows, IntRect(0, 1684, 285, 315)), * spriteAn_2_inRow_17Rows_2 = new Sprite(*AnFF2inRow16To17Rows, IntRect(581, 1522, 289, 427)),
+* spriteAn_2_inRow_17Rows_3 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1752, 0, 292, 538)), * spriteAn_2_inRow_17Rows_4 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1168, 0, 292, 646)),
+* spriteAn_2_inRow_17Rows_5 = new Sprite(*AnFF2inRow16To17Rows, IntRect(292, 769, 292, 753)), * spriteAn_2_inRow_17Rows_6 = new Sprite(*AnFF2inRow16To17Rows, IntRect(0, 0, 292, 861)),
+* spriteAn_2_inRow_17Rows_7 = new Sprite(*AnFF2inRow16To17Rows, IntRect(292, 0, 292, 769)), * spriteAn_2_inRow_17Rows_8 = new Sprite(*AnFF2inRow16To17Rows, IntRect(876, 0, 292, 677)),
+* spriteAn_2_inRow_17Rows_9 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1460, 0, 292, 584)), * spriteAn_2_inRow_17Rows_10 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1165, 1326, 289, 489)),
+* spriteAn_2_inRow_17Rows_11 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1454, 1531, 289, 397)), * spriteAn_2_inRow_17Rows_12 = new Sprite(*AnFF2inRow16To17Rows, IntRect(1749, 1367, 281, 297)),
 
+* spriteAn_3_inRow_1Row_1 = new Sprite(*AnFF3inRow1To4Rows, IntRect(658, 770, 324, 234)), * spriteAn_3_inRow_1Row_2 = new Sprite(*AnFF3inRow1To4Rows, IntRect(658, 0, 327, 253)),
+* spriteAn_3_inRow_2Rows_1 = new Sprite(*AnFF3inRow1To4Rows, IntRect(658, 253, 327, 253)), * spriteAn_3_inRow_2Rows_2 = new Sprite(*AnFF3inRow1To4Rows, IntRect(0, 696, 329, 291)),
+* spriteAn_3_inRow_3Rows_1 = new Sprite(*AnFF3inRow1To4Rows, IntRect(330, 0, 328, 272)), * spriteAn_3_inRow_3Rows_2 = new Sprite(*AnFF3inRow1To4Rows, IntRect(0, 367, 329, 329)),
+* spriteAn_3_inRow_4Rows_1 = new Sprite(*AnFF3inRow1To4Rows, IntRect(658, 506, 325, 264)), * spriteAn_3_inRow_4Rows_2 = new Sprite(*AnFF3inRow1To4Rows, IntRect(329, 367, 329, 316)),
+* spriteAn_3_inRow_4Rows_3 = new Sprite(*AnFF3inRow1To4Rows, IntRect(0, 0, 330, 367)), * spriteAn_3_inRow_4Rows_4 = new Sprite(*AnFF3inRow1To4Rows, IntRect(329, 683, 329, 291)),
+* spriteAn_3_inRow_5Rows_1 = new Sprite(*AnFF3inRow5To8Rows, IntRect(659, 1176, 325, 276)), * spriteAn_3_inRow_5Rows_2 = new Sprite(*AnFF3inRow5To8Rows, IntRect(330, 1158, 329, 342)),
+* spriteAn_3_inRow_5Rows_3 = new Sprite(*AnFF3inRow5To8Rows, IntRect(990, 415, 330, 405)), * spriteAn_3_inRow_5Rows_4 = new Sprite(*AnFF3inRow5To8Rows, IntRect(990, 1149, 329, 310)),
+* spriteAn_3_inRow_6Rows_1 = new Sprite(*AnFF3inRow5To8Rows, IntRect(1320, 616, 326, 289)), * spriteAn_3_inRow_6Rows_2 = new Sprite(*AnFF3inRow5To8Rows, IntRect(330, 443, 330, 367)),
+* spriteAn_3_inRow_6Rows_3 = new Sprite(*AnFF3inRow5To8Rows, IntRect(0, 1000, 330, 443)), * spriteAn_3_inRow_6Rows_4 = new Sprite(*AnFF3inRow5To8Rows, IntRect(990, 820, 329, 329)),
+* spriteAn_3_inRow_7Rows_1 = new Sprite(*AnFF3inRow5To8Rows, IntRect(1319, 1194, 325, 280)), * spriteAn_3_inRow_7Rows_2 = new Sprite(*AnFF3inRow5To8Rows, IntRect(330, 810, 329, 348)),
+* spriteAn_3_inRow_7Rows_3 = new Sprite(*AnFF3inRow5To8Rows, IntRect(990, 0, 330, 415)), * spriteAn_3_inRow_7Rows_4 = new Sprite(*AnFF3inRow5To8Rows, IntRect(0, 519, 330, 481)),
+* spriteAn_3_inRow_7Rows_5 = new Sprite(*AnFF3inRow5To8Rows, IntRect(660, 417, 330, 392)), * spriteAn_3_inRow_7Rows_6 = new Sprite(*AnFF3inRow5To8Rows, IntRect(1320, 314, 326, 302)),
+* spriteAn_3_inRow_8Rows_1 = new Sprite(*AnFF3inRow5To8Rows, IntRect(1319, 905, 326, 289)), * spriteAn_3_inRow_8Rows_2 = new Sprite(*AnFF3inRow5To8Rows, IntRect(660, 809, 330, 367)),
+* spriteAn_3_inRow_8Rows_3 = new Sprite(*AnFF3inRow5To8Rows, IntRect(330, 0, 330, 443)), * spriteAn_3_inRow_8Rows_4 = new Sprite(*AnFF3inRow5To8Rows, IntRect(0, 0, 330, 519)),
+* spriteAn_3_inRow_8Rows_5 = new Sprite(*AnFF3inRow5To8Rows, IntRect(660, 0, 330, 417)), * spriteAn_3_inRow_8Rows_6 = new Sprite(*AnFF3inRow5To8Rows, IntRect(1320, 0, 327, 314)),
+* spriteAn_3_inRow_9Rows_1 = new Sprite(*AnFF3inRow9To11Rows, IntRect(660, 1588, 326, 299)), * spriteAn_3_inRow_9Rows_2 = new Sprite(*AnFF3inRow9To11Rows, IntRect(330, 1598, 330, 387)),
+* spriteAn_3_inRow_9Rows_3 = new Sprite(*AnFF3inRow9To11Rows, IntRect(990, 0, 330, 472)), * spriteAn_3_inRow_9Rows_4 = new Sprite(*AnFF3inRow9To11Rows, IntRect(0, 1228, 330, 557)),
+* spriteAn_3_inRow_9Rows_5 = new Sprite(*AnFF3inRow9To11Rows, IntRect(990, 938, 330, 443)), * spriteAn_3_inRow_9Rows_6 = new Sprite(*AnFF3inRow9To11Rows, IntRect(660, 943, 327, 327)),
+* spriteAn_3_inRow_10Rows_1 = new Sprite(*AnFF3inRow9To11Rows, IntRect(986, 1689, 321, 285)), * spriteAn_3_inRow_10Rows_2 = new Sprite(*AnFF3inRow9To11Rows, IntRect(1320, 1206, 327, 365)),
+* spriteAn_3_inRow_10Rows_3 = new Sprite(*AnFF3inRow9To11Rows, IntRect(660, 500, 330, 443)), * spriteAn_3_inRow_10Rows_4 = new Sprite(*AnFF3inRow9To11Rows, IntRect(330, 1079, 330, 519)),
+* spriteAn_3_inRow_10Rows_5 = new Sprite(*AnFF3inRow9To11Rows, IntRect(0, 633, 330, 595)), * spriteAn_3_inRow_10Rows_6 = new Sprite(*AnFF3inRow9To11Rows, IntRect(660, 0, 330, 500)),
+* spriteAn_3_inRow_10Rows_7 = new Sprite(*AnFF3inRow9To11Rows, IntRect(1320, 422, 327, 403)), * spriteAn_3_inRow_10Rows_8 = new Sprite(*AnFF3inRow9To11Rows, IntRect(987, 1381, 327, 308)),
+* spriteAn_3_inRow_11Rows_1 = new Sprite(*AnFF3inRow9To11Rows, IntRect(1314, 1571, 322, 293)), * spriteAn_3_inRow_11Rows_2 = new Sprite(*AnFF3inRow9To11Rows, IntRect(1320, 825, 327, 381)),
+* spriteAn_3_inRow_11Rows_3 = new Sprite(*AnFF3inRow9To11Rows, IntRect(990, 472, 330, 466)), * spriteAn_3_inRow_11Rows_4 = new Sprite(*AnFF3inRow9To11Rows, IntRect(330, 0, 330, 550)),
+* spriteAn_3_inRow_11Rows_5 = new Sprite(*AnFF3inRow9To11Rows, IntRect(0, 0, 330, 633)), * spriteAn_3_inRow_11Rows_6 = new Sprite(*AnFF3inRow9To11Rows, IntRect(330, 550, 330, 529)),
+* spriteAn_3_inRow_11Rows_7 = new Sprite(*AnFF3inRow9To11Rows, IntRect(1320, 0, 327, 422)), * spriteAn_3_inRow_11Rows_8 = new Sprite(*AnFF3inRow9To11Rows, IntRect(660, 1270, 327, 318)),
+* spriteAn_3_inRow_12Rows_1 = new Sprite(*AnFF3inRow12To13Rows, IntRect(1314, 1190, 322, 300)), * spriteAn_3_inRow_12Rows_2 = new Sprite(*AnFF3inRow12To13Rows, IntRect(660, 1139, 327, 395)),
+* spriteAn_3_inRow_12Rows_3 = new Sprite(*AnFF3inRow12To13Rows, IntRect(1320, 0, 330, 489)), * spriteAn_3_inRow_12Rows_4 = new Sprite(*AnFF3inRow12To13Rows, IntRect(990, 610, 330,580)),
+* spriteAn_3_inRow_12Rows_5 = new Sprite(*AnFF3inRow12To13Rows, IntRect(330, 0, 330, 671)), * spriteAn_3_inRow_12Rows_6 = new Sprite(*AnFF3inRow12To13Rows, IntRect(330, 671, 330, 557)),
+* spriteAn_3_inRow_12Rows_7 = new Sprite(*AnFF3inRow12To13Rows, IntRect(1636, 952, 327, 441)), * spriteAn_3_inRow_12Rows_8 = new Sprite(*AnFF3inRow12To13Rows, IntRect(987, 1190, 327, 327)),
+* spriteAn_3_inRow_13Rows_1 = new Sprite(*AnFF3inRow12To13Rows, IntRect(0, 1254, 321, 292)), * spriteAn_3_inRow_13Rows_2 = new Sprite(*AnFF3inRow12To13Rows, IntRect(1650, 411, 327, 378)),
+* spriteAn_3_inRow_13Rows_3 = new Sprite(*AnFF3inRow12To13Rows, IntRect(1320, 489, 330, 463)), * spriteAn_3_inRow_13Rows_4 = new Sprite(*AnFF3inRow12To13Rows, IntRect(0, 709, 330, 545)),
+* spriteAn_3_inRow_13Rows_5 = new Sprite(*AnFF3inRow12To13Rows, IntRect(660, 0, 330, 627)), * spriteAn_3_inRow_13Rows_6 = new Sprite(*AnFF3inRow12To13Rows, IntRect(0, 0, 330, 709)),
+* spriteAn_3_inRow_13Rows_7 = new Sprite(*AnFF3inRow12To13Rows, IntRect(990, 0, 330, 610)), * spriteAn_3_inRow_13Rows_8 = new Sprite(*AnFF3inRow12To13Rows, IntRect(660, 627, 330, 512)),
+* spriteAn_3_inRow_13Rows_9 = new Sprite(*AnFF3inRow12To13Rows, IntRect(1650, 0, 327, 411)), * spriteAn_3_inRow_13Rows_10 = new Sprite(*AnFF3inRow12To13Rows, IntRect(330, 1228, 322, 308)),
+* spriteAn_3_inRow_14Rows_1 = new Sprite(*AnFF3inRow14To15Rows, IntRect(1643, 867, 322, 298)), * spriteAn_3_inRow_14Rows_2 = new Sprite(*AnFF3inRow14To15Rows, IntRect(1317, 1572, 327, 390)),
+* spriteAn_3_inRow_14Rows_3 = new Sprite(*AnFF3inRow14To15Rows, IntRect(990, 1091, 330, 481)), * spriteAn_3_inRow_14Rows_4 = new Sprite(*AnFF3inRow14To15Rows, IntRect(330, 1388, 330, 570)),
+* spriteAn_3_inRow_14Rows_5 = new Sprite(*AnFF3inRow14To15Rows, IntRect(0, 785, 330, 658)), * spriteAn_3_inRow_14Rows_6 = new Sprite(*AnFF3inRow14To15Rows, IntRect(330, 0, 330, 747)),
+* spriteAn_3_inRow_14Rows_7 = new Sprite(*AnFF3inRow14To15Rows, IntRect(330, 747, 330, 641)), * spriteAn_3_inRow_14Rows_8 = new Sprite(*AnFF3inRow14To15Rows, IntRect(990, 557, 330, 534)),
+* spriteAn_3_inRow_14Rows_9 = new Sprite(*AnFF3inRow14To15Rows, IntRect(1320, 441, 327, 426)), * spriteAn_3_inRow_14Rows_10 = new Sprite(*AnFF3inRow14To15Rows, IntRect(1320, 1190, 322, 316)),
+* spriteAn_3_inRow_15Rows_1 = new Sprite(*AnFF3inRow14To15Rows, IntRect(1642, 1190, 322, 304)), * spriteAn_3_inRow_15Rows_2 = new Sprite(*AnFF3inRow14To15Rows, IntRect(990, 1572, 327, 403)),
+* spriteAn_3_inRow_15Rows_3 = new Sprite(*AnFF3inRow14To15Rows, IntRect(0, 1443, 330, 500)), * spriteAn_3_inRow_15Rows_4 = new Sprite(*AnFF3inRow14To15Rows, IntRect(660, 1361, 330, 595)),
+* spriteAn_3_inRow_15Rows_5 = new Sprite(*AnFF3inRow14To15Rows, IntRect(660, 0, 330, 690)), * spriteAn_3_inRow_15Rows_6 = new Sprite(*AnFF3inRow14To15Rows, IntRect(0, 0, 330, 785)),
+* spriteAn_3_inRow_15Rows_7 = new Sprite(*AnFF3inRow14To15Rows, IntRect(660, 690, 330, 671)), * spriteAn_3_inRow_15Rows_8 = new Sprite(*AnFF3inRow14To15Rows, IntRect(990, 0, 330, 557)),
+* spriteAn_3_inRow_15Rows_9 = new Sprite(*AnFF3inRow14To15Rows, IntRect(1320, 0, 327, 441)), * spriteAn_3_inRow_15Rows_10 = new Sprite(*AnFF3inRow14To15Rows, IntRect(1320, 867, 323, 323)),
+* spriteAn_3_inRow_16Rows_1 = new Sprite(*AnFF3inRow16Rows, IntRect(990, 0, 319, 324)), * spriteAn_3_inRow_16Rows_2 = new Sprite(*AnFF3inRow16Rows, IntRect(987, 1380, 327, 414)),
+* spriteAn_3_inRow_16Rows_3 = new Sprite(*AnFF3inRow16Rows, IntRect(0, 1442, 327, 495)), * spriteAn_3_inRow_16Rows_4 = new Sprite(*AnFF3inRow16Rows, IntRect(330, 741, 330, 578)), 
+* spriteAn_3_inRow_16Rows_5 = new Sprite(*AnFF3inRow16Rows, IntRect(660, 721, 330, 659)), * spriteAn_3_inRow_16Rows_6 = new Sprite(*AnFF3inRow16Rows, IntRect(330, 0, 330, 741)),
+* spriteAn_3_inRow_16Rows_7 = new Sprite(*AnFF3inRow16Rows, IntRect(0, 0, 330, 822)), * spriteAn_3_inRow_16Rows_8 = new Sprite(*AnFF3inRow16Rows, IntRect(660, 0, 330, 721)), 
+* spriteAn_3_inRow_16Rows_9 = new Sprite(*AnFF3inRow16Rows, IntRect(0, 822, 330, 620)), * spriteAn_3_inRow_16Rows_10 = new Sprite(*AnFF3inRow16Rows, IntRect(330, 1319, 330, 519)), 
+* spriteAn_3_inRow_16Rows_11 = new Sprite(*AnFF3inRow16Rows, IntRect(660, 1380, 327, 416)), * spriteAn_3_inRow_16Rows_12 = new Sprite(*AnFF3inRow16Rows, IntRect(990, 324, 322, 311)),
+* spriteAn_3_inRow_17Rows_1 = new Sprite(*AnFF3inRow17Rows, IntRect(990, 0, 322, 317)), * spriteAn_3_inRow_17Rows_2 = new Sprite(*AnFF3inRow17Rows, IntRect(660, 1430, 327, 428)),
+* spriteAn_3_inRow_17Rows_3 = new Sprite(*AnFF3inRow17Rows, IntRect(330, 1353, 330, 538)), * spriteAn_3_inRow_17Rows_4 = new Sprite(*AnFF3inRow17Rows, IntRect(0, 861, 330, 646)),
+* spriteAn_3_inRow_17Rows_5 = new Sprite(*AnFF3inRow17Rows, IntRect(660, 0, 330, 753)), * spriteAn_3_inRow_17Rows_6 = new Sprite(*AnFF3inRow17Rows, IntRect(0, 0, 330, 861)),
+* spriteAn_3_inRow_17Rows_7 = new Sprite(*AnFF3inRow17Rows, IntRect(330, 0, 330, 769)), * spriteAn_3_inRow_17Rows_8 = new Sprite(*AnFF3inRow17Rows, IntRect(660, 753, 330, 677)),
+* spriteAn_3_inRow_17Rows_9 = new Sprite(*AnFF3inRow17Rows, IntRect(330, 769, 330, 584)), * spriteAn_3_inRow_17Rows_10 = new Sprite(*AnFF3inRow17Rows, IntRect(0, 1507, 327, 490)),
+* spriteAn_3_inRow_17Rows_11 = new Sprite(*AnFF3inRow17Rows, IntRect(987, 1430, 327, 398)), * spriteAn_3_inRow_17Rows_12 = new Sprite(*AnFF3inRow17Rows, IntRect(990, 317, 319, 298)),
+* spriteAn_3_inRow_18Rows_1 = new Sprite(*AnFF3inRow18Rows, IntRect(990, 0, 323, 323)), * spriteAn_3_inRow_18Rows_2 = new Sprite(*AnFF3inRow18Rows, IntRect(0, 1570, 327, 441)),
+* spriteAn_3_inRow_18Rows_3 = new Sprite(*AnFF3inRow18Rows, IntRect(330, 1407, 330, 557)), * spriteAn_3_inRow_18Rows_4 = new Sprite(*AnFF3inRow18Rows, IntRect(0, 899, 330, 671)),
+* spriteAn_3_inRow_18Rows_5 = new Sprite(*AnFF3inRow18Rows, IntRect(660, 0, 330, 785)), * spriteAn_3_inRow_18Rows_6 = new Sprite(*AnFF3inRow18Rows, IntRect(0, 0, 330, 899)),
+* spriteAn_3_inRow_18Rows_7 = new Sprite(*AnFF3inRow18Rows, IntRect(330, 0, 330, 801)), * spriteAn_3_inRow_18Rows_8 = new Sprite(*AnFF3inRow18Rows, IntRect(660, 785, 330, 704)),
+* spriteAn_3_inRow_18Rows_9 = new Sprite(*AnFF3inRow18Rows, IntRect(330, 801, 330, 606)), * spriteAn_3_inRow_18Rows_10 = new Sprite(*AnFF3inRow18Rows, IntRect(660, 1489, 327, 506)),
+* spriteAn_3_inRow_18Rows_11 = new Sprite(*AnFF3inRow18Rows, IntRect(987, 1489, 327, 409)), * spriteAn_3_inRow_18Rows_12 = new Sprite(*AnFF3inRow18Rows, IntRect(990, 323, 319, 303)),
 
-//* spriteAn_4_inRow_18Rows_1 = new Sprite(*An_4_inRow_18Rows_1), * spriteAn_4_inRow_18Rows_2 = new Sprite(*An_4_inRow_18Rows_2),
-//* spriteAn_4_inRow_18Rows_3 = new Sprite(*An_4_inRow_18Rows_3), * spriteAn_4_inRow_18Rows_4 = new Sprite(*An_4_inRow_18Rows_4),
-//* spriteAn_4_inRow_18Rows_5 = new Sprite(*An_4_inRow_18Rows_5), * spriteAn_4_inRow_18Rows_6 = new Sprite(*An_4_inRow_18Rows_6),
-//* spriteAn_4_inRow_18Rows_7 = new Sprite(*An_4_inRow_18Rows_7), * spriteAn_4_inRow_18Rows_8 = new Sprite(*An_4_inRow_18Rows_8),
-//* spriteAn_4_inRow_18Rows_9 = new Sprite(*An_4_inRow_18Rows_9), * spriteAn_4_inRow_18Rows_10 = new Sprite(*An_4_inRow_18Rows_10),
-//* spriteAn_4_inRow_18Rows_11 = new Sprite(*An_4_inRow_18Rows_11), * spriteAn_4_inRow_18Rows_12 = new Sprite(*An_4_inRow_18Rows_12);
-
-* spriteAn_4_inRow_18Rows_1 = new Sprite(*An_test, IntRect(1104, 0, 361, 323)), * spriteAn_4_inRow_18Rows_2 = new Sprite(*An_test, IntRect(0, 1572, 365, 441)),
-* spriteAn_4_inRow_18Rows_3 = new Sprite(*An_test, IntRect(368, 1409, 368, 558)), * spriteAn_4_inRow_18Rows_4 = new Sprite(*An_test, IntRect(0, 900, 368, 672)),
-* spriteAn_4_inRow_18Rows_5 = new Sprite(*An_test, IntRect(736, 0, 368, 786)), * spriteAn_4_inRow_18Rows_6 = new Sprite(*An_test, IntRect(0, 0, 368, 900)),
-* spriteAn_4_inRow_18Rows_7 = new Sprite(*An_test, IntRect(368, 0, 368, 802)), * spriteAn_4_inRow_18Rows_8 = new Sprite(*An_test, IntRect(736, 786, 368, 705)),
-* spriteAn_4_inRow_18Rows_9 = new Sprite(*An_test, IntRect(368, 802, 368, 607)), * spriteAn_4_inRow_18Rows_10 = new Sprite(*An_test, IntRect(735, 1491, 365, 506)),
-* spriteAn_4_inRow_18Rows_11 = new Sprite(*An_test, IntRect(1101, 1491, 365, 409)), * spriteAn_4_inRow_18Rows_12 = new Sprite(*An_test, IntRect(1104, 323, 357, 303));
+* spriteAn_4_inRow_1Row_1 = new Sprite(*AnFF4inRow1To4Rows, IntRect(365, 1203, 362, 235)), * spriteAn_4_inRow_1Row_2 = new Sprite(*AnFF4inRow1To4Rows, IntRect(0, 933, 365, 254)),
+* spriteAn_4_inRow_2Rows_1 = new Sprite(*AnFF4inRow1To4Rows, IntRect(0, 1187, 365, 254)), * spriteAn_4_inRow_2Rows_2 = new Sprite(*AnFF4inRow1To4Rows, IntRect(0, 368, 367, 292)),
+* spriteAn_4_inRow_3Rows_1 = new Sprite(*AnFF4inRow1To4Rows, IntRect(0, 660, 366, 273)), * spriteAn_4_inRow_3Rows_2 = new Sprite(*AnFF4inRow1To4Rows, IntRect(368, 0, 367, 330)),
+* spriteAn_4_inRow_4Rows_1 = new Sprite(*AnFF4inRow1To4Rows, IntRect(365, 939, 363, 264)), * spriteAn_4_inRow_4Rows_2 = new Sprite(*AnFF4inRow1To4Rows, IntRect(368, 330, 367, 317)),
+* spriteAn_4_inRow_4Rows_3 = new Sprite(*AnFF4inRow1To4Rows, IntRect(0, 0, 368, 368)), * spriteAn_4_inRow_4Rows_4 = new Sprite(*AnFF4inRow1To4Rows, IntRect(367, 647, 367, 292)),
+* spriteAn_4_inRow_5Rows_1 = new Sprite(*AnFF4inRow5To8Rows, IntRect(368, 1269, 363, 276)), * spriteAn_4_inRow_5Rows_2 = new Sprite(*AnFF4inRow5To8Rows, IntRect(1104, 717, 368, 343)),
+* spriteAn_4_inRow_5Rows_3 = new Sprite(*AnFF4inRow5To8Rows, IntRect(368, 863, 368, 406)), * spriteAn_4_inRow_5Rows_4 = new Sprite(*AnFF4inRow5To8Rows, IntRect(1104, 1060, 367, 311)),
+* spriteAn_4_inRow_6Rows_1 = new Sprite(*AnFF4inRow5To8Rows, IntRect(1472, 617, 364, 290)), * spriteAn_4_inRow_6Rows_2 = new Sprite(*AnFF4inRow5To8Rows, IntRect(1104, 0, 368, 368)),
+* spriteAn_4_inRow_6Rows_3 = new Sprite(*AnFF4inRow5To8Rows, IntRect(368, 0, 368, 444)), * spriteAn_4_inRow_6Rows_4 = new Sprite(*AnFF4inRow5To8Rows, IntRect(736, 1177, 367, 330)),
+* spriteAn_4_inRow_7Rows_1 = new Sprite(*AnFF4inRow5To8Rows, IntRect(1471, 1196, 363, 280)), * spriteAn_4_inRow_7Rows_2 = new Sprite(*AnFF4inRow5To8Rows, IntRect(1104, 368, 368, 349)),
+* spriteAn_4_inRow_7Rows_3 = new Sprite(*AnFF4inRow5To8Rows, IntRect(736, 0, 368, 416)), * spriteAn_4_inRow_7Rows_4 = new Sprite(*AnFF4inRow5To8Rows, IntRect(0, 520, 368, 482)),
+* spriteAn_4_inRow_7Rows_5 = new Sprite(*AnFF4inRow5To8Rows, IntRect(736, 416, 368, 393)), * spriteAn_4_inRow_7Rows_6 = new Sprite(*AnFF4inRow5To8Rows, IntRect(1472, 315, 365, 302)),
+* spriteAn_4_inRow_8Rows_1 = new Sprite(*AnFF4inRow5To8Rows, IntRect(1472, 907, 364, 289)), * spriteAn_4_inRow_8Rows_2 = new Sprite(*AnFF4inRow5To8Rows, IntRect(736, 809, 368, 368)),
+* spriteAn_4_inRow_8Rows_3 = new Sprite(*AnFF4inRow5To8Rows, IntRect(0, 1002, 368, 444)), * spriteAn_4_inRow_8Rows_4 = new Sprite(*AnFF4inRow5To8Rows, IntRect(0, 0, 368, 520)),
+* spriteAn_4_inRow_8Rows_5 = new Sprite(*AnFF4inRow5To8Rows, IntRect(368, 444, 368, 419)), * spriteAn_4_inRow_8Rows_6 = new Sprite(*AnFF4inRow5To8Rows, IntRect(1472, 0, 365, 315)),
+* spriteAn_4_inRow_9Rows_1 = new Sprite(*AnFF4inRow9To11Rows, IntRect(736, 1590, 364, 299)), * spriteAn_4_inRow_9Rows_2 = new Sprite(*AnFF4inRow9To11Rows, IntRect(368, 1600, 368, 387)),
+* spriteAn_4_inRow_9Rows_3 = new Sprite(*AnFF4inRow9To11Rows, IntRect(1104, 0, 368, 473)), * spriteAn_4_inRow_9Rows_4 = new Sprite(*AnFF4inRow9To11Rows, IntRect(0, 1230, 368, 558)),
+* spriteAn_4_inRow_9Rows_5 = new Sprite(*AnFF4inRow9To11Rows, IntRect(1104, 940, 368, 444)), * spriteAn_4_inRow_9Rows_6 = new Sprite(*AnFF4inRow9To11Rows, IntRect(736, 945, 365, 327)),
+* spriteAn_4_inRow_10Rows_1 = new Sprite(*AnFF4inRow9To11Rows, IntRect(1100, 1692, 359, 285)), * spriteAn_4_inRow_10Rows_2 = new Sprite(*AnFF4inRow9To11Rows, IntRect(1472, 1205, 365, 365)),
+* spriteAn_4_inRow_10Rows_3 = new Sprite(*AnFF4inRow9To11Rows, IntRect(736, 501, 368, 444)), * spriteAn_4_inRow_10Rows_4 = new Sprite(*AnFF4inRow9To11Rows, IntRect(368, 1080, 368, 520)),
+* spriteAn_4_inRow_10Rows_5 = new Sprite(*AnFF4inRow9To11Rows, IntRect(0, 634, 368, 596)), * spriteAn_4_inRow_10Rows_6 = new Sprite(*AnFF4inRow9To11Rows, IntRect(736, 0, 368, 501)),
+* spriteAn_4_inRow_10Rows_7 = new Sprite(*AnFF4inRow9To11Rows, IntRect(1472, 422, 365, 403)), * spriteAn_4_inRow_10Rows_8 = new Sprite(*AnFF4inRow9To11Rows, IntRect(1101, 1384, 365, 308)),
+* spriteAn_4_inRow_11Rows_1 = new Sprite(*AnFF4inRow9To11Rows, IntRect(1466, 1570, 360, 293)), * spriteAn_4_inRow_11Rows_2 = new Sprite(*AnFF4inRow9To11Rows, IntRect(1472, 825, 365, 380)),
+* spriteAn_4_inRow_11Rows_3 = new Sprite(*AnFF4inRow9To11Rows, IntRect(1104, 473, 368, 467)), * spriteAn_4_inRow_11Rows_4 = new Sprite(*AnFF4inRow9To11Rows, IntRect(368, 0, 368, 550)),
+* spriteAn_4_inRow_11Rows_5 = new Sprite(*AnFF4inRow9To11Rows, IntRect(0, 0, 368, 634)), * spriteAn_4_inRow_11Rows_6 = new Sprite(*AnFF4inRow9To11Rows, IntRect(368, 550, 368, 530)),
+* spriteAn_4_inRow_11Rows_7 = new Sprite(*AnFF4inRow9To11Rows, IntRect(1472, 0, 365, 422)), * spriteAn_4_inRow_11Rows_8 = new Sprite(*AnFF4inRow9To11Rows, IntRect(736, 1272, 365, 318)),
+* spriteAn_4_inRow_12Rows_1 = new Sprite(*AnFF4inRow12To13Rows, IntRect(1469, 308, 360, 301)), * spriteAn_4_inRow_12Rows_2 = new Sprite(*AnFF4inRow12To13Rows, IntRect(1104, 852, 365, 396)),
+* spriteAn_4_inRow_12Rows_3 = new Sprite(*AnFF4inRow12To13Rows, IntRect(736, 1058, 368, 490)), * spriteAn_4_inRow_12Rows_4 = new Sprite(*AnFF4inRow12To13Rows, IntRect(368, 1300, 368, 581)),
+* spriteAn_4_inRow_12Rows_5 = new Sprite(*AnFF4inRow12To13Rows, IntRect(368, 0, 368, 672)), * spriteAn_4_inRow_12Rows_6 = new Sprite(*AnFF4inRow12To13Rows, IntRect(0, 1321, 368, 558)),
+* spriteAn_4_inRow_12Rows_7 = new Sprite(*AnFF4inRow12To13Rows, IntRect(1104, 0, 365, 441)), * spriteAn_4_inRow_12Rows_8 = new Sprite(*AnFF4inRow12To13Rows, IntRect(1104, 1626, 365, 327)),
+* spriteAn_4_inRow_13Rows_1 = new Sprite(*AnFF4inRow12To13Rows, IntRect(1469, 609, 360, 291)), * spriteAn_4_inRow_13Rows_2 = new Sprite(*AnFF4inRow12To13Rows, IntRect(1104, 1248, 365, 378)),
+* spriteAn_4_inRow_13Rows_3 = new Sprite(*AnFF4inRow12To13Rows, IntRect(736, 1548, 368, 463)), * spriteAn_4_inRow_13Rows_4 = new Sprite(*AnFF4inRow12To13Rows, IntRect(736, 0, 368, 545)),
+* spriteAn_4_inRow_13Rows_5 = new Sprite(*AnFF4inRow12To13Rows, IntRect(368, 672, 368, 628)), * spriteAn_4_inRow_13Rows_6 = new Sprite(*AnFF4inRow12To13Rows, IntRect(0, 0, 368, 710)),
+* spriteAn_4_inRow_13Rows_7 = new Sprite(*AnFF4inRow12To13Rows, IntRect(0, 710, 368, 611)), * spriteAn_4_inRow_13Rows_8 = new Sprite(*AnFF4inRow12To13Rows, IntRect(736, 545, 368, 513)),
+* spriteAn_4_inRow_13Rows_9 = new Sprite(*AnFF4inRow12To13Rows, IntRect(1104, 441, 365, 411 )), * spriteAn_4_inRow_13Rows_10 = new Sprite(*AnFF4inRow12To13Rows, IntRect(1469, 0, 360, 308)),
+* spriteAn_4_inRow_14Rows_1 = new Sprite(*AnFF4inRow14Rows, IntRect(0, 748, 360, 298)), * spriteAn_4_inRow_14Rows_2 = new Sprite(*AnFF4inRow14Rows, IntRect(736, 642, 365, 390)),
+* spriteAn_4_inRow_14Rows_3 = new Sprite(*AnFF4inRow14Rows, IntRect(1472, 535, 368, 482)), * spriteAn_4_inRow_14Rows_4 = new Sprite(*AnFF4inRow14Rows, IntRect(1104, 0, 368, 571)),
+* spriteAn_4_inRow_14Rows_5 = new Sprite(*AnFF4inRow14Rows, IntRect(368, 0, 368, 659)), * spriteAn_4_inRow_14Rows_6 = new Sprite(*AnFF4inRow14Rows, IntRect(0, 0, 368, 748)),
+* spriteAn_4_inRow_14Rows_7 = new Sprite(*AnFF4inRow14Rows, IntRect(736, 0, 368, 642)), * spriteAn_4_inRow_14Rows_8 = new Sprite(*AnFF4inRow14Rows, IntRect(1472, 0, 368, 535)),
+* spriteAn_4_inRow_14Rows_9 = new Sprite(*AnFF4inRow14Rows, IntRect(1104, 571, 365, 426)), * spriteAn_4_inRow_14Rows_10 = new Sprite(*AnFF4inRow14Rows, IntRect(368, 659, 361, 316)),
+* spriteAn_4_inRow_15Rows_1 = new Sprite(*AnFF4inRow15Rows, IntRect(0, 786, 360, 304)), * spriteAn_4_inRow_15Rows_2 = new Sprite(*AnFF4inRow15Rows, IntRect(736, 672, 365, 403)),
+* spriteAn_4_inRow_15Rows_3 = new Sprite(*AnFF4inRow15Rows, IntRect(1472, 558, 368, 501)), * spriteAn_4_inRow_15Rows_4 = new Sprite(*AnFF4inRow15Rows, IntRect(1104, 0, 368, 596)),
+* spriteAn_4_inRow_15Rows_5 = new Sprite(*AnFF4inRow15Rows, IntRect(368, 0, 368, 691)), * spriteAn_4_inRow_15Rows_6 = new Sprite(*AnFF4inRow15Rows, IntRect(0, 0, 368, 786)),
+* spriteAn_4_inRow_15Rows_7 = new Sprite(*AnFF4inRow15Rows, IntRect(736, 0, 368, 672)), * spriteAn_4_inRow_15Rows_8 = new Sprite(*AnFF4inRow15Rows, IntRect(1472, 0, 368, 558)),
+* spriteAn_4_inRow_15Rows_9 = new Sprite(*AnFF4inRow15Rows, IntRect(1104, 596, 365, 441)), * spriteAn_4_inRow_15Rows_10 = new Sprite(*AnFF4inRow15Rows, IntRect(368, 691, 361, 323)),
+* spriteAn_4_inRow_16Rows_1 = new Sprite(*AnFF4inRow16Rows, IntRect(1101, 622, 360, 311)), * spriteAn_4_inRow_16Rows_2 = new Sprite(*AnFF4inRow16Rows, IntRect(736, 1096, 365, 416)),
+* spriteAn_4_inRow_16Rows_3 = new Sprite(*AnFF4inRow16Rows, IntRect(0, 1474, 368, 521)), * spriteAn_4_inRow_16Rows_4 = new Sprite(*AnFF4inRow16Rows, IntRect(736, 0, 368, 622)),
+* spriteAn_4_inRow_16Rows_5 = new Sprite(*AnFF4inRow16Rows, IntRect(368, 737, 368, 723)), * spriteAn_4_inRow_16Rows_6 = new Sprite(*AnFF4inRow16Rows, IntRect(0, 0, 368, 824)),
+* spriteAn_4_inRow_16Rows_7 = new Sprite(*AnFF4inRow16Rows, IntRect(368, 0, 368, 737)), * spriteAn_4_inRow_16Rows_8 = new Sprite(*AnFF4inRow16Rows, IntRect(0, 824, 368, 650)),
+* spriteAn_4_inRow_16Rows_9 = new Sprite(*AnFF4inRow16Rows, IntRect(368, 1460, 368, 564)), * spriteAn_4_inRow_16Rows_10 = new Sprite(*AnFF4inRow16Rows, IntRect(736, 622, 365, 474)),
+* spriteAn_4_inRow_16Rows_11 = new Sprite(*AnFF4inRow16Rows, IntRect(736, 1512, 365, 387)), * spriteAn_4_inRow_16Rows_12 = new Sprite(*AnFF4inRow16Rows, IntRect(1104, 0, 357, 292)),
+* spriteAn_4_inRow_17Rows_1 = new Sprite(*AnFF4inRow17Rows, IntRect(1104, 0, 361, 317)), * spriteAn_4_inRow_17Rows_2 = new Sprite(*AnFF4inRow17Rows, IntRect(736, 1432, 365, 428)),
+* spriteAn_4_inRow_17Rows_3 = new Sprite(*AnFF4inRow17Rows, IntRect(368, 1356, 368, 539)), * spriteAn_4_inRow_17Rows_4 = new Sprite(*AnFF4inRow17Rows, IntRect(0, 862, 368, 647)),
+* spriteAn_4_inRow_17Rows_5 = new Sprite(*AnFF4inRow17Rows, IntRect(736, 0, 368, 754)), * spriteAn_4_inRow_17Rows_6 = new Sprite(*AnFF4inRow17Rows, IntRect(0, 0, 368, 862)),
+* spriteAn_4_inRow_17Rows_7 = new Sprite(*AnFF4inRow17Rows, IntRect(368, 0, 368, 770)), * spriteAn_4_inRow_17Rows_8 = new Sprite(*AnFF4inRow17Rows, IntRect(736, 754, 368, 678)),
+* spriteAn_4_inRow_17Rows_9 = new Sprite(*AnFF4inRow17Rows, IntRect(368, 770, 368, 586)), * spriteAn_4_inRow_17Rows_10 = new Sprite(*AnFF4inRow17Rows, IntRect(0, 1509, 365, 490)),
+* spriteAn_4_inRow_17Rows_11 = new Sprite(*AnFF4inRow17Rows, IntRect(1101, 1432, 365, 398)), * spriteAn_4_inRow_17Rows_12 = new Sprite(*AnFF4inRow17Rows, IntRect(1104, 317, 357, 298)),
+* spriteAn_4_inRow_18Rows_1 = new Sprite(*AnFF4inRow18Rows, IntRect(1104, 0, 361, 323)), * spriteAn_4_inRow_18Rows_2 = new Sprite(*AnFF4inRow18Rows, IntRect(0, 1572, 365, 441)),
+* spriteAn_4_inRow_18Rows_3 = new Sprite(*AnFF4inRow18Rows, IntRect(368, 1409, 368, 558)), * spriteAn_4_inRow_18Rows_4 = new Sprite(*AnFF4inRow18Rows, IntRect(0, 900, 368, 672)),
+* spriteAn_4_inRow_18Rows_5 = new Sprite(*AnFF4inRow18Rows, IntRect(736, 0, 368, 786)), * spriteAn_4_inRow_18Rows_6 = new Sprite(*AnFF4inRow18Rows, IntRect(0, 0, 368, 900)),
+* spriteAn_4_inRow_18Rows_7 = new Sprite(*AnFF4inRow18Rows, IntRect(368, 0, 368, 802)), * spriteAn_4_inRow_18Rows_8 = new Sprite(*AnFF4inRow18Rows, IntRect(736, 786, 368, 705)),
+* spriteAn_4_inRow_18Rows_9 = new Sprite(*AnFF4inRow18Rows, IntRect(368, 802, 368, 607)), * spriteAn_4_inRow_18Rows_10 = new Sprite(*AnFF4inRow18Rows, IntRect(735, 1491, 365, 506)),
+* spriteAn_4_inRow_18Rows_11 = new Sprite(*AnFF4inRow18Rows, IntRect(1101, 1491, 365, 409)), * spriteAn_4_inRow_18Rows_12 = new Sprite(*AnFF4inRow18Rows, IntRect(1104, 323, 357, 303));
 
 //* sprite_loading_screen = new Sprite(*loading_screen_tex);
 
 	//sprite->setColor(Color(255, 255, 255, 255));//непрозрачность
+
+	
 
 	//Text
 	Font *font = LoadFontFromResource(IDR_JPEG2, "JPEG");
@@ -1631,6 +1148,7 @@ int main()
 	
 	//RenderWindow window(VideoMode(1920, 1080), "brick", /*Style::Close | Style::Titlebar |*/ Style::Fullscreen);
 	RenderWindow window(VideoMode().getFullscreenModes()[0], "Tetris", Style::None, *context);
+	//RenderWindow window(VideoMode(1280, 1024), "Tetris", Style::None, *context);
 	//RenderWindow window(VideoMode().getDesktopMode(), "Tetris", Style::None, *context);
 	//RenderWindow window(VideoMode(800, 600), "Tetris", Style::Titlebar, *context);
 
@@ -1650,14 +1168,14 @@ int main()
 	scalemark:
 	Vector2f fscale = factorOfScaleFn(window);
 	sprite_background->setScale(fscale);
-	sprite_table->setScale(fscale);
+	//sprite_table->setScale(fscale);
 	sprite_table2->setScale(fscale);
 	
 	
 	sprite->setScale(fscale);
 	sprite_myCursor->setScale(fscale);
 	sprite->scale(0.5, 0.5);//стандартное масштабирование
-	sprite_myCursor->scale(0.7, 0.7);//стандартное масштабирование
+	sprite_myCursor->scale(0.7f, 0.7f);//стандартное масштабирование
 
 	sprite_button_start_st1->setScale(fscale);
 	sprite_button_start_st2->setScale(fscale);
@@ -1955,7 +1473,7 @@ int main()
 	spriteAn_4lines_21->setScale(fscale);
 	spriteAn_4lines_22->setScale(fscale);
 
-	/*spriteAn_1_inRow_1Row_1->setScale(fscale);
+	spriteAn_1_inRow_1Row_1->setScale(fscale);
 	spriteAn_1_inRow_1Row_2->setScale(fscale);
 	spriteAn_1_inRow_2Rows_1->setScale(fscale);
 	spriteAn_1_inRow_2Rows_2->setScale(fscale);
@@ -2314,7 +1832,6 @@ int main()
 	spriteAn_3_inRow_18Rows_11->setScale(fscale);
 	spriteAn_3_inRow_18Rows_12->setScale(fscale);
 
-
 	spriteAn_4_inRow_1Row_1->setScale(fscale);
 	spriteAn_4_inRow_1Row_2->setScale(fscale);
 	spriteAn_4_inRow_2Rows_1->setScale(fscale);
@@ -2428,7 +1945,7 @@ int main()
 	spriteAn_4_inRow_17Rows_9->setScale(fscale);
 	spriteAn_4_inRow_17Rows_10->setScale(fscale);
 	spriteAn_4_inRow_17Rows_11->setScale(fscale);
-	spriteAn_4_inRow_17Rows_12->setScale(fscale);*/
+	spriteAn_4_inRow_17Rows_12->setScale(fscale);
 	spriteAn_4_inRow_18Rows_1->setScale(fscale);
 	spriteAn_4_inRow_18Rows_2->setScale(fscale);
 	spriteAn_4_inRow_18Rows_3->setScale(fscale);
@@ -2448,6 +1965,9 @@ int main()
 	//SetClassLong(window.getSystemHandle(), NULL, IDC_CURSOR1);
 	//SetCursor(LoadCursor(GetModuleHandle(NULL), MAKEINTRESOURCE(IDC_CURSOR2)));
 	window.setMouseCursorVisible(false);
+
+	sprite_table2->setPosition(Vector2f(770.f * fscale.x, 219.f * fscale.y));//установка позиции сетки
+
 	// Часы (таймер)
 	Clock clock;
 	srand(time(0));
@@ -2456,6 +1976,7 @@ int main()
 	//animation_1_line.restart();
 	while (window.isOpen())
 	{
+		window.clear();
 		//winPos = window.getPosition();
 		
 		/*int time_1_line = animation_1_line.getElapsedTime().asMilliseconds();
@@ -2466,7 +1987,8 @@ int main()
 		mousePosf.x = Mouse::getPosition(window).x;
 		mousePosf.y = Mouse::getPosition(window).y;
 		//sprite_myCursor->setPosition(mousePosf.x - 1317, mousePosf.y - 836); //default size
-		sprite_myCursor->setPosition(mousePosf.x - 921.9f * fscale.x, mousePosf.y - 585.2f * fscale.y);//позиция курсора
+		//sprite_myCursor->setPosition(mousePosf.x - 921.9f * fscale.x, mousePosf.y - 585.2f * fscale.y);//позиция курсора
+		sprite_myCursor->setPosition(mousePosf.x - 38 * fscale.x * 0.7f, mousePosf.y - 32 * fscale.y * 0.7f);//позиция курсора 0.7f это стандартноше масштабирование, поменять при надобности
 
 		//cout << timer << "     " << delay << endl << endl;
 		float time = clock.getElapsedTime().asSeconds();
@@ -2670,11 +2192,12 @@ int main()
 				}
 				else if (event.key.code == Keyboard::F2)
 				{
-					enableAnimation_fast_falling_4InRow_1Row = true;
+					enableAnimation_fast_falling_4InRow_18Rows = true;
 				}
 				else if (event.key.code == Keyboard::F3)
 				{
-					
+					//window.draw(*spriteAn_1_inRow_1Row_2);
+					//window.draw(*sprite_ays_yes1st);
 				}
 				else if (event.key.code == Keyboard::Space && check_bottomForSpace && !progressOfAnimationFF && !progressOfAnimationLines && !checkAus && !stopSpace && !pauseBreak)
 				{
@@ -3963,99 +3486,100 @@ int main()
 
 					//
 
-					//else if ((e[3].y - a[3].y == 1 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 1 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_1Row = true;
-					//}
+					else if ((e[3].y - a[3].y == 1 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 1 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_1Row = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 2 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 2 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_1Row = true;
-					//}
+					else if ((e[3].y - a[3].y == 2 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 2 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_1Row = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 3 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 3 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_2Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 3 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 3 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_2Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 4 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 4 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_3Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 4 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 4 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_3Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 5 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 5 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_4Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 5 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 5 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_4Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 6 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 6 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_5Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 6 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 6 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_5Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 7 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 7 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_6Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 7 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 7 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_6Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 8 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 8 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_7Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 8 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 8 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_7Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 9 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 9 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_8Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 9 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 9 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_8Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 10 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 10 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_9Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 10 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 10 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_9Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 11 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 11 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_10Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 11 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 11 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_10Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 12 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 12 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_11Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 12 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 12 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_11Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 13 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 13 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_12Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 13 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 13 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_12Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 14 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 14 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_13Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 14 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 14 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_13Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 15 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 15 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_14Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 15 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 15 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_14Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 16 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 16 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_15Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 16 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 16 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_15Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 17 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 17 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_16Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 17 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 17 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_16Rows = true;
+					}
 
-					//else if ((e[3].y - a[3].y == 18 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 18 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
-					//{
-					//enableAnimation_fast_falling_4InRow_17Rows = true;
-					//}
+					else if ((e[3].y - a[3].y == 18 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 18 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
+					{
+					enableAnimation_fast_falling_4InRow_17Rows = true;
+					}
 					else if ((e[3].y - a[3].y == 19 && typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0) || (e[3].y - a[3].y == 19 && typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2)))//I
 					{
 					enableAnimation_fast_falling_4InRow_18Rows = true;
 					}
+					
 					}
 					check_bottomForSpace = false;
 				}
@@ -4530,8 +4054,8 @@ int main()
 				}
 
 				cout << "numberOfWide :" << numberOfWide[0] << endl;
-				//cout << "numberOfNarrow :" << numberOfNarrow[0] << endl;
-				//cout << "===============================Beginning=================================" << endl;
+				cout << "numberOfNarrow :" << numberOfNarrow[0] << endl;
+				cout << "===============================Beginning=================================" << endl;
 				////cout << "Before" << endl;
 				for (int i = 0; i < 4; i++)
 				{
@@ -4874,7 +4398,7 @@ int main()
 
 		//----ОТРИСОВКА----//
 		//window.clear(Color::White);
-		window.clear();
+		//window.clear();
 		window.draw(*sprite_background);
 		window.draw(*sprite_left_frame);
 		window.draw(*sprite_right_frame);
@@ -6125,9 +5649,9 @@ int main()
 			}
 			else if (!enableAnimation1line && !enableAnimation2lines && !enableAnimation2lines_with_void && !enableAnimation3lines
 				&& !enableAnimation3lines_with_void && !enableAnimation4lines && !enableAnimation_fast_falling_3InRow_16Rows && !enableAnimation_fast_falling_1InRow_1Row &&
-				!enableAnimation_fast_falling_1InRow_2Rows && !enableAnimation_fast_falling_1InRow_3Rows && !enableAnimation_fast_falling_1InRow_4Rows && 
-				!enableAnimation_fast_falling_1InRow_5Rows && !enableAnimation_fast_falling_1InRow_6Rows && !enableAnimation_fast_falling_1InRow_7Rows &&
-				!enableAnimation_fast_falling_1InRow_8Rows && !enableAnimation_fast_falling_1InRow_9Rows && !enableAnimation_fast_falling_1InRow_10Rows &&
+				!enableAnimation_fast_falling_1InRow_2Rows && !enableAnimation_fast_falling_1InRow_3Rows && !enableAnimation_fast_falling_1InRow_4Rows  &&
+				!enableAnimation_fast_falling_1InRow_5Rows && !enableAnimation_fast_falling_1InRow_6Rows && !enableAnimation_fast_falling_1InRow_7Rows  &&
+				!enableAnimation_fast_falling_1InRow_8Rows && !enableAnimation_fast_falling_1InRow_9Rows  && !enableAnimation_fast_falling_1InRow_10Rows  &&
 				!enableAnimation_fast_falling_1InRow_11Rows && !enableAnimation_fast_falling_1InRow_12Rows && !enableAnimation_fast_falling_1InRow_13Rows &&
 				!enableAnimation_fast_falling_1InRow_14Rows && !enableAnimation_fast_falling_1InRow_15Rows && !enableAnimation_fast_falling_1InRow_16Rows &&
 				!enableAnimation_fast_falling_1InRow_17Rows && !enableAnimation_fast_falling_2InRow_1Row &&
@@ -6137,14 +5661,14 @@ int main()
 				!enableAnimation_fast_falling_2InRow_11Rows && !enableAnimation_fast_falling_2InRow_12Rows && !enableAnimation_fast_falling_2InRow_13Rows &&
 				!enableAnimation_fast_falling_2InRow_14Rows && !enableAnimation_fast_falling_2InRow_15Rows && !enableAnimation_fast_falling_2InRow_16Rows &&
 				!enableAnimation_fast_falling_2InRow_17Rows && !enableAnimation_fast_falling_3InRow_1Row &&
-				!enableAnimation_fast_falling_3InRow_2Rows && !enableAnimation_fast_falling_3InRow_3Rows && !enableAnimation_fast_falling_3InRow_4Rows &&
+				!enableAnimation_fast_falling_3InRow_2Rows && !enableAnimation_fast_falling_3InRow_3Rows  && !enableAnimation_fast_falling_3InRow_4Rows &&
 				!enableAnimation_fast_falling_3InRow_5Rows && !enableAnimation_fast_falling_3InRow_6Rows && !enableAnimation_fast_falling_3InRow_7Rows &&
 				!enableAnimation_fast_falling_3InRow_8Rows && !enableAnimation_fast_falling_3InRow_9Rows && !enableAnimation_fast_falling_3InRow_10Rows &&
 				!enableAnimation_fast_falling_3InRow_11Rows && !enableAnimation_fast_falling_3InRow_12Rows && !enableAnimation_fast_falling_3InRow_13Rows &&
 				!enableAnimation_fast_falling_3InRow_14Rows && !enableAnimation_fast_falling_3InRow_15Rows && !enableAnimation_fast_falling_3InRow_16Rows &&
 				!enableAnimation_fast_falling_3InRow_17Rows && !enableAnimation_fast_falling_3InRow_18Rows &&
 				!enableAnimation_fast_falling_4InRow_1Row &&
-				!enableAnimation_fast_falling_4InRow_2Rows && !enableAnimation_fast_falling_4InRow_3Rows && !enableAnimation_fast_falling_4InRow_4Rows &&
+				!enableAnimation_fast_falling_4InRow_2Rows && !enableAnimation_fast_falling_4InRow_3Rows  && !enableAnimation_fast_falling_4InRow_4Rows &&
 				!enableAnimation_fast_falling_4InRow_5Rows && !enableAnimation_fast_falling_4InRow_6Rows && !enableAnimation_fast_falling_4InRow_7Rows &&
 				!enableAnimation_fast_falling_4InRow_8Rows && !enableAnimation_fast_falling_4InRow_9Rows && !enableAnimation_fast_falling_4InRow_10Rows &&
 				!enableAnimation_fast_falling_4InRow_11Rows && !enableAnimation_fast_falling_4InRow_12Rows && !enableAnimation_fast_falling_4InRow_13Rows &&
@@ -6322,10 +5846,7 @@ int main()
 				spriteAn_1line_16, spriteAn_1line_17, spriteAn_1line_18, spriteAn_1line_19, spriteAn_1line_20, spriteAn_1line_21, spriteAn_1line_22, spriteAn_2lines_1, spriteAn_2lines_2, spriteAn_2lines_3, spriteAn_2lines_4, spriteAn_2lines_5, spriteAn_2lines_6, spriteAn_2lines_7,
 				spriteAn_2lines_8, spriteAn_2lines_9, spriteAn_2lines_10, spriteAn_2lines_11, spriteAn_2lines_12, spriteAn_2lines_13, spriteAn_2lines_14, spriteAn_2lines_15,
 				spriteAn_2lines_16, spriteAn_2lines_17, spriteAn_2lines_18, spriteAn_2lines_19, spriteAn_2lines_20, spriteAn_2lines_21, spriteAn_2lines_22, fscale);
-		/*if (enableAnimation_fast_falling_3InRow_16Rows)
-			animation_fast_falling_3InRow_16RowsFn(window, spriteAn_3_inRow_16Rows_1, spriteAn_3_inRow_16Rows_2, spriteAn_3_inRow_16Rows_3, spriteAn_3_inRow_16Rows_4,
-				spriteAn_3_inRow_16Rows_5, spriteAn_3_inRow_16Rows_6, spriteAn_3_inRow_16Rows_7, spriteAn_3_inRow_16Rows_8, spriteAn_3_inRow_16Rows_9,
-				spriteAn_3_inRow_16Rows_10, spriteAn_3_inRow_16Rows_11, spriteAn_3_inRow_16Rows_12, fscale);
+	
 		if (enableAnimation_fast_falling_1InRow_1Row)
 			animation_fast_falling_1InRow_1RowFn(window, spriteAn_1_inRow_1Row_1, spriteAn_1_inRow_1Row_2, fscale);
 		if (enableAnimation_fast_falling_1InRow_2Rows)
@@ -6439,11 +5960,15 @@ int main()
 			animation_fast_falling_3InRow_14RowsFn(window, spriteAn_3_inRow_14Rows_1, spriteAn_3_inRow_14Rows_2, spriteAn_3_inRow_14Rows_3, spriteAn_3_inRow_14Rows_4, spriteAn_3_inRow_14Rows_5, spriteAn_3_inRow_14Rows_6, spriteAn_3_inRow_14Rows_7, spriteAn_3_inRow_14Rows_8, spriteAn_3_inRow_14Rows_9, spriteAn_3_inRow_14Rows_10, fscale);
 		if (enableAnimation_fast_falling_3InRow_15Rows)
 			animation_fast_falling_3InRow_15RowsFn(window, spriteAn_3_inRow_15Rows_1, spriteAn_3_inRow_15Rows_2, spriteAn_3_inRow_15Rows_3, spriteAn_3_inRow_15Rows_4, spriteAn_3_inRow_15Rows_5, spriteAn_3_inRow_15Rows_6, spriteAn_3_inRow_15Rows_7, spriteAn_3_inRow_15Rows_8, spriteAn_3_inRow_15Rows_9, spriteAn_3_inRow_15Rows_10, fscale);
+		if (enableAnimation_fast_falling_3InRow_16Rows)
+			animation_fast_falling_3InRow_16RowsFn(window, spriteAn_3_inRow_16Rows_1, spriteAn_3_inRow_16Rows_2, spriteAn_3_inRow_16Rows_3, spriteAn_3_inRow_16Rows_4,
+				spriteAn_3_inRow_16Rows_5, spriteAn_3_inRow_16Rows_6, spriteAn_3_inRow_16Rows_7, spriteAn_3_inRow_16Rows_8, spriteAn_3_inRow_16Rows_9,
+				spriteAn_3_inRow_16Rows_10, spriteAn_3_inRow_16Rows_11, spriteAn_3_inRow_16Rows_12, fscale);
 		if (enableAnimation_fast_falling_3InRow_17Rows)
 			animation_fast_falling_3InRow_17RowsFn(window, spriteAn_3_inRow_17Rows_1, spriteAn_3_inRow_17Rows_2, spriteAn_3_inRow_17Rows_3, spriteAn_3_inRow_17Rows_4, spriteAn_3_inRow_17Rows_5, spriteAn_3_inRow_17Rows_6, spriteAn_3_inRow_17Rows_7, spriteAn_3_inRow_17Rows_8, spriteAn_3_inRow_17Rows_9, spriteAn_3_inRow_17Rows_10, spriteAn_3_inRow_17Rows_11, spriteAn_3_inRow_17Rows_12, fscale);
 		if (enableAnimation_fast_falling_3InRow_18Rows)
 			animation_fast_falling_3InRow_18RowsFn(window, spriteAn_3_inRow_18Rows_1, spriteAn_3_inRow_18Rows_2, spriteAn_3_inRow_18Rows_3, spriteAn_3_inRow_18Rows_4, spriteAn_3_inRow_18Rows_5, spriteAn_3_inRow_18Rows_6, spriteAn_3_inRow_18Rows_7, spriteAn_3_inRow_18Rows_8, spriteAn_3_inRow_18Rows_9, spriteAn_3_inRow_18Rows_10, spriteAn_3_inRow_18Rows_11, spriteAn_3_inRow_18Rows_12, fscale);
-		checkFullLineFn2(field);
+		//checkFullLineFn2(field); //хз для чего это тут
 
 		if (enableAnimation_fast_falling_4InRow_1Row)
 			animation_fast_falling_4InRow_1RowFn(window, spriteAn_4_inRow_1Row_1, spriteAn_4_inRow_1Row_2, fscale);
@@ -6478,7 +6003,7 @@ int main()
 		if (enableAnimation_fast_falling_4InRow_16Rows)
 			animation_fast_falling_4InRow_16RowsFn(window, spriteAn_4_inRow_16Rows_1, spriteAn_4_inRow_16Rows_2, spriteAn_4_inRow_16Rows_3, spriteAn_4_inRow_16Rows_4, spriteAn_4_inRow_16Rows_5, spriteAn_4_inRow_16Rows_6, spriteAn_4_inRow_16Rows_7, spriteAn_4_inRow_16Rows_8, spriteAn_4_inRow_16Rows_9, spriteAn_4_inRow_16Rows_10, spriteAn_4_inRow_16Rows_11, spriteAn_4_inRow_16Rows_12, fscale);
 		if (enableAnimation_fast_falling_4InRow_17Rows)
-			animation_fast_falling_4InRow_17RowsFn(window, spriteAn_4_inRow_17Rows_1, spriteAn_4_inRow_17Rows_2, spriteAn_4_inRow_17Rows_3, spriteAn_4_inRow_17Rows_4, spriteAn_4_inRow_17Rows_5, spriteAn_4_inRow_17Rows_6, spriteAn_4_inRow_17Rows_7, spriteAn_4_inRow_17Rows_8, spriteAn_4_inRow_17Rows_9, spriteAn_4_inRow_17Rows_10, spriteAn_4_inRow_17Rows_11, spriteAn_4_inRow_17Rows_12, fscale);*/
+			animation_fast_falling_4InRow_17RowsFn(window, spriteAn_4_inRow_17Rows_1, spriteAn_4_inRow_17Rows_2, spriteAn_4_inRow_17Rows_3, spriteAn_4_inRow_17Rows_4, spriteAn_4_inRow_17Rows_5, spriteAn_4_inRow_17Rows_6, spriteAn_4_inRow_17Rows_7, spriteAn_4_inRow_17Rows_8, spriteAn_4_inRow_17Rows_9, spriteAn_4_inRow_17Rows_10, spriteAn_4_inRow_17Rows_11, spriteAn_4_inRow_17Rows_12, fscale);
 		if (enableAnimation_fast_falling_4InRow_18Rows)
 			animation_fast_falling_4InRow_18RowsFn(window, spriteAn_4_inRow_18Rows_1, spriteAn_4_inRow_18Rows_2, spriteAn_4_inRow_18Rows_3, spriteAn_4_inRow_18Rows_4, spriteAn_4_inRow_18Rows_5, spriteAn_4_inRow_18Rows_6, spriteAn_4_inRow_18Rows_7, spriteAn_4_inRow_18Rows_8, spriteAn_4_inRow_18Rows_9, spriteAn_4_inRow_18Rows_10, spriteAn_4_inRow_18Rows_11, spriteAn_4_inRow_18Rows_12, fscale);
 		
@@ -6581,31 +6106,7 @@ Font *LoadFontFromResource(const unsigned short& ID, const char* type)
 		return font;
 }
 
-void fill_tetramino()
-{
-	 // задаём тип тетрамино
-	beginGame = false;
-	typeOfTetramino1 = rand() % 7;
-	typeOfTetramino1 = 0;
-	typeOfTetramino2 = 0;
-	typeOfTetramino2 = rand() % 7;
-	for (int i = 0; i < 4; i++)
-	{
-		a[i].x = figures[typeOfTetramino1][i] % 2;
-		a[i].y = figures[typeOfTetramino1][i] / 2;
-		e[i].x = figures[typeOfTetramino1][i] % 2;
-		e[i].y = figures[typeOfTetramino1][i] / 2;
-	}
-}
 
-void fill_tetramino2()
-{
-	for (int i = 0; i < 4; i++)
-	{
-		c[i].x = figures[typeOfTetramino2][i] % 2;
-		c[i].y = figures[typeOfTetramino2][i] / 2;
-	}
-}
 
 
 bool check()
@@ -6775,15 +6276,21 @@ void create_window_for_loading_screen(Sprite* scr, Sprite *Load)
 	ContextSettings* context = new ContextSettings(0, 0, 16); //antialliasing
 	//RenderWindow* loading_screen = new RenderWindow(VideoMode(1920, 1080), "Tetris", Style::Close | Style::Titlebar | Style::Fullscreen);
 	//RenderWindow* loading_screen = new RenderWindow(VideoMode(1920, 1080), "Tetris", Style::None);
-	RenderWindow* loading_screen = new RenderWindow(VideoMode().getDesktopMode(), "Tetris", Style::None, *context);
+	//RenderWindow* loading_screen = new RenderWindow(VideoMode(1280, 1024), "Tetris", Style::None, *context);
+	//RenderWindow* loading_screen = new RenderWindow(VideoMode().getDesktopMode(), "Tetris", Style::None, *context);
+	RenderWindow* loading_screen = new RenderWindow(VideoMode().getFullscreenModes()[0], "Tetris", Style::None, *context);
 	//SetForegroundWindow(loading_screen->getSystemHandle());//чтобы сделать окно активным
 	
 	loading_screen->setMouseCursorVisible(false);
 	loading_screen->setFramerateLimit(60);
+	Vector2f fScaleLS{ factorOfScaleFn(*loading_screen) };// фактор скалирования загрузочного экрана
+	Vector2f sprPos1{ 1612.f, 930.f };//позиция спрайта на экране в разрешении 1920х1080
 	
-	Load->setScale(factorOfScaleFn(*loading_screen));
-	Load->scale(0.7, 0.7);
-	Load->setPosition(600*factorOfScaleFn(*loading_screen).x, 350* factorOfScaleFn(*loading_screen).y);
+	Load->setScale(fScaleLS);
+	Load->setPosition(sprPos1.x * fScaleLS.x, sprPos1.y * fScaleLS.y);//установка позиции спрайта на экране в разрешениии 1920х1080
+	Load->scale(0.7f, 0.7f);
+	Load->move(120 * fScaleLS.x, 80 * fScaleLS.y);
+	
 
 	scr->setScale(factorOfScaleFn(*loading_screen));
 	
@@ -7381,6 +6888,6503 @@ void animation_3_lines_with_voidFn(RenderWindow& win, vector<USHORT>& vec, Sprit
 	}
 }
 
+void animation_fast_falling_1InRow_1RowFn(RenderWindow& win, Sprite* An_1_inRow_1Row_1, Sprite* An_1_inRow_1Row_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+	}
+
+	int time_ff_1InRow_1Row = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_1Row >= 0 && time_ff_1InRow_1Row < 16) win.draw(*An_1_inRow_1Row_1);
+	else if (time_ff_1InRow_1Row >= 16 && time_ff_1InRow_1Row < 32) win.draw(*An_1_inRow_1Row_2);
+	else if (time_ff_1InRow_1Row >= 32 && time_ff_1InRow_1Row < 48) /*if(checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_1Row = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_2RowsFn(RenderWindow& win, Sprite* An_1_inRow_2Rows_1, Sprite* An_1_inRow_2Rows_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+	}
+
+	int time_ff_1InRow_2Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_2Rows >= 0 && time_ff_1InRow_2Rows < 16) win.draw(*An_1_inRow_2Rows_1);
+	else if (time_ff_1InRow_2Rows >= 16 && time_ff_1InRow_2Rows < 32) win.draw(*An_1_inRow_2Rows_2);
+	else if (time_ff_1InRow_2Rows >= 32 && time_ff_1InRow_2Rows < 48)/* if (checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_2Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_3RowsFn(RenderWindow& win, Sprite* An_1_inRow_3Rows_1, Sprite* An_1_inRow_3Rows_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+	}
+
+	int time_ff_1InRow_3Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_3Rows >= 0 && time_ff_1InRow_3Rows < 16) win.draw(*An_1_inRow_3Rows_1);
+	else if (time_ff_1InRow_3Rows >= 16 && time_ff_1InRow_3Rows < 32) win.draw(*An_1_inRow_3Rows_2);
+	else if (time_ff_1InRow_3Rows >= 32 && time_ff_1InRow_3Rows < 48) /*if (checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_3Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_4RowsFn(RenderWindow& win, Sprite* An_1_inRow_4Rows_1, Sprite* An_1_inRow_4Rows_2, Sprite* An_1_inRow_4Rows_3, Sprite* An_1_inRow_4Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 76) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 76) * scale.y);
+	}
+
+	int time_ff_1InRow_4Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_4Rows >= 0 && time_ff_1InRow_4Rows < 16) win.draw(*An_1_inRow_4Rows_1);
+	else if (time_ff_1InRow_4Rows >= 16 && time_ff_1InRow_4Rows < 32) win.draw(*An_1_inRow_4Rows_2);
+	else if (time_ff_1InRow_4Rows >= 32 && time_ff_1InRow_4Rows < 48) win.draw(*An_1_inRow_4Rows_3);
+	else if (time_ff_1InRow_4Rows >= 48 && time_ff_1InRow_4Rows < 64)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_1_inRow_4Rows_4);
+	}
+	//else if (time_ff_1InRow_4Rows >= 64 && time_ff_1InRow_4Rows < 80) win.draw(*An_3_inRow_4Rows_4);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_4Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_5RowsFn(RenderWindow& win, Sprite* An_1_inRow_5Rows_1, Sprite* An_1_inRow_5Rows_2, Sprite* An_1_inRow_5Rows_3, Sprite* An_1_inRow_5Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 95) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 95) * scale.y);
+	}
+
+	int time_ff_1InRow_5Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_5Rows >= 0 && time_ff_1InRow_5Rows < 16) win.draw(*An_1_inRow_5Rows_1);
+	else if (time_ff_1InRow_5Rows >= 16 && time_ff_1InRow_5Rows < 32) win.draw(*An_1_inRow_5Rows_2);
+	else if (time_ff_1InRow_5Rows >= 32 && time_ff_1InRow_5Rows < 48) win.draw(*An_1_inRow_5Rows_3);
+	else if (time_ff_1InRow_5Rows >= 48 && time_ff_1InRow_5Rows < 64)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_1_inRow_5Rows_4);
+	}
+	//else if (time_ff_1InRow_5Rows >= 64 && time_ff_1InRow_5Rows < 80) win.draw(*An_3_inRow_4Rows_4);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_5Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_6RowsFn(RenderWindow& win, Sprite* An_1_inRow_6Rows_1, Sprite* An_1_inRow_6Rows_2, Sprite* An_1_inRow_6Rows_3, Sprite* An_1_inRow_6Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 114) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 114) * scale.y);
+	}
+
+	int time_ff_1InRow_6Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_6Rows >= 0 && time_ff_1InRow_6Rows < 16) win.draw(*An_1_inRow_6Rows_1);
+	else if (time_ff_1InRow_6Rows >= 16 && time_ff_1InRow_6Rows < 32) win.draw(*An_1_inRow_6Rows_2);
+	else if (time_ff_1InRow_6Rows >= 32 && time_ff_1InRow_6Rows < 48) win.draw(*An_1_inRow_6Rows_3);
+	else if (time_ff_1InRow_6Rows >= 48 && time_ff_1InRow_6Rows < 64)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_1_inRow_6Rows_4);
+	}
+	//else if (time_ff_1InRow_6Rows >= 64 && time_ff_1InRow_6Rows < 80) win.draw(*An_3_inRow_4Rows_4);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_6Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_7RowsFn(RenderWindow& win, Sprite* An_1_inRow_7Rows_1, Sprite* An_1_inRow_7Rows_2, Sprite* An_1_inRow_7Rows_3, Sprite* An_1_inRow_7Rows_4, Sprite* An_1_inRow_7Rows_5, Sprite* An_1_inRow_7Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 ) * scale.y);
+		An_1_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 89) * scale.y);
+		An_1_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 177) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 89) * scale.y);
+		An_1_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 177) * scale.y);
+	}
+
+	int time_ff_1InRow_7Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_7Rows >= 0 && time_ff_1InRow_7Rows < 16) win.draw(*An_1_inRow_7Rows_1);
+	else if (time_ff_1InRow_7Rows >= 16 && time_ff_1InRow_7Rows < 32) win.draw(*An_1_inRow_7Rows_2);
+	else if (time_ff_1InRow_7Rows >= 32 && time_ff_1InRow_7Rows < 48) win.draw(*An_1_inRow_7Rows_3);
+	else if (time_ff_1InRow_7Rows >= 48 && time_ff_1InRow_7Rows < 64) win.draw(*An_1_inRow_7Rows_4);
+	else if (time_ff_1InRow_7Rows >= 64 && time_ff_1InRow_7Rows < 80)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_1_inRow_7Rows_5);
+	}
+	else if (time_ff_1InRow_7Rows >= 80 && time_ff_1InRow_7Rows < 96) win.draw(*An_1_inRow_7Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_7Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_8RowsFn(RenderWindow& win, Sprite* An_1_inRow_8Rows_1, Sprite* An_1_inRow_8Rows_2, Sprite* An_1_inRow_8Rows_3, Sprite* An_1_inRow_8Rows_4, Sprite* An_1_inRow_8Rows_5, Sprite* An_1_inRow_8Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 90) * scale.y);
+		An_1_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 202) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 90) * scale.y);
+		An_1_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 202) * scale.y);
+	}
+
+	int time_ff_1InRow_8Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_8Rows >= 0 && time_ff_1InRow_8Rows < 16) win.draw(*An_1_inRow_8Rows_1);
+	else if (time_ff_1InRow_8Rows >= 16 && time_ff_1InRow_8Rows < 32) win.draw(*An_1_inRow_8Rows_2);
+	else if (time_ff_1InRow_8Rows >= 32 && time_ff_1InRow_8Rows < 48) win.draw(*An_1_inRow_8Rows_3);
+	else if (time_ff_1InRow_8Rows >= 48 && time_ff_1InRow_8Rows < 64) win.draw(*An_1_inRow_8Rows_4);
+	else if (time_ff_1InRow_8Rows >= 64 && time_ff_1InRow_8Rows < 80)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_1_inRow_8Rows_5);
+	}
+	else if (time_ff_1InRow_8Rows >= 80 && time_ff_1InRow_8Rows < 96) win.draw(*An_1_inRow_8Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_8Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_9RowsFn(RenderWindow& win, Sprite* An_1_inRow_9Rows_1, Sprite* An_1_inRow_9Rows_2, Sprite* An_1_inRow_9Rows_3, Sprite* An_1_inRow_9Rows_4, Sprite* An_1_inRow_9Rows_5, Sprite* An_1_inRow_9Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 114) * scale.y);
+		An_1_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 228) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 114) * scale.y);
+		An_1_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 228) * scale.y);
+	}
+
+	int time_ff_1InRow_9Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_9Rows >= 0 && time_ff_1InRow_9Rows < 16) win.draw(*An_1_inRow_9Rows_1);
+	else if (time_ff_1InRow_9Rows >= 16 && time_ff_1InRow_9Rows < 32) win.draw(*An_1_inRow_9Rows_2);
+	else if (time_ff_1InRow_9Rows >= 32 && time_ff_1InRow_9Rows < 48) win.draw(*An_1_inRow_9Rows_3);
+	else if (time_ff_1InRow_9Rows >= 48 && time_ff_1InRow_9Rows < 64) win.draw(*An_1_inRow_9Rows_4);
+	else if (time_ff_1InRow_9Rows >= 64 && time_ff_1InRow_9Rows < 80)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_1_inRow_9Rows_5);
+	}
+	else if (time_ff_1InRow_9Rows >= 80 && time_ff_1InRow_9Rows < 96) win.draw(*An_1_inRow_9Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_9Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_10RowsFn(RenderWindow& win, Sprite* An_1_inRow_10Rows_1, Sprite* An_1_inRow_10Rows_2, Sprite* An_1_inRow_10Rows_3, Sprite* An_1_inRow_10Rows_4, Sprite* An_1_inRow_10Rows_5, Sprite* An_1_inRow_10Rows_6, Sprite* An_1_inRow_10Rows_7, Sprite* An_1_inRow_10Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_1_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 95) * scale.y);
+		An_1_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 190) * scale.y);
+		An_1_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 285) * scale.y);
+
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 15) * scale.y);
+		An_1_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 95) * scale.y);
+		An_1_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 190) * scale.y);
+		An_1_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 285) * scale.y);
+
+	}
+
+	int time_ff_1InRow_10Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_10Rows >= 0 && time_ff_1InRow_10Rows < 16) win.draw(*An_1_inRow_10Rows_1);
+	else if (time_ff_1InRow_10Rows >= 16 && time_ff_1InRow_10Rows < 32) win.draw(*An_1_inRow_10Rows_2);
+	else if (time_ff_1InRow_10Rows >= 32 && time_ff_1InRow_10Rows < 48) win.draw(*An_1_inRow_10Rows_3);
+	else if (time_ff_1InRow_10Rows >= 48 && time_ff_1InRow_10Rows < 64) win.draw(*An_1_inRow_10Rows_4);
+	else if (time_ff_1InRow_10Rows >= 64 && time_ff_1InRow_10Rows < 80) win.draw(*An_1_inRow_10Rows_5);
+	else if (time_ff_1InRow_10Rows >= 80 && time_ff_1InRow_10Rows < 96) win.draw(*An_1_inRow_10Rows_6);
+	else if (time_ff_1InRow_10Rows >= 96 && time_ff_1InRow_10Rows < 112)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_1_inRow_10Rows_7);
+	}
+	else if (time_ff_1InRow_10Rows >= 112 && time_ff_1InRow_10Rows < 128) win.draw(*An_1_inRow_10Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_10Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_11RowsFn(RenderWindow& win, Sprite* An_1_inRow_11Rows_1, Sprite* An_1_inRow_11Rows_2, Sprite* An_1_inRow_11Rows_3, Sprite* An_1_inRow_11Rows_4, Sprite* An_1_inRow_11Rows_5, Sprite* An_1_inRow_11Rows_6, Sprite* An_1_inRow_11Rows_7, Sprite* An_1_inRow_11Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_1_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 104) * scale.y);
+		An_1_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 209) * scale.y);
+		An_1_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 313) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 15) * scale.y);
+		An_1_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 104) * scale.y);
+		An_1_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 209) * scale.y);
+		An_1_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 313) * scale.y);
+	}
+
+	int time_ff_1InRow_11Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_11Rows >= 0 && time_ff_1InRow_11Rows < 16) win.draw(*An_1_inRow_11Rows_1);
+	else if (time_ff_1InRow_11Rows >= 16 && time_ff_1InRow_11Rows < 32) win.draw(*An_1_inRow_11Rows_2);
+	else if (time_ff_1InRow_11Rows >= 32 && time_ff_1InRow_11Rows < 48) win.draw(*An_1_inRow_11Rows_3);
+	else if (time_ff_1InRow_11Rows >= 48 && time_ff_1InRow_11Rows < 64) win.draw(*An_1_inRow_11Rows_4);
+	else if (time_ff_1InRow_11Rows >= 64 && time_ff_1InRow_11Rows < 80) win.draw(*An_1_inRow_11Rows_5);
+	else if (time_ff_1InRow_11Rows >= 80 && time_ff_1InRow_11Rows < 96) win.draw(*An_1_inRow_11Rows_6);
+	else if (time_ff_1InRow_11Rows >= 96 && time_ff_1InRow_11Rows < 112)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_1_inRow_11Rows_7);
+	}
+	else if (time_ff_1InRow_11Rows >= 112 && time_ff_1InRow_11Rows < 128) win.draw(*An_1_inRow_11Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_11Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_12RowsFn(RenderWindow& win, Sprite* An_1_inRow_12Rows_1, Sprite* An_1_inRow_12Rows_2, Sprite* An_1_inRow_12Rows_3, Sprite* An_1_inRow_12Rows_4, Sprite* An_1_inRow_12Rows_5, Sprite* An_1_inRow_12Rows_6, Sprite* An_1_inRow_12Rows_7, Sprite* An_1_inRow_12Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_1_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 114) * scale.y);
+		An_1_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 228) * scale.y);
+		An_1_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 342) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 15) * scale.y);
+		An_1_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 114) * scale.y);
+		An_1_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 228) * scale.y);
+		An_1_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 342) * scale.y);
+	}
+
+	int time_ff_1InRow_12Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_12Rows >= 0 && time_ff_1InRow_12Rows < 16) win.draw(*An_1_inRow_12Rows_1);
+	else if (time_ff_1InRow_12Rows >= 16 && time_ff_1InRow_12Rows < 32) win.draw(*An_1_inRow_12Rows_2);
+	else if (time_ff_1InRow_12Rows >= 32 && time_ff_1InRow_12Rows < 48) win.draw(*An_1_inRow_12Rows_3);
+	else if (time_ff_1InRow_12Rows >= 48 && time_ff_1InRow_12Rows < 64) win.draw(*An_1_inRow_12Rows_4);
+	else if (time_ff_1InRow_12Rows >= 64 && time_ff_1InRow_12Rows < 80) win.draw(*An_1_inRow_12Rows_5);
+	else if (time_ff_1InRow_12Rows >= 80 && time_ff_1InRow_12Rows < 96) win.draw(*An_1_inRow_12Rows_6);
+	else if (time_ff_1InRow_12Rows >= 96 && time_ff_1InRow_12Rows < 112)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_1_inRow_12Rows_7);
+	}
+	else if (time_ff_1InRow_12Rows >= 112 && time_ff_1InRow_12Rows < 128) win.draw(*An_1_inRow_12Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_12Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_13RowsFn(RenderWindow& win, Sprite* An_1_inRow_13Rows_1, Sprite* An_1_inRow_13Rows_2, Sprite* An_1_inRow_13Rows_3, Sprite* An_1_inRow_13Rows_4, Sprite* An_1_inRow_13Rows_5, Sprite* An_1_inRow_13Rows_6, Sprite* An_1_inRow_13Rows_7, Sprite* An_1_inRow_13Rows_8, Sprite* An_1_inRow_13Rows_9, Sprite* An_1_inRow_13Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_1_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 99) * scale.y);
+		An_1_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 197) * scale.y);
+		An_1_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 296) * scale.y);
+		An_1_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 395) * scale.y);
+
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 15) * scale.y);
+		An_1_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 99) * scale.y);
+		An_1_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 197) * scale.y);
+		An_1_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 296) * scale.y);
+		An_1_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 15 + 395) * scale.y);
+
+	}
+
+	int time_ff_1InRow_13Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_13Rows >= 0 && time_ff_1InRow_13Rows < 16) win.draw(*An_1_inRow_13Rows_1);
+	else if (time_ff_1InRow_13Rows >= 16 && time_ff_1InRow_13Rows < 32) win.draw(*An_1_inRow_13Rows_2);
+	else if (time_ff_1InRow_13Rows >= 32 && time_ff_1InRow_13Rows < 48) win.draw(*An_1_inRow_13Rows_3);
+	else if (time_ff_1InRow_13Rows >= 48 && time_ff_1InRow_13Rows < 64) win.draw(*An_1_inRow_13Rows_4);
+	else if (time_ff_1InRow_13Rows >= 64 && time_ff_1InRow_13Rows < 80) win.draw(*An_1_inRow_13Rows_5);
+	else if (time_ff_1InRow_13Rows >= 80 && time_ff_1InRow_13Rows < 96) win.draw(*An_1_inRow_13Rows_6);
+	else if (time_ff_1InRow_13Rows >= 96 && time_ff_1InRow_13Rows < 112) win.draw(*An_1_inRow_13Rows_7);
+	else if (time_ff_1InRow_13Rows >= 112 && time_ff_1InRow_13Rows < 128) win.draw(*An_1_inRow_13Rows_8);
+	else if (time_ff_1InRow_13Rows >= 128 && time_ff_1InRow_13Rows < 144)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_1_inRow_13Rows_9);
+	}
+	else if (time_ff_1InRow_13Rows >= 144 && time_ff_1InRow_13Rows < 160) win.draw(*An_1_inRow_13Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_13Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_14RowsFn(RenderWindow& win, Sprite* An_1_inRow_14Rows_1, Sprite* An_1_inRow_14Rows_2, Sprite* An_1_inRow_14Rows_3, Sprite* An_1_inRow_14Rows_4, Sprite* An_1_inRow_14Rows_5, Sprite* An_1_inRow_14Rows_6, Sprite* An_1_inRow_14Rows_7, Sprite* An_1_inRow_14Rows_8, Sprite* An_1_inRow_14Rows_9, Sprite* An_1_inRow_14Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_1_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 106) * scale.y);
+		An_1_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 213) * scale.y);
+		An_1_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 319) * scale.y);
+		An_1_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 426) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 15) * scale.y);
+		An_1_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 106) * scale.y);
+		An_1_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 213) * scale.y);
+		An_1_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 319) * scale.y);
+		An_1_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 15 + 426) * scale.y);
+	}
+
+	int time_ff_1InRow_14Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_14Rows >= 0 && time_ff_1InRow_14Rows < 16) win.draw(*An_1_inRow_14Rows_1);
+	else if (time_ff_1InRow_14Rows >= 16 && time_ff_1InRow_14Rows < 32) win.draw(*An_1_inRow_14Rows_2);
+	else if (time_ff_1InRow_14Rows >= 32 && time_ff_1InRow_14Rows < 48) win.draw(*An_1_inRow_14Rows_3);
+	else if (time_ff_1InRow_14Rows >= 48 && time_ff_1InRow_14Rows < 64) win.draw(*An_1_inRow_14Rows_4);
+	else if (time_ff_1InRow_14Rows >= 64 && time_ff_1InRow_14Rows < 80) win.draw(*An_1_inRow_14Rows_5);
+	else if (time_ff_1InRow_14Rows >= 80 && time_ff_1InRow_14Rows < 96) win.draw(*An_1_inRow_14Rows_6);
+	else if (time_ff_1InRow_14Rows >= 96 && time_ff_1InRow_14Rows < 112) win.draw(*An_1_inRow_14Rows_7);
+	else if (time_ff_1InRow_14Rows >= 112 && time_ff_1InRow_14Rows < 128) win.draw(*An_1_inRow_14Rows_8);
+	else if (time_ff_1InRow_14Rows >= 128 && time_ff_1InRow_14Rows < 144)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_1_inRow_14Rows_9);
+	}
+	else if (time_ff_1InRow_14Rows >= 144 && time_ff_1InRow_14Rows < 160) win.draw(*An_1_inRow_14Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_14Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_15RowsFn(RenderWindow& win, Sprite* An_1_inRow_15Rows_1, Sprite* An_1_inRow_15Rows_2, Sprite* An_1_inRow_15Rows_3, Sprite* An_1_inRow_15Rows_4, Sprite* An_1_inRow_15Rows_5, Sprite* An_1_inRow_15Rows_6, Sprite* An_1_inRow_15Rows_7, Sprite* An_1_inRow_15Rows_8, Sprite* An_1_inRow_15Rows_9, Sprite* An_1_inRow_15Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_1_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 114) * scale.y);
+		An_1_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+		An_1_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 342) * scale.y);
+		An_1_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 456) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 15) * scale.y);
+		An_1_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 114) * scale.y);
+		An_1_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 228) * scale.y);
+		An_1_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 342) * scale.y);
+		An_1_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 15 + 456) * scale.y);
+	}
+
+	int time_ff_1InRow_15Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_15Rows >= 0 && time_ff_1InRow_15Rows < 16) win.draw(*An_1_inRow_15Rows_1);
+	else if (time_ff_1InRow_15Rows >= 16 && time_ff_1InRow_15Rows < 32) win.draw(*An_1_inRow_15Rows_2);
+	else if (time_ff_1InRow_15Rows >= 32 && time_ff_1InRow_15Rows < 48) win.draw(*An_1_inRow_15Rows_3);
+	else if (time_ff_1InRow_15Rows >= 48 && time_ff_1InRow_15Rows < 64) win.draw(*An_1_inRow_15Rows_4);
+	else if (time_ff_1InRow_15Rows >= 64 && time_ff_1InRow_15Rows < 80) win.draw(*An_1_inRow_15Rows_5);
+	else if (time_ff_1InRow_15Rows >= 80 && time_ff_1InRow_15Rows < 96) win.draw(*An_1_inRow_15Rows_6);
+	else if (time_ff_1InRow_15Rows >= 96 && time_ff_1InRow_15Rows < 112) win.draw(*An_1_inRow_15Rows_7);
+	else if (time_ff_1InRow_15Rows >= 112 && time_ff_1InRow_15Rows < 128) win.draw(*An_1_inRow_15Rows_8);
+	else if (time_ff_1InRow_15Rows >= 128 && time_ff_1InRow_15Rows < 144)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_1_inRow_15Rows_9);
+	}
+	else if (time_ff_1InRow_15Rows >= 144 && time_ff_1InRow_15Rows < 160) win.draw(*An_1_inRow_15Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_15Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+
+void animation_fast_falling_1InRow_16RowsFn(RenderWindow& win, Sprite* An_1_inRow_16Rows_1, Sprite* An_1_inRow_16Rows_2, Sprite* An_1_inRow_16Rows_3, Sprite* An_1_inRow_16Rows_4, Sprite* An_1_inRow_16Rows_5, Sprite* An_1_inRow_16Rows_6, Sprite* An_1_inRow_16Rows_7, Sprite* An_1_inRow_16Rows_8, Sprite* An_1_inRow_16Rows_9, Sprite* An_1_inRow_16Rows_10, Sprite* An_1_inRow_16Rows_11, Sprite* An_1_inRow_16Rows_12, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_1_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 87) * scale.y);
+		An_1_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 174) * scale.y);
+		An_1_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 260) * scale.y);
+		An_1_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 347) * scale.y);
+		An_1_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 434) * scale.y);
+		An_1_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38) * scale.x, (a[0].y * 38 + 941 - 101 - 38 * 18 + 521) * scale.y);
+
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 15) * scale.y);
+		An_1_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 87) * scale.y);
+		An_1_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 174) * scale.y);
+		An_1_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 260) * scale.y);
+		An_1_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 347) * scale.y);
+		An_1_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 434) * scale.y);
+		An_1_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38) * scale.x, (a[0].y * 38 + 941 - 101 - 38 * 15 + 521) * scale.y);
+
+	}
+
+
+
+	int time_ff_1InRow_16Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_16Rows >= 0 && time_ff_1InRow_16Rows < 16) win.draw(*An_1_inRow_16Rows_1);
+	else if (time_ff_1InRow_16Rows >= 16 && time_ff_1InRow_16Rows < 32) win.draw(*An_1_inRow_16Rows_2);
+	else if (time_ff_1InRow_16Rows >= 32 && time_ff_1InRow_16Rows < 48) win.draw(*An_1_inRow_16Rows_3);
+	else if (time_ff_1InRow_16Rows >= 48 && time_ff_1InRow_16Rows < 64) win.draw(*An_1_inRow_16Rows_4);
+	else if (time_ff_1InRow_16Rows >= 64 && time_ff_1InRow_16Rows < 80) win.draw(*An_1_inRow_16Rows_5);
+	else if (time_ff_1InRow_16Rows >= 80 && time_ff_1InRow_16Rows < 96) win.draw(*An_1_inRow_16Rows_6);
+	else if (time_ff_1InRow_16Rows >= 96 && time_ff_1InRow_16Rows < 112) win.draw(*An_1_inRow_16Rows_7);
+	else if (time_ff_1InRow_16Rows >= 112 && time_ff_1InRow_16Rows < 128) win.draw(*An_1_inRow_16Rows_8);
+	else if (time_ff_1InRow_16Rows >= 128 && time_ff_1InRow_16Rows < 144) win.draw(*An_1_inRow_16Rows_9);
+	else if (time_ff_1InRow_16Rows >= 144 && time_ff_1InRow_16Rows < 160)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_1_inRow_16Rows_10);
+	}
+	else if (time_ff_1InRow_16Rows >= 160 && time_ff_1InRow_16Rows < 176) win.draw(*An_1_inRow_16Rows_11);
+	else if (time_ff_1InRow_16Rows >= 176 && time_ff_1InRow_16Rows < 192) win.draw(*An_1_inRow_16Rows_12);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_16Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_1InRow_17RowsFn(RenderWindow& win, Sprite* An_1_inRow_17Rows_1, Sprite* An_1_inRow_17Rows_2, Sprite* An_1_inRow_17Rows_3, Sprite* An_1_inRow_17Rows_4, Sprite* An_1_inRow_17Rows_5, Sprite* An_1_inRow_17Rows_6, Sprite* An_1_inRow_17Rows_7, Sprite* An_1_inRow_17Rows_8, Sprite* An_1_inRow_17Rows_9, Sprite* An_1_inRow_17Rows_10, Sprite* An_1_inRow_17Rows_11, Sprite* An_1_inRow_17Rows_12, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_1_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_1_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_1_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_1_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 92) * scale.y);
+		An_1_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 184) * scale.y);
+		An_1_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 277) * scale.y);
+		An_1_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 369) * scale.y);
+		An_1_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 461) * scale.y);
+		An_1_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 101 - 38 * 18 + 553) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 0 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_1_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 15) * scale.y);
+		An_1_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15) * scale.y);
+		An_1_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15) * scale.y);
+		An_1_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 92) * scale.y);
+		An_1_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 184) * scale.y);
+		An_1_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 15 + 277) * scale.y);
+		An_1_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 369) * scale.y);
+		An_1_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 15 + 461) * scale.y);
+		An_1_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 101 - 38 * 15 + 553) * scale.y);
+	}
+
+	int time_ff_1InRow_17Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_1InRow_17Rows >= 0 && time_ff_1InRow_17Rows < 16) win.draw(*An_1_inRow_17Rows_1);
+	else if (time_ff_1InRow_17Rows >= 16 && time_ff_1InRow_17Rows < 32) win.draw(*An_1_inRow_17Rows_2);
+	else if (time_ff_1InRow_17Rows >= 32 && time_ff_1InRow_17Rows < 48) win.draw(*An_1_inRow_17Rows_3);
+	else if (time_ff_1InRow_17Rows >= 48 && time_ff_1InRow_17Rows < 64) win.draw(*An_1_inRow_17Rows_4);
+	else if (time_ff_1InRow_17Rows >= 64 && time_ff_1InRow_17Rows < 80) win.draw(*An_1_inRow_17Rows_5);
+	else if (time_ff_1InRow_17Rows >= 80 && time_ff_1InRow_17Rows < 96) win.draw(*An_1_inRow_17Rows_6);
+	else if (time_ff_1InRow_17Rows >= 96 && time_ff_1InRow_17Rows < 112) win.draw(*An_1_inRow_17Rows_7);
+	else if (time_ff_1InRow_17Rows >= 112 && time_ff_1InRow_17Rows < 128) win.draw(*An_1_inRow_17Rows_8);
+	else if (time_ff_1InRow_17Rows >= 128 && time_ff_1InRow_17Rows < 144) win.draw(*An_1_inRow_17Rows_9);
+	else if (time_ff_1InRow_17Rows >= 144 && time_ff_1InRow_17Rows < 160)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_1_inRow_17Rows_10);
+
+	}
+	else if (time_ff_1InRow_17Rows >= 160 && time_ff_1InRow_17Rows < 176) win.draw(*An_1_inRow_17Rows_11);
+	else if (time_ff_1InRow_17Rows >= 176 && time_ff_1InRow_17Rows < 192) win.draw(*An_1_inRow_17Rows_12);
+	else
+	{
+		afterAnimationFF = true;
+		check_space = false;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_1InRow_17Rows = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+
+void animation_fast_falling_2InRow_1RowFn(RenderWindow& win, Sprite* An_2_inRow_1Row_1, Sprite* An_2_inRow_1Row_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+
+		An_2_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	int time_ff_2InRow_1Row = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2InRow_1Row >= 0 && time_ff_2InRow_1Row < 16) win.draw(*An_2_inRow_1Row_1);
+	else if (time_ff_2InRow_1Row >= 16 && time_ff_2InRow_1Row < 32) win.draw(*An_2_inRow_1Row_2);
+	else if (time_ff_2InRow_1Row >= 32 && time_ff_2InRow_1Row < 48) /*if(checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_1Row = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_2RowsFn(RenderWindow& win, Sprite* An_2_inRow_2Rows_1, Sprite* An_2_inRow_2Rows_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+
+		An_2_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	int time_ff_2_inRow_2Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_2Rows >= 0 && time_ff_2_inRow_2Rows < 16) win.draw(*An_2_inRow_2Rows_1);
+	else if (time_ff_2_inRow_2Rows >= 16 && time_ff_2_inRow_2Rows < 32) win.draw(*An_2_inRow_2Rows_2);
+	else if (time_ff_2_inRow_2Rows >= 32 && time_ff_2_inRow_2Rows < 48) /*if(checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_2Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_3RowsFn(RenderWindow& win, Sprite* An_2_inRow_3Rows_1, Sprite* An_2_inRow_3Rows_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+
+		An_2_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	int time_ff_2_inRow_3Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_3Rows >= 0 && time_ff_2_inRow_3Rows < 16) win.draw(*An_2_inRow_3Rows_1);
+	else if (time_ff_2_inRow_3Rows >= 16 && time_ff_2_inRow_3Rows < 32) win.draw(*An_2_inRow_3Rows_2);
+	else if (time_ff_2_inRow_3Rows >= 32 && time_ff_2_inRow_3Rows < 48) /*if(checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_3Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_4RowsFn(RenderWindow& win, Sprite* An_2_inRow_4Rows_1, Sprite* An_2_inRow_4Rows_2, Sprite* An_2_inRow_4Rows_3, Sprite* An_2_inRow_4Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+
+		An_2_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 76) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 76) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 76) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 76) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 76) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 76) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 76) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 76) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 76) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 76) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 76) * scale.y);
+	}
+
+	int time_ff_2_inRow_4Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_4Rows >= 0 && time_ff_2_inRow_4Rows < 16) win.draw(*An_2_inRow_4Rows_1);
+	else if (time_ff_2_inRow_4Rows >= 16 && time_ff_2_inRow_4Rows < 32) win.draw(*An_2_inRow_4Rows_2);
+	else if (time_ff_2_inRow_4Rows >= 32 && time_ff_2_inRow_4Rows < 48) win.draw(*An_2_inRow_4Rows_3);
+	else if (time_ff_2_inRow_4Rows >= 48 && time_ff_2_inRow_4Rows < 64)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_2_inRow_4Rows_4);
+	}
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_4Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_5RowsFn(RenderWindow& win, Sprite* An_2_inRow_5Rows_1, Sprite* An_2_inRow_5Rows_2, Sprite* An_2_inRow_5Rows_3, Sprite* An_2_inRow_5Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+
+		An_2_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 95) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 95) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 95) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 95) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 95) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 95) * scale.y);
+	}
+
+	int time_ff_2_inRow_5Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_5Rows >= 0 && time_ff_2_inRow_5Rows < 16) win.draw(*An_2_inRow_5Rows_1);
+	else if (time_ff_2_inRow_5Rows >= 16 && time_ff_2_inRow_5Rows < 32) win.draw(*An_2_inRow_5Rows_2);
+	else if (time_ff_2_inRow_5Rows >= 32 && time_ff_2_inRow_5Rows < 48) win.draw(*An_2_inRow_5Rows_3);
+	else if (time_ff_2_inRow_5Rows >= 48 && time_ff_2_inRow_5Rows < 64)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_2_inRow_5Rows_4);
+	}
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_5Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_6RowsFn(RenderWindow& win, Sprite* An_2_inRow_6Rows_1, Sprite* An_2_inRow_6Rows_2, Sprite* An_2_inRow_6Rows_3, Sprite* An_2_inRow_6Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+
+		An_2_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 114) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 114) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+	}
+
+	int time_ff_2_inRow_6Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_6Rows >= 0 && time_ff_2_inRow_6Rows < 16) win.draw(*An_2_inRow_6Rows_1);
+	else if (time_ff_2_inRow_6Rows >= 16 && time_ff_2_inRow_6Rows < 32) win.draw(*An_2_inRow_6Rows_2);
+	else if (time_ff_2_inRow_6Rows >= 32 && time_ff_2_inRow_6Rows < 48) win.draw(*An_2_inRow_6Rows_3);
+	else if (time_ff_2_inRow_6Rows >= 48 && time_ff_2_inRow_6Rows < 64)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_2_inRow_6Rows_4);
+	}
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_6Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+
+void animation_fast_falling_2InRow_7RowsFn(RenderWindow& win, Sprite* An_2_inRow_7Rows_1, Sprite* An_2_inRow_7Rows_2, Sprite* An_2_inRow_7Rows_3, Sprite* An_2_inRow_7Rows_4, Sprite* An_2_inRow_7Rows_5, Sprite* An_2_inRow_7Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+
+		An_2_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 ) * scale.y);
+		An_2_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 89) * scale.y);
+		An_2_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 177) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 ) * scale.y);
+		An_2_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 89) * scale.y);
+		An_2_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 177) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 89) * scale.y);
+		An_2_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 177) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 89) * scale.y);
+		An_2_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 177) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 89) * scale.y);
+		An_2_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 177) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 89) * scale.y);
+		An_2_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 177) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 89) * scale.y);
+		An_2_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 177) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 89) * scale.y);
+		An_2_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 177) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 89) * scale.y);
+		An_2_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 177) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 89) * scale.y);
+		An_2_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 177) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 89) * scale.y);
+		An_2_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 177) * scale.y);
+	}
+
+	int time_ff_2_inRow_7Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_7Rows >= 0 && time_ff_2_inRow_7Rows < 16) win.draw(*An_2_inRow_7Rows_1);
+	else if (time_ff_2_inRow_7Rows >= 16 && time_ff_2_inRow_7Rows < 32) win.draw(*An_2_inRow_7Rows_2);
+	else if (time_ff_2_inRow_7Rows >= 32 && time_ff_2_inRow_7Rows < 48) win.draw(*An_2_inRow_7Rows_3);
+	else if (time_ff_2_inRow_7Rows >= 48 && time_ff_2_inRow_7Rows < 64) win.draw(*An_2_inRow_7Rows_4);
+	else if (time_ff_2_inRow_7Rows >= 64 && time_ff_2_inRow_7Rows < 80)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_2_inRow_7Rows_5);
+	}
+	else if (time_ff_2_inRow_7Rows >= 80 && time_ff_2_inRow_7Rows < 96) win.draw(*An_2_inRow_7Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_7Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_8RowsFn(RenderWindow& win, Sprite* An_2_inRow_8Rows_1, Sprite* An_2_inRow_8Rows_2, Sprite* An_2_inRow_8Rows_3, Sprite* An_2_inRow_8Rows_4, Sprite* An_2_inRow_8Rows_5, Sprite* An_2_inRow_8Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+
+		An_2_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 101) * scale.y);
+		An_2_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 202) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 101) * scale.y);
+		An_2_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 202) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 101) * scale.y);
+		An_2_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 202) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 101) * scale.y);
+		An_2_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 202) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 101) * scale.y);
+		An_2_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 202) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 101) * scale.y);
+		An_2_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 202) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 101) * scale.y);
+		An_2_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 202) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 101) * scale.y);
+		An_2_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 202) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 101) * scale.y);
+		An_2_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 202) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 101) * scale.y);
+		An_2_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 202) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 101) * scale.y);
+		An_2_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 202) * scale.y);
+	}
+
+	int time_ff_2_inRow_8Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_8Rows >= 0 && time_ff_2_inRow_8Rows < 16) win.draw(*An_2_inRow_8Rows_1);
+	else if (time_ff_2_inRow_8Rows >= 16 && time_ff_2_inRow_8Rows < 32) win.draw(*An_2_inRow_8Rows_2);
+	else if (time_ff_2_inRow_8Rows >= 32 && time_ff_2_inRow_8Rows < 48) win.draw(*An_2_inRow_8Rows_3);
+	else if (time_ff_2_inRow_8Rows >= 48 && time_ff_2_inRow_8Rows < 64) win.draw(*An_2_inRow_8Rows_4);
+	else if (time_ff_2_inRow_8Rows >= 64 && time_ff_2_inRow_8Rows < 80)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_2_inRow_8Rows_5);
+	}
+	else if (time_ff_2_inRow_8Rows >= 80 && time_ff_2_inRow_8Rows < 96) win.draw(*An_2_inRow_8Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_8Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_9RowsFn(RenderWindow& win, Sprite* An_2_inRow_9Rows_1, Sprite* An_2_inRow_9Rows_2, Sprite* An_2_inRow_9Rows_3, Sprite* An_2_inRow_9Rows_4, Sprite* An_2_inRow_9Rows_5, Sprite* An_2_inRow_9Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_2_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 228) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 228) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_2_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 228) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 228) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 228) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_2_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 228) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_2_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 228) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_2_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 228) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 114) * scale.y);
+		An_2_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 228) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 114) * scale.y);
+		An_2_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 228) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 228) * scale.y);
+	}
+
+	int time_ff_2_inRow_9Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_9Rows >= 0 && time_ff_2_inRow_9Rows < 16) win.draw(*An_2_inRow_9Rows_1);
+	else if (time_ff_2_inRow_9Rows >= 16 && time_ff_2_inRow_9Rows < 32) win.draw(*An_2_inRow_9Rows_2);
+	else if (time_ff_2_inRow_9Rows >= 32 && time_ff_2_inRow_9Rows < 48) win.draw(*An_2_inRow_9Rows_3);
+	else if (time_ff_2_inRow_9Rows >= 48 && time_ff_2_inRow_9Rows < 64) win.draw(*An_2_inRow_9Rows_4);
+	else if (time_ff_2_inRow_9Rows >= 64 && time_ff_2_inRow_9Rows < 80)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_2_inRow_9Rows_5);
+	}
+	else if (time_ff_2_inRow_9Rows >= 80 && time_ff_2_inRow_9Rows < 96) win.draw(*An_2_inRow_9Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_9Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_10RowsFn(RenderWindow& win, Sprite* An_2_inRow_10Rows_1, Sprite* An_2_inRow_10Rows_2, Sprite* An_2_inRow_10Rows_3, Sprite* An_2_inRow_10Rows_4, Sprite* An_2_inRow_10Rows_5, Sprite* An_2_inRow_10Rows_6, Sprite* An_2_inRow_10Rows_7, Sprite* An_2_inRow_10Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95) * scale.y);
+		An_2_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 190) * scale.y);
+		An_2_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 285) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 95) * scale.y);
+		An_2_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 190) * scale.y);
+		An_2_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 285) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95) * scale.y);
+		An_2_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 190) * scale.y);
+		An_2_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 285) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 95) * scale.y);
+		An_2_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 190) * scale.y);
+		An_2_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 285) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 95) * scale.y);
+		An_2_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 190) * scale.y);
+		An_2_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 285) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95) * scale.y);
+		An_2_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 190) * scale.y);
+		An_2_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 285) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+		An_2_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 190) * scale.y);
+		An_2_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 285) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+		An_2_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 190) * scale.y);
+		An_2_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 285) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 16) * scale.y);
+		An_2_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 95) * scale.y);
+		An_2_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 190) * scale.y);
+		An_2_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 285) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 20) * scale.y);
+		An_2_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 95)* scale.y);
+		An_2_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 190) * scale.y);
+		An_2_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 285) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 95) * scale.y);
+		An_2_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 190) * scale.y);
+		An_2_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 285) * scale.y);
+	}
+
+	int time_ff_2_inRow_10Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_10Rows >= 0 && time_ff_2_inRow_10Rows < 16) win.draw(*An_2_inRow_10Rows_1);
+	else if (time_ff_2_inRow_10Rows >= 16 && time_ff_2_inRow_10Rows < 32) win.draw(*An_2_inRow_10Rows_2);
+	else if (time_ff_2_inRow_10Rows >= 32 && time_ff_2_inRow_10Rows < 48) win.draw(*An_2_inRow_10Rows_3);
+	else if (time_ff_2_inRow_10Rows >= 48 && time_ff_2_inRow_10Rows < 64) win.draw(*An_2_inRow_10Rows_4);
+	else if (time_ff_2_inRow_10Rows >= 64 && time_ff_2_inRow_10Rows < 80) win.draw(*An_2_inRow_10Rows_5);
+	else if (time_ff_2_inRow_10Rows >= 80 && time_ff_2_inRow_10Rows < 96) win.draw(*An_2_inRow_10Rows_6);
+	else if (time_ff_2_inRow_10Rows >= 96 && time_ff_2_inRow_10Rows < 112)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_2_inRow_10Rows_7);
+	}
+	else if (time_ff_2_inRow_10Rows >= 112 && time_ff_2_inRow_10Rows < 128) win.draw(*An_2_inRow_10Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_10Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_11RowsFn(RenderWindow& win, Sprite* An_2_inRow_11Rows_1, Sprite* An_2_inRow_11Rows_2, Sprite* An_2_inRow_11Rows_3, Sprite* An_2_inRow_11Rows_4, Sprite* An_2_inRow_11Rows_5, Sprite* An_2_inRow_11Rows_6, Sprite* An_2_inRow_11Rows_7, Sprite* An_2_inRow_11Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 104) * scale.y);
+		An_2_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 209) * scale.y);
+		An_2_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 313) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 104) * scale.y);
+		An_2_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 209) * scale.y);
+		An_2_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 313) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 104) * scale.y);
+		An_2_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 209) * scale.y);
+		An_2_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 313) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 104) * scale.y);
+		An_2_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 209) * scale.y);
+		An_2_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 313) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 104) * scale.y);
+		An_2_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 209) * scale.y);
+		An_2_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 313) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 104) * scale.y);
+		An_2_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 209) * scale.y);
+		An_2_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 313) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 104) * scale.y);
+		An_2_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 209) * scale.y);
+		An_2_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 313) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 104) * scale.y);
+		An_2_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 209) * scale.y);
+		An_2_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 313) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 16) * scale.y);
+		An_2_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 104) * scale.y);
+		An_2_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 209) * scale.y);
+		An_2_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 313) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 20) * scale.y);
+		An_2_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 104) * scale.y);
+		An_2_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 209) * scale.y);
+		An_2_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 313) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 104) * scale.y);
+		An_2_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 209) * scale.y);
+		An_2_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 313) * scale.y);
+	}
+
+	int time_ff_2_inRow_11Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_11Rows >= 0 && time_ff_2_inRow_11Rows < 16) win.draw(*An_2_inRow_11Rows_1);
+	else if (time_ff_2_inRow_11Rows >= 16 && time_ff_2_inRow_11Rows < 32) win.draw(*An_2_inRow_11Rows_2);
+	else if (time_ff_2_inRow_11Rows >= 32 && time_ff_2_inRow_11Rows < 48) win.draw(*An_2_inRow_11Rows_3);
+	else if (time_ff_2_inRow_11Rows >= 48 && time_ff_2_inRow_11Rows < 64) win.draw(*An_2_inRow_11Rows_4);
+	else if (time_ff_2_inRow_11Rows >= 64 && time_ff_2_inRow_11Rows < 80) win.draw(*An_2_inRow_11Rows_5);
+	else if (time_ff_2_inRow_11Rows >= 80 && time_ff_2_inRow_11Rows < 96) win.draw(*An_2_inRow_11Rows_6);
+	else if (time_ff_2_inRow_11Rows >= 96 && time_ff_2_inRow_11Rows < 112)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_2_inRow_11Rows_7);
+	}
+	else if (time_ff_2_inRow_11Rows >= 112 && time_ff_2_inRow_11Rows < 128) win.draw(*An_2_inRow_11Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_11Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_12RowsFn(RenderWindow& win, Sprite* An_2_inRow_12Rows_1, Sprite* An_2_inRow_12Rows_2, Sprite* An_2_inRow_12Rows_3, Sprite* An_2_inRow_12Rows_4, Sprite* An_2_inRow_12Rows_5, Sprite* An_2_inRow_12Rows_6, Sprite* An_2_inRow_12Rows_7, Sprite* An_2_inRow_12Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_2_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 228) * scale.y);
+		An_2_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 342) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 228) * scale.y);
+		An_2_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 342) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_2_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 228) * scale.y);
+		An_2_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 342) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 228) * scale.y);
+		An_2_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 342) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 228) * scale.y);
+		An_2_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 342) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_2_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 228) * scale.y);
+		An_2_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 342) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_2_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 228) * scale.y);
+		An_2_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 342) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_2_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 228) * scale.y);
+		An_2_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 342) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 16) * scale.y);
+		An_2_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 114) * scale.y);
+		An_2_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 228) * scale.y);
+		An_2_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 342) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 20) * scale.y);
+		An_2_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 114) * scale.y);
+		An_2_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 228) * scale.y);
+		An_2_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 342) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 228) * scale.y);
+		An_2_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 342) * scale.y);
+	}
+
+	int time_ff_2_inRow_12Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_12Rows >= 0 && time_ff_2_inRow_12Rows < 16) win.draw(*An_2_inRow_12Rows_1);
+	else if (time_ff_2_inRow_12Rows >= 16 && time_ff_2_inRow_12Rows < 32) win.draw(*An_2_inRow_12Rows_2);
+	else if (time_ff_2_inRow_12Rows >= 32 && time_ff_2_inRow_12Rows < 48) win.draw(*An_2_inRow_12Rows_3);
+	else if (time_ff_2_inRow_12Rows >= 48 && time_ff_2_inRow_12Rows < 64) win.draw(*An_2_inRow_12Rows_4);
+	else if (time_ff_2_inRow_12Rows >= 64 && time_ff_2_inRow_12Rows < 80) win.draw(*An_2_inRow_12Rows_5);
+	else if (time_ff_2_inRow_12Rows >= 80 && time_ff_2_inRow_12Rows < 96) win.draw(*An_2_inRow_12Rows_6);
+	else if (time_ff_2_inRow_12Rows >= 96 && time_ff_2_inRow_12Rows < 112)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_2_inRow_12Rows_7);
+	}
+	else if (time_ff_2_inRow_12Rows >= 112 && time_ff_2_inRow_12Rows < 128) win.draw(*An_2_inRow_12Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_12Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_13RowsFn(RenderWindow& win, Sprite* An_2_inRow_13Rows_1, Sprite* An_2_inRow_13Rows_2, Sprite* An_2_inRow_13Rows_3, Sprite* An_2_inRow_13Rows_4, Sprite* An_2_inRow_13Rows_5, Sprite* An_2_inRow_13Rows_6, Sprite* An_2_inRow_13Rows_7, Sprite* An_2_inRow_13Rows_8, Sprite* An_2_inRow_13Rows_9, Sprite* An_2_inRow_13Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 99) * scale.y);
+		An_2_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 197) * scale.y);
+		An_2_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 296) * scale.y);
+		An_2_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19 + 395) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 99) * scale.y);
+		An_2_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 197) * scale.y);
+		An_2_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 296) * scale.y);
+		An_2_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 395) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 99) * scale.y);
+		An_2_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 197) * scale.y);
+		An_2_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 296) * scale.y);
+		An_2_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19 + 395) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 99) * scale.y);
+		An_2_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 197) * scale.y);
+		An_2_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 296) * scale.y);
+		An_2_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 395) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 99) * scale.y);
+		An_2_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 197) * scale.y);
+		An_2_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 296) * scale.y);
+		An_2_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 395) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 99) * scale.y);
+		An_2_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 197) * scale.y);
+		An_2_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 296) * scale.y);
+		An_2_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19 + 395) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 99) * scale.y);
+		An_2_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 197) * scale.y);
+		An_2_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 296) * scale.y);
+		An_2_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18 + 395) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 99) * scale.y);
+		An_2_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 197)* scale.y);
+		An_2_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 296)* scale.y);
+		An_2_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18 + 395) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 16) * scale.y);
+		An_2_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 99) * scale.y);
+		An_2_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 197)* scale.y);
+		An_2_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 296)* scale.y);
+		An_2_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 16 + 395) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 20) * scale.y);
+		An_2_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 99) * scale.y);
+		An_2_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38)* scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 197)* scale.y);
+		An_2_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 296)* scale.y);
+		An_2_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 20 + 395) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 99) * scale.y);
+		An_2_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 197)* scale.y);
+		An_2_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 296)* scale.y);
+		An_2_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 395) * scale.y);
+	}
+
+	int time_ff_2_inRow_13Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_13Rows >= 0 && time_ff_2_inRow_13Rows < 16) win.draw(*An_2_inRow_13Rows_1);
+	else if (time_ff_2_inRow_13Rows >= 16 && time_ff_2_inRow_13Rows < 32) win.draw(*An_2_inRow_13Rows_2);
+	else if (time_ff_2_inRow_13Rows >= 32 && time_ff_2_inRow_13Rows < 48) win.draw(*An_2_inRow_13Rows_3);
+	else if (time_ff_2_inRow_13Rows >= 48 && time_ff_2_inRow_13Rows < 64) win.draw(*An_2_inRow_13Rows_4);
+	else if (time_ff_2_inRow_13Rows >= 64 && time_ff_2_inRow_13Rows < 80) win.draw(*An_2_inRow_13Rows_5);
+	else if (time_ff_2_inRow_13Rows >= 80 && time_ff_2_inRow_13Rows < 96) win.draw(*An_2_inRow_13Rows_6);
+	else if (time_ff_2_inRow_13Rows >= 96 && time_ff_2_inRow_13Rows < 112) win.draw(*An_2_inRow_13Rows_7);
+	else if (time_ff_2_inRow_13Rows >= 112 && time_ff_2_inRow_13Rows < 128) win.draw(*An_2_inRow_13Rows_8);
+	else if (time_ff_2_inRow_13Rows >= 128 && time_ff_2_inRow_13Rows < 144)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_2_inRow_13Rows_9);
+	}
+	else if (time_ff_2_inRow_13Rows >= 144 && time_ff_2_inRow_13Rows < 160) win.draw(*An_2_inRow_13Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_13Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_14RowsFn(RenderWindow& win, Sprite* An_2_inRow_14Rows_1, Sprite* An_2_inRow_14Rows_2, Sprite* An_2_inRow_14Rows_3, Sprite* An_2_inRow_14Rows_4, Sprite* An_2_inRow_14Rows_5, Sprite* An_2_inRow_14Rows_6, Sprite* An_2_inRow_14Rows_7, Sprite* An_2_inRow_14Rows_8, Sprite* An_2_inRow_14Rows_9, Sprite* An_2_inRow_14Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 106) * scale.y);
+		An_2_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 213) * scale.y);
+		An_2_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 319) * scale.y);
+		An_2_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19 + 425) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 106) * scale.y);
+		An_2_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 213) * scale.y);
+		An_2_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 319) * scale.y);
+		An_2_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 425) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 106) * scale.y);
+		An_2_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 213) * scale.y);
+		An_2_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 319) * scale.y);
+		An_2_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19 + 425) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 106) * scale.y);
+		An_2_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 213) * scale.y);
+		An_2_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 319) * scale.y);
+		An_2_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 425) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 106) * scale.y);
+		An_2_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 213) * scale.y);
+		An_2_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 319) * scale.y);
+		An_2_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 425) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 106) * scale.y);
+		An_2_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 213) * scale.y);
+		An_2_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 319) * scale.y);
+		An_2_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19 + 425) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 106) * scale.y);
+		An_2_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 213) * scale.y);
+		An_2_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 319) * scale.y);
+		An_2_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18 + 425) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 106) * scale.y);
+		An_2_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 213) * scale.y);
+		An_2_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 319) * scale.y);
+		An_2_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18 + 425) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 16) * scale.y);
+		An_2_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 106) * scale.y);
+		An_2_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 213) * scale.y);
+		An_2_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 319) * scale.y);
+		An_2_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 16 + 425) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 20) * scale.y);
+		An_2_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 106) * scale.y);
+		An_2_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 213) * scale.y);
+		An_2_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 319) * scale.y);
+		An_2_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 20 + 425) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 106) * scale.y);
+		An_2_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 213) * scale.y);
+		An_2_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 319) * scale.y);
+		An_2_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 425) * scale.y);
+	}
+
+	int time_ff_2_inRow_14Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_14Rows >= 0 && time_ff_2_inRow_14Rows < 16) win.draw(*An_2_inRow_14Rows_1);
+	else if (time_ff_2_inRow_14Rows >= 16 && time_ff_2_inRow_14Rows < 32) win.draw(*An_2_inRow_14Rows_2);
+	else if (time_ff_2_inRow_14Rows >= 32 && time_ff_2_inRow_14Rows < 48) win.draw(*An_2_inRow_14Rows_3);
+	else if (time_ff_2_inRow_14Rows >= 48 && time_ff_2_inRow_14Rows < 64) win.draw(*An_2_inRow_14Rows_4);
+	else if (time_ff_2_inRow_14Rows >= 64 && time_ff_2_inRow_14Rows < 80) win.draw(*An_2_inRow_14Rows_5);
+	else if (time_ff_2_inRow_14Rows >= 80 && time_ff_2_inRow_14Rows < 96) win.draw(*An_2_inRow_14Rows_6);
+	else if (time_ff_2_inRow_14Rows >= 96 && time_ff_2_inRow_14Rows < 112) win.draw(*An_2_inRow_14Rows_7);
+	else if (time_ff_2_inRow_14Rows >= 112 && time_ff_2_inRow_14Rows < 128) win.draw(*An_2_inRow_14Rows_8);
+	else if (time_ff_2_inRow_14Rows >= 128 && time_ff_2_inRow_14Rows < 144)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_2_inRow_14Rows_9);
+	}
+	else if (time_ff_2_inRow_14Rows >= 144 && time_ff_2_inRow_14Rows < 160) win.draw(*An_2_inRow_14Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_14Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_15RowsFn(RenderWindow& win, Sprite* An_2_inRow_15Rows_1, Sprite* An_2_inRow_15Rows_2, Sprite* An_2_inRow_15Rows_3, Sprite* An_2_inRow_15Rows_4, Sprite* An_2_inRow_15Rows_5, Sprite* An_2_inRow_15Rows_6, Sprite* An_2_inRow_15Rows_7, Sprite* An_2_inRow_15Rows_8, Sprite* An_2_inRow_15Rows_9, Sprite* An_2_inRow_15Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_2_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 228) * scale.y);
+		An_2_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 342) * scale.y);
+		An_2_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19 + 456) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 228) * scale.y);
+		An_2_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 342) * scale.y);
+		An_2_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 456) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_2_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 228) * scale.y);
+		An_2_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 342) * scale.y);
+		An_2_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19 + 456) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 228) * scale.y);
+		An_2_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 342) * scale.y);
+		An_2_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 456) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 228) * scale.y);
+		An_2_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 342) * scale.y);
+		An_2_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 456) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_2_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 228) * scale.y);
+		An_2_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 342) * scale.y);
+		An_2_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19 + 456) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_2_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 228) * scale.y);
+		An_2_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 342) * scale.y);
+		An_2_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18 + 456) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_2_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 228) * scale.y);
+		An_2_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 342) * scale.y);
+		An_2_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18 + 456) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 16) * scale.y);
+		An_2_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 114) * scale.y);
+		An_2_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 228) * scale.y);
+		An_2_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 342) * scale.y);
+		An_2_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 16 + 456) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 20) * scale.y);
+		An_2_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 114) * scale.y);
+		An_2_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 228) * scale.y);
+		An_2_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 342) * scale.y);
+		An_2_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 20 + 456) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_2_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 228) * scale.y);
+		An_2_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 342) * scale.y);
+		An_2_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17 + 456) * scale.y);
+	}
+
+	int time_ff_2_inRow_15Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_15Rows >= 0 && time_ff_2_inRow_15Rows < 16) win.draw(*An_2_inRow_15Rows_1);
+	else if (time_ff_2_inRow_15Rows >= 16 && time_ff_2_inRow_15Rows < 32) win.draw(*An_2_inRow_15Rows_2);
+	else if (time_ff_2_inRow_15Rows >= 32 && time_ff_2_inRow_15Rows < 48) win.draw(*An_2_inRow_15Rows_3);
+	else if (time_ff_2_inRow_15Rows >= 48 && time_ff_2_inRow_15Rows < 64) win.draw(*An_2_inRow_15Rows_4);
+	else if (time_ff_2_inRow_15Rows >= 64 && time_ff_2_inRow_15Rows < 80) win.draw(*An_2_inRow_15Rows_5);
+	else if (time_ff_2_inRow_15Rows >= 80 && time_ff_2_inRow_15Rows < 96) win.draw(*An_2_inRow_15Rows_6);
+	else if (time_ff_2_inRow_15Rows >= 96 && time_ff_2_inRow_15Rows < 112) win.draw(*An_2_inRow_15Rows_7);
+	else if (time_ff_2_inRow_15Rows >= 112 && time_ff_2_inRow_15Rows < 128) win.draw(*An_2_inRow_15Rows_8);
+	else if (time_ff_2_inRow_15Rows >= 128 && time_ff_2_inRow_15Rows < 144)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_2_inRow_15Rows_9);
+	}
+	else if (time_ff_2_inRow_15Rows >= 144 && time_ff_2_inRow_15Rows < 160) win.draw(*An_2_inRow_15Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_15Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_16RowsFn(RenderWindow& win, Sprite* An_2_inRow_16Rows_1, Sprite* An_2_inRow_16Rows_2, Sprite* An_2_inRow_16Rows_3, Sprite* An_2_inRow_16Rows_4, Sprite* An_2_inRow_16Rows_5, Sprite* An_2_inRow_16Rows_6, Sprite* An_2_inRow_16Rows_7, Sprite* An_2_inRow_16Rows_8, Sprite* An_2_inRow_16Rows_9, Sprite* An_2_inRow_16Rows_10, Sprite* An_2_inRow_16Rows_11, Sprite* An_2_inRow_16Rows_12, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 87) * scale.y);
+		An_2_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 174) * scale.y);
+		An_2_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 261) * scale.y);
+		An_2_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 348) * scale.y);
+		An_2_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 435) * scale.y);
+		An_2_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 19 + 522) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 1 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 87) * scale.y);
+		An_2_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 174) * scale.y);
+		An_2_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 261) * scale.y);
+		An_2_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 348) * scale.y);
+		An_2_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 435) * scale.y);
+		An_2_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 17 + 522) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 87) * scale.y);
+		An_2_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 174) * scale.y);
+		An_2_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 261) * scale.y);
+		An_2_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 348) * scale.y);
+		An_2_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 435) * scale.y);
+		An_2_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 19 + 522) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 2 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 87) * scale.y);
+		An_2_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 174) * scale.y);
+		An_2_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 261) * scale.y);
+		An_2_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 348) * scale.y);
+		An_2_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 435) * scale.y);
+		An_2_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 17 + 522) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 87) * scale.y);
+		An_2_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 174) * scale.y);
+		An_2_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 261) * scale.y);
+		An_2_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 348) * scale.y);
+		An_2_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 435) * scale.y);
+		An_2_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 17 + 522) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 87) * scale.y);
+		An_2_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 174) * scale.y);
+		An_2_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 261) * scale.y);
+		An_2_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 348) * scale.y);
+		An_2_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 435) * scale.y);
+		An_2_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 19 + 522) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 87) * scale.y);
+		An_2_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 174) * scale.y);
+		An_2_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 261) * scale.y);
+		An_2_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 348)* scale.y);
+		An_2_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 435)* scale.y);
+		An_2_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 18 + 522) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 87) * scale.y);
+		An_2_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 174) * scale.y);
+		An_2_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 261) * scale.y);
+		An_2_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 348)* scale.y);
+		An_2_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 435)* scale.y);
+		An_2_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 18 + 522) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 16) * scale.y);
+		An_2_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 87) * scale.y);
+		An_2_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 174) * scale.y);
+		An_2_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 261) * scale.y);
+		An_2_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 348)* scale.y);
+		An_2_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 435)* scale.y);
+		An_2_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 16 + 522) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 20) * scale.y);
+		An_2_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 87) * scale.y);
+		An_2_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 174) * scale.y);
+		An_2_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 261) * scale.y);
+		An_2_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 348)* scale.y);
+		An_2_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 435)* scale.y);
+		An_2_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 20 + 522) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 6)
+	{
+		An_2_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 87) * scale.y);
+		An_2_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 174) * scale.y);
+		An_2_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 261) * scale.y);
+		An_2_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 348)* scale.y);
+		An_2_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2)* scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 435)* scale.y);
+		An_2_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 17 + 522) * scale.y);
+	}
+
+	int time_ff_2_inRow_16Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_16Rows >= 0 && time_ff_2_inRow_16Rows < 16) win.draw(*An_2_inRow_16Rows_1);
+	else if (time_ff_2_inRow_16Rows >= 16 && time_ff_2_inRow_16Rows < 32) win.draw(*An_2_inRow_16Rows_2);
+	else if (time_ff_2_inRow_16Rows >= 32 && time_ff_2_inRow_16Rows < 48) win.draw(*An_2_inRow_16Rows_3);
+	else if (time_ff_2_inRow_16Rows >= 48 && time_ff_2_inRow_16Rows < 64) win.draw(*An_2_inRow_16Rows_4);
+	else if (time_ff_2_inRow_16Rows >= 64 && time_ff_2_inRow_16Rows < 80) win.draw(*An_2_inRow_16Rows_5);
+	else if (time_ff_2_inRow_16Rows >= 80 && time_ff_2_inRow_16Rows < 96) win.draw(*An_2_inRow_16Rows_6);
+	else if (time_ff_2_inRow_16Rows >= 96 && time_ff_2_inRow_16Rows < 112) win.draw(*An_2_inRow_16Rows_7);
+	else if (time_ff_2_inRow_16Rows >= 112 && time_ff_2_inRow_16Rows < 128) win.draw(*An_2_inRow_16Rows_8);
+	else if (time_ff_2_inRow_16Rows >= 128 && time_ff_2_inRow_16Rows < 144) win.draw(*An_2_inRow_16Rows_9);
+	else if (time_ff_2_inRow_16Rows >= 144 && time_ff_2_inRow_16Rows < 160)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_2_inRow_16Rows_10);
+	}
+	else if (time_ff_2_inRow_16Rows >= 160 && time_ff_2_inRow_16Rows < 176) win.draw(*An_2_inRow_16Rows_11);
+	else if (time_ff_2_inRow_16Rows >= 176 && time_ff_2_inRow_16Rows < 192) win.draw(*An_2_inRow_16Rows_12);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_16Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_2InRow_17RowsFn(RenderWindow& win, Sprite* An_2_inRow_17Rows_1, Sprite* An_2_inRow_17Rows_2, Sprite* An_2_inRow_17Rows_3, Sprite* An_2_inRow_17Rows_4, Sprite* An_2_inRow_17Rows_5, Sprite* An_2_inRow_17Rows_6, Sprite* An_2_inRow_17Rows_7, Sprite* An_2_inRow_17Rows_8, Sprite* An_2_inRow_17Rows_9, Sprite* An_2_inRow_17Rows_10, Sprite* An_2_inRow_17Rows_11, Sprite* An_2_inRow_17Rows_12, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+
+	if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 17) * scale.y);
+		An_2_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17) * scale.y);
+		An_2_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_2_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 92) * scale.y);
+		An_2_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 184) * scale.y);
+		An_2_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 277) * scale.y);
+		An_2_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 369) * scale.y);
+		An_2_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 17 + 461) * scale.y);
+		An_2_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 17 + 553) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 3 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 19) * scale.y);
+		An_2_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19) * scale.y);
+		An_2_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_2_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 92) * scale.y);
+		An_2_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 184) * scale.y);
+		An_2_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 277) * scale.y);
+		An_2_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 369) * scale.y);
+		An_2_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 19 + 461) * scale.y);
+		An_2_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 19 + 553) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 92) * scale.y);
+		An_2_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 184) * scale.y);
+		An_2_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 277) * scale.y);
+		An_2_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 369) * scale.y);
+		An_2_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 461) * scale.y);
+		An_2_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 18 + 553) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 4 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_2_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 92) * scale.y);
+		An_2_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 184) * scale.y);
+		An_2_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 277) * scale.y);
+		An_2_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 369) * scale.y);
+		An_2_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 18 + 461) * scale.y);
+		An_2_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 18 + 553) * scale.y);
+	}
+
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && (numberOfNarrow[0] % 4 == 2 || numberOfNarrow[0] % 4 == -2))
+	{
+		An_2_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 16) * scale.y);
+		An_2_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16) * scale.y);
+		An_2_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16) * scale.y);
+		An_2_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 92) * scale.y);
+		An_2_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 184) * scale.y);
+		An_2_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 16 + 277) * scale.y);
+		An_2_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 369) * scale.y);
+		An_2_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 16 + 461) * scale.y);
+		An_2_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38 * 2) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 16 + 553) * scale.y);
+	}
+	else if ((numberOfWide[0] % 2 == 1 || numberOfWide[0] % 2 == -1) && typeOfTetramino1 == 5 && numberOfNarrow[0] % 4 == 0)
+	{
+		An_2_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 104 - 38 * 20) * scale.y);
+		An_2_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20) * scale.y);
+		An_2_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20) * scale.y);
+		An_2_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 92) * scale.y);
+		An_2_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 184) * scale.y);
+		An_2_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 20 + 277) * scale.y);
+		An_2_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 369) * scale.y);
+		An_2_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 106 - 38 * 20 + 461) * scale.y);
+		An_2_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 102 - 38) * scale.x, (a[0].y * 38 + 941 - 102 - 38 * 20 + 553) * scale.y);
+	}
+
+	int time_ff_2_inRow_17Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_2_inRow_17Rows >= 0 && time_ff_2_inRow_17Rows < 16) win.draw(*An_2_inRow_17Rows_1);
+	else if (time_ff_2_inRow_17Rows >= 16 && time_ff_2_inRow_17Rows < 32) win.draw(*An_2_inRow_17Rows_2);
+	else if (time_ff_2_inRow_17Rows >= 32 && time_ff_2_inRow_17Rows < 48) win.draw(*An_2_inRow_17Rows_3);
+	else if (time_ff_2_inRow_17Rows >= 48 && time_ff_2_inRow_17Rows < 64) win.draw(*An_2_inRow_17Rows_4);
+	else if (time_ff_2_inRow_17Rows >= 64 && time_ff_2_inRow_17Rows < 80) win.draw(*An_2_inRow_17Rows_5);
+	else if (time_ff_2_inRow_17Rows >= 80 && time_ff_2_inRow_17Rows < 96) win.draw(*An_2_inRow_17Rows_6);
+	else if (time_ff_2_inRow_17Rows >= 96 && time_ff_2_inRow_17Rows < 112) win.draw(*An_2_inRow_17Rows_7);
+	else if (time_ff_2_inRow_17Rows >= 112 && time_ff_2_inRow_17Rows < 128) win.draw(*An_2_inRow_17Rows_8);
+	else if (time_ff_2_inRow_17Rows >= 128 && time_ff_2_inRow_17Rows < 144) win.draw(*An_2_inRow_17Rows_9);
+	else if (time_ff_2_inRow_17Rows >= 144 && time_ff_2_inRow_17Rows < 160)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_2_inRow_17Rows_10);
+	}
+	else if (time_ff_2_inRow_17Rows >= 160 && time_ff_2_inRow_17Rows < 176) win.draw(*An_2_inRow_17Rows_11);
+	else if (time_ff_2_inRow_17Rows >= 176 && time_ff_2_inRow_17Rows < 192) win.draw(*An_2_inRow_17Rows_12);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_2InRow_17Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_1RowFn(RenderWindow& win, Sprite* An_3_inRow_1Row_1, Sprite* An_3_inRow_1Row_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	int time_ff_3InRow_1Row = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_1Row >= 0 && time_ff_3InRow_1Row < 16) win.draw(*An_3_inRow_1Row_1);
+	else if (time_ff_3InRow_1Row >= 16 && time_ff_3InRow_1Row < 32) win.draw(*An_3_inRow_1Row_2);
+	else if (time_ff_3InRow_1Row >= 32 && time_ff_3InRow_1Row < 48) /*if(checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_1Row = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_2RowsFn(RenderWindow& win, Sprite* An_3_inRow_2Rows_1, Sprite* An_3_inRow_2Rows_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	int time_ff_3InRow_2Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_2Rows >= 0 && time_ff_3InRow_2Rows < 16) win.draw(*An_3_inRow_2Rows_1);
+	else if (time_ff_3InRow_2Rows >= 16 && time_ff_3InRow_2Rows < 32) win.draw(*An_3_inRow_2Rows_2);
+	else if (time_ff_3InRow_2Rows >= 32 && time_ff_3InRow_2Rows < 48) /*if(checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_2Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_3RowsFn(RenderWindow& win, Sprite* An_3_inRow_3Rows_1, Sprite* An_3_inRow_3Rows_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	int time_ff_3InRow_3Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_3Rows >= 0 && time_ff_3InRow_3Rows < 16) win.draw(*An_3_inRow_3Rows_1);
+	else if (time_ff_3InRow_3Rows >= 16 && time_ff_3InRow_3Rows < 32) win.draw(*An_3_inRow_3Rows_2);
+	else if (time_ff_3InRow_3Rows >= 32 && time_ff_3InRow_3Rows < 48) /*if(checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_3Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_4RowsFn(RenderWindow& win, Sprite* An_3_inRow_4Rows_1, Sprite* An_3_inRow_4Rows_2, Sprite* An_3_inRow_4Rows_3, Sprite* An_3_inRow_4Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 76) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 76) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 76) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 76) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 76) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 76) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 76) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 76) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 76) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 76) * scale.y);
+	}
+
+	int time_ff_3InRow_4Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_4Rows >= 0 && time_ff_3InRow_4Rows < 16) win.draw(*An_3_inRow_4Rows_1);
+	else if (time_ff_3InRow_4Rows >= 16 && time_ff_3InRow_4Rows < 32) win.draw(*An_3_inRow_4Rows_2);
+	else if (time_ff_3InRow_4Rows >= 32 && time_ff_3InRow_4Rows < 48) win.draw(*An_3_inRow_4Rows_3);
+	else if (time_ff_3InRow_4Rows >= 48 && time_ff_3InRow_4Rows < 64)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_3_inRow_4Rows_4);
+	}
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_4Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_5RowsFn(RenderWindow& win, Sprite* An_3_inRow_5Rows_1, Sprite* An_3_inRow_5Rows_2, Sprite* An_3_inRow_5Rows_3, Sprite* An_3_inRow_5Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 95) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+	}
+
+	int time_ff_3InRow_5Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_5Rows >= 0 && time_ff_3InRow_5Rows < 16) win.draw(*An_3_inRow_5Rows_1);
+	else if (time_ff_3InRow_5Rows >= 16 && time_ff_3InRow_5Rows < 32) win.draw(*An_3_inRow_5Rows_2);
+	else if (time_ff_3InRow_5Rows >= 32 && time_ff_3InRow_5Rows < 48) win.draw(*An_3_inRow_5Rows_3);
+	else if (time_ff_3InRow_5Rows >= 48 && time_ff_3InRow_5Rows < 64)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_3_inRow_5Rows_4);
+	}
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_5Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_6RowsFn(RenderWindow& win, Sprite* An_3_inRow_6Rows_1, Sprite* An_3_inRow_6Rows_2, Sprite* An_3_inRow_6Rows_3, Sprite* An_3_inRow_6Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+	}
+
+	int time_ff_3InRow_6Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_6Rows >= 0 && time_ff_3InRow_6Rows < 16) win.draw(*An_3_inRow_6Rows_1);
+	else if (time_ff_3InRow_6Rows >= 16 && time_ff_3InRow_6Rows < 32) win.draw(*An_3_inRow_6Rows_2);
+	else if (time_ff_3InRow_6Rows >= 32 && time_ff_3InRow_6Rows < 48) win.draw(*An_3_inRow_6Rows_3);
+	else if (time_ff_3InRow_6Rows >= 48 && time_ff_3InRow_6Rows < 64)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_3_inRow_6Rows_4);
+	}
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_6Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_7RowsFn(RenderWindow& win, Sprite* An_3_inRow_7Rows_1, Sprite* An_3_inRow_7Rows_2, Sprite* An_3_inRow_7Rows_3, Sprite* An_3_inRow_7Rows_4, Sprite* An_3_inRow_7Rows_5, Sprite* An_3_inRow_7Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 ) * scale.y);
+		An_3_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 89) * scale.y);
+		An_3_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 177) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 89) * scale.y);
+		An_3_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 177) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 89) * scale.y);
+		An_3_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 177) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 89) * scale.y);
+		An_3_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 177) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 89) * scale.y);
+		An_3_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 177) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 89) * scale.y);
+		An_3_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 177) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 89) * scale.y);
+		An_3_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 177) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 ) * scale.y);
+		An_3_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 89) * scale.y);
+		An_3_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 177) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 89) * scale.y);
+		An_3_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 177) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 89) * scale.y);
+		An_3_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 177) * scale.y);
+	}
+
+	int time_ff_3InRow_7Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_7Rows >= 0 && time_ff_3InRow_7Rows < 16) win.draw(*An_3_inRow_7Rows_1);
+	else if (time_ff_3InRow_7Rows >= 16 && time_ff_3InRow_7Rows < 32) win.draw(*An_3_inRow_7Rows_2);
+	else if (time_ff_3InRow_7Rows >= 32 && time_ff_3InRow_7Rows < 48) win.draw(*An_3_inRow_7Rows_3);
+	else if (time_ff_3InRow_7Rows >= 48 && time_ff_3InRow_7Rows < 64) win.draw(*An_3_inRow_7Rows_4);
+	else if (time_ff_3InRow_7Rows >= 64 && time_ff_3InRow_7Rows < 80)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_3_inRow_7Rows_5);
+	}
+	else if (time_ff_3InRow_7Rows >= 80 && time_ff_3InRow_7Rows < 96) win.draw(*An_3_inRow_7Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_7Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_8RowsFn(RenderWindow& win, Sprite* An_3_inRow_8Rows_1, Sprite* An_3_inRow_8Rows_2, Sprite* An_3_inRow_8Rows_3, Sprite* An_3_inRow_8Rows_4, Sprite* An_3_inRow_8Rows_5, Sprite* An_3_inRow_8Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 102) * scale.y);
+		An_3_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 203) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 102) * scale.y);
+		An_3_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 203) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 102) * scale.y);
+		An_3_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 203) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 102) * scale.y);
+		An_3_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 203) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 102) * scale.y);
+		An_3_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 203) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 102) * scale.y);
+		An_3_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 203) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 102) * scale.y);
+		An_3_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 203) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 102) * scale.y);
+		An_3_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 203) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 102) * scale.y);
+		An_3_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 203) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 102) * scale.y);
+		An_3_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 203) * scale.y);
+	}
+
+	int time_ff_3InRow_8Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_8Rows >= 0 && time_ff_3InRow_8Rows < 16) win.draw(*An_3_inRow_8Rows_1);
+	else if (time_ff_3InRow_8Rows >= 16 && time_ff_3InRow_8Rows < 32) win.draw(*An_3_inRow_8Rows_2);
+	else if (time_ff_3InRow_8Rows >= 32 && time_ff_3InRow_8Rows < 48) win.draw(*An_3_inRow_8Rows_3);
+	else if (time_ff_3InRow_8Rows >= 48 && time_ff_3InRow_8Rows < 64) win.draw(*An_3_inRow_8Rows_4);
+	else if (time_ff_3InRow_8Rows >= 64 && time_ff_3InRow_8Rows < 80)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_3_inRow_8Rows_5);
+	}
+	else if (time_ff_3InRow_8Rows >= 80 && time_ff_3InRow_8Rows < 96) win.draw(*An_3_inRow_8Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_8Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_9RowsFn(RenderWindow& win, Sprite* An_3_inRow_9Rows_1, Sprite* An_3_inRow_9Rows_2, Sprite* An_3_inRow_9Rows_3, Sprite* An_3_inRow_9Rows_4, Sprite* An_3_inRow_9Rows_5, Sprite* An_3_inRow_9Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_3_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 228) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_3_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 228) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_3_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 228) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_3_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 228) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+	}
+
+	int time_ff_3InRow_9Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_9Rows >= 0 && time_ff_3InRow_9Rows < 16) win.draw(*An_3_inRow_9Rows_1);
+	else if (time_ff_3InRow_9Rows >= 16 && time_ff_3InRow_9Rows < 32) win.draw(*An_3_inRow_9Rows_2);
+	else if (time_ff_3InRow_9Rows >= 32 && time_ff_3InRow_9Rows < 48) win.draw(*An_3_inRow_9Rows_3);
+	else if (time_ff_3InRow_9Rows >= 48 && time_ff_3InRow_9Rows < 64) win.draw(*An_3_inRow_9Rows_4);
+	else if (time_ff_3InRow_9Rows >= 64 && time_ff_3InRow_9Rows < 80)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_3_inRow_9Rows_5);
+	}
+	else if (time_ff_3InRow_9Rows >= 80 && time_ff_3InRow_9Rows < 96) win.draw(*An_3_inRow_9Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_9Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_10RowsFn(RenderWindow& win, Sprite* An_3_inRow_10Rows_1, Sprite* An_3_inRow_10Rows_2, Sprite* An_3_inRow_10Rows_3, Sprite* An_3_inRow_10Rows_4, Sprite* An_3_inRow_10Rows_5, Sprite* An_3_inRow_10Rows_6, Sprite* An_3_inRow_10Rows_7, Sprite* An_3_inRow_10Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95) * scale.y);
+		An_3_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 190) * scale.y);
+		An_3_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 285) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17) * scale.y);
+		An_3_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17) * scale.y);
+		An_3_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 95) * scale.y);
+		An_3_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 190) * scale.y);
+		An_3_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 285) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+		An_3_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 190) * scale.y);
+		An_3_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 285) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+		An_3_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 190) * scale.y);
+		An_3_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 285) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+		An_3_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 190) * scale.y);
+		An_3_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 285) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 ) * scale.y);
+		An_3_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+		An_3_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 190) * scale.y);
+		An_3_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 285) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+		An_3_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 190) * scale.y);
+		An_3_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 285) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95) * scale.y);
+		An_3_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 190) * scale.y);
+		An_3_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 285) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 95)* scale.y);
+		An_3_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 190)* scale.y);
+		An_3_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 285) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95)* scale.y);
+		An_3_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 190)* scale.y);
+		An_3_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 285) * scale.y);
+	}
+
+	int time_ff_3InRow_10Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_10Rows >= 0 && time_ff_3InRow_10Rows < 16) win.draw(*An_3_inRow_10Rows_1);
+	else if (time_ff_3InRow_10Rows >= 16 && time_ff_3InRow_10Rows < 32) win.draw(*An_3_inRow_10Rows_2);
+	else if (time_ff_3InRow_10Rows >= 32 && time_ff_3InRow_10Rows < 48) win.draw(*An_3_inRow_10Rows_3);
+	else if (time_ff_3InRow_10Rows >= 48 && time_ff_3InRow_10Rows < 64) win.draw(*An_3_inRow_10Rows_4);
+	else if (time_ff_3InRow_10Rows >= 64 && time_ff_3InRow_10Rows < 80) win.draw(*An_3_inRow_10Rows_5);
+	else if (time_ff_3InRow_10Rows >= 80 && time_ff_3InRow_10Rows < 96) win.draw(*An_3_inRow_10Rows_6);
+	else if (time_ff_3InRow_10Rows >= 96 && time_ff_3InRow_10Rows < 112)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_3_inRow_10Rows_7);
+	}
+	else if (time_ff_3InRow_10Rows >= 112 && time_ff_3InRow_10Rows < 128) win.draw(*An_3_inRow_10Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_10Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_11RowsFn(RenderWindow& win, Sprite* An_3_inRow_11Rows_1, Sprite* An_3_inRow_11Rows_2, Sprite* An_3_inRow_11Rows_3, Sprite* An_3_inRow_11Rows_4, Sprite* An_3_inRow_11Rows_5, Sprite* An_3_inRow_11Rows_6, Sprite* An_3_inRow_11Rows_7, Sprite* An_3_inRow_11Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 104) * scale.y);
+		An_3_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 209) * scale.y);
+		An_3_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 313) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17) * scale.y);
+		An_3_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17) * scale.y);
+		An_3_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 104) * scale.y);
+		An_3_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 209) * scale.y);
+		An_3_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 313) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 104) * scale.y);
+		An_3_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 209) * scale.y);
+		An_3_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 313) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 104) * scale.y);
+		An_3_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 209) * scale.y);
+		An_3_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 313) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 104) * scale.y);
+		An_3_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 209) * scale.y);
+		An_3_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 313) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 104) * scale.y);
+		An_3_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 209) * scale.y);
+		An_3_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 313) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 104) * scale.y);
+		An_3_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 209) * scale.y);
+		An_3_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 313) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 104) * scale.y);
+		An_3_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 209) * scale.y);
+		An_3_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 313) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 104) * scale.y);
+		An_3_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 209) * scale.y);
+		An_3_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 313) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 104) * scale.y);
+		An_3_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 209) * scale.y);
+		An_3_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 313) * scale.y);
+	}
+
+	int time_ff_3InRow_11Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_11Rows >= 0 && time_ff_3InRow_11Rows < 16) win.draw(*An_3_inRow_11Rows_1);
+	else if (time_ff_3InRow_11Rows >= 16 && time_ff_3InRow_11Rows < 32) win.draw(*An_3_inRow_11Rows_2);
+	else if (time_ff_3InRow_11Rows >= 32 && time_ff_3InRow_11Rows < 48) win.draw(*An_3_inRow_11Rows_3);
+	else if (time_ff_3InRow_11Rows >= 48 && time_ff_3InRow_11Rows < 64) win.draw(*An_3_inRow_11Rows_4);
+	else if (time_ff_3InRow_11Rows >= 64 && time_ff_3InRow_11Rows < 80) win.draw(*An_3_inRow_11Rows_5);
+	else if (time_ff_3InRow_11Rows >= 80 && time_ff_3InRow_11Rows < 96) win.draw(*An_3_inRow_11Rows_6);
+	else if (time_ff_3InRow_11Rows >= 96 && time_ff_3InRow_11Rows < 112)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_3_inRow_11Rows_7);
+	}
+	else if (time_ff_3InRow_11Rows >= 112 && time_ff_3InRow_11Rows < 128) win.draw(*An_3_inRow_11Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_11Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_12RowsFn(RenderWindow& win, Sprite* An_3_inRow_12Rows_1, Sprite* An_3_inRow_12Rows_2, Sprite* An_3_inRow_12Rows_3, Sprite* An_3_inRow_12Rows_4, Sprite* An_3_inRow_12Rows_5, Sprite* An_3_inRow_12Rows_6, Sprite* An_3_inRow_12Rows_7, Sprite* An_3_inRow_12Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_3_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 228) * scale.y);
+		An_3_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 342) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17) * scale.y);
+		An_3_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17) * scale.y);
+		An_3_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_3_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 228) * scale.y);
+		An_3_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 342) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_3_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 228) * scale.y);
+		An_3_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 342) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_3_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 228) * scale.y);
+		An_3_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 342) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+	}
+
+	int time_ff_3InRow_12Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_12Rows >= 0 && time_ff_3InRow_12Rows < 16) win.draw(*An_3_inRow_12Rows_1);
+	else if (time_ff_3InRow_12Rows >= 16 && time_ff_3InRow_12Rows < 32) win.draw(*An_3_inRow_12Rows_2);
+	else if (time_ff_3InRow_12Rows >= 32 && time_ff_3InRow_12Rows < 48) win.draw(*An_3_inRow_12Rows_3);
+	else if (time_ff_3InRow_12Rows >= 48 && time_ff_3InRow_12Rows < 64) win.draw(*An_3_inRow_12Rows_4);
+	else if (time_ff_3InRow_12Rows >= 64 && time_ff_3InRow_12Rows < 80) win.draw(*An_3_inRow_12Rows_5);
+	else if (time_ff_3InRow_12Rows >= 80 && time_ff_3InRow_12Rows < 96) win.draw(*An_3_inRow_12Rows_6);
+	else if (time_ff_3InRow_12Rows >= 96 && time_ff_3InRow_12Rows < 112)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_3_inRow_12Rows_7);
+	}
+	else if (time_ff_3InRow_12Rows >= 112 && time_ff_3InRow_12Rows < 128) win.draw(*An_3_inRow_12Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_12Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_13RowsFn(RenderWindow& win, Sprite* An_3_inRow_13Rows_1, Sprite* An_3_inRow_13Rows_2, Sprite* An_3_inRow_13Rows_3, Sprite* An_3_inRow_13Rows_4, Sprite* An_3_inRow_13Rows_5, Sprite* An_3_inRow_13Rows_6, Sprite* An_3_inRow_13Rows_7, Sprite* An_3_inRow_13Rows_8, Sprite* An_3_inRow_13Rows_9, Sprite* An_3_inRow_13Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 99) * scale.y);
+		An_3_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 197) * scale.y);
+		An_3_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 296) * scale.y);
+		An_3_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 395) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17) * scale.y);
+		An_3_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17) * scale.y);
+		An_3_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 99) * scale.y);
+		An_3_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 197) * scale.y);
+		An_3_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 296) * scale.y);
+		An_3_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17 + 395) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 ) * scale.y);
+		An_3_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 99) * scale.y);
+		An_3_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 197) * scale.y);
+		An_3_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 296) * scale.y);
+		An_3_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 395) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 99) * scale.y);
+		An_3_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 197) * scale.y);
+		An_3_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 296) * scale.y);
+		An_3_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 395) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 99) * scale.y);
+		An_3_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 197) * scale.y);
+		An_3_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 296) * scale.y);
+		An_3_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 395) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 99) * scale.y);
+		An_3_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 197) * scale.y);
+		An_3_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 296) * scale.y);
+		An_3_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 395) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 99) * scale.y);
+		An_3_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 197) * scale.y);
+		An_3_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 296) * scale.y);
+		An_3_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 395) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 99) * scale.y);
+		An_3_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 197) * scale.y);
+		An_3_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 296) * scale.y);
+		An_3_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 395) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 99) * scale.y);
+		An_3_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3)* scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 197)* scale.y);
+		An_3_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3)* scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 296)* scale.y);
+		An_3_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 395) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 99) * scale.y);
+		An_3_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38)* scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 197)* scale.y);
+		An_3_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38)* scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 296)* scale.y);
+		An_3_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 395) * scale.y);
+	}
+
+	int time_ff_3InRow_13Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_13Rows >= 0 && time_ff_3InRow_13Rows < 16) win.draw(*An_3_inRow_13Rows_1);
+	else if (time_ff_3InRow_13Rows >= 16 && time_ff_3InRow_13Rows < 32) win.draw(*An_3_inRow_13Rows_2);
+	else if (time_ff_3InRow_13Rows >= 32 && time_ff_3InRow_13Rows < 48) win.draw(*An_3_inRow_13Rows_3);
+	else if (time_ff_3InRow_13Rows >= 48 && time_ff_3InRow_13Rows < 64) win.draw(*An_3_inRow_13Rows_4);
+	else if (time_ff_3InRow_13Rows >= 64 && time_ff_3InRow_13Rows < 80) win.draw(*An_3_inRow_13Rows_5);
+	else if (time_ff_3InRow_13Rows >= 80 && time_ff_3InRow_13Rows < 96) win.draw(*An_3_inRow_13Rows_6);
+	else if (time_ff_3InRow_13Rows >= 96 && time_ff_3InRow_13Rows < 112) win.draw(*An_3_inRow_13Rows_7);
+	else if (time_ff_3InRow_13Rows >= 112 && time_ff_3InRow_13Rows < 128) win.draw(*An_3_inRow_13Rows_8);
+	else if (time_ff_3InRow_13Rows >= 128 && time_ff_3InRow_13Rows < 144)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_3_inRow_13Rows_9);
+	}
+	else if (time_ff_3InRow_13Rows >= 144 && time_ff_3InRow_13Rows < 160) win.draw(*An_3_inRow_13Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_13Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_14RowsFn(RenderWindow& win, Sprite* An_3_inRow_14Rows_1, Sprite* An_3_inRow_14Rows_2, Sprite* An_3_inRow_14Rows_3, Sprite* An_3_inRow_14Rows_4, Sprite* An_3_inRow_14Rows_5, Sprite* An_3_inRow_14Rows_6, Sprite* An_3_inRow_14Rows_7, Sprite* An_3_inRow_14Rows_8, Sprite* An_3_inRow_14Rows_9, Sprite* An_3_inRow_14Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 106) * scale.y);
+		An_3_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 213) * scale.y);
+		An_3_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 319) * scale.y);
+		An_3_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 425) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17) * scale.y);
+		An_3_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17) * scale.y);
+		An_3_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 106) * scale.y);
+		An_3_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 213) * scale.y);
+		An_3_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 319) * scale.y);
+		An_3_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17 + 425) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 106) * scale.y);
+		An_3_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 213) * scale.y);
+		An_3_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 319) * scale.y);
+		An_3_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 425) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 106) * scale.y);
+		An_3_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 213) * scale.y);
+		An_3_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 319) * scale.y);
+		An_3_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 425) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 106) * scale.y);
+		An_3_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 213) * scale.y);
+		An_3_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 319) * scale.y);
+		An_3_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 425) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 106) * scale.y);
+		An_3_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 213) * scale.y);
+		An_3_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 319) * scale.y);
+		An_3_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 425) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 106) * scale.y);
+		An_3_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 213) * scale.y);
+		An_3_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 319) * scale.y);
+		An_3_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 425) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 106) * scale.y);
+		An_3_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 213) * scale.y);
+		An_3_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 319) * scale.y);
+		An_3_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 425) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 106) * scale.y);
+		An_3_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 213) * scale.y);
+		An_3_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 319) * scale.y);
+		An_3_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 425) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 106) * scale.y);
+		An_3_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 213) * scale.y);
+		An_3_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 319) * scale.y);
+		An_3_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 425) * scale.y);
+	}
+
+	int time_ff_3InRow_14Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_14Rows >= 0 && time_ff_3InRow_14Rows < 16) win.draw(*An_3_inRow_14Rows_1);
+	else if (time_ff_3InRow_14Rows >= 16 && time_ff_3InRow_14Rows < 32) win.draw(*An_3_inRow_14Rows_2);
+	else if (time_ff_3InRow_14Rows >= 32 && time_ff_3InRow_14Rows < 48) win.draw(*An_3_inRow_14Rows_3);
+	else if (time_ff_3InRow_14Rows >= 48 && time_ff_3InRow_14Rows < 64) win.draw(*An_3_inRow_14Rows_4);
+	else if (time_ff_3InRow_14Rows >= 64 && time_ff_3InRow_14Rows < 80) win.draw(*An_3_inRow_14Rows_5);
+	else if (time_ff_3InRow_14Rows >= 80 && time_ff_3InRow_14Rows < 96) win.draw(*An_3_inRow_14Rows_6);
+	else if (time_ff_3InRow_14Rows >= 96 && time_ff_3InRow_14Rows < 112) win.draw(*An_3_inRow_14Rows_7);
+	else if (time_ff_3InRow_14Rows >= 112 && time_ff_3InRow_14Rows < 128) win.draw(*An_3_inRow_14Rows_8);
+	else if (time_ff_3InRow_14Rows >= 128 && time_ff_3InRow_14Rows < 144)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_3_inRow_14Rows_9);
+	}
+	else if (time_ff_3InRow_14Rows >= 144 && time_ff_3InRow_14Rows < 160) win.draw(*An_3_inRow_14Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_14Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_15RowsFn(RenderWindow& win, Sprite* An_3_inRow_15Rows_1, Sprite* An_3_inRow_15Rows_2, Sprite* An_3_inRow_15Rows_3, Sprite* An_3_inRow_15Rows_4, Sprite* An_3_inRow_15Rows_5, Sprite* An_3_inRow_15Rows_6, Sprite* An_3_inRow_15Rows_7, Sprite* An_3_inRow_15Rows_8, Sprite* An_3_inRow_15Rows_9, Sprite* An_3_inRow_15Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_3_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 228) * scale.y);
+		An_3_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 342) * scale.y);
+		An_3_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 456) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17) * scale.y);
+		An_3_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17) * scale.y);
+		An_3_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 114) * scale.y);
+		An_3_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 228) * scale.y);
+		An_3_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 342) * scale.y);
+		An_3_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17 + 456) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+		An_3_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 456) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+		An_3_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 456) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+		An_3_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 456) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+		An_3_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 456) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+		An_3_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 456) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_3_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 228) * scale.y);
+		An_3_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 342) * scale.y);
+		An_3_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 456) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 114) * scale.y);
+		An_3_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 228) * scale.y);
+		An_3_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 342) * scale.y);
+		An_3_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 456) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_3_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 228) * scale.y);
+		An_3_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+		An_3_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 456) * scale.y);
+	}
+
+	int time_ff_3InRow_15Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_15Rows >= 0 && time_ff_3InRow_15Rows < 16) win.draw(*An_3_inRow_15Rows_1);
+	else if (time_ff_3InRow_15Rows >= 16 && time_ff_3InRow_15Rows < 32) win.draw(*An_3_inRow_15Rows_2);
+	else if (time_ff_3InRow_15Rows >= 32 && time_ff_3InRow_15Rows < 48) win.draw(*An_3_inRow_15Rows_3);
+	else if (time_ff_3InRow_15Rows >= 48 && time_ff_3InRow_15Rows < 64) win.draw(*An_3_inRow_15Rows_4);
+	else if (time_ff_3InRow_15Rows >= 64 && time_ff_3InRow_15Rows < 80) win.draw(*An_3_inRow_15Rows_5);
+	else if (time_ff_3InRow_15Rows >= 80 && time_ff_3InRow_15Rows < 96) win.draw(*An_3_inRow_15Rows_6);
+	else if (time_ff_3InRow_15Rows >= 96 && time_ff_3InRow_15Rows < 112) win.draw(*An_3_inRow_15Rows_7);
+	else if (time_ff_3InRow_15Rows >= 112 && time_ff_3InRow_15Rows < 128) win.draw(*An_3_inRow_15Rows_8);
+	else if (time_ff_3InRow_15Rows >= 128 && time_ff_3InRow_15Rows < 144)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_3_inRow_15Rows_9);
+	}
+	else if (time_ff_3InRow_15Rows >= 144 && time_ff_3InRow_15Rows < 160) win.draw(*An_3_inRow_15Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_15Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_16RowsFn(RenderWindow& win, Sprite* An_3_inRow_16Rows_1, Sprite* An_3_inRow_16Rows_2, Sprite* An_3_inRow_16Rows_3, Sprite* An_3_inRow_16Rows_4, Sprite* An_3_inRow_16Rows_5, Sprite* An_3_inRow_16Rows_6, Sprite* An_3_inRow_16Rows_7, Sprite* An_3_inRow_16Rows_8, Sprite* An_3_inRow_16Rows_9, Sprite* An_3_inRow_16Rows_10, Sprite* An_3_inRow_16Rows_11, Sprite* An_3_inRow_16Rows_12, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 101) * scale.y);
+		An_3_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 202) * scale.y);
+		An_3_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 303) * scale.y);
+		An_3_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 404) * scale.y);
+		An_3_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 505) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 17) * scale.y);
+		An_3_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17) * scale.y);
+		An_3_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17) * scale.y);
+		An_3_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 101) * scale.y);
+		An_3_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 202) * scale.y);
+		An_3_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 303) * scale.y);
+		An_3_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 404) * scale.y);
+		An_3_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17 + 505) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 101) * scale.y);
+		An_3_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 202) * scale.y);
+		An_3_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 303) * scale.y);
+		An_3_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 404) * scale.y);
+		An_3_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 505) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 101) * scale.y);
+		An_3_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 202) * scale.y);
+		An_3_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 303) * scale.y);
+		An_3_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 404) * scale.y);
+		An_3_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 505) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 101) * scale.y);
+		An_3_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 202) * scale.y);
+		An_3_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 303) * scale.y);
+		An_3_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 404) * scale.y);
+		An_3_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 505) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 101) * scale.y);
+		An_3_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 202) * scale.y);
+		An_3_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 303) * scale.y);
+		An_3_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 404) * scale.y);
+		An_3_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 505) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 101) * scale.y);
+		An_3_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 202) * scale.y);
+		An_3_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3)* scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 303)* scale.y);
+		An_3_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3)* scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 404)* scale.y);
+		An_3_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 505) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 101) * scale.y);
+		An_3_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 202) * scale.y);
+		An_3_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 108 - 38)* scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 303)* scale.y);
+		An_3_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38)* scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 404)* scale.y);
+		An_3_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 505) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 101) * scale.y);
+		An_3_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 202) * scale.y);
+		An_3_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3)* scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 303)* scale.y);
+		An_3_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3)* scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 404)* scale.y);
+		An_3_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19 + 505) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 101) * scale.y);
+		An_3_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 202) * scale.y);
+		An_3_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 108 - 38)* scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 303)* scale.y);
+		An_3_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38)* scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 404)* scale.y);
+		An_3_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 505) * scale.y);
+	}
+
+	int time_ff_3InRow_16Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_16Rows >= 0 && time_ff_3InRow_16Rows < 16) win.draw(*An_3_inRow_16Rows_1);
+	else if (time_ff_3InRow_16Rows >= 16 && time_ff_3InRow_16Rows < 32) win.draw(*An_3_inRow_16Rows_2);
+	else if (time_ff_3InRow_16Rows >= 32 && time_ff_3InRow_16Rows < 48) win.draw(*An_3_inRow_16Rows_3);
+	else if (time_ff_3InRow_16Rows >= 48 && time_ff_3InRow_16Rows < 64) win.draw(*An_3_inRow_16Rows_4);
+	else if (time_ff_3InRow_16Rows >= 64 && time_ff_3InRow_16Rows < 80) win.draw(*An_3_inRow_16Rows_5);
+	else if (time_ff_3InRow_16Rows >= 80 && time_ff_3InRow_16Rows < 96) win.draw(*An_3_inRow_16Rows_6);
+	else if (time_ff_3InRow_16Rows >= 96 && time_ff_3InRow_16Rows < 112) win.draw(*An_3_inRow_16Rows_7);
+	else if (time_ff_3InRow_16Rows >= 112 && time_ff_3InRow_16Rows < 128) win.draw(*An_3_inRow_16Rows_8);
+	else if (time_ff_3InRow_16Rows >= 128 && time_ff_3InRow_16Rows < 144) win.draw(*An_3_inRow_16Rows_9);
+	else if (time_ff_3InRow_16Rows >= 144 && time_ff_3InRow_16Rows < 160)
+	{
+		win.draw(*An_3_inRow_16Rows_10);
+		//if(checkForFigureBot)
+		forFigureBot = true;
+	}
+	else if (time_ff_3InRow_16Rows >= 160 && time_ff_3InRow_16Rows < 176) win.draw(*An_3_inRow_16Rows_11);
+	else if (time_ff_3InRow_16Rows >= 176 && time_ff_3InRow_16Rows < 192) win.draw(*An_3_inRow_16Rows_12);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_16Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_17RowsFn(RenderWindow& win, Sprite* An_3_inRow_17Rows_1, Sprite* An_3_inRow_17Rows_2, Sprite* An_3_inRow_17Rows_3, Sprite* An_3_inRow_17Rows_4, Sprite* An_3_inRow_17Rows_5, Sprite* An_3_inRow_17Rows_6, Sprite* An_3_inRow_17Rows_7, Sprite* An_3_inRow_17Rows_8, Sprite* An_3_inRow_17Rows_9, Sprite* An_3_inRow_17Rows_10, Sprite* An_3_inRow_17Rows_11, Sprite* An_3_inRow_17Rows_12, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 92) * scale.y);
+		An_3_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 184) * scale.y);
+		An_3_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 277) * scale.y);
+		An_3_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 369) * scale.y);
+		An_3_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 461) * scale.y);
+		An_3_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 19 + 553) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17) * scale.y);
+		An_3_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17) * scale.y);
+		An_3_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 92) * scale.y);
+		An_3_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 184) * scale.y);
+		An_3_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 277) * scale.y);
+		An_3_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 369) * scale.y);
+		An_3_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 461) * scale.y);
+		An_3_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 17 + 553) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 92) * scale.y);
+		An_3_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 184) * scale.y);
+		An_3_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 277) * scale.y);
+		An_3_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 369) * scale.y);
+		An_3_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 461) * scale.y);
+		An_3_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 553) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 92) * scale.y);
+		An_3_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 184) * scale.y);
+		An_3_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 277) * scale.y);
+		An_3_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 369) * scale.y);
+		An_3_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 461) * scale.y);
+		An_3_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 553) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 92) * scale.y);
+		An_3_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 184) * scale.y);
+		An_3_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 277) * scale.y);
+		An_3_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 369) * scale.y);
+		An_3_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 461) * scale.y);
+		An_3_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 553) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 92) * scale.y);
+		An_3_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 184) * scale.y);
+		An_3_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 277) * scale.y);
+		An_3_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 369) * scale.y);
+		An_3_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 461) * scale.y);
+		An_3_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 553) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 92) * scale.y);
+		An_3_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 184) * scale.y);
+		An_3_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 277) * scale.y);
+		An_3_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 369) * scale.y);
+		An_3_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 461) * scale.y);
+		An_3_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 553) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 92) * scale.y);
+		An_3_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 184) * scale.y);
+		An_3_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 277) * scale.y);
+		An_3_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 369) * scale.y);
+		An_3_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 461) * scale.y);
+		An_3_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 19 + 553) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 92) * scale.y);
+		An_3_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 184) * scale.y);
+		An_3_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 277) * scale.y);
+		An_3_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 369) * scale.y);
+		An_3_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 461) * scale.y);
+		An_3_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 19 + 553) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 91) * scale.y);
+		An_3_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 184) * scale.y);
+		An_3_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 277) * scale.y);
+		An_3_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 369) * scale.y);
+		An_3_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 461) * scale.y);
+		An_3_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 553) * scale.y);
+	}
+
+	int time_ff_3InRow_17Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_17Rows >= 0 && time_ff_3InRow_17Rows < 16) win.draw(*An_3_inRow_17Rows_1);
+	else if (time_ff_3InRow_17Rows >= 16 && time_ff_3InRow_17Rows < 32) win.draw(*An_3_inRow_17Rows_2);
+	else if (time_ff_3InRow_17Rows >= 32 && time_ff_3InRow_17Rows < 48) win.draw(*An_3_inRow_17Rows_3);
+	else if (time_ff_3InRow_17Rows >= 48 && time_ff_3InRow_17Rows < 64) win.draw(*An_3_inRow_17Rows_4);
+	else if (time_ff_3InRow_17Rows >= 64 && time_ff_3InRow_17Rows < 80) win.draw(*An_3_inRow_17Rows_5);
+	else if (time_ff_3InRow_17Rows >= 80 && time_ff_3InRow_17Rows < 96) win.draw(*An_3_inRow_17Rows_6);
+	else if (time_ff_3InRow_17Rows >= 96 && time_ff_3InRow_17Rows < 112) win.draw(*An_3_inRow_17Rows_7);
+	else if (time_ff_3InRow_17Rows >= 112 && time_ff_3InRow_17Rows < 128) win.draw(*An_3_inRow_17Rows_8);
+	else if (time_ff_3InRow_17Rows >= 128 && time_ff_3InRow_17Rows < 144) win.draw(*An_3_inRow_17Rows_9);
+	else if (time_ff_3InRow_17Rows >= 144 && time_ff_3InRow_17Rows < 160)
+	{
+		win.draw(*An_3_inRow_17Rows_10);
+		//if(checkForFigureBot)
+		forFigureBot = true;
+	}
+	else if (time_ff_3InRow_17Rows >= 160 && time_ff_3InRow_17Rows < 176) win.draw(*An_3_inRow_17Rows_11);
+	else if (time_ff_3InRow_17Rows >= 176 && time_ff_3InRow_17Rows < 192) win.draw(*An_3_inRow_17Rows_12);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_17Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_3InRow_18RowsFn(RenderWindow& win, Sprite* An_3_inRow_18Rows_1, Sprite* An_3_inRow_18Rows_2, Sprite* An_3_inRow_18Rows_3, Sprite* An_3_inRow_18Rows_4, Sprite* An_3_inRow_18Rows_5, Sprite* An_3_inRow_18Rows_6, Sprite* An_3_inRow_18Rows_7, Sprite* An_3_inRow_18Rows_8, Sprite* An_3_inRow_18Rows_9, Sprite* An_3_inRow_18Rows_10, Sprite* An_3_inRow_18Rows_11, Sprite* An_3_inRow_18Rows_12, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+
+	if (typeOfTetramino1 == 4 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_18Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 98) * scale.y);
+		An_3_inRow_18Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 195) * scale.y);
+		An_3_inRow_18Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 293) * scale.y);
+		An_3_inRow_18Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 391) * scale.y);
+		An_3_inRow_18Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 488) * scale.y);
+		An_3_inRow_18Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 19 + 586) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 4 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_18Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 17) * scale.y);
+		An_3_inRow_18Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17) * scale.y);
+		An_3_inRow_18Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_18Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_18Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_18Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17) * scale.y);
+		An_3_inRow_18Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 98) * scale.y);
+		An_3_inRow_18Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 195) * scale.y);
+		An_3_inRow_18Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 17 + 293) * scale.y);
+		An_3_inRow_18Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 391) * scale.y);
+		An_3_inRow_18Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 17 + 488) * scale.y);
+		An_3_inRow_18Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 17 + 586) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_18Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 98) * scale.y);
+		An_3_inRow_18Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 195) * scale.y);
+		An_3_inRow_18Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 293) * scale.y);
+		An_3_inRow_18Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 391) * scale.y);
+		An_3_inRow_18Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 488) * scale.y);
+		An_3_inRow_18Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 586) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 5 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_18Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 98) * scale.y);
+		An_3_inRow_18Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 195) * scale.y);
+		An_3_inRow_18Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 293) * scale.y);
+		An_3_inRow_18Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 391) * scale.y);
+		An_3_inRow_18Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 488) * scale.y);
+		An_3_inRow_18Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 586) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_18Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 98) * scale.y);
+		An_3_inRow_18Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 195) * scale.y);
+		An_3_inRow_18Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 293) * scale.y);
+		An_3_inRow_18Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 391) * scale.y);
+		An_3_inRow_18Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 488) * scale.y);
+		An_3_inRow_18Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 586) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 3 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_18Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 98) * scale.y);
+		An_3_inRow_18Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 195) * scale.y);
+		An_3_inRow_18Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 293) * scale.y);
+		An_3_inRow_18Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 391) * scale.y);
+		An_3_inRow_18Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 488) * scale.y);
+		An_3_inRow_18Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 586) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_18Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 98) * scale.y);
+		An_3_inRow_18Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 195) * scale.y);
+		An_3_inRow_18Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 293) * scale.y);
+		An_3_inRow_18Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 391) * scale.y);
+		An_3_inRow_18Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 488) * scale.y);
+		An_3_inRow_18Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 586) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 1 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_18Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 98) * scale.y);
+		An_3_inRow_18Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 195) * scale.y);
+		An_3_inRow_18Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 293) * scale.y);
+		An_3_inRow_18Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 391) * scale.y);
+		An_3_inRow_18Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 488) * scale.y);
+		An_3_inRow_18Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 19 + 586) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && numberOfWide[0] % 4 == 0)
+	{
+		An_3_inRow_18Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19) * scale.y);
+		An_3_inRow_18Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 98) * scale.y);
+		An_3_inRow_18Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 195) * scale.y);
+		An_3_inRow_18Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 19 + 293) * scale.y);
+		An_3_inRow_18Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 391) * scale.y);
+		An_3_inRow_18Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 19 + 488) * scale.y);
+		An_3_inRow_18Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 3) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 19 + 586) * scale.y);
+	}
+
+	else if (typeOfTetramino1 == 2 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_3_inRow_18Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_3_inRow_18Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 98) * scale.y);
+		An_3_inRow_18Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 195) * scale.y);
+		An_3_inRow_18Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 293) * scale.y);
+		An_3_inRow_18Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 391) * scale.y);
+		An_3_inRow_18Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 488) * scale.y);
+		An_3_inRow_18Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 586) * scale.y);
+	}
+
+	int time_ff_3InRow_18Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_3InRow_18Rows >= 0 && time_ff_3InRow_18Rows < 16) win.draw(*An_3_inRow_18Rows_1);
+	else if (time_ff_3InRow_18Rows >= 16 && time_ff_3InRow_18Rows < 32) win.draw(*An_3_inRow_18Rows_2);
+	else if (time_ff_3InRow_18Rows >= 32 && time_ff_3InRow_18Rows < 48) win.draw(*An_3_inRow_18Rows_3);
+	else if (time_ff_3InRow_18Rows >= 48 && time_ff_3InRow_18Rows < 64) win.draw(*An_3_inRow_18Rows_4);
+	else if (time_ff_3InRow_18Rows >= 64 && time_ff_3InRow_18Rows < 80) win.draw(*An_3_inRow_18Rows_5);
+	else if (time_ff_3InRow_18Rows >= 80 && time_ff_3InRow_18Rows < 96) win.draw(*An_3_inRow_18Rows_6);
+	else if (time_ff_3InRow_18Rows >= 96 && time_ff_3InRow_18Rows < 112) win.draw(*An_3_inRow_18Rows_7);
+	else if (time_ff_3InRow_18Rows >= 112 && time_ff_3InRow_18Rows < 128) win.draw(*An_3_inRow_18Rows_8);
+	else if (time_ff_3InRow_18Rows >= 128 && time_ff_3InRow_18Rows < 144) win.draw(*An_3_inRow_18Rows_9);
+	else if (time_ff_3InRow_18Rows >= 144 && time_ff_3InRow_18Rows < 160)
+	{
+		win.draw(*An_3_inRow_18Rows_10);
+		//if(checkForFigureBot)
+		forFigureBot = true;
+	}
+	else if (time_ff_3InRow_18Rows >= 160 && time_ff_3InRow_18Rows < 176) win.draw(*An_3_inRow_18Rows_11);
+	else if (time_ff_3InRow_18Rows >= 176 && time_ff_3InRow_18Rows < 192) win.draw(*An_3_inRow_18Rows_12);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_3InRow_18Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_1RowFn(RenderWindow& win, Sprite* An_4_inRow_1Row_1, Sprite* An_4_inRow_1Row_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_1Row_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_1Row_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	int time_ff_4InRow_1Row = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_1Row >= 0 && time_ff_4InRow_1Row < 16) win.draw(*An_4_inRow_1Row_1);
+	else if (time_ff_4InRow_1Row >= 16 && time_ff_4InRow_1Row < 32) win.draw(*An_4_inRow_1Row_2);
+	else if (time_ff_4InRow_1Row >= 32 && time_ff_4InRow_1Row < 48) /*if(checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_1Row = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_2RowsFn(RenderWindow& win, Sprite* An_4_inRow_2Rows_1, Sprite* An_4_inRow_2Rows_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_2Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_2Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	int time_ff_4InRow_2Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_2Rows >= 0 && time_ff_4InRow_2Rows < 16) win.draw(*An_4_inRow_2Rows_1);
+	else if (time_ff_4InRow_2Rows >= 16 && time_ff_4InRow_2Rows < 32) win.draw(*An_4_inRow_2Rows_2);
+	else if (time_ff_4InRow_2Rows >= 32 && time_ff_4InRow_2Rows < 48) /*if(checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_2Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_3RowsFn(RenderWindow& win, Sprite* An_4_inRow_3Rows_1, Sprite* An_4_inRow_3Rows_2, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_3Rows_1->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_3Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+	}
+
+	int time_ff_4InRow_3Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_3Rows >= 0 && time_ff_4InRow_3Rows < 16) win.draw(*An_4_inRow_3Rows_1);
+	else if (time_ff_4InRow_3Rows >= 16 && time_ff_4InRow_3Rows < 32) win.draw(*An_4_inRow_3Rows_2);
+	else if (time_ff_4InRow_3Rows >= 32 && time_ff_4InRow_3Rows < 48) /*if(checkForFigureBot)*/ forFigureBot = true;
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_3Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_4RowsFn(RenderWindow& win, Sprite* An_4_inRow_4Rows_1, Sprite* An_4_inRow_4Rows_2, Sprite* An_4_inRow_4Rows_3, Sprite* An_4_inRow_4Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 76) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_4Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_4Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_4Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_4Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 76) * scale.y);
+	}
+
+	int time_ff_4InRow_4Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_4Rows >= 0 && time_ff_4InRow_4Rows < 16) win.draw(*An_4_inRow_4Rows_1);
+	else if (time_ff_4InRow_4Rows >= 16 && time_ff_4InRow_4Rows < 32) win.draw(*An_4_inRow_4Rows_2);
+	else if (time_ff_4InRow_4Rows >= 32 && time_ff_4InRow_4Rows < 48) win.draw(*An_4_inRow_4Rows_3);
+	else if (time_ff_4InRow_4Rows >= 48 && time_ff_4InRow_4Rows < 64)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_4_inRow_4Rows_4);
+	}
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_4Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_5RowsFn(RenderWindow& win, Sprite* An_4_inRow_5Rows_1, Sprite* An_4_inRow_5Rows_2, Sprite* An_4_inRow_5Rows_3, Sprite* An_4_inRow_5Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_5Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_5Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_5Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_5Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+	}
+
+	int time_ff_4InRow_5Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_5Rows >= 0 && time_ff_4InRow_5Rows < 16) win.draw(*An_4_inRow_5Rows_1);
+	else if (time_ff_4InRow_5Rows >= 16 && time_ff_4InRow_5Rows < 32) win.draw(*An_4_inRow_5Rows_2);
+	else if (time_ff_4InRow_5Rows >= 32 && time_ff_4InRow_5Rows < 48) win.draw(*An_4_inRow_5Rows_3);
+	else if (time_ff_4InRow_5Rows >= 48 && time_ff_4InRow_5Rows < 64)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_4_inRow_5Rows_4);
+	}
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_5Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_6RowsFn(RenderWindow& win, Sprite* An_4_inRow_6Rows_1, Sprite* An_4_inRow_6Rows_2, Sprite* An_4_inRow_6Rows_3, Sprite* An_4_inRow_6Rows_4, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_6Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_6Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_6Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_6Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+	}
+
+	int time_ff_4InRow_6Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_6Rows >= 0 && time_ff_4InRow_6Rows < 16) win.draw(*An_4_inRow_6Rows_1);
+	else if (time_ff_4InRow_6Rows >= 16 && time_ff_4InRow_6Rows < 32) win.draw(*An_4_inRow_6Rows_2);
+	else if (time_ff_4InRow_6Rows >= 32 && time_ff_4InRow_6Rows < 48) win.draw(*An_4_inRow_6Rows_3);
+	else if (time_ff_4InRow_6Rows >= 48 && time_ff_4InRow_6Rows < 64)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_4_inRow_6Rows_4);
+	}
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_6Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_7RowsFn(RenderWindow& win, Sprite* An_4_inRow_7Rows_1, Sprite* An_4_inRow_7Rows_2, Sprite* An_4_inRow_7Rows_3, Sprite* An_4_inRow_7Rows_4, Sprite* An_4_inRow_7Rows_5, Sprite* An_4_inRow_7Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 89) * scale.y);
+		An_4_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 177) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_7Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_7Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_7Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_7Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_7Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 89) * scale.y);
+		An_4_inRow_7Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 177) * scale.y);
+	}
+
+	int time_ff_4InRow_7Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_7Rows >= 0 && time_ff_4InRow_7Rows < 16) win.draw(*An_4_inRow_7Rows_1);
+	else if (time_ff_4InRow_7Rows >= 16 && time_ff_4InRow_7Rows < 32) win.draw(*An_4_inRow_7Rows_2);
+	else if (time_ff_4InRow_7Rows >= 32 && time_ff_4InRow_7Rows < 48) win.draw(*An_4_inRow_7Rows_3);
+	else if (time_ff_4InRow_7Rows >= 48 && time_ff_4InRow_7Rows < 64) win.draw(*An_4_inRow_7Rows_4);
+	else if (time_ff_4InRow_7Rows >= 64 && time_ff_4InRow_7Rows < 80)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_4_inRow_7Rows_5);
+	}
+	else if (time_ff_4InRow_7Rows >= 80 && time_ff_4InRow_7Rows < 96) win.draw(*An_4_inRow_7Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_7Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_8RowsFn(RenderWindow& win, Sprite* An_4_inRow_8Rows_1, Sprite* An_4_inRow_8Rows_2, Sprite* An_4_inRow_8Rows_3, Sprite* An_4_inRow_8Rows_4, Sprite* An_4_inRow_8Rows_5, Sprite* An_4_inRow_8Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 101) * scale.y);
+		An_4_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 202) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_8Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_8Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_8Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_8Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_8Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 101) * scale.y);
+		An_4_inRow_8Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 202) * scale.y);
+	}
+
+	int time_ff_4InRow_8Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_8Rows >= 0 && time_ff_4InRow_8Rows < 16) win.draw(*An_4_inRow_8Rows_1);
+	else if (time_ff_4InRow_8Rows >= 16 && time_ff_4InRow_8Rows < 32) win.draw(*An_4_inRow_8Rows_2);
+	else if (time_ff_4InRow_8Rows >= 32 && time_ff_4InRow_8Rows < 48) win.draw(*An_4_inRow_8Rows_3);
+	else if (time_ff_4InRow_8Rows >= 48 && time_ff_4InRow_8Rows < 64) win.draw(*An_4_inRow_8Rows_4);
+	else if (time_ff_4InRow_8Rows >= 64 && time_ff_4InRow_8Rows < 80)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_4_inRow_8Rows_5);
+	}
+	else if (time_ff_4InRow_8Rows >= 80 && time_ff_4InRow_8Rows < 96) win.draw(*An_4_inRow_8Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_8Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_9RowsFn(RenderWindow& win, Sprite* An_4_inRow_9Rows_1, Sprite* An_4_inRow_9Rows_2, Sprite* An_4_inRow_9Rows_3, Sprite* An_4_inRow_9Rows_4, Sprite* An_4_inRow_9Rows_5, Sprite* An_4_inRow_9Rows_6, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_4_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_9Rows_1->setPosition((a[0].x * 38 + 960 - 106 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_9Rows_2->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_9Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_9Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_9Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_4_inRow_9Rows_6->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+	}
+
+	int time_ff_4InRow_9Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_9Rows >= 0 && time_ff_4InRow_9Rows < 16) win.draw(*An_4_inRow_9Rows_1);
+	else if (time_ff_4InRow_9Rows >= 16 && time_ff_4InRow_9Rows < 32) win.draw(*An_4_inRow_9Rows_2);
+	else if (time_ff_4InRow_9Rows >= 32 && time_ff_4InRow_9Rows < 48) win.draw(*An_4_inRow_9Rows_3);
+	else if (time_ff_4InRow_9Rows >= 48 && time_ff_4InRow_9Rows < 64) win.draw(*An_4_inRow_9Rows_4);
+	else if (time_ff_4InRow_9Rows >= 64 && time_ff_4InRow_9Rows < 80)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_4_inRow_9Rows_5);
+	}
+	else if (time_ff_4InRow_9Rows >= 80 && time_ff_4InRow_9Rows < 96) win.draw(*An_4_inRow_9Rows_6);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_9Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_10RowsFn(RenderWindow& win, Sprite* An_4_inRow_10Rows_1, Sprite* An_4_inRow_10Rows_2, Sprite* An_4_inRow_10Rows_3, Sprite* An_4_inRow_10Rows_4, Sprite* An_4_inRow_10Rows_5, Sprite* An_4_inRow_10Rows_6, Sprite* An_4_inRow_10Rows_7, Sprite* An_4_inRow_10Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+		An_4_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 190) * scale.y);
+		An_4_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 285) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_10Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_10Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_10Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_10Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_10Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_10Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 95) * scale.y);
+		An_4_inRow_10Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 190) * scale.y);
+		An_4_inRow_10Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 285) * scale.y);
+	}
+
+	int time_ff_4InRow_10Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_10Rows >= 0 && time_ff_4InRow_10Rows < 16) win.draw(*An_4_inRow_10Rows_1);
+	else if (time_ff_4InRow_10Rows >= 16 && time_ff_4InRow_10Rows < 32) win.draw(*An_4_inRow_10Rows_2);
+	else if (time_ff_4InRow_10Rows >= 32 && time_ff_4InRow_10Rows < 48) win.draw(*An_4_inRow_10Rows_3);
+	else if (time_ff_4InRow_10Rows >= 48 && time_ff_4InRow_10Rows < 64) win.draw(*An_4_inRow_10Rows_4);
+	else if (time_ff_4InRow_10Rows >= 64 && time_ff_4InRow_10Rows < 80) win.draw(*An_4_inRow_10Rows_5);
+	else if (time_ff_4InRow_10Rows >= 80 && time_ff_4InRow_10Rows < 96) win.draw(*An_4_inRow_10Rows_6);
+	else if (time_ff_4InRow_10Rows >= 96 && time_ff_4InRow_10Rows < 112)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_4_inRow_10Rows_7);
+	}
+	else if (time_ff_4InRow_10Rows >= 112 && time_ff_4InRow_10Rows < 128) win.draw(*An_4_inRow_10Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_10Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_11RowsFn(RenderWindow& win, Sprite* An_4_inRow_11Rows_1, Sprite* An_4_inRow_11Rows_2, Sprite* An_4_inRow_11Rows_3, Sprite* An_4_inRow_11Rows_4, Sprite* An_4_inRow_11Rows_5, Sprite* An_4_inRow_11Rows_6, Sprite* An_4_inRow_11Rows_7, Sprite* An_4_inRow_11Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 104) * scale.y);
+		An_4_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 209) * scale.y);
+		An_4_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 313) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_11Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_11Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_11Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_11Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_11Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_11Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 104) * scale.y);
+		An_4_inRow_11Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 209) * scale.y);
+		An_4_inRow_11Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 313) * scale.y);
+	}
+
+	int time_ff_4InRow_11Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_11Rows >= 0 && time_ff_4InRow_11Rows < 16) win.draw(*An_4_inRow_11Rows_1);
+	else if (time_ff_4InRow_11Rows >= 16 && time_ff_4InRow_11Rows < 32) win.draw(*An_4_inRow_11Rows_2);
+	else if (time_ff_4InRow_11Rows >= 32 && time_ff_4InRow_11Rows < 48) win.draw(*An_4_inRow_11Rows_3);
+	else if (time_ff_4InRow_11Rows >= 48 && time_ff_4InRow_11Rows < 64) win.draw(*An_4_inRow_11Rows_4);
+	else if (time_ff_4InRow_11Rows >= 64 && time_ff_4InRow_11Rows < 80) win.draw(*An_4_inRow_11Rows_5);
+	else if (time_ff_4InRow_11Rows >= 80 && time_ff_4InRow_11Rows < 96) win.draw(*An_4_inRow_11Rows_6);
+	else if (time_ff_4InRow_11Rows >= 96 && time_ff_4InRow_11Rows < 112)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_4_inRow_11Rows_7);
+	}
+	else if (time_ff_4InRow_11Rows >= 112 && time_ff_4InRow_11Rows < 128) win.draw(*An_4_inRow_11Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_11Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_12RowsFn(RenderWindow& win, Sprite* An_4_inRow_12Rows_1, Sprite* An_4_inRow_12Rows_2, Sprite* An_4_inRow_12Rows_3, Sprite* An_4_inRow_12Rows_4, Sprite* An_4_inRow_12Rows_5, Sprite* An_4_inRow_12Rows_6, Sprite* An_4_inRow_12Rows_7, Sprite* An_4_inRow_12Rows_8, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_4_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+		An_4_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_12Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_12Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_12Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_12Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_12Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_12Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_4_inRow_12Rows_7->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 228) * scale.y);
+		An_4_inRow_12Rows_8->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+	}
+
+	int time_ff_4InRow_12Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_12Rows >= 0 && time_ff_4InRow_12Rows < 16) win.draw(*An_4_inRow_12Rows_1);
+	else if (time_ff_4InRow_12Rows >= 16 && time_ff_4InRow_12Rows < 32) win.draw(*An_4_inRow_12Rows_2);
+	else if (time_ff_4InRow_12Rows >= 32 && time_ff_4InRow_12Rows < 48) win.draw(*An_4_inRow_12Rows_3);
+	else if (time_ff_4InRow_12Rows >= 48 && time_ff_4InRow_12Rows < 64) win.draw(*An_4_inRow_12Rows_4);
+	else if (time_ff_4InRow_12Rows >= 64 && time_ff_4InRow_12Rows < 80) win.draw(*An_4_inRow_12Rows_5);
+	else if (time_ff_4InRow_12Rows >= 80 && time_ff_4InRow_12Rows < 96) win.draw(*An_4_inRow_12Rows_6);
+	else if (time_ff_4InRow_12Rows >= 96 && time_ff_4InRow_12Rows < 112)
+	{
+		/*if (checkForFigureBot)*/ forFigureBot = true;
+		win.draw(*An_4_inRow_12Rows_7);
+	}
+	else if (time_ff_4InRow_12Rows >= 112 && time_ff_4InRow_12Rows < 128) win.draw(*An_4_inRow_12Rows_8);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_12Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_13RowsFn(RenderWindow& win, Sprite* An_4_inRow_13Rows_1, Sprite* An_4_inRow_13Rows_2, Sprite* An_4_inRow_13Rows_3, Sprite* An_4_inRow_13Rows_4, Sprite* An_4_inRow_13Rows_5, Sprite* An_4_inRow_13Rows_6, Sprite* An_4_inRow_13Rows_7, Sprite* An_4_inRow_13Rows_8, Sprite* An_4_inRow_13Rows_9, Sprite* An_4_inRow_13Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 99) * scale.y);
+		An_4_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 197) * scale.y);
+		An_4_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 296) * scale.y);
+		An_4_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 395) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_13Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_13Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 99) * scale.y);
+		An_4_inRow_13Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 197) * scale.y);
+		An_4_inRow_13Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 296) * scale.y);
+		An_4_inRow_13Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 395) * scale.y);
+	}
+
+	int time_ff_4InRow_13Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_13Rows >= 0 && time_ff_4InRow_13Rows < 16) win.draw(*An_4_inRow_13Rows_1);
+	else if (time_ff_4InRow_13Rows >= 16 && time_ff_4InRow_13Rows < 32) win.draw(*An_4_inRow_13Rows_2);
+	else if (time_ff_4InRow_13Rows >= 32 && time_ff_4InRow_13Rows < 48) win.draw(*An_4_inRow_13Rows_3);
+	else if (time_ff_4InRow_13Rows >= 48 && time_ff_4InRow_13Rows < 64) win.draw(*An_4_inRow_13Rows_4);
+	else if (time_ff_4InRow_13Rows >= 64 && time_ff_4InRow_13Rows < 80) win.draw(*An_4_inRow_13Rows_5);
+	else if (time_ff_4InRow_13Rows >= 80 && time_ff_4InRow_13Rows < 96) win.draw(*An_4_inRow_13Rows_6);
+	else if (time_ff_4InRow_13Rows >= 96 && time_ff_4InRow_13Rows < 112) win.draw(*An_4_inRow_13Rows_7);
+	else if (time_ff_4InRow_13Rows >= 112 && time_ff_4InRow_13Rows < 128) win.draw(*An_4_inRow_13Rows_8);
+	else if (time_ff_4InRow_13Rows >= 128 && time_ff_4InRow_13Rows < 144)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_4_inRow_13Rows_9);
+	}
+	else if (time_ff_4InRow_13Rows >= 144 && time_ff_4InRow_13Rows < 160) win.draw(*An_4_inRow_13Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_13Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_14RowsFn(RenderWindow& win, Sprite* An_4_inRow_14Rows_1, Sprite* An_4_inRow_14Rows_2, Sprite* An_4_inRow_14Rows_3, Sprite* An_4_inRow_14Rows_4, Sprite* An_4_inRow_14Rows_5, Sprite* An_4_inRow_14Rows_6, Sprite* An_4_inRow_14Rows_7, Sprite* An_4_inRow_14Rows_8, Sprite* An_4_inRow_14Rows_9, Sprite* An_4_inRow_14Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 106) * scale.y);
+		An_4_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 213) * scale.y);
+		An_4_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 319) * scale.y);
+		An_4_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 425) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_14Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_14Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 106) * scale.y);
+		An_4_inRow_14Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 213) * scale.y);
+		An_4_inRow_14Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 319) * scale.y);
+		An_4_inRow_14Rows_10->setPosition((a[0].x * 38 + 960 - 104 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 425) * scale.y);
+	}
+
+	int time_ff_4InRow_14Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_14Rows >= 0 && time_ff_4InRow_14Rows < 16) win.draw(*An_4_inRow_14Rows_1);
+	else if (time_ff_4InRow_14Rows >= 16 && time_ff_4InRow_14Rows < 32) win.draw(*An_4_inRow_14Rows_2);
+	else if (time_ff_4InRow_14Rows >= 32 && time_ff_4InRow_14Rows < 48) win.draw(*An_4_inRow_14Rows_3);
+	else if (time_ff_4InRow_14Rows >= 48 && time_ff_4InRow_14Rows < 64) win.draw(*An_4_inRow_14Rows_4);
+	else if (time_ff_4InRow_14Rows >= 64 && time_ff_4InRow_14Rows < 80) win.draw(*An_4_inRow_14Rows_5);
+	else if (time_ff_4InRow_14Rows >= 80 && time_ff_4InRow_14Rows < 96) win.draw(*An_4_inRow_14Rows_6);
+	else if (time_ff_4InRow_14Rows >= 96 && time_ff_4InRow_14Rows < 112) win.draw(*An_4_inRow_14Rows_7);
+	else if (time_ff_4InRow_14Rows >= 112 && time_ff_4InRow_14Rows < 128) win.draw(*An_4_inRow_14Rows_8);
+	else if (time_ff_4InRow_14Rows >= 128 && time_ff_4InRow_14Rows < 144)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_4_inRow_14Rows_9);
+	}
+	else if (time_ff_4InRow_14Rows >= 144 && time_ff_4InRow_14Rows < 160) win.draw(*An_4_inRow_14Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_14Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_15RowsFn(RenderWindow& win, Sprite* An_4_inRow_15Rows_1, Sprite* An_4_inRow_15Rows_2, Sprite* An_4_inRow_15Rows_3, Sprite* An_4_inRow_15Rows_4, Sprite* An_4_inRow_15Rows_5, Sprite* An_4_inRow_15Rows_6, Sprite* An_4_inRow_15Rows_7, Sprite* An_4_inRow_15Rows_8, Sprite* An_4_inRow_15Rows_9, Sprite* An_4_inRow_15Rows_10, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_4_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 228) * scale.y);
+		An_4_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+		An_4_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 456) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_15Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_15Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 114) * scale.y);
+		An_4_inRow_15Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 228) * scale.y);
+		An_4_inRow_15Rows_9->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 342) * scale.y);
+		An_4_inRow_15Rows_10->setPosition((a[0].x * 38 + 960 - 105 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18 + 456) * scale.y);
+	}
+
+	int time_ff_4InRow_15Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_15Rows >= 0 && time_ff_4InRow_15Rows < 16) win.draw(*An_4_inRow_15Rows_1);
+	else if (time_ff_4InRow_15Rows >= 16 && time_ff_4InRow_15Rows < 32) win.draw(*An_4_inRow_15Rows_2);
+	else if (time_ff_4InRow_15Rows >= 32 && time_ff_4InRow_15Rows < 48) win.draw(*An_4_inRow_15Rows_3);
+	else if (time_ff_4InRow_15Rows >= 48 && time_ff_4InRow_15Rows < 64) win.draw(*An_4_inRow_15Rows_4);
+	else if (time_ff_4InRow_15Rows >= 64 && time_ff_4InRow_15Rows < 80) win.draw(*An_4_inRow_15Rows_5);
+	else if (time_ff_4InRow_15Rows >= 80 && time_ff_4InRow_15Rows < 96) win.draw(*An_4_inRow_15Rows_6);
+	else if (time_ff_4InRow_15Rows >= 96 && time_ff_4InRow_15Rows < 112) win.draw(*An_4_inRow_15Rows_7);
+	else if (time_ff_4InRow_15Rows >= 112 && time_ff_4InRow_15Rows < 128) win.draw(*An_4_inRow_15Rows_8);
+	else if (time_ff_4InRow_15Rows >= 128 && time_ff_4InRow_15Rows < 144)
+	{
+		/*if (checkForFigureBot) */forFigureBot = true;
+		win.draw(*An_4_inRow_15Rows_9);
+	}
+	else if (time_ff_4InRow_15Rows >= 144 && time_ff_4InRow_15Rows < 160) win.draw(*An_4_inRow_15Rows_10);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_15Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_16RowsFn(RenderWindow& win, Sprite* An_4_inRow_16Rows_1, Sprite* An_4_inRow_16Rows_2, Sprite* An_4_inRow_16Rows_3, Sprite* An_4_inRow_16Rows_4, Sprite* An_4_inRow_16Rows_5, Sprite* An_4_inRow_16Rows_6, Sprite* An_4_inRow_16Rows_7, Sprite* An_4_inRow_16Rows_8, Sprite* An_4_inRow_16Rows_9, Sprite* An_4_inRow_16Rows_10, Sprite* An_4_inRow_16Rows_11, Sprite* An_4_inRow_16Rows_12, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 87) * scale.y);
+		An_4_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 174) * scale.y);
+		An_4_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 260) * scale.y);
+		An_4_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 347) * scale.y);
+		An_4_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 434) * scale.y);
+		An_4_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 521) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_16Rows_1->setPosition((a[0].x * 38 + 960 - 104 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_16Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 87) * scale.y);
+		An_4_inRow_16Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 174) * scale.y);
+		An_4_inRow_16Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 260) * scale.y);
+		An_4_inRow_16Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 347) * scale.y);
+		An_4_inRow_16Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 434) * scale.y);
+		An_4_inRow_16Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 521) * scale.y);
+	}
+
+	int time_ff_4InRow_16Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_16Rows >= 0 && time_ff_4InRow_16Rows < 16) win.draw(*An_4_inRow_16Rows_1);
+	else if (time_ff_4InRow_16Rows >= 16 && time_ff_4InRow_16Rows < 32) win.draw(*An_4_inRow_16Rows_2);
+	else if (time_ff_4InRow_16Rows >= 32 && time_ff_4InRow_16Rows < 48) win.draw(*An_4_inRow_16Rows_3);
+	else if (time_ff_4InRow_16Rows >= 48 && time_ff_4InRow_16Rows < 64) win.draw(*An_4_inRow_16Rows_4);
+	else if (time_ff_4InRow_16Rows >= 64 && time_ff_4InRow_16Rows < 80) win.draw(*An_4_inRow_16Rows_5);
+	else if (time_ff_4InRow_16Rows >= 80 && time_ff_4InRow_16Rows < 96) win.draw(*An_4_inRow_16Rows_6);
+	else if (time_ff_4InRow_16Rows >= 96 && time_ff_4InRow_16Rows < 112) win.draw(*An_4_inRow_16Rows_7);
+	else if (time_ff_4InRow_16Rows >= 112 && time_ff_4InRow_16Rows < 128) win.draw(*An_4_inRow_16Rows_8);
+	else if (time_ff_4InRow_16Rows >= 128 && time_ff_4InRow_16Rows < 144) win.draw(*An_4_inRow_16Rows_9);
+	else if (time_ff_4InRow_16Rows >= 144 && time_ff_4InRow_16Rows < 160)
+	{
+		win.draw(*An_4_inRow_16Rows_10);
+		//if(checkForFigureBot)
+		forFigureBot = true;
+	}
+	else if (time_ff_4InRow_16Rows >= 160 && time_ff_4InRow_16Rows < 176) win.draw(*An_4_inRow_16Rows_11);
+	else if (time_ff_4InRow_16Rows >= 176 && time_ff_4InRow_16Rows < 192) win.draw(*An_4_inRow_16Rows_12);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_16Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+void animation_fast_falling_4InRow_17RowsFn(RenderWindow& win, Sprite* An_4_inRow_17Rows_1, Sprite* An_4_inRow_17Rows_2, Sprite* An_4_inRow_17Rows_3, Sprite* An_4_inRow_17Rows_4, Sprite* An_4_inRow_17Rows_5, Sprite* An_4_inRow_17Rows_6, Sprite* An_4_inRow_17Rows_7, Sprite* An_4_inRow_17Rows_8, Sprite* An_4_inRow_17Rows_9, Sprite* An_4_inRow_17Rows_10, Sprite* An_4_inRow_17Rows_11, Sprite* An_4_inRow_17Rows_12, Vector2f scale)
+{
+	if (!progressOfAnimationFF) animation_fast_falling_clock.restart();
+	progressOfAnimationFF = true;
+	//a[i].x * 38 + 922, a[i].y * 38 + 219
+	if (typeOfTetramino1 == 0 && (numberOfWide[0] % 4 == 2 || numberOfWide[0] % 4 == -2))
+	{
+		An_4_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 92) * scale.y);
+		An_4_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 184) * scale.y);
+		An_4_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 276) * scale.y);
+		An_4_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 369) * scale.y);
+		An_4_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 461) * scale.y);
+		An_4_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 553) * scale.y);
+	}
+	else if (typeOfTetramino1 == 0 && numberOfWide[0] % 4 == 0)
+	{
+		An_4_inRow_17Rows_1->setPosition((a[0].x * 38 + 960 - 105 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 105 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_2->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_3->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_4->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_5->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_6->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18) * scale.y);
+		An_4_inRow_17Rows_7->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 92) * scale.y);
+		An_4_inRow_17Rows_8->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 184) * scale.y);
+		An_4_inRow_17Rows_9->setPosition((a[0].x * 38 + 960 - 108 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 108 - 38 * 18 + 276) * scale.y);
+		An_4_inRow_17Rows_10->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 369) * scale.y);
+		An_4_inRow_17Rows_11->setPosition((a[0].x * 38 + 960 - 107 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 107 - 38 * 18 + 461) * scale.y);
+		An_4_inRow_17Rows_12->setPosition((a[0].x * 38 + 960 - 103 - 38 * 4) * scale.x, (a[0].y * 38 + 941 - 103 - 38 * 18 + 553) * scale.y);
+	}
+
+	int time_ff_4InRow_17Rows = animation_fast_falling_clock.getElapsedTime().asMilliseconds();
+
+	if (time_ff_4InRow_17Rows >= 0 && time_ff_4InRow_17Rows < 16) win.draw(*An_4_inRow_17Rows_1);
+	else if (time_ff_4InRow_17Rows >= 16 && time_ff_4InRow_17Rows < 32) win.draw(*An_4_inRow_17Rows_2);
+	else if (time_ff_4InRow_17Rows >= 32 && time_ff_4InRow_17Rows < 48) win.draw(*An_4_inRow_17Rows_3);
+	else if (time_ff_4InRow_17Rows >= 48 && time_ff_4InRow_17Rows < 64) win.draw(*An_4_inRow_17Rows_4);
+	else if (time_ff_4InRow_17Rows >= 64 && time_ff_4InRow_17Rows < 80) win.draw(*An_4_inRow_17Rows_5);
+	else if (time_ff_4InRow_17Rows >= 80 && time_ff_4InRow_17Rows < 96) win.draw(*An_4_inRow_17Rows_6);
+	else if (time_ff_4InRow_17Rows >= 96 && time_ff_4InRow_17Rows < 112) win.draw(*An_4_inRow_17Rows_7);
+	else if (time_ff_4InRow_17Rows >= 112 && time_ff_4InRow_17Rows < 128) win.draw(*An_4_inRow_17Rows_8);
+	else if (time_ff_4InRow_17Rows >= 128 && time_ff_4InRow_17Rows < 144) win.draw(*An_4_inRow_17Rows_9);
+	else if (time_ff_4InRow_17Rows >= 144 && time_ff_4InRow_17Rows < 160)
+	{
+		win.draw(*An_4_inRow_17Rows_10);
+		//if(checkForFigureBot)
+		forFigureBot = true;
+	}
+	else if (time_ff_4InRow_17Rows >= 160 && time_ff_4InRow_17Rows < 176) win.draw(*An_4_inRow_17Rows_11);
+	else if (time_ff_4InRow_17Rows >= 176 && time_ff_4InRow_17Rows < 192) win.draw(*An_4_inRow_17Rows_12);
+	else
+	{
+		afterAnimationFF = true;
+		progressOfAnimationFF = false;
+		enableAnimation_fast_falling_4InRow_17Rows = false;
+		check_space = false;
+		for (USHORT i = 0; i < 4; i++)
+			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
 
 void animation_fast_falling_4InRow_18RowsFn(RenderWindow& win, Sprite* An_4_inRow_18Rows_1, Sprite* An_4_inRow_18Rows_2, Sprite* An_4_inRow_18Rows_3, Sprite* An_4_inRow_18Rows_4, Sprite* An_4_inRow_18Rows_5, Sprite* An_4_inRow_18Rows_6, Sprite* An_4_inRow_18Rows_7, Sprite* An_4_inRow_18Rows_8, Sprite* An_4_inRow_18Rows_9, Sprite* An_4_inRow_18Rows_10, Sprite* An_4_inRow_18Rows_11, Sprite* An_4_inRow_18Rows_12, Vector2f scale)
 {
@@ -7445,6 +13449,35 @@ void animation_fast_falling_4InRow_18RowsFn(RenderWindow& win, Sprite* An_4_inRo
 		check_space = false;
 		for (USHORT i = 0; i < 4; i++)
 			field[e[i].y][e[i].x + 4] = colorNum; ///тут править
+	}
+}
+
+
+void fill_tetramino()
+{
+	// задаём тип тетрамино
+	beginGame = false;
+	typeOfTetramino1 = rand() % 7;
+	//typeOfTetramino1 = 0;
+	//typeOfTetramino2 = 0;
+	typeOfTetramino2 = rand() % 7;
+	for (int i = 0; i < 4; i++)
+	{
+		a[i].x = figures[typeOfTetramino1][i] % 2;
+		a[i].y = figures[typeOfTetramino1][i] / 2;
+		e[i].x = figures[typeOfTetramino1][i] % 2;
+		e[i].y = figures[typeOfTetramino1][i] / 2;
+	}
+}
+
+
+
+void fill_tetramino2()
+{
+	for (int i = 0; i < 4; i++)
+	{
+		c[i].x = figures[typeOfTetramino2][i] % 2;
+		c[i].y = figures[typeOfTetramino2][i] / 2;
 	}
 }
 
