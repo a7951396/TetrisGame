@@ -377,8 +377,8 @@ int main()
 		* I_orange, * S_orange, * Z_orange, * T_orange, * L_orange, * J_orange, * O_orange, * I_green, * S_green, * Z_green, * T_green, * L_green, * J_green, * O_green,
 		* I_purple, * S_purple, * Z_purple, * T_purple, * L_purple, * J_purple, * O_purple, * I_pink, * S_pink, * Z_pink, * T_pink, * L_pink, * J_pink, * O_pink,
 		* I_yellow, * S_yellow, * Z_yellow, * T_yellow, * L_yellow, * J_yellow, * O_yellow, * myCursor,
-		* An_1line_1, * An_1line_2, * An_1line_3, * An_1line_4, * An_1line_5, * An_1line_6, * An_1line_7, * An_1line_8, * An_1line_9, * An_1line_10, * An_1line_11,
-		* An_1line_12, * An_1line_13, * An_1line_14, * An_1line_15, * An_1line_16, * An_1line_17, * An_1line_18, * An_1line_19, * An_1line_20, * An_1line_21, * An_1line_22,
+		/** An_1line_1, * An_1line_2, * An_1line_3, * An_1line_4, * An_1line_5, * An_1line_6, * An_1line_7, * An_1line_8, * An_1line_9, * An_1line_10, * An_1line_11,
+		* An_1line_12, * An_1line_13, * An_1line_14, * An_1line_15, * An_1line_16, * An_1line_17, * An_1line_18, * An_1line_19, * An_1line_20, * An_1line_21, * An_1line_22,*/
 		* An_2lines_1, * An_2lines_2, * An_2lines_3, * An_2lines_4, * An_2lines_5, * An_2lines_6, * An_2lines_7, * An_2lines_8, * An_2lines_9, * An_2lines_10,
 		* An_2lines_11, * An_2lines_12, * An_2lines_13, * An_2lines_14, * An_2lines_15, * An_2lines_16, * An_2lines_17, * An_2lines_18, * An_2lines_19, * An_2lines_20,
 		* An_2lines_21, * An_2lines_22,
@@ -390,7 +390,8 @@ int main()
 		* An_4lines_21, * An_4lines_22, * AnFF1inRow1To4Rows, * AnFF1inRow5To8Rows, * AnFF1inRow9To12Rows, * AnFF1inRow13To15Rows, * AnFF1inRow16To17Rows,
 		* AnFF2inRow1To6Rows, *AnFF2inRow7To10Rows, *AnFF2inRow11To13Rows, *AnFF2inRow14To15Rows, *AnFF2inRow16To17Rows, *AnFF3inRow1To4Rows, *AnFF3inRow5To8Rows, 
 		*AnFF3inRow9To11Rows, *AnFF3inRow12To13Rows, *AnFF3inRow14To15Rows, *AnFF3inRow16Rows, *AnFF3inRow17Rows, *AnFF3inRow18Rows, *AnFF4inRow1To4Rows, *AnFF4inRow5To8Rows,
-		*AnFF4inRow9To11Rows, *AnFF4inRow12To13Rows, *AnFF4inRow14Rows, *AnFF4inRow15Rows, *AnFF4inRow16Rows, *AnFF4inRow17Rows, *AnFF4inRow18Rows;
+		*AnFF4inRow9To11Rows, *AnFF4inRow12To13Rows, *AnFF4inRow14Rows, *AnFF4inRow15Rows, *AnFF4inRow16Rows, *AnFF4inRow17Rows, *AnFF4inRow18Rows, *AnBurning1Row,
+		*AnBurning2Rows, *AnBurning3Rows, *AnBurning4Rows;
 		
 
 
@@ -532,100 +533,6 @@ int main()
 	J_yellow = LoadTextureFromResource(IDB_PNG79, "PNG");
 	O_yellow = LoadTextureFromResource(IDB_PNG95, "PNG");
 
-
-	An_1line_1 = LoadTextureFromResource(IDB_PNG121, "PNG");
-	An_1line_2 = LoadTextureFromResource(IDB_PNG122, "PNG");
-	An_1line_3 = LoadTextureFromResource(IDB_PNG123, "PNG");
-	An_1line_4 = LoadTextureFromResource(IDB_PNG124, "PNG");
-	An_1line_5 = LoadTextureFromResource(IDB_PNG125, "PNG");
-	An_1line_6 = LoadTextureFromResource(IDB_PNG126, "PNG");
-	An_1line_7 = LoadTextureFromResource(IDB_PNG127, "PNG");
-	An_1line_8 = LoadTextureFromResource(IDB_PNG128, "PNG");
-	An_1line_9 = LoadTextureFromResource(IDB_PNG129, "PNG");
-	An_1line_10 = LoadTextureFromResource(IDB_PNG130, "PNG");
-	An_1line_11 = LoadTextureFromResource(IDB_PNG131, "PNG");
-	An_1line_12 = LoadTextureFromResource(IDB_PNG132, "PNG");
-	An_1line_13 = LoadTextureFromResource(IDB_PNG133, "PNG");
-	An_1line_14 = LoadTextureFromResource(IDB_PNG134, "PNG");
-	An_1line_15 = LoadTextureFromResource(IDB_PNG135, "PNG");
-	An_1line_16 = LoadTextureFromResource(IDB_PNG136, "PNG");
-	An_1line_17 = LoadTextureFromResource(IDB_PNG137, "PNG");
-	An_1line_18 = LoadTextureFromResource(IDB_PNG138, "PNG");
-	An_1line_19 = LoadTextureFromResource(IDB_PNG139, "PNG");
-	An_1line_20 = LoadTextureFromResource(IDB_PNG140, "PNG");
-	An_1line_21 = LoadTextureFromResource(IDB_PNG141, "PNG");
-	An_1line_22 = LoadTextureFromResource(IDB_PNG142, "PNG");
-
-	An_2lines_1 = LoadTextureFromResource(IDB_PNG143, "PNG");
-	An_2lines_2 = LoadTextureFromResource(IDB_PNG144, "PNG");
-	An_2lines_3 = LoadTextureFromResource(IDB_PNG145, "PNG");
-	An_2lines_4 = LoadTextureFromResource(IDB_PNG146, "PNG");
-	An_2lines_5 = LoadTextureFromResource(IDB_PNG147, "PNG");
-	An_2lines_6 = LoadTextureFromResource(IDB_PNG148, "PNG");
-	An_2lines_7 = LoadTextureFromResource(IDB_PNG149, "PNG");
-	An_2lines_8 = LoadTextureFromResource(IDB_PNG150, "PNG");
-	An_2lines_9 = LoadTextureFromResource(IDB_PNG151, "PNG");
-	An_2lines_10 = LoadTextureFromResource(IDB_PNG152, "PNG");
-	An_2lines_11 = LoadTextureFromResource(IDB_PNG153, "PNG");
-	An_2lines_12 = LoadTextureFromResource(IDB_PNG154, "PNG");
-	An_2lines_13 = LoadTextureFromResource(IDB_PNG155, "PNG");
-	An_2lines_14 = LoadTextureFromResource(IDB_PNG156, "PNG");
-	An_2lines_15 = LoadTextureFromResource(IDB_PNG157, "PNG");
-	An_2lines_16 = LoadTextureFromResource(IDB_PNG158, "PNG");
-	An_2lines_17 = LoadTextureFromResource(IDB_PNG159, "PNG");
-	An_2lines_18 = LoadTextureFromResource(IDB_PNG160, "PNG");
-	An_2lines_19 = LoadTextureFromResource(IDB_PNG161, "PNG");
-	An_2lines_20 = LoadTextureFromResource(IDB_PNG162, "PNG");
-	An_2lines_21 = LoadTextureFromResource(IDB_PNG163, "PNG");
-	An_2lines_22 = LoadTextureFromResource(IDB_PNG164, "PNG");
-
-	An_3lines_1 = LoadTextureFromResource(IDB_PNG165, "PNG");
-	An_3lines_2 = LoadTextureFromResource(IDB_PNG166, "PNG");
-	An_3lines_3 = LoadTextureFromResource(IDB_PNG167, "PNG");
-	An_3lines_4 = LoadTextureFromResource(IDB_PNG168, "PNG");
-	An_3lines_5 = LoadTextureFromResource(IDB_PNG169, "PNG");
-	An_3lines_6 = LoadTextureFromResource(IDB_PNG170, "PNG");
-	An_3lines_7 = LoadTextureFromResource(IDB_PNG171, "PNG");
-	An_3lines_8 = LoadTextureFromResource(IDB_PNG172, "PNG");
-	An_3lines_9 = LoadTextureFromResource(IDB_PNG173, "PNG");
-	An_3lines_10 = LoadTextureFromResource(IDB_PNG174, "PNG");
-	An_3lines_11 = LoadTextureFromResource(IDB_PNG175, "PNG");
-	An_3lines_12 = LoadTextureFromResource(IDB_PNG176, "PNG");
-	An_3lines_13 = LoadTextureFromResource(IDB_PNG177, "PNG");
-	An_3lines_14 = LoadTextureFromResource(IDB_PNG178, "PNG");
-	An_3lines_15 = LoadTextureFromResource(IDB_PNG179, "PNG");
-	An_3lines_16 = LoadTextureFromResource(IDB_PNG180, "PNG");
-	An_3lines_17 = LoadTextureFromResource(IDB_PNG181, "PNG");
-	An_3lines_18 = LoadTextureFromResource(IDB_PNG182, "PNG");
-	An_3lines_19 = LoadTextureFromResource(IDB_PNG183, "PNG");
-	An_3lines_20 = LoadTextureFromResource(IDB_PNG184, "PNG");
-	An_3lines_21 = LoadTextureFromResource(IDB_PNG185, "PNG");
-	An_3lines_22 = LoadTextureFromResource(IDB_PNG186, "PNG");
-
-	An_4lines_1 = LoadTextureFromResource(IDB_PNG187, "PNG");
-	An_4lines_2 = LoadTextureFromResource(IDB_PNG188, "PNG");
-	An_4lines_3 = LoadTextureFromResource(IDB_PNG189, "PNG");
-	An_4lines_4 = LoadTextureFromResource(IDB_PNG190, "PNG");
-	An_4lines_5 = LoadTextureFromResource(IDB_PNG191, "PNG");
-	An_4lines_6 = LoadTextureFromResource(IDB_PNG192, "PNG");
-	An_4lines_7 = LoadTextureFromResource(IDB_PNG193, "PNG");
-	An_4lines_8 = LoadTextureFromResource(IDB_PNG194, "PNG");
-	An_4lines_9 = LoadTextureFromResource(IDB_PNG195, "PNG");
-	An_4lines_10 = LoadTextureFromResource(IDB_PNG196, "PNG");
-	An_4lines_11 = LoadTextureFromResource(IDB_PNG197, "PNG");
-	An_4lines_12 = LoadTextureFromResource(IDB_PNG198, "PNG");
-	An_4lines_13 = LoadTextureFromResource(IDB_PNG199, "PNG");
-	An_4lines_14 = LoadTextureFromResource(IDB_PNG200, "PNG");
-	An_4lines_15 = LoadTextureFromResource(IDB_PNG201, "PNG");
-	An_4lines_16 = LoadTextureFromResource(IDB_PNG202, "PNG");
-	An_4lines_17 = LoadTextureFromResource(IDB_PNG203, "PNG");
-	An_4lines_18 = LoadTextureFromResource(IDB_PNG204, "PNG");
-	An_4lines_19 = LoadTextureFromResource(IDB_PNG205, "PNG");
-	An_4lines_20 = LoadTextureFromResource(IDB_PNG206, "PNG");
-	An_4lines_21 = LoadTextureFromResource(IDB_PNG207, "PNG");
-	An_4lines_22 = LoadTextureFromResource(IDB_PNG208, "PNG");
-	
-	
 	AnFF1inRow1To4Rows = LoadTextureFromResource(IDB_PNG209, "PNG");
 	AnFF1inRow5To8Rows = LoadTextureFromResource(IDB_PNG211, "PNG");
 	AnFF1inRow9To12Rows = LoadTextureFromResource(IDB_PNG212, "PNG");
@@ -653,6 +560,11 @@ int main()
 	AnFF4inRow16Rows = LoadTextureFromResource(IDB_PNG235, "PNG");
 	AnFF4inRow17Rows = LoadTextureFromResource(IDB_PNG236, "PNG");
 	AnFF4inRow18Rows = LoadTextureFromResource(IDB_PNG693, "PNG");
+
+	AnBurning1Row = LoadTextureFromResource(IDB_PNG229, "PNG");
+	AnBurning2Rows = LoadTextureFromResource(IDB_PNG237, "PNG");
+	AnBurning3Rows = LoadTextureFromResource(IDB_PNG238, "PNG");
+	AnBurning4Rows = LoadTextureFromResource(IDB_PNG239, "PNG");
 	//loading_screen_tex = LoadTextureFromResource(IDB_PNG690, "PNG");
 	
 	Image /**img_table,*/ *tetramino /*,*img_myCursor*/;
@@ -722,37 +634,37 @@ int main()
 * sprite_I_yellow = new Sprite(*I_yellow), * sprite_S_yellow = new Sprite(*S_yellow), * sprite_Z_yellow = new Sprite(*Z_yellow), * sprite_L_yellow = new Sprite(*L_yellow), * sprite_J_yellow = new Sprite(*J_yellow),
 * sprite_T_yellow = new Sprite(*T_yellow), * sprite_O_yellow = new Sprite(*O_yellow), * sprite_myCursor = new Sprite(*myCursor),
 
-* spriteAn_1line_1 = new Sprite(*An_1line_1), * spriteAn_1line_2 = new Sprite(*An_1line_2), * spriteAn_1line_3 = new Sprite(*An_1line_3), * spriteAn_1line_4 = new Sprite(*An_1line_4),
-* spriteAn_1line_5 = new Sprite(*An_1line_5), * spriteAn_1line_6 = new Sprite(*An_1line_6), * spriteAn_1line_7 = new Sprite(*An_1line_7), * spriteAn_1line_8 = new Sprite(*An_1line_8),
-* spriteAn_1line_9 = new Sprite(*An_1line_9), * spriteAn_1line_10 = new Sprite(*An_1line_10), * spriteAn_1line_11 = new Sprite(*An_1line_11), * spriteAn_1line_12 = new Sprite(*An_1line_12),
-* spriteAn_1line_13 = new Sprite(*An_1line_13), * spriteAn_1line_14 = new Sprite(*An_1line_14), * spriteAn_1line_15 = new Sprite(*An_1line_15), * spriteAn_1line_16 = new Sprite(*An_1line_16),
-* spriteAn_1line_17 = new Sprite(*An_1line_17), * spriteAn_1line_18 = new Sprite(*An_1line_18), * spriteAn_1line_19 = new Sprite(*An_1line_19), * spriteAn_1line_20 = new Sprite(*An_1line_20),
-* spriteAn_1line_21 = new Sprite(*An_1line_21), * spriteAn_1line_22 = new Sprite(*An_1line_22),
+* spriteAn_1line_1 = new Sprite(*AnBurning1Row, IntRect(0, 0, 480, 137)), * spriteAn_1line_2 = new Sprite(*AnBurning1Row, IntRect(0, 137, 480, 132)), * spriteAn_1line_3 = new Sprite(*AnBurning1Row, IntRect(0, 269, 480, 127)), * spriteAn_1line_4 = new Sprite(*AnBurning1Row, IntRect(0, 396, 480, 123)),
+* spriteAn_1line_5 = new Sprite(*AnBurning1Row, IntRect(0, 519, 479, 118)), * spriteAn_1line_6 = new Sprite(*AnBurning1Row, IntRect(0, 637, 478, 114)), * spriteAn_1line_7 = new Sprite(*AnBurning1Row, IntRect(0, 751, 477, 109)), * spriteAn_1line_8 = new Sprite(*AnBurning1Row, IntRect(0, 965, 476, 105)),
+* spriteAn_1line_9 = new Sprite(*AnBurning1Row, IntRect(0, 860, 477, 105)), * spriteAn_1line_10 = new Sprite(*AnBurning1Row, IntRect(0, 1070, 449, 105)), * spriteAn_1line_11 = new Sprite(*AnBurning1Row, IntRect(0, 1175, 423, 105)), * spriteAn_1line_12 = new Sprite(*AnBurning1Row, IntRect(0, 1280, 395, 105)),
+* spriteAn_1line_13 = new Sprite(*AnBurning1Row, IntRect(0, 1385, 369, 105)), * spriteAn_1line_14 = new Sprite(*AnBurning1Row, IntRect(0, 1490, 341, 105)), * spriteAn_1line_15 = new Sprite(*AnBurning1Row, IntRect(0, 1595, 314, 105)), * spriteAn_1line_16 = new Sprite(*AnBurning1Row, IntRect(0, 1700, 287, 105)),
+* spriteAn_1line_17 = new Sprite(*AnBurning1Row, IntRect(0, 1805, 258, 103)), * spriteAn_1line_18 = new Sprite(*AnBurning1Row, IntRect(258, 1805, 231, 103)), * spriteAn_1line_19 = new Sprite(*AnBurning1Row, IntRect(287, 1700, 204, 103)), * spriteAn_1line_20 = new Sprite(*AnBurning1Row, IntRect(314, 1595, 173, 101)),
+* spriteAn_1line_21 = new Sprite(*AnBurning1Row, IntRect(341, 1490, 144, 97)), * spriteAn_1line_22 = new Sprite(*AnBurning1Row, IntRect(369, 1385, 110, 89)),
 
-* spriteAn_2lines_1 = new Sprite(*An_2lines_1), * spriteAn_2lines_2 = new Sprite(*An_2lines_2), * spriteAn_2lines_3 = new Sprite(*An_2lines_3), * spriteAn_2lines_4 = new Sprite(*An_2lines_4),
-* spriteAn_2lines_5 = new Sprite(*An_2lines_5), * spriteAn_2lines_6 = new Sprite(*An_2lines_6), * spriteAn_2lines_7 = new Sprite(*An_2lines_7), * spriteAn_2lines_8 = new Sprite(*An_2lines_8),
-* spriteAn_2lines_9 = new Sprite(*An_2lines_9), * spriteAn_2lines_10 = new Sprite(*An_2lines_10), * spriteAn_2lines_11 = new Sprite(*An_2lines_11), * spriteAn_2lines_12 = new Sprite(*An_2lines_12),
-* spriteAn_2lines_13 = new Sprite(*An_2lines_13), * spriteAn_2lines_14 = new Sprite(*An_2lines_14), * spriteAn_2lines_15 = new Sprite(*An_2lines_15), * spriteAn_2lines_16 = new Sprite(*An_2lines_16),
-* spriteAn_2lines_17 = new Sprite(*An_2lines_17), * spriteAn_2lines_18 = new Sprite(*An_2lines_18), * spriteAn_2lines_19 = new Sprite(*An_2lines_19), * spriteAn_2lines_20 = new Sprite(*An_2lines_20),
-* spriteAn_2lines_21 = new Sprite(*An_2lines_21), * spriteAn_2lines_22 = new Sprite(*An_2lines_22),
+* spriteAn_2lines_1 = new Sprite(*AnBurning2Rows, IntRect(0, 0, 482, 169)), * spriteAn_2lines_2 = new Sprite(*AnBurning2Rows, IntRect(0, 169, 482, 161)), * spriteAn_2lines_3 = new Sprite(*AnBurning2Rows, IntRect(0, 330, 481, 151)), * spriteAn_2lines_4 = new Sprite(*AnBurning2Rows, IntRect(0, 481, 481, 142)),
+* spriteAn_2lines_5 = new Sprite(*AnBurning2Rows, IntRect(0, 623, 480, 132)), * spriteAn_2lines_6 = new Sprite(*AnBurning2Rows, IntRect(0, 755, 480, 123)), * spriteAn_2lines_7 = new Sprite(*AnBurning2Rows, IntRect(0, 878, 478, 114)), * spriteAn_2lines_8 = new Sprite(*AnBurning2Rows, IntRect(0, 992, 476, 105)),
+* spriteAn_2lines_9 = new Sprite(*AnBurning2Rows, IntRect(0, 1097, 476, 105)), * spriteAn_2lines_10 = new Sprite(*AnBurning2Rows, IntRect(0, 1202, 448, 105)), * spriteAn_2lines_11 = new Sprite(*AnBurning2Rows, IntRect(0, 1307, 422, 105)), * spriteAn_2lines_12 = new Sprite(*AnBurning2Rows, IntRect(0, 1412, 394, 105)),
+* spriteAn_2lines_13 = new Sprite(*AnBurning2Rows, IntRect(0, 1517, 368, 105)), * spriteAn_2lines_14 = new Sprite(*AnBurning2Rows, IntRect(0, 1622, 340, 105)), * spriteAn_2lines_15 = new Sprite(*AnBurning2Rows, IntRect(0, 1727, 314, 105)), * spriteAn_2lines_16 = new Sprite(*AnBurning2Rows, IntRect(0, 1832, 286, 105)),
+* spriteAn_2lines_17 = new Sprite(*AnBurning2Rows, IntRect(0, 1937, 258, 103)), * spriteAn_2lines_18 = new Sprite(*AnBurning2Rows, IntRect(258, 1937, 230, 103)), * spriteAn_2lines_19 = new Sprite(*AnBurning2Rows, IntRect(286, 1832, 203, 103)), * spriteAn_2lines_20 = new Sprite(*AnBurning2Rows, IntRect(314, 1727, 173, 101)),
+* spriteAn_2lines_21 = new Sprite(*AnBurning2Rows, IntRect(340, 1622, 143, 97)), * spriteAn_2lines_22 = new Sprite(*AnBurning2Rows, IntRect(368, 1517, 110, 89)),
 
-* spriteAn_3lines_1 = new Sprite(*An_3lines_1), * spriteAn_3lines_2 = new Sprite(*An_3lines_2), * spriteAn_3lines_3 = new Sprite(*An_3lines_3),
-* spriteAn_3lines_4 = new Sprite(*An_3lines_4), * spriteAn_3lines_5 = new Sprite(*An_3lines_5), * spriteAn_3lines_6 = new Sprite(*An_3lines_6),
-* spriteAn_3lines_7 = new Sprite(*An_3lines_7), * spriteAn_3lines_8 = new Sprite(*An_3lines_8), * spriteAn_3lines_9 = new Sprite(*An_3lines_9),
-* spriteAn_3lines_10 = new Sprite(*An_3lines_10), * spriteAn_3lines_11 = new Sprite(*An_3lines_11), * spriteAn_3lines_12 = new Sprite(*An_3lines_12),
-* spriteAn_3lines_13 = new Sprite(*An_3lines_13), * spriteAn_3lines_14 = new Sprite(*An_3lines_14), * spriteAn_3lines_15 = new Sprite(*An_3lines_15),
-* spriteAn_3lines_16 = new Sprite(*An_3lines_16), * spriteAn_3lines_17 = new Sprite(*An_3lines_17), * spriteAn_3lines_18 = new Sprite(*An_3lines_18),
-* spriteAn_3lines_19 = new Sprite(*An_3lines_19), * spriteAn_3lines_20 = new Sprite(*An_3lines_20), * spriteAn_3lines_21 = new Sprite(*An_3lines_21),
-* spriteAn_3lines_22 = new Sprite(*An_3lines_22),
+* spriteAn_3lines_1 = new Sprite(*AnBurning3Rows, IntRect(0, 0, 482, 203)), * spriteAn_3lines_2 = new Sprite(*AnBurning3Rows, IntRect(482, 0, 482, 189)), * spriteAn_3lines_3 = new Sprite(*AnBurning3Rows, IntRect(964, 0, 482, 175)),
+* spriteAn_3lines_4 = new Sprite(*AnBurning3Rows, IntRect(1446, 0, 482, 161)), * spriteAn_3lines_5 = new Sprite(*AnBurning3Rows, IntRect(1446, 161, 481, 147)), * spriteAn_3lines_6 = new Sprite(*AnBurning3Rows, IntRect(964, 175, 480, 133)),
+* spriteAn_3lines_7 = new Sprite(*AnBurning3Rows, IntRect(482, 189, 479, 119)), * spriteAn_3lines_8 = new Sprite(*AnBurning3Rows, IntRect(0, 203, 476, 105)), * spriteAn_3lines_9 = new Sprite(*AnBurning3Rows, IntRect(0, 308, 476, 105)),
+* spriteAn_3lines_10 = new Sprite(*AnBurning3Rows, IntRect(476, 308, 448, 105)), * spriteAn_3lines_11 = new Sprite(*AnBurning3Rows, IntRect(924, 308, 422,	105)), * spriteAn_3lines_12 = new Sprite(*AnBurning3Rows, IntRect(1346, 308, 394, 105)),
+* spriteAn_3lines_13 = new Sprite(*AnBurning3Rows, IntRect(0, 413, 368, 105)), * spriteAn_3lines_14 = new Sprite(*AnBurning3Rows, IntRect(368, 413, 340, 105)), * spriteAn_3lines_15 = new Sprite(*AnBurning3Rows, IntRect(708, 413, 314, 105)),
+* spriteAn_3lines_16 = new Sprite(*AnBurning3Rows, IntRect(1740, 308, 286, 105)), * spriteAn_3lines_17 = new Sprite(*AnBurning3Rows, IntRect(1022, 413, 258, 103)), * spriteAn_3lines_18 = new Sprite(*AnBurning3Rows, IntRect(1280, 413, 230, 103)),
+* spriteAn_3lines_19 = new Sprite(*AnBurning3Rows, IntRect(1510, 413, 204, 103)), * spriteAn_3lines_20 = new Sprite(*AnBurning3Rows, IntRect(1714, 413, 173, 101)), * spriteAn_3lines_21 = new Sprite(*AnBurning3Rows, IntRect(1887, 413, 143, 97)),
+* spriteAn_3lines_22 = new Sprite(*AnBurning3Rows, IntRect(1927, 161, 110, 89)),
 
-* spriteAn_4lines_1 = new Sprite(*An_4lines_1), * spriteAn_4lines_2 = new Sprite(*An_4lines_2), * spriteAn_4lines_3 = new Sprite(*An_4lines_3),
-* spriteAn_4lines_4 = new Sprite(*An_4lines_4), * spriteAn_4lines_5 = new Sprite(*An_4lines_5), * spriteAn_4lines_6 = new Sprite(*An_4lines_6),
-* spriteAn_4lines_7 = new Sprite(*An_4lines_7), * spriteAn_4lines_8 = new Sprite(*An_4lines_8), * spriteAn_4lines_9 = new Sprite(*An_4lines_9),
-* spriteAn_4lines_10 = new Sprite(*An_4lines_10), * spriteAn_4lines_11 = new Sprite(*An_4lines_11), * spriteAn_4lines_12 = new Sprite(*An_4lines_12),
-* spriteAn_4lines_13 = new Sprite(*An_4lines_13), * spriteAn_4lines_14 = new Sprite(*An_4lines_14), * spriteAn_4lines_15 = new Sprite(*An_4lines_15),
-* spriteAn_4lines_16 = new Sprite(*An_4lines_16), * spriteAn_4lines_17 = new Sprite(*An_4lines_17), * spriteAn_4lines_18 = new Sprite(*An_4lines_18),
-* spriteAn_4lines_19 = new Sprite(*An_4lines_19), * spriteAn_4lines_20 = new Sprite(*An_4lines_20), * spriteAn_4lines_21 = new Sprite(*An_4lines_21),
-* spriteAn_4lines_22 = new Sprite(*An_4lines_22),
+* spriteAn_4lines_1 = new Sprite(*AnBurning4Rows, IntRect(0, 0, 482, 237)), * spriteAn_4lines_2 = new Sprite(*AnBurning4Rows, IntRect(482, 0, 482, 217)), * spriteAn_4lines_3 = new Sprite(*AnBurning4Rows, IntRect(482, 217, 482,198)),
+* spriteAn_4lines_4 = new Sprite(*AnBurning4Rows, IntRect(0, 237, 482, 180)), * spriteAn_4lines_5 = new Sprite(*AnBurning4Rows, IntRect(482, 415, 482, 161)), * spriteAn_4lines_6 = new Sprite(*AnBurning4Rows, IntRect(0, 417, 481, 142)),
+* spriteAn_4lines_7 = new Sprite(*AnBurning4Rows, IntRect(0, 559, 480, 123)), * spriteAn_4lines_8 = new Sprite(*AnBurning4Rows, IntRect(480, 576, 476, 105)), * spriteAn_4lines_9 = new Sprite(*AnBurning4Rows, IntRect(480, 681, 476, 105)),
+* spriteAn_4lines_10 = new Sprite(*AnBurning4Rows, IntRect(0, 682, 448, 105)), * spriteAn_4lines_11 = new Sprite(*AnBurning4Rows, IntRect(448, 786, 422, 105)), * spriteAn_4lines_12 = new Sprite(*AnBurning4Rows, IntRect(0, 787, 394, 105)),
+* spriteAn_4lines_13 = new Sprite(*AnBurning4Rows, IntRect(0, 892, 368, 105)), * spriteAn_4lines_14 = new Sprite(*AnBurning4Rows, IntRect(0, 997, 340, 105)), * spriteAn_4lines_15 = new Sprite(*AnBurning4Rows, IntRect(340, 997, 314, 105)),
+* spriteAn_4lines_16 = new Sprite(*AnBurning4Rows, IntRect(368, 892, 286, 105)), * spriteAn_4lines_17 = new Sprite(*AnBurning4Rows, IntRect(654, 891, 258, 103)), * spriteAn_4lines_18 = new Sprite(*AnBurning4Rows, IntRect(654, 994, 231, 103)),
+* spriteAn_4lines_19 = new Sprite(*AnBurning4Rows, IntRect(654, 1097, 204, 103)), * spriteAn_4lines_20 = new Sprite(*AnBurning4Rows, IntRect(0, 1102, 173, 101)), * spriteAn_4lines_21 = new Sprite(*AnBurning4Rows, IntRect(173, 1102, 144, 97)),
+* spriteAn_4lines_22 = new Sprite(*AnBurning4Rows, IntRect(317, 1102, 110, 89)),
 
 * spriteAn_1_inRow_1Row_1 = new Sprite(*AnFF1inRow1To4Rows,IntRect(251, 1182, 248, 232)), * spriteAn_1_inRow_1Row_2 = new Sprite(*AnFF1inRow1To4Rows, IntRect(0, 1175, 251, 247)),
 * spriteAn_1_inRow_2Rows_1 = new Sprite(*AnFF1inRow1To4Rows, IntRect(0, 924, 251, 251)), * spriteAn_1_inRow_2Rows_2 = new Sprite(*AnFF1inRow1To4Rows, IntRect(253, 637, 253, 285)),
@@ -2162,17 +2074,17 @@ int main()
 						}
 					}
 
-					for (USHORT i = H - 1; i > 2; i--)
+					for (USHORT i = H - 1; i > 15; i--)
 					{
 						for (USHORT j = 0; j < W; j++)
 						{
 							
 							field[i][j] = 1;
-							if(i < 7)
-							field[i][4] = 0;
+							//if(i < 7)
+							//field[i][4] = 0;
 							//if (i == 18) field[i][3] = 0;
 							//if (i == 17) field[i][3] = 0;
-							if (i == 4) field[i][3] = 0;
+				/*			if (i == 4) field[i][3] = 0;
 							if (i == 7) field[i][8] = 0;
 							if (i == 8) field[i][9] = 0;
 							if (i == 9) field[i][0] = 0;
@@ -2185,7 +2097,14 @@ int main()
 							if (i == 16) field[i][7] = 0;
 							if (i == 17) field[i][8] = 0;
 							if (i == 18) field[i][9] = 0;
-							if (i == 19) field[i][8] = 0;
+							if (i == 19) field[i][8] = 0;*/
+
+							if (i == 19)field[i][6] = 0;
+							//if (i == 18)field[i][5] = 0;
+							if (i == 18)field[i][6] = 0;
+							//if (i == 17)field[i][5] = 0;
+							if (i == 17)field[i][6] = 0;
+							if (i == 16)field[i][6] = 0;
 
 						}
 					}
@@ -6341,28 +6260,30 @@ void animation_1_lineFn(RenderWindow& win, USHORT index, Sprite* spriteAn_1line_
 	Sprite* spriteAn_1line_18, Sprite* spriteAn_1line_19, Sprite* spriteAn_1line_20, Sprite* spriteAn_1line_21, Sprite* spriteAn_1line_22, Vector2f scale)
 {
 	progressOfAnimationLines = true;
-	spriteAn_1line_1->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_2->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_3->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_4->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_5->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_6->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_7->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_8->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_9->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_10->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_11->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_12->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_13->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_14->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_15->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_16->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_17->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_18->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_19->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_20->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_21->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_1line_22->setPosition(0, ((index - 9) * 38) * scale.y);
+	
+	spriteAn_1line_1->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 2) * scale.y);
+	spriteAn_1line_2->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 5) * scale.y);
+	spriteAn_1line_3->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 7) * scale.y);
+	spriteAn_1line_4->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 9) * scale.y);
+	spriteAn_1line_5->setPosition((771 - 50) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 11) * scale.y);
+	spriteAn_1line_6->setPosition((771 - 50) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 14) * scale.y);
+	spriteAn_1line_7->setPosition((771 - 49) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 16) * scale.y);
+	spriteAn_1line_8->setPosition((771 - 49) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_9->setPosition((771 - 49) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_10->setPosition((771 - 48 + 13) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_11->setPosition((771 - 49 + 27) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_12->setPosition((771 - 48 + 40) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_13->setPosition((771 - 49 + 54) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_14->setPosition((771 - 48 + 67) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_15->setPosition((771 - 49 + 81) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_16->setPosition((771 - 48 + 94) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_17->setPosition((771 - 48 + 108) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+	spriteAn_1line_18->setPosition((771 - 48 + 121) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+	spriteAn_1line_19->setPosition((771 - 48 + 135) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+	spriteAn_1line_20->setPosition((771 - 46 + 148) * scale.x, (index * 38 + (38 * 6) - 9 - 50 + 18) * scale.y);
+	spriteAn_1line_21->setPosition((771 - 45 + 162) * scale.x, (index * 38 + (38 * 6) - 9 - 48 + 18) * scale.y);
+	spriteAn_1line_22->setPosition((771 - 41 + 175) * scale.x, (index * 38 + (38 * 6) - 9 - 44 + 18) * scale.y);
+
 	
 	int time_1_line = animation_1_line.getElapsedTime().asMilliseconds();
 	if ((time_1_line >= 0) && (time_1_line < 16)) win.draw(*spriteAn_1line_1);
@@ -6398,28 +6319,29 @@ void animation_1_lineFn(RenderWindow& win, USHORT index, Sprite* spriteAn_1line_
 void animation_2_linesFn(RenderWindow& win, USHORT index, Sprite* spriteAn_2lines_1, Sprite* spriteAn_2lines_2, Sprite* spriteAn_2lines_3, Sprite* spriteAn_2lines_4, Sprite* spriteAn_2lines_5, Sprite* spriteAn_2lines_6, Sprite* spriteAn_2lines_7, Sprite* spriteAn_2lines_8, Sprite* spriteAn_2lines_9, Sprite* spriteAn_2lines_10, Sprite* spriteAn_2lines_11, Sprite* spriteAn_2lines_12, Sprite* spriteAn_2lines_13, Sprite* spriteAn_2lines_14, Sprite* spriteAn_2lines_15, Sprite* spriteAn_2lines_16, Sprite* spriteAn_2lines_17, Sprite* spriteAn_2lines_18, Sprite* spriteAn_2lines_19, Sprite* spriteAn_2lines_20, Sprite* spriteAn_2lines_21, Sprite* spriteAn_2lines_22, Vector2f scale)
 {
 	progressOfAnimationLines = true;
-	spriteAn_2lines_1->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_2->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_3->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_4->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_5->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_6->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_7->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_8->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_9->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_10->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_11->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_12->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_13->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_14->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_15->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_16->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_17->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_18->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_19->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_20->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_21->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_2lines_22->setPosition(0, ((index - 9) * 38) * scale.y);
+
+	spriteAn_2lines_1->setPosition((771 - 52) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 5) * scale.y);
+	spriteAn_2lines_2->setPosition((771 - 52) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 9) * scale.y);
+	spriteAn_2lines_3->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 14) * scale.y);
+	spriteAn_2lines_4->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 19) * scale.y);
+	spriteAn_2lines_5->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 23) * scale.y);
+	spriteAn_2lines_6->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 28) * scale.y);
+	spriteAn_2lines_7->setPosition((771 - 50) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 32) * scale.y);
+	spriteAn_2lines_8->setPosition((771 - 49) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+	spriteAn_2lines_9->setPosition((771 - 49) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+	spriteAn_2lines_10->setPosition((771 - 48 + 13) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+	spriteAn_2lines_11->setPosition((771 - 49 + 27) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+	spriteAn_2lines_12->setPosition((771 - 48 + 40) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+	spriteAn_2lines_13->setPosition((771 - 49 + 54) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+	spriteAn_2lines_14->setPosition((771 - 48 + 67) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+	spriteAn_2lines_15->setPosition((771 - 49 + 81) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+	spriteAn_2lines_16->setPosition((771 - 48 + 94) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+	spriteAn_2lines_17->setPosition((771 - 48 + 108) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 37) * scale.y);
+	spriteAn_2lines_18->setPosition((771 - 47 + 121) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 37) * scale.y);
+	spriteAn_2lines_19->setPosition((771 - 48 + 135) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 37) * scale.y);
+	spriteAn_2lines_20->setPosition((771 - 46 + 148) * scale.x, (index * 38 + (38 * 6) - 9 - 50 + 37) * scale.y);
+	spriteAn_2lines_21->setPosition((771 - 45 + 162) * scale.x, (index * 38 + (38 * 6) - 9 - 48 + 37) * scale.y);
+	spriteAn_2lines_22->setPosition((771 - 41 +  175) * scale.x, (index * 38 + (38 * 6) - 9 - 44 + 37) * scale.y);
 
 	int time_2_lines = animation_2_lines.getElapsedTime().asMilliseconds();
 	if ((time_2_lines >= 0) && (time_2_lines < 16)) win.draw(*spriteAn_2lines_1);
@@ -6456,28 +6378,29 @@ void animation_2_linesFn(RenderWindow& win, USHORT index, Sprite* spriteAn_2line
 void animation_3_linesFn(RenderWindow& win, USHORT index, Sprite* spriteAn_3lines_1, Sprite* spriteAn_3lines_2, Sprite* spriteAn_3lines_3, Sprite* spriteAn_3lines_4, Sprite* spriteAn_3lines_5, Sprite* spriteAn_3lines_6, Sprite* spriteAn_3lines_7, Sprite* spriteAn_3lines_8, Sprite* spriteAn_3lines_9, Sprite* spriteAn_3lines_10, Sprite* spriteAn_3lines_11, Sprite* spriteAn_3lines_12, Sprite* spriteAn_3lines_13, Sprite* spriteAn_3lines_14, Sprite* spriteAn_3lines_15, Sprite* spriteAn_3lines_16, Sprite* spriteAn_3lines_17, Sprite* spriteAn_3lines_18, Sprite* spriteAn_3lines_19, Sprite* spriteAn_3lines_20, Sprite* spriteAn_3lines_21, Sprite* spriteAn_3lines_22, Vector2f scale)
 {
 	progressOfAnimationLines = true;
-	spriteAn_3lines_1->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_2->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_3->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_4->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_5->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_6->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_7->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_8->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_9->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_10->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_11->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_12->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_13->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_14->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_15->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_16->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_17->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_18->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_19->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_20->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_21->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_3lines_22->setPosition(0, ((index - 9) * 38) * scale.y);
+
+	spriteAn_3lines_1->setPosition((771 - 52) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 7) * scale.y);
+	spriteAn_3lines_2->setPosition((771 - 52) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 14) * scale.y);
+	spriteAn_3lines_3->setPosition((771 - 52) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 21) * scale.y);
+	spriteAn_3lines_4->setPosition((771 - 52) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 28) * scale.y);
+	spriteAn_3lines_5->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 35) * scale.y);
+	spriteAn_3lines_6->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 42) * scale.y);
+	spriteAn_3lines_7->setPosition((771 - 50) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 49) * scale.y);
+	spriteAn_3lines_8->setPosition((771 - 49) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 56) * scale.y);
+	spriteAn_3lines_9->setPosition((771 - 49) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 56) * scale.y);
+	spriteAn_3lines_10->setPosition((771 - 48 + 13) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 56) * scale.y);
+	spriteAn_3lines_11->setPosition((771 - 49 + 27) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 56) * scale.y);
+	spriteAn_3lines_12->setPosition((771 - 48 + 40) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 56) * scale.y);
+	spriteAn_3lines_13->setPosition((771 - 49 + 54) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 56) * scale.y);
+	spriteAn_3lines_14->setPosition((771 - 48 + 67) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 56) * scale.y);
+	spriteAn_3lines_15->setPosition((771 - 49 + 81) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 56) * scale.y);
+	spriteAn_3lines_16->setPosition((771 - 48 + 94) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 56) * scale.y);
+	spriteAn_3lines_17->setPosition((771 - 48 + 108) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 56) * scale.y);
+	spriteAn_3lines_18->setPosition((771 - 47 + 121) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 56) * scale.y);
+	spriteAn_3lines_19->setPosition((771 - 48 + 135) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 56) * scale.y);
+	spriteAn_3lines_20->setPosition((771 - 46 + 148) * scale.x, (index * 38 + (38 * 6) - 9 - 50 + 56) * scale.y);
+	spriteAn_3lines_21->setPosition((771 - 45 + 162) * scale.x, (index * 38 + (38 * 6) - 9 - 48 + 56) * scale.y);
+	spriteAn_3lines_22->setPosition((771 - 41 + 175) * scale.x, (index * 38 + (38 * 6) - 9 - 44 + 56) * scale.y);
 
 	int time_3_lines = animation_3_lines.getElapsedTime().asMilliseconds();
 	if ((time_3_lines >= 0) && (time_3_lines < 16)) win.draw(*spriteAn_3lines_1);
@@ -6514,28 +6437,30 @@ void animation_3_linesFn(RenderWindow& win, USHORT index, Sprite* spriteAn_3line
 void animation_4_linesFn(RenderWindow& win, USHORT index, Sprite* spriteAn_4lines_1, Sprite* spriteAn_4lines_2, Sprite* spriteAn_4lines_3, Sprite* spriteAn_4lines_4, Sprite* spriteAn_4lines_5, Sprite* spriteAn_4lines_6, Sprite* spriteAn_4lines_7, Sprite* spriteAn_4lines_8, Sprite* spriteAn_4lines_9, Sprite* spriteAn_4lines_10, Sprite* spriteAn_4lines_11, Sprite* spriteAn_4lines_12, Sprite* spriteAn_4lines_13, Sprite* spriteAn_4lines_14, Sprite* spriteAn_4lines_15, Sprite* spriteAn_4lines_16, Sprite* spriteAn_4lines_17, Sprite* spriteAn_4lines_18, Sprite* spriteAn_4lines_19, Sprite* spriteAn_4lines_20, Sprite* spriteAn_4lines_21, Sprite* spriteAn_4lines_22, Vector2f scale)
 {
 	progressOfAnimationLines = true;
-	spriteAn_4lines_1->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_2->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_3->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_4->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_5->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_6->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_7->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_8->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_9->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_10->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_11->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_12->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_13->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_14->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_15->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_16->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_17->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_18->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_19->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_20->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_21->setPosition(0, ((index - 9) * 38) * scale.y);
-	spriteAn_4lines_22->setPosition(0, ((index - 9) * 38) * scale.y);
+
+
+	spriteAn_4lines_1->setPosition((771 - 52) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 9) * scale.y);
+	spriteAn_4lines_2->setPosition((771 - 52) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 19) * scale.y);
+	spriteAn_4lines_3->setPosition((771 - 52) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 28) * scale.y);
+	spriteAn_4lines_4->setPosition((771 - 52) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 38) * scale.y);
+	spriteAn_4lines_5->setPosition((771 - 52) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 47) * scale.y);
+	spriteAn_4lines_6->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 56) * scale.y);
+	spriteAn_4lines_7->setPosition((771 - 51) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 66) * scale.y);
+	spriteAn_4lines_8->setPosition((771 - 49) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 75) * scale.y);
+	spriteAn_4lines_9->setPosition((771 - 49) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 75) * scale.y);
+	spriteAn_4lines_10->setPosition((771 - 48 + 13) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 75) * scale.y);
+	spriteAn_4lines_11->setPosition((771 - 49 + 27) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 75) * scale.y);
+	spriteAn_4lines_12->setPosition((771 - 48 + 40) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 75) * scale.y);
+	spriteAn_4lines_13->setPosition((771 - 49 + 54) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 75) * scale.y);
+	spriteAn_4lines_14->setPosition((771 - 48 + 67) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 75) * scale.y);
+	spriteAn_4lines_15->setPosition((771 - 49 + 81) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 75) * scale.y);
+	spriteAn_4lines_16->setPosition((771 - 48 + 94) * scale.x, (index * 38 + (38 * 6) - 9 - 52 + 75) * scale.y);
+	spriteAn_4lines_17->setPosition((771 - 48 + 108) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 75) * scale.y);
+	spriteAn_4lines_18->setPosition((771 - 48 + 121) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 75) * scale.y);
+	spriteAn_4lines_19->setPosition((771 - 48 + 135) * scale.x, (index * 38 + (38 * 6) - 9 - 51 + 75) * scale.y);
+	spriteAn_4lines_20->setPosition((771 - 46 + 148) * scale.x, (index * 38 + (38 * 6) - 9 - 50 + 75) * scale.y);
+	spriteAn_4lines_21->setPosition((771 - 45 + 162) * scale.x, (index * 38 + (38 * 6) - 9 - 48 + 75) * scale.y);
+	spriteAn_4lines_22->setPosition((771 - 41 + 175) * scale.x, (index * 38 + (38 * 6) - 9 - 44 + 75) * scale.y);
 
 	int time_4_lines = animation_4_lines.getElapsedTime().asMilliseconds();
 	if ((time_4_lines >= 0) && (time_4_lines < 16)) win.draw(*spriteAn_4lines_1);
@@ -6572,28 +6497,30 @@ void animation_4_linesFn(RenderWindow& win, USHORT index, Sprite* spriteAn_4line
 void animation_2_lines_with_voidFn(RenderWindow& win, vector<USHORT>& vec, Sprite* spriteAn_1line_1, Sprite* spriteAn_1line_2, Sprite* spriteAn_1line_3, Sprite* spriteAn_1line_4, Sprite* spriteAn_1line_5, Sprite* spriteAn_1line_6, Sprite* spriteAn_1line_7, Sprite* spriteAn_1line_8, Sprite* spriteAn_1line_9, Sprite* spriteAn_1line_10, Sprite* spriteAn_1line_11, Sprite* spriteAn_1line_12, Sprite* spriteAn_1line_13, Sprite* spriteAn_1line_14, Sprite* spriteAn_1line_15, Sprite* spriteAn_1line_16, Sprite* spriteAn_1line_17, Sprite* spriteAn_1line_18, Sprite* spriteAn_1line_19, Sprite* spriteAn_1line_20, Sprite* spriteAn_1line_21, Sprite* spriteAn_1line_22, Vector2f scale)
 {
 	progressOfAnimationLines = true;
-	spriteAn_1line_1->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_2->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_3->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_4->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_5->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_6->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_7->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_8->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_9->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_10->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_11->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_12->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_13->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_14->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_15->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_16->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_17->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_18->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_19->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_20->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_21->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-	spriteAn_1line_22->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
+
+	spriteAn_1line_1->setPosition((771 - 51) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 2) * scale.y);
+	spriteAn_1line_2->setPosition((771 - 51) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 5) * scale.y);
+	spriteAn_1line_3->setPosition((771 - 51) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 7) * scale.y);
+	spriteAn_1line_4->setPosition((771 - 51) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 9) * scale.y);
+	spriteAn_1line_5->setPosition((771 - 50) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 51 + 11) * scale.y);
+	spriteAn_1line_6->setPosition((771 - 50) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 14) * scale.y);
+	spriteAn_1line_7->setPosition((771 - 49) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 16) * scale.y);
+	spriteAn_1line_8->setPosition((771 - 49) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_9->setPosition((771 - 49) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_10->setPosition((771 - 48 + 13) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_11->setPosition((771 - 49 + 27) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_12->setPosition((771 - 48 + 40) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_13->setPosition((771 - 49 + 54) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_14->setPosition((771 - 48 + 67) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_15->setPosition((771 - 49 + 81) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_16->setPosition((771 - 48 + 94) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_17->setPosition((771 - 48 + 108) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+	spriteAn_1line_18->setPosition((771 - 48 + 121) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+	spriteAn_1line_19->setPosition((771 - 48 + 135) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+	spriteAn_1line_20->setPosition((771 - 46 + 148) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 50 + 18) * scale.y);
+	spriteAn_1line_21->setPosition((771 - 45 + 162) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 48 + 18) * scale.y);
+	spriteAn_1line_22->setPosition((771 - 41 + 175) * scale.x, (vec[0] * 38 + (38 * 6) - 9 - 44 + 18) * scale.y);
+
 
 	int time_1_line = animation_1_line.getElapsedTime().asMilliseconds();
 
@@ -6619,29 +6546,29 @@ void animation_2_lines_with_voidFn(RenderWindow& win, vector<USHORT>& vec, Sprit
 	else if ((time_1_line >= 304) && (time_1_line < 320)) win.draw(*spriteAn_1line_20);
 	else if ((time_1_line >= 320) && (time_1_line < 336)) win.draw(*spriteAn_1line_21);
 	else if ((time_1_line >= 336) && (time_1_line < 352)) win.draw(*spriteAn_1line_22);
-	
-	spriteAn_1line_1->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_2->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_3->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_4->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_5->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_6->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_7->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_8->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_9->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_10->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_11->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_12->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_13->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_14->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_15->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_16->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_17->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_18->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_19->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_20->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_21->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-	spriteAn_1line_22->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
+
+	spriteAn_1line_1->setPosition((771 - 51) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 2) * scale.y);
+	spriteAn_1line_2->setPosition((771 - 51) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 5) * scale.y);
+	spriteAn_1line_3->setPosition((771 - 51) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 7) * scale.y);
+	spriteAn_1line_4->setPosition((771 - 51) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 9) * scale.y);
+	spriteAn_1line_5->setPosition((771 - 50) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 51 + 11) * scale.y);
+	spriteAn_1line_6->setPosition((771 - 50) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 14) * scale.y);
+	spriteAn_1line_7->setPosition((771 - 49) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 16) * scale.y);
+	spriteAn_1line_8->setPosition((771 - 49) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_9->setPosition((771 - 49) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_10->setPosition((771 - 48 + 13) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_11->setPosition((771 - 49 + 27) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_12->setPosition((771 - 48 + 40) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_13->setPosition((771 - 49 + 54) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_14->setPosition((771 - 48 + 67) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_15->setPosition((771 - 49 + 81) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_16->setPosition((771 - 48 + 94) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+	spriteAn_1line_17->setPosition((771 - 48 + 108) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+	spriteAn_1line_18->setPosition((771 - 48 + 121) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+	spriteAn_1line_19->setPosition((771 - 48 + 135) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+	spriteAn_1line_20->setPosition((771 - 46 + 148) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 50 + 18) * scale.y);
+	spriteAn_1line_21->setPosition((771 - 45 + 162) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 48 + 18) * scale.y);
+	spriteAn_1line_22->setPosition((771 - 41 + 175) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 44 + 18) * scale.y);
 
 	if ((time_1_line >= 0) && (time_1_line < 16)) win.draw(*spriteAn_1line_1);
 	else if ((time_1_line >= 16) && (time_1_line < 32)) win.draw(*spriteAn_1line_2);
@@ -6679,28 +6606,28 @@ void animation_3_lines_with_voidFn(RenderWindow& win, vector<USHORT>& vec, Sprit
 	progressOfAnimationLines = true;
 	if (indexesOfIdLines[0] - indexesOfIdLines[1] == 1)
 	{
-		spriteAn_1line_1->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_2->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_3->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_4->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_5->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_6->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_7->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_8->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_9->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_10->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_11->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_12->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_13->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_14->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_15->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_16->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_17->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_18->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_19->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_20->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_21->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_1line_22->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
+		spriteAn_1line_1->setPosition((771 - 51) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 2) * scale.y);
+		spriteAn_1line_2->setPosition((771 - 51) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 5) * scale.y);
+		spriteAn_1line_3->setPosition((771 - 51) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 7) * scale.y);
+		spriteAn_1line_4->setPosition((771 - 51) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 9) * scale.y);
+		spriteAn_1line_5->setPosition((771 - 50) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 51 + 11) * scale.y);
+		spriteAn_1line_6->setPosition((771 - 50) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 14) * scale.y);
+		spriteAn_1line_7->setPosition((771 - 49) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 16) * scale.y);
+		spriteAn_1line_8->setPosition((771 - 49) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+		spriteAn_1line_9->setPosition((771 - 49) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+		spriteAn_1line_10->setPosition((771 - 48 + 13) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+		spriteAn_1line_11->setPosition((771 - 49 + 27) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+		spriteAn_1line_12->setPosition((771 - 48 + 40) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+		spriteAn_1line_13->setPosition((771 - 49 + 54) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+		spriteAn_1line_14->setPosition((771 - 48 + 67) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+		spriteAn_1line_15->setPosition((771 - 49 + 81) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+		spriteAn_1line_16->setPosition((771 - 48 + 94) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 18) * scale.y);
+		spriteAn_1line_17->setPosition((771 - 48 + 108) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+		spriteAn_1line_18->setPosition((771 - 48 + 121) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+		spriteAn_1line_19->setPosition((771 - 48 + 135) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 51 + 18) * scale.y);
+		spriteAn_1line_20->setPosition((771 - 46 + 148) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 50 + 18) * scale.y);
+		spriteAn_1line_21->setPosition((771 - 45 + 162) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 48 + 18) * scale.y);
+		spriteAn_1line_22->setPosition((771 - 41 + 175) * scale.x, (vec[2] * 38 + (38 * 6) - 9 - 44 + 18) * scale.y);
 
 		int time_1_line = animation_1_line.getElapsedTime().asMilliseconds();
 
@@ -6727,28 +6654,29 @@ void animation_3_lines_with_voidFn(RenderWindow& win, vector<USHORT>& vec, Sprit
 		else if ((time_1_line >= 320) && (time_1_line < 336)) win.draw(*spriteAn_1line_21);
 		else if ((time_1_line >= 336) && (time_1_line < 352)) win.draw(*spriteAn_1line_22);
 
-		spriteAn_2lines_1->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_2->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_3->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_4->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_5->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_6->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_7->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_8->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_9->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_10->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_11->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_12->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_13->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_14->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_15->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_16->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_17->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_18->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_19->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_20->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_21->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
-		spriteAn_2lines_22->setPosition(0, ((vec[1] - 9) * 38) * scale.y);
+
+		spriteAn_2lines_1->setPosition((771 - 52) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 5) * scale.y);
+		spriteAn_2lines_2->setPosition((771 - 52) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 9) * scale.y);
+		spriteAn_2lines_3->setPosition((771 - 51) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 14) * scale.y);
+		spriteAn_2lines_4->setPosition((771 - 51) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 19) * scale.y);
+		spriteAn_2lines_5->setPosition((771 - 51) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 51 + 23) * scale.y);
+		spriteAn_2lines_6->setPosition((771 - 51) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 28) * scale.y);
+		spriteAn_2lines_7->setPosition((771 - 50) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 51 + 32) * scale.y);
+		spriteAn_2lines_8->setPosition((771 - 49) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+		spriteAn_2lines_9->setPosition((771 - 49) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+		spriteAn_2lines_10->setPosition((771 - 48 + 13) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+		spriteAn_2lines_11->setPosition((771 - 49 + 27) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+		spriteAn_2lines_12->setPosition((771 - 48 + 40) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+		spriteAn_2lines_13->setPosition((771 - 49 + 54) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+		spriteAn_2lines_14->setPosition((771 - 48 + 67) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+		spriteAn_2lines_15->setPosition((771 - 49 + 81) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+		spriteAn_2lines_16->setPosition((771 - 48 + 94) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 52 + 37) * scale.y);
+		spriteAn_2lines_17->setPosition((771 - 48 + 108) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 51 + 37) * scale.y);
+		spriteAn_2lines_18->setPosition((771 - 47 + 121) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 51 + 37) * scale.y);
+		spriteAn_2lines_19->setPosition((771 - 48 + 135) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 51 + 37) * scale.y);
+		spriteAn_2lines_20->setPosition((771 - 46 + 148) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 50 + 37) * scale.y);
+		spriteAn_2lines_21->setPosition((771 - 45 + 162) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 48 + 37) * scale.y);
+		spriteAn_2lines_22->setPosition((771 - 41 + 175) * scale.x, (vec[1] * 38 + (38 * 6) - 9 - 44 + 37) * scale.y);
 
 		int time_2_lines = animation_2_lines.getElapsedTime().asMilliseconds();
 
@@ -6784,28 +6712,28 @@ void animation_3_lines_with_voidFn(RenderWindow& win, vector<USHORT>& vec, Sprit
 	}
 	else if (indexesOfIdLines[0] - indexesOfIdLines[1] == 2)
 	{
-		spriteAn_2lines_1->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_2->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_3->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_4->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_5->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_6->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_7->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_8->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_9->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_10->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_11->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_12->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_13->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_14->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_15->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_16->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_17->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_18->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_19->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_20->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_21->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
-		spriteAn_2lines_22->setPosition(0, ((vec[2] - 9) * 38) * scale.y);
+		spriteAn_2lines_1->setPosition((771 - 52)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 5)* scale.y);
+		spriteAn_2lines_2->setPosition((771 - 52)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 9)* scale.y);
+		spriteAn_2lines_3->setPosition((771 - 51)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 14)* scale.y);
+		spriteAn_2lines_4->setPosition((771 - 51)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 19)* scale.y);
+		spriteAn_2lines_5->setPosition((771 - 51)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 51 + 23)* scale.y);
+		spriteAn_2lines_6->setPosition((771 - 51)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 28)* scale.y);
+		spriteAn_2lines_7->setPosition((771 - 50)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 51 + 32)* scale.y);
+		spriteAn_2lines_8->setPosition((771 - 49)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 37)* scale.y);
+		spriteAn_2lines_9->setPosition((771 - 49)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 37)* scale.y);
+		spriteAn_2lines_10->setPosition((771 - 48 + 13)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 37)* scale.y);
+		spriteAn_2lines_11->setPosition((771 - 49 + 27)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 37)* scale.y);
+		spriteAn_2lines_12->setPosition((771 - 48 + 40)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 37)* scale.y);
+		spriteAn_2lines_13->setPosition((771 - 49 + 54)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 37)* scale.y);
+		spriteAn_2lines_14->setPosition((771 - 48 + 67)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 37)* scale.y);
+		spriteAn_2lines_15->setPosition((771 - 49 + 81)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 37)* scale.y);
+		spriteAn_2lines_16->setPosition((771 - 48 + 94)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 52 + 37)* scale.y);
+		spriteAn_2lines_17->setPosition((771 - 48 + 108)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 51 + 37)* scale.y);
+		spriteAn_2lines_18->setPosition((771 - 47 + 121)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 51 + 37)* scale.y);
+		spriteAn_2lines_19->setPosition((771 - 48 + 135)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 51 + 37)* scale.y);
+		spriteAn_2lines_20->setPosition((771 - 46 + 148)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 50 + 37)* scale.y);
+		spriteAn_2lines_21->setPosition((771 - 45 + 162)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 48 + 37)* scale.y);
+		spriteAn_2lines_22->setPosition((771 - 41 + 175)* scale.x, (vec[2] * 38 + (38 * 6) - 9 - 44 + 37)* scale.y);
 
 		int time_2_lines = animation_2_lines.getElapsedTime().asMilliseconds();
 
@@ -6832,28 +6760,29 @@ void animation_3_lines_with_voidFn(RenderWindow& win, vector<USHORT>& vec, Sprit
 		else if ((time_2_lines >= 320) && (time_2_lines < 336)) win.draw(*spriteAn_2lines_21);
 		else if ((time_2_lines >= 336) && (time_2_lines < 352)) win.draw(*spriteAn_2lines_22);
 
-		spriteAn_1line_1->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_2->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_3->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_4->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_5->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_6->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_7->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_8->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_9->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_10->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_11->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_12->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_13->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_14->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_15->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_16->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_17->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_18->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_19->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_20->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_21->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
-		spriteAn_1line_22->setPosition(0, ((vec[0] - 9) * 38) * scale.y);
+	
+		spriteAn_1line_1->setPosition((771 - 51)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 2)* scale.y);
+		spriteAn_1line_2->setPosition((771 - 51)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 5)* scale.y);
+		spriteAn_1line_3->setPosition((771 - 51)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 7)* scale.y);
+		spriteAn_1line_4->setPosition((771 - 51)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 9)* scale.y);
+		spriteAn_1line_5->setPosition((771 - 50)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 51 + 11)* scale.y);
+		spriteAn_1line_6->setPosition((771 - 50)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 14)* scale.y);
+		spriteAn_1line_7->setPosition((771 - 49)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 16)* scale.y);
+		spriteAn_1line_8->setPosition((771 - 49)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18)* scale.y);
+		spriteAn_1line_9->setPosition((771 - 49)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18)* scale.y);
+		spriteAn_1line_10->setPosition((771 - 48 + 13)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18)* scale.y);
+		spriteAn_1line_11->setPosition((771 - 49 + 27)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18)* scale.y);
+		spriteAn_1line_12->setPosition((771 - 48 + 40)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18)* scale.y);
+		spriteAn_1line_13->setPosition((771 - 49 + 54)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18)* scale.y);
+		spriteAn_1line_14->setPosition((771 - 48 + 67)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18)* scale.y);
+		spriteAn_1line_15->setPosition((771 - 49 + 81)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18)* scale.y);
+		spriteAn_1line_16->setPosition((771 - 48 + 94)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 52 + 18)* scale.y);
+		spriteAn_1line_17->setPosition((771 - 48 + 108)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 51 + 18)* scale.y);
+		spriteAn_1line_18->setPosition((771 - 48 + 121)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 51 + 18)* scale.y);
+		spriteAn_1line_19->setPosition((771 - 48 + 135)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 51 + 18)* scale.y);
+		spriteAn_1line_20->setPosition((771 - 46 + 148)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 50 + 18)* scale.y);
+		spriteAn_1line_21->setPosition((771 - 45 + 162)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 48 + 18)* scale.y);
+		spriteAn_1line_22->setPosition((771 - 41 + 175)* scale.x, (vec[0] * 38 + (38 * 6) - 9 - 44 + 18)* scale.y);
 
 		int time_1_line = animation_1_line.getElapsedTime().asMilliseconds();
 
@@ -13539,7 +13468,7 @@ void checkFullLineFn(USHORT field [H][W])
 						field[i][j] = 0;
 					}
 			}
-			if (i == (19 - indexOfLastLine + indexOfLastLine))break;
+			if (i == (19 - indexOfLastLine + indexOfLastLine))break;//врн акъ?
 		}
 	
 		if (numberOfIdenticalLines == 1)
