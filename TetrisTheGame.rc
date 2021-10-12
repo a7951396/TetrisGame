@@ -60,301 +60,301 @@ IDB_PNG2                PNG                     "Images\\тетрамино_новые2.png"
 
 IDB_PNG4                PNG                     "Images\\Фон для игры с главной и верхней рамками.png"
 
-IDB_PNG7                PNG                     "E:\\Potoshop projects\\тетрамино_новые3.png"
+IDB_PNG7                PNG                     "D:\\Potoshop projects\\тетрамино_новые3.png"
 
-IDB_PNG8                PNG                     "E:\\Potoshop projects\\Кнопка Start\\Кнопка состояние_1.png"
+IDB_PNG8                PNG                     "D:\\Potoshop projects\\Кнопка Start\\Кнопка состояние_1.png"
 
-IDB_PNG10               PNG                     "E:\\Potoshop projects\\Кнопка Start\\Кнопка состояние нажатия.png"
+IDB_PNG10               PNG                     "D:\\Potoshop projects\\Кнопка Start\\Кнопка состояние нажатия.png"
 
-IDB_PNG11               PNG                     "E:\\Potoshop projects\\Кнопка Start\\Кнопка состояние наведения2.png"
+IDB_PNG11               PNG                     "D:\\Potoshop projects\\Кнопка Start\\Кнопка состояние наведения2.png"
 
-IDB_PNG9                PNG                     "E:\\Potoshop projects\\Кнопка New game\\new_game_state_1.png"
+IDB_PNG9                PNG                     "D:\\Potoshop projects\\Кнопка New game\\new_game_state_1.png"
 
-IDB_PNG12               PNG                     "E:\\Potoshop projects\\Кнопка New game\\new_game_state_2.png"
+IDB_PNG12               PNG                     "D:\\Potoshop projects\\Кнопка New game\\new_game_state_2.png"
 
-IDB_PNG13               PNG                     "E:\\Potoshop projects\\Кнопка New game\\new_game_state_3.png"
+IDB_PNG13               PNG                     "D:\\Potoshop projects\\Кнопка New game\\new_game_state_3.png"
 
-IDB_PNG14               PNG                     "E:\\Potoshop projects\\Кнопка Options\\button_options_st1.png"
+IDB_PNG14               PNG                     "D:\\Potoshop projects\\Кнопка Options\\button_options_st1.png"
 
-IDB_PNG15               PNG                     "E:\\Potoshop projects\\Кнопка Options\\button_options_st2.png"
+IDB_PNG15               PNG                     "D:\\Potoshop projects\\Кнопка Options\\button_options_st2.png"
 
-IDB_PNG16               PNG                     "E:\\Potoshop projects\\Кнопка Options\\button_options_st3.png"
+IDB_PNG16               PNG                     "D:\\Potoshop projects\\Кнопка Options\\button_options_st3.png"
 
-IDB_PNG17               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_left_st1.png"
+IDB_PNG17               PNG                     "D:\\Potoshop projects\\Группа из 3х кнопок\\button_left_st1.png"
 
-IDB_PNG18               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_left_st2.png"
+IDB_PNG18               PNG                     "D:\\Potoshop projects\\Группа из 3х кнопок\\button_left_st2.png"
 
-IDB_PNG19               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_left_st3.png"
+IDB_PNG19               PNG                     "D:\\Potoshop projects\\Группа из 3х кнопок\\button_left_st3.png"
 
-IDB_PNG20               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_right_st1.png"
+IDB_PNG20               PNG                     "D:\\Potoshop projects\\Группа из 3х кнопок\\button_right_st1.png"
 
-IDB_PNG21               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_right_st2.png"
+IDB_PNG21               PNG                     "D:\\Potoshop projects\\Группа из 3х кнопок\\button_right_st2.png"
 
-IDB_PNG22               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_right_st3.png"
+IDB_PNG22               PNG                     "D:\\Potoshop projects\\Группа из 3х кнопок\\button_right_st3.png"
 
-IDB_PNG23               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_middle_restore_st1.png"
+IDB_PNG23               PNG                     "D:\\Potoshop projects\\Группа из 3х кнопок\\button_middle_restore_st1.png"
 
-IDB_PNG24               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_middle_restore_st2.png"
+IDB_PNG24               PNG                     "D:\\Potoshop projects\\Группа из 3х кнопок\\button_middle_restore_st2.png"
 
-IDB_PNG25               PNG                     "E:\\Potoshop projects\\Группа из 3х кнопок\\button_middle_restore_st3.png"
+IDB_PNG25               PNG                     "D:\\Potoshop projects\\Группа из 3х кнопок\\button_middle_restore_st3.png"
 
-IDB_PNG26               PNG                     "E:\\Potoshop projects\\Кнопка Pause\\button_pause_st1.png"
+IDB_PNG26               PNG                     "D:\\Potoshop projects\\Кнопка Pause\\button_pause_st1.png"
 
-IDB_PNG27               PNG                     "E:\\Potoshop projects\\Кнопка Pause\\button_pause_st2.png"
+IDB_PNG27               PNG                     "D:\\Potoshop projects\\Кнопка Pause\\button_pause_st2.png"
 
-IDB_PNG28               PNG                     "E:\\Potoshop projects\\Кнопка Pause\\button_pause_st3.png"
+IDB_PNG28               PNG                     "D:\\Potoshop projects\\Кнопка Pause\\button_pause_st3.png"
 
-IDB_PNG29               PNG                     "E:\\Potoshop projects\\Кнопка Sound off\\button_soundOff_st1.png"
+IDB_PNG29               PNG                     "D:\\Potoshop projects\\Кнопка Sound off\\button_soundOff_st1.png"
 
-IDB_PNG30               PNG                     "E:\\Potoshop projects\\Кнопка Sound off\\button_soundOff_st2.png"
+IDB_PNG30               PNG                     "D:\\Potoshop projects\\Кнопка Sound off\\button_soundOff_st2.png"
 
-IDB_PNG31               PNG                     "E:\\Potoshop projects\\Кнопка Sound off\\button_soundOff_st3.png"
+IDB_PNG31               PNG                     "D:\\Potoshop projects\\Кнопка Sound off\\button_soundOff_st3.png"
 
-IDB_PNG32               PNG                     "E:\\Potoshop projects\\left_frame.png"
+IDB_PNG32               PNG                     "D:\\Potoshop projects\\left_frame.png"
 
-IDB_PNG33               PNG                     "E:\\Potoshop projects\\right_frame.png"
+IDB_PNG33               PNG                     "D:\\Potoshop projects\\right_frame.png"
 
-IDB_PNG34               PNG                     "E:\\Potoshop projects\\right_frame_bottom.png"
+IDB_PNG34               PNG                     "D:\\Potoshop projects\\right_frame_bottom.png"
 
-IDB_PNG35               PNG                     "E:\\Potoshop projects\\Areyousure_frame.png"
+IDB_PNG35               PNG                     "D:\\Potoshop projects\\Areyousure_frame.png"
 
-IDB_PNG36               PNG                     "E:\\Potoshop projects\\Areyousure_no_1st.png"
+IDB_PNG36               PNG                     "D:\\Potoshop projects\\Areyousure_no_1st.png"
 
-IDB_PNG37               PNG                     "E:\\Potoshop projects\\Areyousure_no_2st.png"
+IDB_PNG37               PNG                     "D:\\Potoshop projects\\Areyousure_no_2st.png"
 
-IDB_PNG38               PNG                     "E:\\Potoshop projects\\Areyousure_question.png"
+IDB_PNG38               PNG                     "D:\\Potoshop projects\\Areyousure_question.png"
 
-IDB_PNG39               PNG                     "E:\\Potoshop projects\\Areyousure_yes_1st.png"
+IDB_PNG39               PNG                     "D:\\Potoshop projects\\Areyousure_yes_1st.png"
 
-IDB_PNG40               PNG                     "E:\\Potoshop projects\\Areyousure_yes_2st.png"
+IDB_PNG40               PNG                     "D:\\Potoshop projects\\Areyousure_yes_2st.png"
 
-IDB_PNG41               PNG                     "E:\\Potoshop projects\\Кнопка Resume\\button_resume_st1.png"
+IDB_PNG41               PNG                     "D:\\Potoshop projects\\Кнопка Resume\\button_resume_st1.png"
 
-IDB_PNG42               PNG                     "E:\\Potoshop projects\\Кнопка Resume\\button_resume_st2.png"
+IDB_PNG42               PNG                     "D:\\Potoshop projects\\Кнопка Resume\\button_resume_st2.png"
 
-IDB_PNG43               PNG                     "E:\\Potoshop projects\\Кнопка Resume\\button_resume_st3.png"
+IDB_PNG43               PNG                     "D:\\Potoshop projects\\Кнопка Resume\\button_resume_st3.png"
 
-IDB_PNG44               PNG                     "E:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st1.png"
+IDB_PNG44               PNG                     "D:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st1.png"
 
-IDB_PNG45               PNG                     "E:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st2.png"
+IDB_PNG45               PNG                     "D:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st2.png"
 
-IDB_PNG46               PNG                     "E:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st3.png"
+IDB_PNG46               PNG                     "D:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st3.png"
 
-IDB_PNG47               PNG                     "E:\\Potoshop projects\\Кнопка Music On\\music_on_st1.png"
+IDB_PNG47               PNG                     "D:\\Potoshop projects\\Кнопка Music On\\music_on_st1.png"
 
-IDB_PNG48               PNG                     "E:\\Potoshop projects\\Кнопка Music On\\music_on_st2.png"
+IDB_PNG48               PNG                     "D:\\Potoshop projects\\Кнопка Music On\\music_on_st2.png"
 
-IDB_PNG49               PNG                     "E:\\Potoshop projects\\Кнопка Music On\\music_on_st3.png"
+IDB_PNG49               PNG                     "D:\\Potoshop projects\\Кнопка Music On\\music_on_st3.png"
 
-IDB_PNG50               PNG                     "E:\\Potoshop projects\\Кнопка Music Off\\music_off_st1.png"
+IDB_PNG50               PNG                     "D:\\Potoshop projects\\Кнопка Music Off\\music_off_st1.png"
 
-IDB_PNG51               PNG                     "E:\\Potoshop projects\\Кнопка Music Off\\music_off_st2.png"
+IDB_PNG51               PNG                     "D:\\Potoshop projects\\Кнопка Music Off\\music_off_st2.png"
 
-IDB_PNG52               PNG                     "E:\\Potoshop projects\\Кнопка Music Off\\music_off_st3.png"
+IDB_PNG52               PNG                     "D:\\Potoshop projects\\Кнопка Music Off\\music_off_st3.png"
 
-IDB_PNG53               PNG                     "E:\\Potoshop projects\\Кнопка Pause\\button_pause_st4.png"
+IDB_PNG53               PNG                     "D:\\Potoshop projects\\Кнопка Pause\\button_pause_st4.png"
 
-IDB_PNG54               PNG                     "E:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st4.png"
+IDB_PNG54               PNG                     "D:\\Potoshop projects\\Кнопка Sound on\\button_soundOn_st4.png"
 
-IDB_PNG55               PNG                     "E:\\Potoshop projects\\Кнопка Music On\\music_on_st4.png"
+IDB_PNG55               PNG                     "D:\\Potoshop projects\\Кнопка Music On\\music_on_st4.png"
 
-IDB_PNG56               PNG                     "E:\\Potoshop projects\\Кнопка Start\\button_start_st2.png"
+IDB_PNG56               PNG                     "D:\\Potoshop projects\\Кнопка Start\\button_start_st2.png"
 
-IDB_PNG57               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_red.png"
+IDB_PNG57               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_red.png"
 
-IDB_PNG58               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_red.png"
+IDB_PNG58               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_red.png"
 
-IDB_PNG59               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_red.png"
+IDB_PNG59               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_red.png"
 
-IDB_PNG61               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_red.png"
+IDB_PNG61               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_red.png"
 
-IDB_PNG62               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_red.png"
+IDB_PNG62               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_red.png"
 
-IDB_PNG63               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_red.png"
+IDB_PNG63               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_red.png"
 
-IDB_PNG64               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_black.png"
+IDB_PNG64               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_black.png"
 
-IDB_PNG65               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_blue.png"
+IDB_PNG65               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_blue.png"
 
-IDB_PNG66               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_brown.png"
+IDB_PNG66               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_brown.png"
 
-IDB_PNG67               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_green.png"
+IDB_PNG67               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_green.png"
 
-IDB_PNG68               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_orange.png"
+IDB_PNG68               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_orange.png"
 
-IDB_PNG69               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_pink.png"
+IDB_PNG69               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_pink.png"
 
-IDB_PNG70               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_purple.png"
+IDB_PNG70               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_purple.png"
 
-IDB_PNG71               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_yellow.png"
+IDB_PNG71               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\I_yellow.png"
 
-IDB_PNG72               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_black.png"
+IDB_PNG72               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_black.png"
 
-IDB_PNG73               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_blue.png"
+IDB_PNG73               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_blue.png"
 
-IDB_PNG74               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_brown.png"
+IDB_PNG74               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_brown.png"
 
-IDB_PNG75               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_green.png"
+IDB_PNG75               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_green.png"
 
-IDB_PNG76               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_orange.png"
+IDB_PNG76               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_orange.png"
 
-IDB_PNG77               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_pink.png"
+IDB_PNG77               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_pink.png"
 
-IDB_PNG78               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_purple.png"
+IDB_PNG78               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_purple.png"
 
-IDB_PNG79               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_yellow.png"
+IDB_PNG79               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\J_yellow.png"
 
-IDB_PNG80               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_black.png"
+IDB_PNG80               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_black.png"
 
-IDB_PNG81               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_blue.png"
+IDB_PNG81               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_blue.png"
 
-IDB_PNG82               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_brown.png"
+IDB_PNG82               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_brown.png"
 
-IDB_PNG83               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_green.png"
+IDB_PNG83               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_green.png"
 
-IDB_PNG84               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_orange.png"
+IDB_PNG84               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_orange.png"
 
-IDB_PNG85               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_pink.png"
+IDB_PNG85               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_pink.png"
 
-IDB_PNG86               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_purple.png"
+IDB_PNG86               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_purple.png"
 
-IDB_PNG87               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_yellow.png"
+IDB_PNG87               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\L_yellow.png"
 
-IDB_PNG88               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_black.png"
+IDB_PNG88               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_black.png"
 
-IDB_PNG89               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_blue.png"
+IDB_PNG89               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_blue.png"
 
-IDB_PNG90               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_brown.png"
+IDB_PNG90               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_brown.png"
 
-IDB_PNG91               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_green.png"
+IDB_PNG91               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_green.png"
 
-IDB_PNG92               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_orange.png"
+IDB_PNG92               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_orange.png"
 
-IDB_PNG93               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_pink.png"
+IDB_PNG93               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_pink.png"
 
-IDB_PNG94               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_purple.png"
+IDB_PNG94               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_purple.png"
 
-IDB_PNG95               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_yellow.png"
+IDB_PNG95               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_yellow.png"
 
-IDB_PNG96               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_black.png"
+IDB_PNG96               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_black.png"
 
-IDB_PNG97               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_blue.png"
+IDB_PNG97               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_blue.png"
 
-IDB_PNG98               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_brown.png"
+IDB_PNG98               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_brown.png"
 
-IDB_PNG99               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_green.png"
+IDB_PNG99               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_green.png"
 
-IDB_PNG100              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_orange.png"
+IDB_PNG100              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_orange.png"
 
-IDB_PNG101              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_pink.png"
+IDB_PNG101              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_pink.png"
 
-IDB_PNG102              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_purple.png"
+IDB_PNG102              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_purple.png"
 
-IDB_PNG103              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_yellow.png"
+IDB_PNG103              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\S_yellow.png"
 
-IDB_PNG104              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_black.png"
+IDB_PNG104              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_black.png"
 
-IDB_PNG105              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_blue.png"
+IDB_PNG105              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_blue.png"
 
-IDB_PNG106              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_brown.png"
+IDB_PNG106              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_brown.png"
 
-IDB_PNG107              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_green.png"
+IDB_PNG107              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_green.png"
 
-IDB_PNG108              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_orange.png"
+IDB_PNG108              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_orange.png"
 
-IDB_PNG109              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_pink.png"
+IDB_PNG109              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_pink.png"
 
-IDB_PNG110              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_purple.png"
+IDB_PNG110              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_purple.png"
 
-IDB_PNG111              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_yellow.png"
+IDB_PNG111              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\T_yellow.png"
 
-IDB_PNG112              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_black.png"
+IDB_PNG112              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_black.png"
 
-IDB_PNG113              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_blue.png"
+IDB_PNG113              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_blue.png"
 
-IDB_PNG114              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_brown.png"
+IDB_PNG114              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_brown.png"
 
-IDB_PNG115              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_green.png"
+IDB_PNG115              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_green.png"
 
-IDB_PNG116              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_orange.png"
+IDB_PNG116              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_orange.png"
 
-IDB_PNG117              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_pink.png"
+IDB_PNG117              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_pink.png"
 
-IDB_PNG118              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_purple.png"
+IDB_PNG118              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_purple.png"
 
-IDB_PNG119              PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_yellow.png"
+IDB_PNG119              PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\Z_yellow.png"
 
-IDB_PNG120              PNG                     "E:\\Potoshop projects\\myCursor.png"
+IDB_PNG120              PNG                     "D:\\Potoshop projects\\myCursor.png"
 
-IDB_PNG690              PNG                     "E:\\Potoshop projects\\Экран загрузки1.png"
+IDB_PNG690              PNG                     "D:\\Potoshop projects\\Экран загрузки1.png"
 
-IDB_PNG693              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow18rows.png"
+IDB_PNG693              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow18rows.png"
 
-IDB_PNG60               PNG                     "E:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_red.png"
+IDB_PNG60               PNG                     "D:\\Potoshop projects\\Фигуры предварительной отрисовки\\O_red.png"
 
-IDB_PNG209              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF1inRow1-4rows.png"
+IDB_PNG209              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF1inRow1-4rows.png"
 
-IDB_PNG5                PNG                     "E:\\Potoshop projects\\Текстурные атласы\\grid.png"
+IDB_PNG5                PNG                     "D:\\Potoshop projects\\Текстурные атласы\\grid.png"
 
-IDB_PNG210              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\LOADING....png"
+IDB_PNG210              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\LOADING....png"
 
-IDB_PNG211              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF1inRow5-8rows.png"
+IDB_PNG211              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF1inRow5-8rows.png"
 
-IDB_PNG212              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF1inRow9-12rows.png"
+IDB_PNG212              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF1inRow9-12rows.png"
 
-IDB_PNG213              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF1inRow13-15rows.png"
+IDB_PNG213              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF1inRow13-15rows.png"
 
-IDB_PNG214              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF1inRow16-17rows.png"
+IDB_PNG214              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF1inRow16-17rows.png"
 
-IDB_PNG215              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF2inRow1-6rows.png"
+IDB_PNG215              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF2inRow1-6rows.png"
 
-IDB_PNG216              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF2inRow7-10rows.png"
+IDB_PNG216              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF2inRow7-10rows.png"
 
-IDB_PNG217              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF2inRow11-13rows.png"
+IDB_PNG217              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF2inRow11-13rows.png"
 
-IDB_PNG218              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF2inRow14-15rows.png"
+IDB_PNG218              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF2inRow14-15rows.png"
 
-IDB_PNG219              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF2inRow16-17rows.png"
+IDB_PNG219              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF2inRow16-17rows.png"
 
-IDB_PNG220              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow1-4rows.png"
+IDB_PNG220              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow1-4rows.png"
 
-IDB_PNG221              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow5-8rows.png"
+IDB_PNG221              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow5-8rows.png"
 
-IDB_PNG222              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow9-11rows.png"
+IDB_PNG222              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow9-11rows.png"
 
-IDB_PNG223              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow12-13rows.png"
+IDB_PNG223              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow12-13rows.png"
 
-IDB_PNG224              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow14-15rows.png"
+IDB_PNG224              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow14-15rows.png"
 
-IDB_PNG225              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow16rows.png"
+IDB_PNG225              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow16rows.png"
 
-IDB_PNG226              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow17rows.png"
+IDB_PNG226              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow17rows.png"
 
-IDB_PNG227              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow18rows.png"
+IDB_PNG227              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF3inRow18rows.png"
 
-IDB_PNG228              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow1-4rows.png"
+IDB_PNG228              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow1-4rows.png"
 
-IDB_PNG230              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow5-8rows.png"
+IDB_PNG230              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow5-8rows.png"
 
-IDB_PNG231              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow9-11rows.png"
+IDB_PNG231              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow9-11rows.png"
 
-IDB_PNG232              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow12-13rows.png"
+IDB_PNG232              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow12-13rows.png"
 
-IDB_PNG233              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow14rows.png"
+IDB_PNG233              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow14rows.png"
 
-IDB_PNG234              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow15rows.png"
+IDB_PNG234              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow15rows.png"
 
-IDB_PNG235              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow16rows.png"
+IDB_PNG235              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow16rows.png"
 
-IDB_PNG236              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow17rows.png"
+IDB_PNG236              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationsFF\\AnimationFF4inRow17rows.png"
 
-IDB_PNG229              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationBurning\\AnimationBurning1Line.png"
+IDB_PNG229              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationBurning\\AnimationBurning1Line.png"
 
-IDB_PNG237              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationBurning\\AnimationBurning2Lines.png"
+IDB_PNG237              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationBurning\\AnimationBurning2Lines.png"
 
-IDB_PNG238              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationBurning\\AnimationBurning3Lines.png"
+IDB_PNG238              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationBurning\\AnimationBurning3Lines.png"
 
-IDB_PNG239              PNG                     "E:\\Potoshop projects\\Текстурные атласы\\AnimationBurning\\AnimationBurning4Lines.png"
+IDB_PNG239              PNG                     "D:\\Potoshop projects\\Текстурные атласы\\AnimationBurning\\AnimationBurning4Lines.png"
 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -372,7 +372,7 @@ IDI_ICON1               ICON                    "Images\\icon_for_tetris.ico"
 // JPEG
 //
 
-IDR_JPEG2               JPEG                    "E:\\CPP projects\\Projects on VS\\TetrisTheGame\\ERASBD.TTF"
+IDR_JPEG2               JPEG                    "D:\\CPP projects\\Projects on VS\\TetrisTheGame\\ERASBD.TTF"
 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -380,9 +380,9 @@ IDR_JPEG2               JPEG                    "E:\\CPP projects\\Projects on V
 // Cursor
 //
 
-IDC_CURSOR1             CURSOR                  "E:\\Potoshop projects\\myCursor_128pxcur.cur"
+IDC_CURSOR1             CURSOR                  "D:\\Potoshop projects\\myCursor_128pxcur.cur"
 
-IDC_CURSOR2             CURSOR                  "E:\\Potoshop projects\\myCursor_32pxcur.cur"
+IDC_CURSOR2             CURSOR                  "D:\\Potoshop projects\\myCursor_32pxcur.cur"
 
 #endif    // Русский (Россия) resources
 /////////////////////////////////////////////////////////////////////////////

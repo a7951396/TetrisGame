@@ -12,7 +12,7 @@ using namespace sf;
 using namespace std;
 
 //#define  LOGGER(v)  std::cout << #v << " = " << (v) << "\n";
-
+Vector2u sizeOfWin;
 USHORT colorNum = 1 + rand() % 9; // цвет
 USHORT colorNum2 = 1 + rand() % 9; // цвет
 USHORT colorNumTemp = 1 + rand() % 9;
@@ -1888,6 +1888,8 @@ int main()
 	//animation_1_line.restart();
 	while (window.isOpen())
 	{
+		sizeOfWin.x = window.getSize().x;
+		sizeOfWin.y = window.getSize().y;
 		window.clear();
 		//winPos = window.getPosition();
 		
@@ -3506,13 +3508,19 @@ int main()
 			case Event::Resized:
 				/*cout << "Resized" << endl;
 				cout << event.size.width << '\t' << event.size.height << endl << endl << endl;*/
-				//cout << window.getSize().x << '\t' << window.getSize().y << endl << endl;
+				cout << window.getSize().x << '\t' << window.getSize().y << endl << endl;
 				enableResize = true;
+				if (window.getSize().x < VideoMode().getFullscreenModes()[0].width / 1.5f && window.getSize().y < VideoMode().getFullscreenModes()[0].height / 1.5f)
+					//window.setSize(Vector2u(VideoMode().getFullscreenModes()[0].width / 1.5f, VideoMode().getFullscreenModes()[0].height / 1.5f));
+				
+				//SetWindowLong(window.getSystemHandle(), GWL_STYLE, GetWindowLong(window.getSystemHandle(), GWL_STYLE) & ~WS_SIZEBOX);//не то пальто
+				//window.create(VideoMode(VideoMode().getFullscreenModes()[0].width / 1.5f, VideoMode().getFullscreenModes()[0].height / 1.5f), "Tetris", Style::Titlebar | Style::Default, *context);// Ёто жесть
 				//window.create(VideoMode(window.getSize().x, window.getSize().y), "Tetris", Style::Titlebar | Style::Default | Style::Resize, *context);
 				//window.setPosition(winPos);
-				window.setSize(Vector2u(window.getSize().x, window.getSize().y));
-				SetForegroundWindow(window.getSystemHandle());//чтобы сделать окно активным
-				goto scalemark;
+				//window.setSize(Vector2u(window.getSize().x, window.getSize().y));
+				//window.setSize(sizeOfWin);
+				//SetForegroundWindow(window.getSystemHandle());//чтобы сделать окно активным
+				//goto scalemark;
 				break;
 			case Event::KeyReleased:
 				check_bottomForSpace = true;
@@ -3576,7 +3584,11 @@ int main()
 					else musicOn_musicOff_button = false;
 				}
 				//Left minimize
-				else if (IntRect(1629 * fscale.x, 32 * fscale.y, 85 * fscale.x, 62 * fscale.y).contains(mousePos.x, mousePos.y)) SendNotifyMessage(window.getSystemHandle(), WM_SYSCOMMAND, SC_MINIMIZE, 0); //ћ»Ќ»ћ»«ј÷»я ќ Ќј
+				else if (IntRect(1629 * fscale.x, 32 * fscale.y, 85 * fscale.x, 62 * fscale.y).contains(mousePos.x, mousePos.y))
+				{
+					//SendNotifyMessage(window.getSystemHandle(), WM_SYSCOMMAND, SC_MINIMIZE, 0); //ћ»Ќ»ћ»«ј÷»я ќ Ќј
+					CloseWindow(window.getSystemHandle());//вроде тоже самое что сверху
+				}
 
 				//Right close
 				else if (IntRect(1799 * fscale.x, 32 * fscale.y, 85 * fscale.x, 62 * fscale.y).contains(mousePos.x, mousePos.y)) window.close();
@@ -3584,8 +3596,9 @@ int main()
 				//Middle restore
 				else if (IntRect(1714 * fscale.x, 32 * fscale.y, 85 * fscale.x, 62 * fscale.y).contains(mousePos.x, mousePos.y))
 				{
+				
 					//window.setSize(Vector2u(700, 800));
-					window.create(VideoMode(window.getSize().x/2, window.getSize().y/2), "Tetris", Style::Titlebar | Style:: Resize,*context);
+					window.create(VideoMode(window.getSize().x/1.5f, window.getSize().y/1.5f), "Tetris", Style::Titlebar | Style:: Resize,*context);
 					window.setIcon(38, 38, icon->getPixelsPtr());
 					//winSizePrev = window.getSize();
 					//SetForegroundWindow(window.getSystemHandle());//чтобы сделать окно активным
@@ -3972,25 +3985,25 @@ int main()
 					//b[i].y = b[i].y + 1;
 				}
 
-				cout << "numberOfWide :" << numberOfWide[0] << endl;
-				cout << "numberOfNarrow :" << numberOfNarrow[0] << endl;
-				cout << "===============================Beginning=================================" << endl;
+				//cout << "numberOfWide :" << numberOfWide[0] << endl;
+				//cout << "numberOfNarrow :" << numberOfNarrow[0] << endl;
+				//cout << "===============================Beginning=================================" << endl;
 				////cout << "Before" << endl;
-				for (int i = 0; i < 4; i++)
-				{
-					cout << "a[" << i << "].x : " << a[i].x << '\t' << "a[" << i << "].y :" << a[i].y << endl;
+				//for (int i = 0; i < 4; i++)
+				//{
+				//	cout << "a[" << i << "].x : " << a[i].x << '\t' << "a[" << i << "].y :" << a[i].y << endl;
 					//cout << "e[" << i << "].x : " << e[i].x << '\t' << "e[" << i << "].y :" << e[i].y << endl;
 
-				}
-				cout << endl;
-				for (int i = 0; i < 4; i++)
-				{
+				//}
+				//cout << endl;
+				//for (int i = 0; i < 4; i++)
+				//{
 					//cout << "a[" << i << "].x : " << a[i].x << '\t' << "a[" << i << "].y :" << a[i].y << endl;
-					cout << "e[" << i << "].x : " << e[i].x << '\t' << "e[" << i << "].y :" << e[i].y << endl;
+					//cout << "e[" << i << "].x : " << e[i].x << '\t' << "e[" << i << "].y :" << e[i].y << endl;
 
-				}
-				cout << "===============================End=======================================" << endl;
-				cout << endl << endl;
+				//}
+				//cout << "===============================End=======================================" << endl;
+				//cout << endl << endl;
 				
 
 				if (!check() || !checkField())
